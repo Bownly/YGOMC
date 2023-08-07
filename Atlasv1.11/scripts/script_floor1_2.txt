@@ -1,0 +1,83 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C000) 
+#JMP($13CD0)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #000 NAME:		Dialogue Block (POINTER_RELATIVE)
+
+//
+//POINTER #112 @ $12B22 - STRING #112 @ $1296A
+
+#W16($12B22)
+//ジュ―クボックスが;おいてある…[END]
+There's a jukebox;here…[END]
+//23456789ABCDEFGH     0123456789ABCDEFGH
+
+//
+//POINTER #113 @ $12B24 - STRING #113 @ $12982
+
+#W16($12B24)
+//おかねを いれてみますか?; はい; いいえ[END]
+Insert some money?;  Yes;  No[END]
+
+//
+//POINTER #114 @ $12B26 - STRING #114 @ $1299A
+
+#W16($12B26)
+//おおがたの レ―スゲ―ムだ[END]
+It's a large-scale;racing game.[END]
+
+//
+//POINTER #115 @ $12B28 - STRING #115 @ $129AF
+
+#W16($12B28)
+//2だいの くるまが;はげしい デッドヒ―トを;くりかえしている[END]
+The 2 cars are in;a neck and neck;race.[END]
+
+//
+//POINTER #116 @ $12B2A - STRING #116 @ $129DA
+
+#W16($12B2A)
+//ビルの でいりぐちだ!![END]
+That's the exit!![END]
+
+//
+//POINTER #117 @ $12B2C - STRING #117 @ $129F0
+
+#W16($12B2C)
+//ボ―ヤ!!;まずは MCを;てにいれてね!![END]
+Little boy, you;need to get some;MCs first![END]
+
+//
+//POINTER #118 @ $12B2E - STRING #118 @ $12A0C
+
+#W16($12B2E)
+//MCは やられてしまうと;なくなっちゃうから あぶないときは;こうさんするのも ひとつのテだよ![END]
+Dead MC are lost;forever, so Quit;if things go bad![END]
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #007 NAME:		Message Speed (POINTER_RELATIVE)
+
+//POINTER #0 @ $8329C - STRING #0 @ $83267
+
+#W16($8329C)
+//メッセ-ジの スピ-ドを;えらんで ください[END]
+
+//
+//POINTER #1 @ $8329E - STRING #1 @ $83289
+
+#W16($8329E)
+//  はやい;  ふつう;  おそい[END]
+
+//

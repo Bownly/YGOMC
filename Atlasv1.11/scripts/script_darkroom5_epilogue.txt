@@ -1,0 +1,108 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($CC000) 
+#JMP($D361B, $D379A)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #042 NAME:		Dark Room 5 part epilogue (POINTER_RELATIVE)
+
+//POINTER #0 @ $D379B - STRING #0 @ $D361B
+
+#W16($D379B)
+//ク…!;この オレが こんなやつに;あやつられて いたとは…![END]
+Tch! Can't believe;I let myself get;controlled.[END]
+
+//
+//POINTER #1 @ $D379D - STRING #1 @ $D363E
+
+#W16($D379D)
+//ゆうぎ![END]
+Yugi![END]
+
+//
+//POINTER #2 @ $D379F - STRING #2 @ $D3646
+
+#W16($D379F)
+//ゆうぎ!!;オレたち もとのカラダに;もどったぜ!![END]
+Yuge! We got our;bodies back![END]
+
+//
+//POINTER #3 @ $D37A1 - STRING #3 @ $D366A
+
+#W16($D37A1)
+//やったね! ゆうぎ![END]
+You did it, Yugi![END]
+
+//
+//POINTER #4 @ $D37A3 - STRING #4 @ $D3678
+
+#W16($D37A3)
+//ゆうぎ オレは ;オマエを しんじていたぜ![END]
+I knew you'd save;us![END]
+
+//
+//POINTER #5 @ $D37A5 - STRING #5 @ $D3696
+
+#W16($D37A5)
+//さすがだよ ゆうぎくん!;ありがとう!![END]
+Thank you, Yugi![END]
+
+//
+//POINTER #6 @ $D37A7 - STRING #6 @ $D36B4
+
+#W16($D37A7)
+//ウム!;よく たたかったゾ ゆうぎ![END]
+Yes.;Well done, Yugi![END]
+
+//
+//POINTER #7 @ $D37A9 - STRING #7 @ $D36CC
+
+#W16($D37A9)
+//みんな…[END]
+Guys…[END]
+
+//
+//POINTER #8 @ $D37AB - STRING #8 @ $D36D2
+
+#W16($D37AB)
+//みんな ;もとに もどったんだね!!;よかった…[END]
+Guys! I'm so glad;you're all back to;normal![END]
+
+//
+//POINTER #9 @ $D37AD - STRING #9 @ $D36F0
+
+#W16($D37AD)
+//ゆうぎ… オレのこころは ;くらやみから ぬけだせた…;とりあえず れいをいう[END]
+You rescued my;soul from the;darkness. …Thanks.[END]
+
+//
+//POINTER #10 @ $D37AF - STRING #10 @ $D371F
+
+#W16($D37AF)
+//だが オレは おまえに まけたまま;おめおめと ひきさがりはしない!;いずれ おまえを たおす!![END]
+I'll reluctantly;withdraw for now.;But just you wait![END]
+
+//
+//POINTER #11 @ $D37B1 - STRING #11 @ $D375A
+
+#W16($D37B1)
+//こんどは ジャマが はいらぬところで;せいせいどうどうとな![END]
+Next time we'll;fight without any;disturbances![END]
+
+//
+//POINTER #12 @ $D37B3 - STRING #12 @ $D3786
+
+
+
+
+
+#JMP($D3DF4, $D3F00)
+
+#W16($D37B3)
+//うん!!;また ゲ-ム しようね![END]
+Yeah!;Let's play again;sometime![END]
+
+//

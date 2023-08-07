@@ -1,0 +1,12 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #063 NAME:		Attract 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $60397 - STRING #0 @ $60400
+
+#W16($60397)
+//‚í‚ª ‚Ë‚ñ‚ª‚ñ‚ð ‚Í‚½‚·
+//‚³‚¢‚±‚¤‚Ì ‚©‚ç‚¾cc
+//[END]
+
+//

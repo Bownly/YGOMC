@@ -1,0 +1,118 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #053 NAME:		Dark Room 5 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $BE7B5 - STRING #0 @ $BE574
+
+#W16($BE7B5)
+//まっていたぞ… ゆうぎ!![END]
+
+//
+//POINTER #1 @ $BE7B7 - STRING #1 @ $BE587
+
+#W16($BE7B7)
+//ば ばくらくん! ;まさか キミも せんねんリングに!?[END]
+
+//
+//POINTER #2 @ $BE7B9 - STRING #2 @ $BE5AB
+
+#W16($BE7B9)
+//ククク… ゆうぎ!![END]
+
+//
+//POINTER #3 @ $BE7BB - STRING #3 @ $BE5B9
+
+#W16($BE7BB)
+//こんどこそ オマエの;せんねんパズル…;てにいれてみせるぞ!![END]
+
+//
+//POINTER #4 @ $BE7BD - STRING #4 @ $BE5E2
+
+#W16($BE7BD)
+//チッ… こりないヤロウだぜ!;ばくらの からだから;すぐに おいだしてやるぜ!![END]
+
+//
+//POINTER #5 @ $BE7BF - STRING #5 @ $BE61A
+
+#W16($BE7BF)
+//……ゆうぎくん?;そうか… ボクは また;キミに たすけられたんだね…[END]
+
+//
+//POINTER #6 @ $BE7C1 - STRING #6 @ $BE645
+
+#W16($BE7C1)
+//ありがとう![END]
+
+//
+//POINTER #7 @ $BE7C3 - STRING #7 @ $BE64F
+
+#W16($BE7C3)
+//ゆ… ゆうぎくん!!;ボ ボクが こいつを;おさえているあいだに… にげて!![END]
+
+//
+//POINTER #8 @ $BE7C5 - STRING #8 @ $BE684
+
+#W16($BE7C5)
+//きたか ゆうぎ…[END]
+
+//
+//POINTER #9 @ $BE7C7 - STRING #9 @ $BE690
+
+#W16($BE7C7)
+//ふたたび しゆうを;けっする ときだ!![END]
+
+//
+//POINTER #10 @ $BE7C9 - STRING #10 @ $BE6AA
+
+#W16($BE7C9)
+//かいばくん!![END]
+
+//
+//POINTER #11 @ $BE7CB - STRING #11 @ $BE6B5
+
+#W16($BE7CB)
+//オレたちが たいじするばには;たたかいの かぜが うずまく!;えいえんに![END]
+
+//
+//POINTER #12 @ $BE7CD - STRING #12 @ $BE6E8
+
+#W16($BE7CD)
+//かいば!!;いま なお オレに;きばを むくのか![END]
+
+//
+//POINTER #13 @ $BE7CF - STRING #13 @ $BE707
+
+#W16($BE7CF)
+//きさまは オレが;このてで ほうむる!![END]
+
+//
+//POINTER #14 @ $BE7D1 - STRING #14 @ $BE721
+
+#W16($BE7D1)
+//ゆうぎ!;オレと たたかえ![END]
+
+//
+//POINTER #15 @ $BE7D3 - STRING #15 @ $BE733
+
+#W16($BE7D3)
+//オレが… まけた…!?;バカな…!![END]
+
+//
+//POINTER #16 @ $BE7D5 - STRING #16 @ $BE74B
+
+#W16($BE7D5)
+//わはははは! ゆうぎ!!;くつじょくの おもさで;ちに はいつくばるがいい!![END]
+
+//
+//POINTER #17 @ $BE7D7 - STRING #17 @ $BE77E
+
+#W16($BE7D7)
+//かんようしょくぶつだ![END]
+
+//
+//POINTER #18 @ $BE7D9 - STRING #18 @ $BE78F
+
+#W16($BE7D9)
+//バトルフィ-ルドは;いような ふんいきを;ただよわせている…[END]
+
+//

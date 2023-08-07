@@ -1,0 +1,1378 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #032 NAME:		Monster World 4 part 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $CBE31 - STRING #0 @ $C9FC9
+
+#W16($CBE31)
+//モンスタ-が しゅつげんした![END]
+
+//
+//POINTER #1 @ $CBE33 - STRING #1 @ $C9FDE
+
+#W16($CBE33)
+//「HPカプセル」;を てにいれた[END]
+
+//
+//POINTER #2 @ $CBE35 - STRING #2 @ $C9FF2
+
+#W16($CBE35)
+//「ATカプセル」;を てにいれた[END]
+
+//
+//POINTER #3 @ $CBE37 - STRING #3 @ $CA006
+
+#W16($CBE37)
+//「DFカプセル」;を てにいれた[END]
+
+//
+//POINTER #4 @ $CBE39 - STRING #4 @ $CA01A
+
+#W16($CBE39)
+//「SPカプセル」;を てにいれた[END]
+
+//
+//POINTER #5 @ $CBE3B - STRING #5 @ $CA02E
+
+#W16($CBE3B)
+//「わざカプセル」;を てにいれた[END]
+
+//
+//POINTER #6 @ $CBE3D - STRING #6 @ $CA044
+
+#W16($CBE3D)
+//「しんかカプセル」;を てにいれた[END]
+
+//
+//POINTER #7 @ $CBE3F - STRING #7 @ $CA059
+
+#W16($CBE3F)
+//1[END]
+
+//
+//POINTER #8 @ $CBE41 - STRING #8 @ $CA05C
+
+#W16($CBE41)
+//ゆうぎ アナタは;「モンスタ-ワ-ルド」の;ぼうけんしゃよ[END]
+
+//
+//POINTER #9 @ $CBE43 - STRING #9 @ $CA081
+
+#W16($CBE43)
+//モンスタ-を ひきつれて;あてもない たびをしているわ[END]
+
+//
+//POINTER #10 @ $CBE45 - STRING #10 @ $CA0A0
+
+#W16($CBE45)
+//ぼうけんしゃは はるか ほっぽうの;「せかいのかいだん」と いわれる[END]
+
+//
+//POINTER #11 @ $CBE47 - STRING #11 @ $CA0CA
+
+#W16($CBE47)
+//けわしい ゴルゴ-ンれんぽうの;さんみゃくちたいに ふみこんでゆく…[END]
+
+//
+//POINTER #12 @ $CBE49 - STRING #12 @ $CA0F6
+
+#W16($CBE49)
+//あたりに ひとのけはいは なく;きびしい やまみちに たおれた;ぼうけんしゃの しかばねを あさる[END]
+
+//
+//POINTER #13 @ $CBE4B - STRING #13 @ $CA12F
+
+#W16($CBE4B)
+//はらを すかせた;かいちょうの なきごえ だけが;ぶきみに こだましている[END]
+
+//
+//POINTER #14 @ $CBE4D - STRING #14 @ $CA160
+
+#W16($CBE4D)
+//みちばたに;ひとりの わかものが;たおれているわ![END]
+
+//
+//POINTER #15 @ $CBE4F - STRING #15 @ $CA17F
+
+#W16($CBE4F)
+//……;だれか… そこにいるのか…?[END]
+
+//
+//POINTER #16 @ $CBE51 - STRING #16 @ $CA194
+
+#W16($CBE51)
+//わ… わたしの なまえは タオ;わたしは もう だめだ…;たびのひとよ おねがいが ある…[END]
+
+//
+//POINTER #17 @ $CBE53 - STRING #17 @ $CA1CD
+
+#W16($CBE53)
+//この「タマゴ」を たのむ…![END]
+
+//
+//POINTER #18 @ $CBE55 - STRING #18 @ $CA1DF
+
+#W16($CBE55)
+//りっぱに そだてあげて くれ…;でんせつの… ドラゴン に…[END]
+
+//
+//POINTER #19 @ $CBE57 - STRING #19 @ $CA20B
+
+#W16($CBE57)
+//そして むらを…;すくって… く… れ…[END]
+
+//
+//POINTER #20 @ $CBE59 - STRING #20 @ $CA221
+
+#W16($CBE59)
+//そう いいのこすと わかものは;はんてんもようの ちいさな タマゴを;ぼうけんしゃに たくして[END]
+
+//
+//POINTER #21 @ $CBE5B - STRING #21 @ $CA256
+
+#W16($CBE5B)
+//そのまま;いきを ひきとったわ…[END]
+
+//
+//POINTER #22 @ $CBE5D - STRING #22 @ $CA268
+
+#W16($CBE5D)
+//チッ こいつ;こんなところに くたばってるわ…;さんざん にげまわってくれたわね![END]
+
+//
+//POINTER #23 @ $CBE5F - STRING #23 @ $CA299
+
+#W16($CBE5F)
+//…ん?;なんだい アンタも こいつの;なかま なのかい?[END]
+
+//
+//POINTER #24 @ $CBE61 - STRING #24 @ $CA2B9
+
+#W16($CBE61)
+//オホホホホホホ! ;オマエも おなじめに;あわせて やるわ![END]
+
+//
+//POINTER #25 @ $CBE63 - STRING #25 @ $CA2DB
+
+#W16($CBE63)
+//クッ…! その タマゴは;ぜったいに かえらせないわよ!;おぼえてらっしゃい![END]
+
+//
+//POINTER #26 @ $CBE65 - STRING #26 @ $CA30A
+
+#W16($CBE65)
+//…フフ ぼうけんしゃは;なにかの いざこざに;まきこまれて しまったようね[END]
+
+//
+//POINTER #27 @ $CBE67 - STRING #27 @ $CA337
+
+#W16($CBE67)
+//いったい;この タマゴは なんなのか?;なにが うまれるのか?[END]
+
+//
+//POINTER #28 @ $CBE69 - STRING #28 @ $CA35C
+
+#W16($CBE69)
+//このさき どうなるか わからないまま;ぼうけんしゃは いきだおれの;わかものの ねがいを ききいれ[END]
+
+//
+//POINTER #29 @ $CBE6B - STRING #29 @ $CA397
+
+#W16($CBE6B)
+//たまごを ぶじに かえし;りっぱに せいちょうさせて;あげなくては いけない…![END]
+
+//
+//POINTER #30 @ $CBE6D - STRING #30 @ $CA3CB
+
+#W16($CBE6D)
+//それが こんかいの ぼうけんの;もくてきよ![END]
+
+//
+//POINTER #31 @ $CBE6F - STRING #31 @ $CA3E7
+
+#W16($CBE6F)
+//…オイ! …きこえるか?;オレだよ オレ…[END]
+
+//
+//POINTER #32 @ $CBE71 - STRING #32 @ $CA400
+
+#W16($CBE71)
+//どこからともなく こえが;きこえてくる…!?[END]
+
+//
+//POINTER #33 @ $CBE73 - STRING #33 @ $CA41C
+
+#W16($CBE73)
+//オレは オマエの めのまえの;タマゴ だよっ![END]
+
+//
+//POINTER #34 @ $CBE75 - STRING #34 @ $CA439
+
+#W16($CBE75)
+//じゃあ とりあえず;この やまみちの さきの;ライジングクリフに むかってくれ![END]
+
+//
+//POINTER #35 @ $CBE77 - STRING #35 @ $CA46B
+
+#W16($CBE77)
+//そこに 「あさひの のぼる がけ」が;あるはずなんだ! オレを そこへ;はこんでくれっ![END]
+
+//
+//POINTER #36 @ $CBE79 - STRING #36 @ $CA4A5
+
+#W16($CBE79)
+//「ライジングクリフ」;に ついた[END]
+
+//
+//POINTER #37 @ $CBE7B - STRING #37 @ $CA4BB
+
+#W16($CBE7B)
+//ここでは 10ぽ あるくごとに;30の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+
+//
+//POINTER #38 @ $CBE7D - STRING #38 @ $CA4F4
+
+#W16($CBE7D)
+//よし ここだ!;ここが 「あさひの のぼる がけ」;なんだ![END]
+
+//
+//POINTER #39 @ $CBE7F - STRING #39 @ $CA51E
+
+#W16($CBE7F)
+//オレを そこの;ひとつだけ はなれてる イワに;そ-っと おいてくれ![END]
+
+//
+//POINTER #40 @ $CBE81 - STRING #40 @ $CA545
+
+#W16($CBE81)
+//ひがしのほうこう ふたごイワに たち;あさつゆを とおし;あたらしき ひかりに てらされしもの[END]
+
+//
+//POINTER #41 @ $CBE83 - STRING #41 @ $CA57A
+
+#W16($CBE83)
+//ふかき ふういんより ときはなたれる;…ここの ちほうの;ふるい いいつたえ らしい[END]
+
+//
+//POINTER #42 @ $CBE85 - STRING #42 @ $CA5A6
+
+#W16($CBE85)
+//さあ ひかりよ オレをてらせ!;これで オレは ふっかつすることが;できるんだ! イヤッホ-!![END]
+
+//
+//POINTER #43 @ $CBE87 - STRING #43 @ $CA5E0
+
+#W16($CBE87)
+//オ-ホホホホホホホホ![END]
+
+//
+//POINTER #44 @ $CBE89 - STRING #44 @ $CA5ED
+
+#W16($CBE89)
+//ざんねんだけど オマエは えいえんに;もとに もどることは できないわ…;ここで おわりよ![END]
+
+//
+//POINTER #45 @ $CBE8B - STRING #45 @ $CA629
+
+#W16($CBE8B)
+//また オマエら かい!;いったい なにもの なんだ?;なぜ オレをつけねらう!?[END]
+
+//
+//POINTER #46 @ $CBE8D - STRING #46 @ $CA657
+
+#W16($CBE8D)
+//うるさいっ!;そこのボウヤ ともども;やみに ほうむってくれるわ![END]
+
+//
+//POINTER #47 @ $CBE8F - STRING #47 @ $CA67E
+
+#W16($CBE8F)
+//く くそ-!;にんげんめが ジャマをしおって~!;いったい なにもの…[END]
+
+//
+//POINTER #48 @ $CBE91 - STRING #48 @ $CA6A9
+
+#W16($CBE91)
+//…!は;し しまった![END]
+
+//
+//POINTER #49 @ $CBE93 - STRING #49 @ $CA6B6
+
+#W16($CBE93)
+//タマゴの なかから;ちいさな ベビ-ドラゴンが;でてきた![END]
+
+//
+//POINTER #50 @ $CBE95 - STRING #50 @ $CA6E3
+
+#W16($CBE95)
+//やった!;ついに タマゴから そとに;でられたぞ!![END]
+
+//
+//POINTER #51 @ $CBE97 - STRING #51 @ $CA705
+
+#W16($CBE97)
+//イエ-イ! ひゃっほう!;バンザイ! ちくしょう!;やったぜ!!![END]
+
+//
+//POINTER #52 @ $CBE99 - STRING #52 @ $CA72E
+
+#W16($CBE99)
+//ウ~ン! やっぱり;そとの くうきは いいぜ![END]
+
+//
+//POINTER #53 @ $CBE9B - STRING #53 @ $CA74B
+
+#W16($CBE9B)
+//お おのれ~!!;タマゴが かえって しまった…;ほうこく しなければ…![END]
+
+//
+//POINTER #54 @ $CBE9D - STRING #54 @ $CA778
+
+#W16($CBE9D)
+//ベビ-ドラゴン!;…かならず きさまを;ほうむりさってやるわ!![END]
+
+//
+//POINTER #55 @ $CBE9F - STRING #55 @ $CA7A4
+
+#W16($CBE9F)
+//ベ ベビ-って いうな-っ!;これでも オレは オマエらより;としうえ なんだぞっ![END]
+
+//
+//POINTER #56 @ $CBEA1 - STRING #56 @ $CA7DC
+
+#W16($CBEA1)
+//それと…;われらの ジャマをした;にんげんよ![END]
+
+//
+//POINTER #57 @ $CBEA3 - STRING #57 @ $CA7F9
+
+#W16($CBEA3)
+//もう オマエは のがれられない…;かくご するがいいわ…!![END]
+
+//
+//POINTER #58 @ $CBEA5 - STRING #58 @ $CA81F
+
+#W16($CBEA5)
+//オホホホホホホホホホホホホ![END]
+
+//
+//POINTER #59 @ $CBEA7 - STRING #59 @ $CA82F
+
+#W16($CBEA7)
+//オレを ;ここまで もってきてくれて ;れいを いうよ![END]
+
+//
+//POINTER #60 @ $CBEA9 - STRING #60 @ $CA84F
+
+#W16($CBEA9)
+//じつは オレは のろわれし りゅう;「カ-スオブドラゴン」に;のろいを かけられて[END]
+
+//
+//POINTER #61 @ $CBEAB - STRING #61 @ $CA882
+
+#W16($CBEAB)
+//1000ねんもの あいだ;タマゴの すがたに されていたんだ;いまは こどもの ドラゴンだけど[END]
+
+//
+//POINTER #62 @ $CBEAD - STRING #62 @ $CA8C5
+
+#W16($CBEAD)
+//カ-スオブドラゴン から;のろいをとけば もとのすがたに;もどれる ハズなんだ![END]
+
+//
+//POINTER #63 @ $CBEAF - STRING #63 @ $CA8FF
+
+#W16($CBEAF)
+//オレは どうしても;もとに もどりたい…;もどらなくては いけない…![END]
+
+//
+//POINTER #64 @ $CBEB1 - STRING #64 @ $CA92A
+
+#W16($CBEB1)
+//ところで オマエは ;つよい モンスタ-を つれてるなぁ~;びっくりしたぜ![END]
+
+//
+//POINTER #65 @ $CBEB3 - STRING #65 @ $CA958
+
+#W16($CBEB3)
+//どうちゅう さっきの ヤツらのように;モンスタ-が おそってくるかもしれん;つよい みかたが ひつようなんだ![END]
+
+//
+//POINTER #66 @ $CBEB5 - STRING #66 @ $CA999
+
+#W16($CBEB5)
+//…そこで たのむ!;オレにかかった のろいを とくのを;てつだってくれないか?[END]
+
+//
+//POINTER #67 @ $CBEB7 - STRING #67 @ $CA9C6
+
+#W16($CBEB7)
+//どうする?;  てつだう;  めんどくさい[END]
+
+//
+//POINTER #68 @ $CBEB9 - STRING #68 @ $CA9E3
+
+#W16($CBEB9)
+//んな ケチなこと いうなよ な?;たのむ! てつだってくれ~っ![END]
+
+//
+//POINTER #69 @ $CBEBB - STRING #69 @ $CAA07
+
+#W16($CBEBB)
+//サンキュ-っ!! …え-と;そういえば まだ;なまえを きいてなかったな?[END]
+
+//
+//POINTER #70 @ $CBEBD - STRING #70 @ $CAA32
+
+#W16($CBEBD)
+//そうか;ゆうぎって いうのか;ゆうぎ! よろしくなっ!![END]
+
+//
+//POINTER #71 @ $CBEBF - STRING #71 @ $CAA54
+
+#W16($CBEBF)
+//オレのことは… そうだな…[END]
+
+//
+//POINTER #72 @ $CBEC1 - STRING #72 @ $CAA65
+
+#W16($CBEC1)
+//なんて よぶ?[END]
+
+//
+//POINTER #73 @ $CBEC3 - STRING #73 @ $CAA70
+
+#W16($CBEC3)
+//  ベビ-ドラゴン;  ベビ-;  ぷりてぃベビ-[END]
+
+//
+//POINTER #74 @ $CBEC5 - STRING #74 @ $CAA9D
+
+#W16($CBEC5)
+//それは カンベンしてくれ…[END]
+
+//
+//POINTER #75 @ $CBEC7 - STRING #75 @ $CAAAE
+
+#W16($CBEC7)
+//むっ ;オレは こうみえても;オトナ なんだぞっ![END]
+
+//
+//POINTER #76 @ $CBEC9 - STRING #76 @ $CAACD
+
+#W16($CBEC9)
+//…ま いっか!;じゃあ とりあえず にしへ;むかおうぜ![END]
+
+//
+//POINTER #77 @ $CBECB - STRING #77 @ $CAAF1
+
+#W16($CBECB)
+//オレに のろいを かけた;カ-スオブドラゴンの ;すみかが あるんだ[END]
+
+//
+//POINTER #78 @ $CBECD - STRING #78 @ $CAB1F
+
+#W16($CBECD)
+//まずは その;「カ-スマウンテン」を;めざそうぜ![END]
+
+//
+//POINTER #79 @ $CBECF - STRING #79 @ $CAB40
+
+#W16($CBECF)
+//「やまあいのこや」;に ついた[END]
+
+//
+//POINTER #80 @ $CBED1 - STRING #80 @ $CAB51
+
+#W16($CBED1)
+//どうだ! みてくれ;このがんじょうな いえを![END]
+
+//
+//POINTER #81 @ $CBED3 - STRING #81 @ $CAB72
+
+#W16($CBED3)
+//この あたらしくたてた いえなら;なにが おこっても だいじょうぶさ!;わははは[END]
+
+//
+//POINTER #82 @ $CBED5 - STRING #82 @ $CABA4
+
+#W16($CBED5)
+//じしんでも かざんのふんかでも;なんでも こいってんだ![END]
+
+//
+//POINTER #83 @ $CBED7 - STRING #83 @ $CABCE
+
+#W16($CBED7)
+//コ コリャ!;わしの ウチを こわすんじゃないっ![END]
+
+//
+//POINTER #84 @ $CBED9 - STRING #84 @ $CABEB
+
+#W16($CBED9)
+//わたしたち ふうふは;むらから ここへ;ひっこして きました[END]
+
+//
+//POINTER #85 @ $CBEDB - STRING #85 @ $CAC0B
+
+#W16($CBEDB)
+//あの マヤのむらは もうじき;かざんの ふんかで のみこまれて;しまうんです[END]
+
+//
+//POINTER #86 @ $CBEDD - STRING #86 @ $CAC3B
+
+#W16($CBEDD)
+//マヤのむらは このさきの;がけを おりたところに あります[END]
+
+//
+//POINTER #87 @ $CBEDF - STRING #87 @ $CAC5C
+
+#W16($CBEDF)
+//ここだけ カベが;すこし もろくなっている[END]
+
+//
+//POINTER #88 @ $CBEE1 - STRING #88 @ $CAC79
+
+#W16($CBEE1)
+//たたいてみる?;  たたく;  たたかない[END]
+
+//
+//POINTER #89 @ $CBEE3 - STRING #89 @ $CAC90
+
+#W16($CBEE3)
+//カベに あなが あいた![END]
+
+//
+//POINTER #90 @ $CBEE5 - STRING #90 @ $CACA2
+
+#W16($CBEE5)
+//「スティ-プステップ」;に ついた[END]
+
+//
+//POINTER #91 @ $CBEE7 - STRING #91 @ $CACB9
+
+#W16($CBEE7)
+//ここでは 10ぽ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+
+//
+//POINTER #92 @ $CBEE9 - STRING #92 @ $CACF2
+
+#W16($CBEE9)
+//キャ~~~ッ!;たすけて-!!![END]
+
+//
+//POINTER #93 @ $CBEEB - STRING #93 @ $CAD04
+
+#W16($CBEEB)
+//あ あんず![END]
+
+//
+//POINTER #94 @ $CBEED - STRING #94 @ $CAD0E
+
+#W16($CBEED)
+//しっかり つかまれ!;…よいしょっと![END]
+
+//
+//POINTER #95 @ $CBEEF - STRING #95 @ $CAD23
+
+#W16($CBEEF)
+//ふぅ あぶなかった…;あんず だいじょうぶか?[END]
+
+//
+//POINTER #96 @ $CBEF1 - STRING #96 @ $CAD46
+
+#W16($CBEF1)
+//わ-ん ゆうぎ!;こわかったよ~!![END]
+
+//
+//POINTER #97 @ $CBEF3 - STRING #97 @ $CAD5C
+
+#W16($CBEF3)
+//でも あたし;ゆうぎに これを わたしたくて…[END]
+
+//
+//POINTER #98 @ $CBEF5 - STRING #98 @ $CAD79
+
+#W16($CBEF5)
+//「しんかカプセル」;を もらった[END]
+
+//
+//POINTER #99 @ $CBEF7 - STRING #99 @ $CAD8D
+
+#W16($CBEF7)
+//このカプセルを とろうとして;がけから おちそうに なったのか?;…ムチャを するなよ[END]
+
+//
+//POINTER #100 @ $CBEF9 - STRING #100 @ $CADBE
+
+#W16($CBEF9)
+//ごめんね…;…でも ゆうぎは;つよくなったよね[END]
+
+//
+//POINTER #101 @ $CBEFB - STRING #101 @ $CADDD
+
+#W16($CBEFB)
+//むかしは わたしのほうが;いじめられてた ゆうぎを;たすけてたのに…[END]
+
+//
+//POINTER #102 @ $CBEFD - STRING #102 @ $CAE07
+
+#W16($CBEFD)
+//キミはもう あのころの;よわむし なんかじゃ ないんだね![END]
+
+//
+//POINTER #103 @ $CBEFF - STRING #103 @ $CAE2A
+
+#W16($CBEFF)
+//がんばって ゆうぎ![END]
+
+//
+//POINTER #104 @ $CBF01 - STRING #104 @ $CAE3C
+
+#W16($CBF01)
+//ああ サンキュ- あんず!;がんばるぜ!![END]
+
+//
+//POINTER #105 @ $CBF03 - STRING #105 @ $CAE5B
+
+#W16($CBF03)
+//ときどき みちに;おおきな イワが おちているでしょ?[END]
+
+//
+//POINTER #106 @ $CBF05 - STRING #106 @ $CAE7E
+
+#W16($CBF05)
+//イワを おとして じめんのあなを;ふさげば いけなかった みちが;とおれるように なるみたい![END]
+
+//
+//POINTER #107 @ $CBF07 - STRING #107 @ $CAEB7
+
+#W16($CBF07)
+//イワを おす ほうこうによって;イワが おちるところが ちがうから;きをつけて![END]
+
+//
+//POINTER #108 @ $CBF09 - STRING #108 @ $CAEE7
+
+#W16($CBF09)
+//おおきな イワがある どうする?;  おしてみる;  なにもしない[END]
+
+//
+//POINTER #109 @ $CBF0B - STRING #109 @ $CAF0E
+
+#W16($CBF0B)
+//「にしの さんがくちたい」;に ついた[END]
+
+//
+//POINTER #110 @ $CBF0D - STRING #110 @ $CAF25
+
+#W16($CBF0D)
+//ここでは 8ぽ あるくごとに;30の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+
+//
+//POINTER #111 @ $CBF0F - STRING #111 @ $CAF5D
+
+#W16($CBF0F)
+//やまの うえのほうから;なにかが ころがり おちてくる;おとがする…[END]
+
+//
+//POINTER #112 @ $CBF11 - STRING #112 @ $CAF87
+
+#W16($CBF11)
+//あぶない!![END]
+
+//
+//POINTER #113 @ $CBF13 - STRING #113 @ $CAF91
+
+#W16($CBF13)
+//タイムマジック!;ときよ とまれ![END]
+
+//
+//POINTER #114 @ $CBF15 - STRING #114 @ $CAFA6
+
+#W16($CBF15)
+//タイムマジック!;ときよ まわれ![END]
+
+//
+//POINTER #115 @ $CBF17 - STRING #115 @ $CAFBB
+
+#W16($CBF17)
+//ここらへんは ひとの;はいりこむような ところではない[END]
+
+//
+//POINTER #116 @ $CBF19 - STRING #116 @ $CAFDA
+
+#W16($CBF19)
+//そうそうに たちさるが よい![END]
+
+//
+//POINTER #117 @ $CBF1B - STRING #117 @ $CAFED
+
+#W16($CBF1B)
+//「がけのうえのもり」;に ついた[END]
+
+//
+//POINTER #118 @ $CBF1D - STRING #118 @ $CB001
+
+#W16($CBF1D)
+//ここでは 10ぽ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+
+//
+//POINTER #119 @ $CBF1F - STRING #119 @ $CB03A
+
+#W16($CBF1F)
+//やはり きたのか… だが;わたしには あなたたちが ここに;くることは わかって いたのだ[END]
+
+//
+//POINTER #120 @ $CBF21 - STRING #120 @ $CB071
+
+#W16($CBF21)
+//わたしは 「ときのまじゅつし」;かこも みらいも;みとおすことが できる[END]
+
+//
+//POINTER #121 @ $CBF23 - STRING #121 @ $CB09D
+
+#W16($CBF23)
+//だから あなたたちが ;なにを のぞんでいるのかも わかる[END]
+
+//
+//POINTER #122 @ $CBF25 - STRING #122 @ $CB0C4
+
+#W16($CBF25)
+//おおむかしへ もどって ドラゴンの;のろいを ときたいのだろう?;だが そのねがいは きけない[END]
+
+//
+//POINTER #123 @ $CBF27 - STRING #123 @ $CB103
+
+#W16($CBF27)
+//そもそも ときを あやつるのは;せかいの バランスを くずすことに;なりかねん[END]
+
+//
+//POINTER #124 @ $CBF29 - STRING #124 @ $CB130
+
+#W16($CBF29)
+//だから わたしは にんげんとの;かかわりを たち ときまじゅつを;ふういんすることに したのだ[END]
+
+//
+//POINTER #125 @ $CBF2B - STRING #125 @ $CB169
+
+#W16($CBF2B)
+//…それが わかったら;そうそうに たちさるがよい[END]
+
+//
+//POINTER #126 @ $CBF2D - STRING #126 @ $CB187
+
+#W16($CBF2D)
+//ちょ ちょっと まて! このまま;カ-スマウンテンが ふんかしたら;むらは どうなる?[END]
+
+//
+//POINTER #127 @ $CBF2F - STRING #127 @ $CB1B8
+
+#W16($CBF2F)
+//おなじ にんげんどうしだろ!?;あのむらが どうなっても ;いいって いうのか?[END]
+
+//
+//POINTER #128 @ $CBF31 - STRING #128 @ $CB1EE
+
+#W16($CBF31)
+//かざんの ふんかを とめるには;オレが もとの すがたにもどるしか;ほうほうは ないんだ![END]
+
+//
+//POINTER #129 @ $CBF33 - STRING #129 @ $CB227
+
+#W16($CBF33)
+//…ムダだ しょせん ときを;あやつったとしても うんめいは;かわらない… かえられんのだ[END]
+
+//
+//POINTER #130 @ $CBF35 - STRING #130 @ $CB25B
+
+#W16($CBF35)
+//せかいの バランスを;くずす だけだ[END]
+
+//
+//POINTER #131 @ $CBF37 - STRING #131 @ $CB277
+
+#W16($CBF37)
+//ぼくが せんせいの むすこかって?;いいえ ちがいます せんせいの;でしの デント といいます[END]
+
+//
+//POINTER #132 @ $CBF39 - STRING #132 @ $CB2B2
+
+#W16($CBF39)
+//いぜんは せんせいに ならって;ときまじゅつの しゅぎょうを;していましたが[END]
+
+//
+//POINTER #133 @ $CBF3B - STRING #133 @ $CB2E2
+
+#W16($CBF3B)
+//せんせいが ときまじゅつを ふういん;してからは いまは せんせいの;みのまわりの おせわを しています[END]
+
+//
+//POINTER #134 @ $CBF3D - STRING #134 @ $CB31C
+
+#W16($CBF3D)
+//デントよ いずみへいって;みずを くんできては くれないか?[END]
+
+//
+//POINTER #135 @ $CBF3F - STRING #135 @ $CB344
+
+#W16($CBF3F)
+//あ はい;わかりました[END]
+
+//
+//POINTER #136 @ $CBF41 - STRING #136 @ $CB351
+
+#W16($CBF41)
+//オレは さすらいのたびびと ビュ-[END]
+
+//
+//POINTER #137 @ $CBF43 - STRING #137 @ $CB36A
+
+#W16($CBF43)
+//ここは ながめがいい;とくに カ-スマウンテンが;よくみえるんだ[END]
+
+//
+//POINTER #138 @ $CBF45 - STRING #138 @ $CB394
+
+#W16($CBF45)
+//オレの べすとぷれいす さ![END]
+
+//
+//POINTER #139 @ $CBF47 - STRING #139 @ $CB3A8
+
+#W16($CBF47)
+//さっきは つい アツくなったけど;べつに オレは むらなんて;どうなっても かんけいないんだぞ[END]
+
+//
+//POINTER #140 @ $CBF49 - STRING #140 @ $CB3E3
+
+#W16($CBF49)
+//オレが もとの すがたに;もどれさえ すれば;いいんだからな…[END]
+
+//
+//POINTER #141 @ $CBF4B - STRING #141 @ $CB40E
+
+#W16($CBF4B)
+//…ホ ホントだぞ![END]
+
+//
+//POINTER #142 @ $CBF4D - STRING #142 @ $CB41D
+
+#W16($CBF4D)
+//せんせいの むすこさんは いちどは;びょうきで なくなりましたが[END]
+
+//
+//POINTER #143 @ $CBF4F - STRING #143 @ $CB447
+
+#W16($CBF4F)
+//せんせいは ときまじゅつで;かこにもどり むすこさんが;びょうきに なるまえに[END]
+
+//
+//POINTER #144 @ $CBF51 - STRING #144 @ $CB47A
+
+#W16($CBF51)
+//くすりをあたえ びょうきを なおし;むすこさんを よみがえらせることが;できました …しかし[END]
+
+//
+//POINTER #145 @ $CBF53 - STRING #145 @ $CB4B2
+
+#W16($CBF53)
+//ひにくなことに それからすぐ;むすこさんは あやまって;がけから おちて なくなったのです[END]
+
+//
+//POINTER #146 @ $CBF55 - STRING #146 @ $CB4E7
+
+#W16($CBF55)
+//さだめられた うんめいは;かえることが できない…;せんせいは いいました[END]
+
+//
+//POINTER #147 @ $CBF57 - STRING #147 @ $CB514
+
+#W16($CBF57)
+//いくら しぜんのせつりを ねじまげて;げんじつを かえようとしても;しょせん ムダなあがき なのだと…[END]
+
+//
+//POINTER #148 @ $CBF59 - STRING #148 @ $CB559
+
+#W16($CBF59)
+//そして せんせいは でしの ぼくと;ここに ひきこもり ときまじゅつを;ふういんすることに したのです[END]
+
+//
+//POINTER #149 @ $CBF5B - STRING #149 @ $CB596
+
+#W16($CBF5B)
+//それから ぼくは せんせいの;むすこさんの かわりのつもりで;おせわを させてもらってる わけです[END]
+
+//
+//POINTER #150 @ $CBF5D - STRING #150 @ $CB5CF
+
+#W16($CBF5D)
+//…あれ もう こんなじかんだ;さて ぼくは そろそろウチに;もどりま…[END]
+
+//
+//POINTER #151 @ $CBF5F - STRING #151 @ $CB5FC
+
+#W16($CBF5F)
+//ひ- おたすけ~っ!![END]
+
+//
+//POINTER #152 @ $CBF61 - STRING #152 @ $CB609
+
+#W16($CBF61)
+//まぁた オマエらかいっ!;…ホントに しつこいな~!;しつこいヤツは キラわれるんだぞ![END]
+
+//
+//POINTER #153 @ $CBF63 - STRING #153 @ $CB63B
+
+#W16($CBF63)
+//いったい なんのつもりだ!?;そのこを はなせ![END]
+
+//
+//POINTER #154 @ $CBF65 - STRING #154 @ $CB657
+
+#W16($CBF65)
+//うるさいわね!;べつに アンタなんかに;すかれたくなんか ないわよ![END]
+
+//
+//POINTER #155 @ $CBF67 - STRING #155 @ $CB67D
+
+#W16($CBF67)
+//オマエが くたばるまで;じごくの はてまで おいかけて;やるわ! オ-ホホホホホホホホホ![END]
+
+//
+//POINTER #156 @ $CBF69 - STRING #156 @ $CB6B8
+
+#W16($CBF69)
+//デ デント![END]
+
+//
+//POINTER #157 @ $CBF6B - STRING #157 @ $CB6C4
+
+#W16($CBF6B)
+//せ せんせい~;たすけてください~~っ![END]
+
+//
+//POINTER #158 @ $CBF6D - STRING #158 @ $CB6DC
+
+#W16($CBF6D)
+//…は…![END]
+
+//
+//POINTER #159 @ $CBF6F - STRING #159 @ $CB6E2
+
+#W16($CBF6F)
+//ベビ-! ;アンタには しんでもらうよ!!;このガキを たすけたければね![END]
+
+//
+//POINTER #160 @ $CBF71 - STRING #160 @ $CB713
+
+#W16($CBF71)
+//ちっくしょう! きたね-ぞ!![END]
+
+//
+//POINTER #161 @ $CBF73 - STRING #161 @ $CB726
+
+#W16($CBF73)
+//うっ!![END]
+
+//
+//POINTER #162 @ $CBF75 - STRING #162 @ $CB72C
+
+#W16($CBF75)
+//オホホホホホ!;いいきみ だわ!![END]
+
+//
+//POINTER #163 @ $CBF77 - STRING #163 @ $CB741
+
+#W16($CBF77)
+//ぐっ… …[END]
+
+//
+//POINTER #164 @ $CBF79 - STRING #164 @ $CB74A
+
+#W16($CBF79)
+//さて そろそろ;くたばった かしら?[END]
+
+//
+//POINTER #165 @ $CBF7B - STRING #165 @ $CB760
+
+#W16($CBF7B)
+//…じゃあ もう;このガキは いらないわね![END]
+
+//
+//POINTER #166 @ $CBF7D - STRING #166 @ $CB77B
+
+#W16($CBF7D)
+//デ デント~~~ッ!!![END]
+
+//
+//POINTER #167 @ $CBF7F - STRING #167 @ $CB78D
+
+#W16($CBF7F)
+//ゲッ! アンタって ふじみなの!?;そんなに ボロボロに;なってんのに…![END]
+
+//
+//POINTER #168 @ $CBF81 - STRING #168 @ $CB7BC
+
+#W16($CBF81)
+//オレは でんせつのドラゴンだ…;1000ねんも いきてるんだ!;そうカンタンに くたばるかいっ![END]
+
+//
+//POINTER #169 @ $CBF83 - STRING #169 @ $CB7FA
+
+#W16($CBF83)
+//オレを なめるなぁぁ~~~っ!!!![END]
+
+//
+//POINTER #170 @ $CBF85 - STRING #170 @ $CB80E
+
+#W16($CBF85)
+//ひいいいぃ~っ!![END]
+
+//
+//POINTER #171 @ $CBF87 - STRING #171 @ $CB819
+
+#W16($CBF87)
+//さっき デントに;たすけてと よばれた;あのとき…[END]
+
+//
+//POINTER #172 @ $CBF89 - STRING #172 @ $CB838
+
+#W16($CBF89)
+//いっしゅん デントが;しんだ むすこと;かさなって みえた[END]
+
+//
+//POINTER #173 @ $CBF8B - STRING #173 @ $CB85D
+
+#W16($CBF8B)
+//むすこを なくした いまは;デントを じつの むすこのように;おもっている …しかし[END]
+
+//
+//POINTER #174 @ $CBF8D - STRING #174 @ $CB88D
+
+#W16($CBF8D)
+//つらいことは じぶんや じぶんの;みじかな ひとたち ばかりに;あるのではない… みな おなじだ[END]
+
+//
+//POINTER #175 @ $CBF8F - STRING #175 @ $CB8D1
+
+#W16($CBF8F)
+//わたしは ベビ-の たたかうすがたを;みて ゆうきづけられたよ;きぼうは すてては いけない![END]
+
+//
+//POINTER #176 @ $CBF91 - STRING #176 @ $CB90C
+
+#W16($CBF91)
+//わたしの むすこを すくってくれて;ありがとう…! こんどは わたしが;あなたたちの ちからに なるばんだ![END]
+
+//
+//POINTER #177 @ $CBF93 - STRING #177 @ $CB94E
+
+#W16($CBF93)
+//ベビ-ちゃん ありがとう![END]
+
+//
+//POINTER #178 @ $CBF95 - STRING #178 @ $CB963
+
+#W16($CBF95)
+//ベビ-に かかった のろいを;とくために 1000ねんまえの;じだいに あんないしよう![END]
+
+//
+//POINTER #179 @ $CBF97 - STRING #179 @ $CB999
+
+#W16($CBF97)
+//じゅんびは いいかな?;  いいよ;  まだダメ[END]
+
+//
+//POINTER #180 @ $CBF99 - STRING #180 @ $CB9BB
+
+#W16($CBF99)
+//では ゆくぞ![END]
+
+//
+//POINTER #181 @ $CBF9B - STRING #181 @ $CB9C8
+
+#W16($CBF9B)
+//ときの かみよ! われらを;1000ねんの むかしの じだいへ;いざないたまえ![END]
+
+//
+//POINTER #182 @ $CBF9D - STRING #182 @ $CB9F8
+
+#W16($CBF9D)
+//「タイムマジック」![END]
+
+//
+//POINTER #183 @ $CBF9F - STRING #183 @ $CBA06
+
+#W16($CBF9F)
+//はあっ はあっ…[END]
+
+//
+//POINTER #184 @ $CBFA1 - STRING #184 @ $CBA10
+
+#W16($CBFA1)
+//おかえりなさい せんせい!;だいじょうぶ ですか?;さぞかし おつかれ でしょう[END]
+
+//
+//POINTER #185 @ $CBFA3 - STRING #185 @ $CBA46
+
+#W16($CBFA3)
+//おふたりとも;ごぶじで よかったです;うまく いきましたか?[END]
+
+//
+//POINTER #186 @ $CBFA5 - STRING #186 @ $CBA70
+
+#W16($CBFA5)
+//1000ねんまえの;のろいを かけられるまえに;カ-スオブドラゴンを たおした![END]
+
+//
+//POINTER #187 @ $CBFA7 - STRING #187 @ $CBAA0
+
+#W16($CBFA7)
+//いまわしい かこは きえさったぞ!;さあ オレのからだよ;もとの すがたに もどってくれ-!![END]
+
+//
+//POINTER #188 @ $CBFA9 - STRING #188 @ $CBAD9
+
+#W16($CBFA9)
+//…[END]
+
+//
+//POINTER #189 @ $CBFAB - STRING #189 @ $CBADC
+
+#W16($CBFAB)
+//………………[END]
+
+//
+//POINTER #190 @ $CBFAD - STRING #190 @ $CBAE4
+
+#W16($CBFAD)
+//………あれ…? おかしい;もとに もどらない…[END]
+
+//
+//POINTER #191 @ $CBFAF - STRING #191 @ $CBAFF
+
+#W16($CBFAF)
+//な なんで…?[END]
+
+//
+//POINTER #192 @ $CBFB1 - STRING #192 @ $CBB0A
+
+#W16($CBFB1)
+//せんせいは タイムマジックで;ぼうだいな まほうりょくを;つかい はたしました[END]
+
+//
+//POINTER #193 @ $CBFB3 - STRING #193 @ $CBB3B
+
+#W16($CBFB3)
+//かなり おつかれのようです;やすませてあげて ください[END]
+
+//
+//POINTER #194 @ $CBFB5 - STRING #194 @ $CBB5E
+
+#W16($CBFB5)
+//た た たいへんだ!;オレ すっげえモンを みちまった![END]
+
+//
+//POINTER #195 @ $CBFB7 - STRING #195 @ $CBB80
+
+#W16($CBFB7)
+//いつもの ように けしきを;ながめてたらよ…[END]
+
+//
+//POINTER #196 @ $CBFB9 - STRING #196 @ $CBB9A
+
+#W16($CBFB9)
+//カ-スマウンテンの ほうに;よにも おそろしい ドラゴンが;とんでいるのが みえたんだ![END]
+
+//
+//POINTER #197 @ $CBFBB - STRING #197 @ $CBBD4
+
+#W16($CBFBB)
+//…そりゃ もう;ちびったぜ![END]
+
+//
+//POINTER #198 @ $CBFBD - STRING #198 @ $CBBE8
+
+#W16($CBFBD)
+//テ-ブルだ;よく キレイに ふいてある[END]
+
+//
+//POINTER #199 @ $CBFBF - STRING #199 @ $CBC01
+
+#W16($CBFBF)
+//1[END]
+
+//
+//POINTER #200 @ $CBFC1 - STRING #200 @ $CBC04
+
+#W16($CBFC1)
+//1[END]
+
+//
+//POINTER #201 @ $CBFC3 - STRING #201 @ $CBC07
+
+#W16($CBFC3)
+//タルが おいてある[END]
+
+//
+//POINTER #202 @ $CBFC5 - STRING #202 @ $CBC14
+
+#W16($CBFC5)
+//なかには なにもない[END]
+
+//
+//POINTER #203 @ $CBFC7 - STRING #203 @ $CBC20
+
+#W16($CBFC7)
+//1[END]
+
+//
+//POINTER #204 @ $CBFC9 - STRING #204 @ $CBC23
+
+#W16($CBFC9)
+//1[END]
+
+//
+//POINTER #205 @ $CBFCB - STRING #205 @ $CBC26
+
+#W16($CBFCB)
+//たなが おいてある;みたこともない どうぐが;ならべられている[END]
+
+//
+//POINTER #206 @ $CBFCD - STRING #206 @ $CBC51
+
+#W16($CBFCD)
+//つぼが おいてある[END]
+
+//
+//POINTER #207 @ $CBFCF - STRING #207 @ $CBC60
+
+#W16($CBFCF)
+//なかには なにもない[END]
+
+//
+//POINTER #208 @ $CBFD1 - STRING #208 @ $CBC6C
+
+#W16($CBFD1)
+//1[END]
+
+//
+//POINTER #209 @ $CBFD3 - STRING #209 @ $CBC6F
+
+#W16($CBFD3)
+//1[END]
+
+//
+//POINTER #210 @ $CBFD5 - STRING #210 @ $CBC72
+
+#W16($CBFD5)
+//1[END]
+
+//
+//POINTER #211 @ $CBFD7 - STRING #211 @ $CBC75
+
+#W16($CBFD7)
+//1[END]
+
+//
+//POINTER #212 @ $CBFD9 - STRING #212 @ $CBC78
+
+#W16($CBFD9)
+//1[END]
+
+//
+//POINTER #213 @ $CBFDB - STRING #213 @ $CBC7B
+
+#W16($CBFDB)
+//1[END]
+
+//
+//POINTER #214 @ $CBFDD - STRING #214 @ $CBC7E
+
+#W16($CBFDD)
+//ちょ ちょっと タンマ!;こっちじゃ ないぜ;ライジングクリフへ むかってくれよ[END]
+
+//
+//POINTER #215 @ $CBFDF - STRING #215 @ $CBCB0
+
+#W16($CBFDF)
+//ここは せかいで もっとも;ふるき ばしょ[END]
+
+//
+//POINTER #216 @ $CBFE1 - STRING #216 @ $CBCCB
+
+#W16($CBFE1)
+//そびえたつ その ;けわしい やまやまは;ときの ながれに せをむけ [END]
+
+//
+//POINTER #217 @ $CBFE3 - STRING #217 @ $CBCF4
+
+#W16($CBFE3)
+//いくせんも まえから ;そのすがたを かえずに ;いまも たたずんでいる[END]
+
+//
+//POINTER #218 @ $CBFE5 - STRING #218 @ $CBD22
+
+#W16($CBFE5)
+// …けて…;……たすけて… …[END]
+
+//
+//POINTER #219 @ $CBFE7 - STRING #219 @ $CBD33
+
+#W16($CBFE7)
+//たすけて…![END]
+
+//
+//POINTER #220 @ $CBFE9 - STRING #220 @ $CBD3B
+
+#W16($CBFE9)
+//おとうさん…;…たすけて……![END]
+
+//
+//POINTER #221 @ $CBFEB - STRING #221 @ $CBD4C
+
+#W16($CBFEB)
+//……[END]
+
+//
+//POINTER #222 @ $CBFED - STRING #222 @ $CBD50
+
+#W16($CBFED)
+//すでに こときれている…[END]
+
+//
+//POINTER #223 @ $CBFEF - STRING #223 @ $CBD60
+
+#W16($CBFEF)
+//あれだ! あのおおきな かざんが;オレたちが めざしている;カ-スマウンテンだ![END]
+
+//
+//POINTER #224 @ $CBFF1 - STRING #224 @ $CBD96
+
+#W16($CBFF1)
+//さあ いこうぜ;ゆうぎ![END]
+
+//
+//POINTER #225 @ $CBFF3 - STRING #225 @ $CBDA8
+
+#W16($CBFF3)
+//おや? ;さっきの かたがた ですね[END]
+
+//
+//POINTER #226 @ $CBFF5 - STRING #226 @ $CBDC0
+
+#W16($CBFF5)
+//せんせいは なかなか ;ガンコもの だから;さぞかし おこまりでしょう[END]
+
+//
+//POINTER #227 @ $CBFF7 - STRING #227 @ $CBDED
+
+#W16($CBFF7)
+//…でも せんせいを;そっとしておいて ください[END]
+
+//
+//POINTER #228 @ $CBFF9 - STRING #228 @ $CBE0A
+
+#W16($CBFF9)
+//せんせいが ときまほうを;つかわないのには ワケが あるのです[END]
+
+//

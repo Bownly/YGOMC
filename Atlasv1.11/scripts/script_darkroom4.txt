@@ -1,0 +1,247 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C0000)
+#JMP($C7721, $C7B97)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #031 NAME:		Dark Room 4 (POINTER_RELATIVE)
+
+//POINTER #0 @ $C7B98 - STRING #0 @ $C7721
+
+#W16($C7B98)
+//…あれっ? ;まさか…[END]
+Wait, Mai?[END]
+
+//
+//POINTER #1 @ $C7B9A - STRING #1 @ $C772E
+
+#W16($C7B9A)
+//フフ… どうしたの ゆうぎ?;ポカンと くちを あけて…[END]
+Fufu… Is it really;that surprising?[END]
+
+//
+//POINTER #2 @ $C7B9C - STRING #2 @ $C7752
+
+#W16($C7B9C)
+//もしかして… まいさんが;4Fの ダ-クマスタ-なの!?[END]
+So that means;you're floor 4's;Dark Master!?[END]
+
+//
+//POINTER #3 @ $C7B9E - STRING #3 @ $C7774
+
+#W16($C7B9E)
+//ウフ<$93> あたしは;あんたのことが わすれられなくて;このたいかいに さんかしたのよ<$93>[END]
+Yep<$93> I just;couldn't get you;out of my mind<$93>[END]
+
+//
+//POINTER #4 @ $C7BA0 - STRING #4 @ $C77A2
+
+#W16($C7BA0)
+//エ…!!;そっ… そりゃど-も…[END]
+Oh, uh… I-I'm;flattered.[END]
+
+//
+//POINTER #5 @ $C7BA2 - STRING #5 @ $C77B6
+
+#W16($C7BA2)
+//ゆうぎ~~!!;そんな おんなに デレデレしないの![END]
+Yugi! Don't let;her get to you![END]
+
+//
+//POINTER #6 @ $C7BA4 - STRING #6 @ $C77D8
+
+#W16($C7BA4)
+//あ あんず!;…そうだ! まいさん;あんずの にんぎょうを かえしてよ![END]
+T@a! That's right!;Mai, give me back;T@a's doll![END]
+
+//
+//POINTER #7 @ $C7BA6 - STRING #7 @ $C7806
+
+#W16($C7BA6)
+//フフ… おちゃらけは ここまでよ!;あんずの にんぎょうを;かえしてほしければ [END]
+Fufu… Play time's;over. If you want;T@a's doll…[END]
+
+//
+//POINTER #8 @ $C7BA8 - STRING #8 @ $C7838
+
+#W16($C7BA8)
+//あたしと ;ほんきで バトルしなさい!;ゆうぎ!![END]
+you'll have to;battle me for it,;Yugi![END]
+
+//
+//POINTER #9 @ $C7BAA - STRING #9 @ $C7859
+
+#W16($C7BAA)
+//そんな…[END]
+No way…[END]
+
+//
+//POINTER #10 @ $C7BAC - STRING #10 @ $C785F
+
+#W16($C7BAC)
+//…あたしがね こんな イヤなやくめを;ひきうけたのは ほんきの あんたと;バトルするためなのよ…[END]
+I only agreed to;play this role so;I could duel you.[END]
+
+//
+//POINTER #11 @ $C7BAE - STRING #11 @ $C7895
+
+#W16($C7BAE)
+//…ひとりの デュエリストとしてね!;たたかいなさい! ゆうぎ!![END]
+So are you duelist;enough to take me;on, Yugi?[END]
+
+//
+//POINTER #12 @ $C7BB0 - STRING #12 @ $C78BB
+
+#W16($C7BB0)
+//……[END]
+……[END]
+
+//
+//POINTER #13 @ $C7BB2 - STRING #13 @ $C78BF
+
+#W16($C7BB2)
+//…わかったぜ!;くじゃく まい!![END]
+Very well, Mai;Valentine![END]
+
+//
+//POINTER #14 @ $C7BB4 - STRING #14 @ $C78D6
+
+#W16($C7BB4)
+//オレは ぜんりょくで;オマエをたおすぜ!!;バトルスタ-トだ![END]
+But I won't hold;back! Start the;game![END]
+
+//
+//POINTER #15 @ $C7BB6 - STRING #15 @ $C7901
+
+#W16($C7BB6)
+//…まけたわ ゆうぎ;やっぱり さすがね…!;あんずちゃんは かえしてあげる[END]
+You beat me, Yugi.;Here, T@a's all;yours.[END]
+
+//
+//POINTER #16 @ $C7BB8 - STRING #16 @ $C7932
+
+#W16($C7BB8)
+//ゆうぎ~!;も- おそかったじゃな-い!![END]
+Yugiii! That felt;like an eternity![END]
+
+//
+//POINTER #17 @ $C7BBA - STRING #17 @ $C794D
+
+#W16($C7BBA)
+//あんず! …しんぱいしたぜ![END]
+T@a! You had me;worried there.[END]
+
+//
+//POINTER #18 @ $C7BBC - STRING #18 @ $C7963
+
+#W16($C7BBC)
+//それにしても…;こころを にんぎょうに;ふうじこめるなんて[END]
+By the way, what;sort of trick did;Kaiba use to trap[END]
+
+//
+//POINTER #19 @ $C7BBE - STRING #19 @ $C7986
+
+#W16($C7BBE)
+//かいばのヤツ どんな トリックを;つかったのかしら…[END]
+a soul into a;doll?[END]
+
+//
+//POINTER #20 @ $C7BC0 - STRING #20 @ $C79A6
+
+#W16($C7BC0)
+//…わからない;だが かいばのもとには まだ;じいさんが つかまっているんだ![END]
+I don't know. But;Kaiba still has;Gramps![END]
+
+//
+//POINTER #21 @ $C7BC2 - STRING #21 @ $C79DC
+
+#W16($C7BC2)
+//オレは かならず ;かいばを たおすぜ! そして ;みんなの こころを とりもどす![END]
+I'll definitely;beat Kaiba and;save everyone![END]
+
+//
+//POINTER #22 @ $C7BC4 - STRING #22 @ $C7A10
+
+#W16($C7BC4)
+//そうね…;…でも きをつけたほうが いいわ[END]
+Yeah, well, just;watch your back.[END]
+
+//
+//POINTER #23 @ $C7BC6 - STRING #23 @ $C7A2B
+
+#W16($C7BC6)
+//アナタの せんねんパズルを ねらう ;やみのしかくが この たいかいに;まぎれこんでる らしいわよ…![END]
+Seems some Dark;Assassins are;after your puzzle.[END]
+
+//
+//POINTER #24 @ $C7BC8 - STRING #24 @ $C7A6A
+
+#W16($C7BC8)
+//やみのしかく…!?;いったい…[END]
+Dark Assassins?;What in the world?[END]
+
+//
+//POINTER #25 @ $C7BCA - STRING #25 @ $C7A7B
+
+#W16($C7BCA)
+//ゆうぎ!!;わたしにも なにか てつだわせて![END]
+Yugi! Let me help;out too![END]
+
+//
+//POINTER #26 @ $C7BCC - STRING #26 @ $C7A98
+
+#W16($C7BCC)
+//あんずの にんぎょうが;つかえるように なりました[END]
+You can now use;T@a's doll.[END]
+
+//
+//POINTER #27 @ $C7BCE - STRING #27 @ $C7AB9
+
+#W16($C7BCE)
+//かんようしょくぶつだ![END]
+Yep, an indoor;plant![END]
+
+//
+//POINTER #28 @ $C7BD0 - STRING #28 @ $C7ACA
+
+#W16($C7BD0)
+//5Fへの とびらは;かたく とざされている…;ダ-クマスタ-を たおすしかない!![END]
+The 5F door is;locked. You have;to beat the DM.[END]
+
+//
+//POINTER #29 @ $C7BD2 - STRING #29 @ $C7AFB
+
+#W16($C7BD2)
+//バトルフィ-ルドは;けわしい さんみゃくちたいに;けむりをふきあげる やまが みえる…[END]
+The battlefield;features cliffs and;mountains.[END]
+
+//
+//POINTER #30 @ $C7BD4 - STRING #30 @ $C7B30
+
+#W16($C7BD4)
+//つぎは やまの;フィ-ルドのようだ…[END]
+This MW must have;lots of Mountain;tiles.[END]
+
+
+
+
+#JMP($C7C40)
+
+//
+//POINTER #31 @ $C7BD6 - STRING #31 @ $C7B4A
+
+#W16($C7BD6)
+//アナタの せんねんパズルを ねらう ;やみのしかくが この たいかいに;まぎれこんでる らしいわよ…[END]
+Seems some Dark;Assassins are;after your puzzle.[END]
+
+//
+//POINTER #32 @ $C7BD8 - STRING #32 @ $C7B88
+
+#W16($C7BD8)
+//ゆだんできないわね…[END]
+Don't let your;guard down.[END]
+
+//

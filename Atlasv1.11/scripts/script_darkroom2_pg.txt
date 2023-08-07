@@ -1,0 +1,42 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($B0000)
+#JMP($B6500, $B6584)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #047 NAME:		Dark Room 2 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $B6585 - STRING #0 @ $B6500
+
+#W16($B6585)
+//バトルしますか?; はい; いいえ[END]
+Battle?; Yes; No[END]
+
+//
+//POINTER #1 @ $B6587 - STRING #1 @ $B6515
+
+#W16($B6587)
+//インセクタ-'はがに;サイン もらおうと おもったのに…;だれも いないや![END]
+I wanted to get;Weevil's signature;but he's not here!
+
+//
+//POINTER #2 @ $B6589 - STRING #2 @ $B6541
+
+#W16($B6589)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+
+#JMP($B6600, $B6700)
+
+
+//
+//POINTER #3 @ $B658B - STRING #3 @ $B6552
+
+#W16($B658B)
+//バトルフィ-ルドは;うっそうとしげる もりに ;おおわれた ジオラマのようだ…[END]
+It's a diorama of;a huge lush forest;battlefield.[END]
+//

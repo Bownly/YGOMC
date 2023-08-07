@@ -1,0 +1,112 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #029 NAME:		Pause (POINTER_RELATIVE)
+
+//POINTER #0 @ $82D00 - STRING #0 @ $82C6D
+
+#W16($82D00)
+//>MC[END]
+
+//
+//POINTER #1 @ $82D02 - STRING #1 @ $82C72
+
+#W16($82D02)
+//ゆうぎ[END]
+
+//
+//POINTER #2 @ $82D04 - STRING #2 @ $82C79
+
+#W16($82D04)
+//きろく[END]
+
+//
+//POINTER #3 @ $82D06 - STRING #3 @ $82C7E
+
+#W16($82D06)
+//ぼうけんの　きろくを[END]
+
+//
+//POINTER #4 @ $82D08 - STRING #4 @ $82C8C
+
+#W16($82D08)
+//つけますか?[END]
+
+//
+//POINTER #5 @ $82D0A - STRING #5 @ $82C94
+
+#W16($82D0A)
+//はい　　いいえ[END]
+
+//
+//POINTER #6 @ $82D0C - STRING #6 @ $82C9D
+
+#W16($82D0C)
+//きろくしました[END]
+
+//
+//POINTER #7 @ $82D0E - STRING #7 @ $82CA6
+
+#W16($82D0E)
+//つよさ[END]
+
+//
+//POINTER #8 @ $82D10 - STRING #8 @ $82CAB
+
+#W16($82D10)
+//カプセル[END]
+
+//
+//POINTER #9 @ $82D12 - STRING #9 @ $82CB3
+
+#W16($82D12)
+//じんけい[END]
+
+//
+//POINTER #10 @ $82D14 - STRING #10 @ $82CBB
+
+#W16($82D14)
+//いれかえ[END]
+
+//
+//POINTER #11 @ $82D16 - STRING #11 @ $82CC1
+
+#W16($82D16)
+//すてる[END]
+
+//
+//POINTER #12 @ $82D18 - STRING #12 @ $82CC6
+
+#W16($82D18)
+//しんか　　ｘ[END]
+
+//
+//POINTER #13 @ $82D1A - STRING #13 @ $82CCE
+
+#W16($82D1A)
+//わ゛さ　　　ｘ[END]
+
+//
+//POINTER #14 @ $82D1C - STRING #14 @ $82CD8
+
+#W16($82D1C)
+//JPアップｘ[END]
+
+//
+//POINTER #15 @ $82D1E - STRING #15 @ $82CE2
+
+#W16($82D1E)
+//ATアップｘ[END]
+
+//
+//POINTER #16 @ $82D20 - STRING #16 @ $82CEC
+
+#W16($82D20)
+//DFアップｘ[END]
+
+//
+//POINTER #17 @ $82D22 - STRING #17 @ $82CF6
+
+#W16($82D22)
+//SPアップｘ[END]
+
+//

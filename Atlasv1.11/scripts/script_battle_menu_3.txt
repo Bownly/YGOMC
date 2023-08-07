@@ -1,0 +1,25 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_battle_3_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($38000)
+#JMP($3F940, $3F94C)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #019 NAME:		Battle menu 3 (POINTER_RELATIVE)
+
+//POINTER #0 @ $3F94D - STRING #0 @ $3F940
+
+#W16($3F94D)
+//‚±‚¤‚°‚«[END]
+Act[END]
+
+//
+//POINTER #1 @ $3F94F - STRING #1 @ $3F948
+
+#W16($3F94F)
+//‚½‚¢‚«[END]
+Wait[END]
+
+//

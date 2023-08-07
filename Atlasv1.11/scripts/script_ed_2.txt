@@ -1,0 +1,26 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_endscene_2_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($5C000)
+#JMP($60E41, $60F30)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #057 NAME:		Ending 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $60D4C - STRING #0 @ $60E41
+
+#W16($60D4C)
+//かいばの むなもとから
+//すべりおちた せんねんリングは
+//むねんそうに カチャカチャとふるえ
+//やがて そのうごきを とめた…
+//そのよこに かいばは
+//グッタリと よこたわっていたが
+//かけよる ゆうぎの けはいにきづき
+//ゆっくりと たちあがった…
+//[END]
+The Millennium;Ring fell from;Kaiba's neck, and;Kaiba collapsed.;Yugi went to;help him up,;but Kaiba got up;on his own.;
+
+

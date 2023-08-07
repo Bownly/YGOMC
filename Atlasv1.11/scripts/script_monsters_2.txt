@@ -1,0 +1,53 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($34000) 
+#JMP($39F20)
+
+//23456789ABCD
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #001 NAME:		MC Names (POINTER_RELATIVE)
+
+//POINTER #0 @ $38695 - STRING #0 @ $38568
+
+#W16($38695)
+//しんかカプセル[END]
+Evo Capsule[END]
+
+//
+//POINTER #1 @ $38697 - STRING #1 @ $38573
+
+#W16($38697)
+//わざカプセル[END]
+SkillCapsule[END]
+
+//
+//POINTER #22 @ $38699 - STRING #2 @ $3857F
+
+#W16($38699)
+//HPカプセル[END]
+HP Capsule[END]
+
+//
+//POINTER #3 @ $3869B - STRING #3 @ $38589
+
+#W16($3869B)
+//ATカプセル[END]
+AT Capsule[END]
+
+//
+//POINTER #4 @ $3869D - STRING #4 @ $38593
+
+#W16($3869D)
+//DFカプセル[END]
+DF Capsule[END]
+
+//
+//POINTER #5 @ $3869F - STRING #5 @ $3859D
+
+#W16($3869F)
+//SPカプセル[END]
+SP Capsule[END]
+
+//

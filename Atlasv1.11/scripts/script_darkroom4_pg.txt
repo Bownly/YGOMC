@@ -1,0 +1,92 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($B4000)
+#JMP($BA288, $BA41C)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #051 NAME:		Dark Room 4 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $BA41D - STRING #0 @ $BA288
+
+#W16($BA41D)
+//バトルしますか?; はい; いいえ[END]
+Battle?; Yes; No[END]
+
+//
+//POINTER #1 @ $BA41F - STRING #1 @ $BA29D
+
+#W16($BA41F)
+//フフ… ゆうぎ!;ゆうしょう おめでとう! [END]
+Congrats on your;win, Yugi.[END]
+
+//
+//POINTER #2 @ $BA421 - STRING #2 @ $BA2B9
+
+#W16($BA421)
+//あたしが かつまで;あんたに まけてもらっては;こまるもの…[END]
+It'll hurt my;reputation if I;never beat you.[END]
+
+//
+//POINTER #3 @ $BA423 - STRING #3 @ $BA2DD
+
+#W16($BA423)
+//さあ バトルを はじめるわよ!![END]
+So let's battle![END]
+
+//
+//POINTER #4 @ $BA425 - STRING #4 @ $BA2F3
+
+#W16($BA425)
+//あら ゆうぎ!;どう? あんずちゃんとは;うまく やってるの?[END]
+Yugi? Are things;going well with;you and T@a?[END]
+
+//
+//POINTER #5 @ $BA427 - STRING #5 @ $BA31A
+
+#W16($BA427)
+//アハハハ… はんぶん からかった;つもりなのに かお まっかに;しちゃって![END]
+Ahaha! I was half;teasing, but look;at your face![END]
+
+//
+//POINTER #6 @ $BA429 - STRING #6 @ $BA344
+
+#W16($BA429)
+//さすがね ゆうぎ!;でも つぎは かならず;あんたを たおして みせるわ!![END]
+You won this time,;but don't think;I'll forget this.[END]
+
+//
+//POINTER #7 @ $BA42B - STRING #7 @ $BA376
+
+#W16($BA42B)
+//…ハイ わたしの かち!;スタ-チップ おいて;とっとと でてってね<$93>[END]
+I won! Now give me;a star chip and;get moving<$93>[END]
+
+//
+//POINTER #8 @ $BA42D - STRING #8 @ $BA39F
+
+#W16($BA42D)
+//かんようしょくぶつだ![END]
+Yep, an indoor;plant![END]
+
+//
+//POINTER #9 @ $BA42F - STRING #9 @ $BA3B0
+
+#W16($BA42F)
+//バトルフィ-ルドは;けわしい さんみゃくちたいに;けむりをふきあげる やまが みえる…[END]
+The battlefield;features cliffs and;mountains.[END]
+
+
+
+#JMP($BA435, $BA535)
+
+//
+//POINTER #10 @ $BA431 - STRING #10 @ $BA3E5
+
+#W16($BA431)
+//…キミ しってる? ドラゴンぞくを;いちどに ふういんしてしまう;MCが いるらしいよ…[END]
+Ever heard about;the MC that can;seal away dragons?[END]
+
+//

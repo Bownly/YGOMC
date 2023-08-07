@@ -1,0 +1,19 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_op2_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($5C000)
+#JMP($610F7, $6112A)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #058 NAME:		OP 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $6107D - STRING #0 @ $610F7
+
+#W16($6107D)
+//‚±‚±‚ë‚ð ‚­‚¾‚©‚ê‚½
+//‚©‚¢‚Î‚Ì ‚©‚¢‚Ó‚­‚ð ‚Ë‚ª‚¤
+//[END]
+his soul was;shattered.;
+//

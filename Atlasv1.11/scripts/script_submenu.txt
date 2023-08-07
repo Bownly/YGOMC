@@ -1,0 +1,107 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_submenu_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($7C000)
+#JMP($82F81, $82FFC)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #030 NAME:		Submenu (POINTER_RELATIVE)
+
+//POINTER #0 @ $82FFD - STRING #0 @ $82F81
+
+#W16($82FFD)
+//にんぎょうx[END]
+Dollsx[END]
+
+//
+//POINTER #1 @ $82FFF - STRING #1 @ $82F8B
+
+#W16($82FFF)
+//スターチップ[END]
+SChips[END]
+
+//
+//POINTER #2 @ $83001 - STRING #2 @ $82F95
+
+#W16($83001)
+//Mカプセル[END]
+MCs[END]
+
+//
+//POINTER #3 @ $83003 - STRING #3 @ $82F9E
+
+#W16($83003)
+//へろへろざけ[END]
+B.OutSake[END]
+
+//
+//POINTER #4 @ $83005 - STRING #4 @ $82FA8
+
+#W16($83005)
+//マリーのてがみ[END]
+MarysLttr[END]
+
+//
+//POINTER #5 @ $83007 - STRING #5 @ $82FB3
+
+#W16($83007)
+//モエモエソウ[END]
+Firegrass[END]
+
+//
+//POINTER #6 @ $83009 - STRING #6 @ $82FBB
+
+#W16($83009)
+//のろいふうじのクイ[END]
+SealStake[END]
+
+//
+//POINTER #7 @ $8300B - STRING #7 @ $82FC8
+
+#W16($8300B)
+//まかいのまもり[END]
+AbyssChrm[END]
+
+//
+//POINTER #8 @ $8300D - STRING #8 @ $82FD1
+
+#W16($8300D)
+//てつのぼう[END]
+Iron Rod[END]
+
+//
+//POINTER #9 @ $8300F - STRING #9 @ $82FDA
+
+#W16($8300F)
+//マジシャンのつえ[END]
+MagicnRod[END]
+
+//
+//POINTER #10 @ $83011 - STRING #10 @ $82FE6
+
+#W16($83011)
+//つきのけん[END]
+MoonSword[END]
+
+//
+//POINTER #11 @ $83013 - STRING #11 @ $82FED
+
+#W16($83013)
+//たいようのけん[END]
+Sun Sword[END]
+
+
+
+
+#JMP($83BE0)
+
+//
+//POINTER #12 @ $83015 - STRING #12 @ $82FF6
+
+#W16($83015)
+//ほしのけん[END]
+StarSword[END]
+
+//

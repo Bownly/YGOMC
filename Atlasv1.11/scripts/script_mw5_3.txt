@@ -1,0 +1,1603 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($D4000)
+#JMP($D9267, $DB3EA)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #040 NAME:		Monster World 5 part 3 (POINTER_RELATIVE)
+
+//POINTER #0 @ $DB3EB - STRING #0 @ $D9267
+
+#W16($DB3EB)
+//モンスタ-が しゅつげんした![END]
+Monster attack![END]
+
+//
+//POINTER #1 @ $DB3ED - STRING #1 @ $D927C
+
+#W16($DB3ED)
+//「HPカプセル」;を てにいれた[END]
+Obtained an;HP Capsule.[END]
+
+//
+//POINTER #2 @ $DB3EF - STRING #2 @ $D9290
+
+#W16($DB3EF)
+//「ATカプセル」;を てにいれた[END]
+Obtained an;AT Capsule.[END]
+
+//
+//POINTER #3 @ $DB3F1 - STRING #3 @ $D92A4
+
+#W16($DB3F1)
+//「DFカプセル」;を てにいれた[END]
+Obtained a;DF Capsule.[END]
+
+//
+//POINTER #4 @ $DB3F3 - STRING #4 @ $D92B8
+
+#W16($DB3F3)
+//「SPカプセル」;を てにいれた[END]
+Obtained an;SP Capsule.[END]
+
+//
+//POINTER #5 @ $DB3F5 - STRING #5 @ $D92CC
+
+#W16($DB3F5)
+//「わざカプセル」;を てにいれた[END]
+Obtained a;Skill Capsule.[END]
+
+//
+//POINTER #6 @ $DB3F7 - STRING #6 @ $D92E2
+
+#W16($DB3F7)
+//「しんかカプセル」;を てにいれた[END]
+Obtained an;Evolution Capsule.[END]
+
+//
+//POINTER #7 @ $DB3F9 - STRING #7 @ $D92F7
+
+#W16($DB3F9)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+That was a trap;capsule!;Monster attack![END]
+
+//
+//POINTER #8 @ $DB3FB - STRING #8 @ $D9325
+
+#W16($DB3FB)
+//ここが まかいの さいじょうかい;「やみじごく」…[END]
+This is the final;circle, the Dark;Inferno.[END]
+
+//
+//POINTER #9 @ $DB3FD - STRING #9 @ $D9348
+
+#W16($DB3FD)
+//…それにしても ここも;しばらく みないうちに ずいぶん;さまがわり したようだ[END]
+It's changed a lot;since I was last;here.[END]
+
+//
+//POINTER #10 @ $DB3FF - STRING #10 @ $D937C
+
+#W16($DB3FF)
+//すまんが わたしでも ;ゆうぎを あんない できるか;わからないな…[END]
+Sorry, but I might;not be able to;guide you well.[END]
+
+//
+//POINTER #11 @ $DB401 - STRING #11 @ $D93A8
+
+#W16($DB401)
+//やみじごくのまち「ク-ダ」;に ついた[END]
+You enter Kuda, a;Dark Inferno town.[END]
+
+//
+//POINTER #12 @ $DB403 - STRING #12 @ $D93C3
+
+#W16($DB403)
+//まかいの 3つの じごくのうち;ここは さいじょうかいの;やみじごく[END]
+This is the;highest circle in;the Abyss.[END]
+
+//
+//POINTER #13 @ $DB405 - STRING #13 @ $D93F1
+
+#W16($DB405)
+//もっとも じゃあくな ものたちが;すんでいる ところ…[END]
+The evilist;monsters all live;here.[END]
+
+//
+//POINTER #14 @ $DB407 - STRING #14 @ $D9414
+
+#W16($DB407)
+//キサマも やみに;みを ゆだねるのだ…;ケケッ![END]
+Do you want to;embrace the dark-;ness too? Kekeke![END]
+
+//
+//POINTER #15 @ $DB409 - STRING #15 @ $D9432
+
+#W16($DB409)
+//この やみじごくは;やみまかいのはおうさまが ;おさめているけど じっさいは[END]
+King Yamimakai;rules over the;Dark Inferno.[END]
+
+//
+//POINTER #16 @ $DB40B - STRING #16 @ $D9464
+
+#W16($DB40B)
+//この まかい すべてをも;しはい できるほどの チカラをもった;おかた なのよ!![END]
+But he's strong;enough to rule the;entire Abyss![END]
+
+//
+//POINTER #17 @ $DB40D - STRING #17 @ $D9495
+
+#W16($DB40D)
+//きょうも ワルいこと したぜ!;いいこだなあ オレって![END]
+Time for my daily;evil deed![END]
+
+//
+//POINTER #18 @ $DB40F - STRING #18 @ $D94B7
+
+#W16($DB40F)
+//なに!;にんげんかいに いきたいだと!?[END]
+Huh!? A human!?[END]
+
+//
+//POINTER #19 @ $DB411 - STRING #19 @ $D94D1
+
+#W16($DB411)
+//この まかいから;にんげんかいに ゆく ほうほうは;やみまかいのはおうしか しらない[END]
+Only the King;knows how to go to;the human world.[END]
+
+//
+//POINTER #20 @ $DB413 - STRING #20 @ $D94FF
+
+#W16($DB413)
+//しかし はおうは ;やみで とざされた;「やみくらましのしろ」に いる[END]
+But he lives in;the Castle of Dark;Illusions.[END]
+
+//
+//POINTER #21 @ $DB415 - STRING #21 @ $D9528
+
+#W16($DB415)
+//よしんば はおうに あえたとしても;おそろしい チカラをもった おかただ[END]
+I doubt you could;even get a meeting;with him.[END]
+
+//
+//POINTER #22 @ $DB417 - STRING #22 @ $D9552
+
+#W16($DB417)
+//にんげんごときの ねがいなど;きいてくれるとは おもえん;あきらめろ[END]
+And I extra doubt;that he would help;you.[END]
+
+//
+//POINTER #23 @ $DB419 - STRING #23 @ $D957E
+
+#W16($DB419)
+//このまえ やみくらましのしろの;じょうくうに ひかり かがやく;ドラゴンが とんでいるのを みたわ[END]
+I saw a shining;dragon fly towards;the castle.[END]
+
+//
+//POINTER #24 @ $DB41B - STRING #24 @ $D95BD
+
+#W16($DB41B)
+//あれは いせかいの いきものよ;あんな ひかりをはなつ ドラゴンは;やみまかいには いない[END]
+It had to have;come from some;other world.[END]
+
+//
+//POINTER #25 @ $DB41D - STRING #25 @ $D95F0
+
+#W16($DB41D)
+//そとのせかいの うつくしきドラゴン…;やみくらましのしろの てっぺんは;いせかいと つながっているのかもね[END]
+But why did it fly;to the top of the;castle?[END]
+
+//
+//POINTER #26 @ $DB41F - STRING #26 @ $D962F
+
+#W16($DB41F)
+//はおうさまの すんでいる;「やみくらましのしろ」は しっこくの;くらやみで とざされている[END]
+The Castle of Dark;Illusions lies in;total darkness.[END]
+
+//
+//POINTER #27 @ $DB421 - STRING #27 @ $D9664
+
+#W16($DB421)
+//その やみが あるかぎり ;だれも あのしろに たちいることは ;できない[END]
+The darkness;prevents anyone;from entering.[END]
+
+//
+//POINTER #28 @ $DB423 - STRING #28 @ $D9693
+
+#W16($DB423)
+//そして いかなる ひかりを;もってしても やみを;てらしだすことは できないのだ![END]
+And no light can;even pierce the;veil.[END]
+
+//
+//POINTER #29 @ $DB425 - STRING #29 @ $D96C4
+
+#W16($DB425)
+//まかいの やみを てらすほどの;ひかりなど ありえぬ![END]
+No light can shine;in the Abyss![END]
+
+//
+//POINTER #30 @ $DB427 - STRING #30 @ $D96E5
+
+#W16($DB427)
+//むかし けんじゃ といわれた;にんげんが この やみじごくまで;のぼってきたわ[END]
+A human sage once;climbed his way up;here.[END]
+
+//
+//POINTER #31 @ $DB429 - STRING #31 @ $D971C
+
+#W16($DB429)
+//そいつは ひかりのけんで;やみくらましのしろを てらし;しっこくのやみを とりはらおうとした[END]
+He planned to use;the Swords of;Revealing Light.[END]
+
+//
+//POINTER #32 @ $DB42B - STRING #32 @ $D974E
+
+#W16($DB42B)
+//けど とちゅうで じゅつが;しっぱいしたの… なぜかは;わからないわ[END]
+But he somehow;failed to clear;out the darkness.[END]
+
+//
+//POINTER #33 @ $DB42D - STRING #33 @ $D977E
+
+#W16($DB42D)
+//そのスキに はおうさまは;ひかりのけんを くだき;けんじゃを ほうむりさったのよ[END]
+So the King broke;the swords and;buried the sage.[END]
+
+//
+//POINTER #34 @ $DB42F - STRING #34 @ $D97AC
+
+#W16($DB42F)
+//その けんじゃが ;すんでいたという どうくつが;このまちの はずれにある[END]
+That sage lived in;the cave at the;edge of town.[END]
+
+//
+//POINTER #35 @ $DB431 - STRING #35 @ $D97DF
+
+#W16($DB431)
+//いまは ただの ;モンスタ-の すみかに;なっているがな[END]
+But now it's home;to monsters.[END]
+
+//
+//POINTER #36 @ $DB433 - STRING #36 @ $D9801
+
+#W16($DB433)
+//いまでこそ この やみじごくを;おさめているのは;やみまかいのはおうさま だが[END]
+You know how King;Yamimakai rules;this Inferno?[END]
+
+//
+//POINTER #37 @ $DB435 - STRING #37 @ $D9834
+
+#W16($DB435)
+//ひとむかしまえ までは;べつのまじんが おさめていたのだ[END]
+Well a while ago,;we had a different;ruler.[END]
+
+//
+//POINTER #38 @ $DB437 - STRING #38 @ $D985C
+
+#W16($DB437)
+//この やみじごくは;もともと やみまかいのはおうが;おさめて いたのではない[END]
+King Yamimakai;wasn't always our;king.[END]
+
+//
+//POINTER #39 @ $DB439 - STRING #39 @ $D988C
+
+#W16($DB439)
+//はおうは あるとき;とつじょあらわれ その まりょくで;せんだいの まじんを たおし[END]
+One day, the King;showed up and;flexed his might.[END]
+
+//
+//POINTER #40 @ $DB43B - STRING #40 @ $D98C0
+
+#W16($DB43B)
+//じごくの ろうごくに とじこめて;みずから やみじごくの あたらしい;まじんとして くんりんしたのだ[END]
+He locked up the;old guard and made;himself king.[END]
+
+//
+//POINTER #41 @ $DB43D - STRING #41 @ $D9906
+
+#W16($DB43D)
+//ちからの あるものが ;このよの すべてを しはいする…;これが まかいのおきてよ![END]
+In this world,;power is all that;matters.[END]
+
+//
+//POINTER #42 @ $DB43F - STRING #42 @ $D9938
+
+#W16($DB43F)
+//オマエ なんだとおもう?;やみくらましのしろの まわりにある;3つの イワ…[END]
+The castle is;surrounded by 3;stones.[END]
+
+//
+//POINTER #43 @ $DB441 - STRING #43 @ $D9962
+
+#W16($DB441)
+//このさきに 3つのほこらが あってよ;それぞれに おおきなイワが;まつられて いるんだ[END]
+At some point,;each one was made;into a shrine.[END]
+
+//
+//POINTER #44 @ $DB443 - STRING #44 @ $D9997
+
+#W16($DB443)
+//なんでも むかし ここに;にんげんの けんじゃが;きたときから あるらしいな[END]
+Probably around;when that human;sage was here.[END]
+
+//
+//POINTER #45 @ $DB445 - STRING #45 @ $D99C7
+
+#W16($DB445)
+//そういえば にんげんの けんじゃは;3ぼんのけんを しろのまわりのイワに;つきさして いたらしい[END]
+I heard the sage;stuck a sword in;all 3 stones.[END]
+
+//
+//POINTER #46 @ $DB447 - STRING #46 @ $D9A01
+
+#W16($DB447)
+//なにかの おまじないかな?[END]
+Was that some kind;of good luck;ritual?[END]
+
+//
+//POINTER #47 @ $DB449 - STRING #47 @ $D9A12
+
+#W16($DB449)
+//モンスタ-のなかには 4たいが;がったいして つよく へんしんする;しゅるいが いるらしい[END]
+There are 4 unique;monsters that can;combine into 1.[END]
+
+//
+//POINTER #48 @ $DB44B - STRING #48 @ $D9A47
+
+#W16($DB44B)
+//そのなかの 1たいが;やみくらましのしろの どこかに;かくされてる らしいぜ![END]
+The main one is;said to be in the;castle![END]
+
+//
+//POINTER #49 @ $DB44D - STRING #49 @ $D9A76
+
+#W16($DB44D)
+//「けんじゃのどうくつ」;に ついた[END]
+You enter the;Sage's Cave.[END]
+
+//
+//POINTER #50 @ $DB44F - STRING #50 @ $D9A8D
+
+#W16($DB44F)
+//ここでは 8ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #51 @ $DB451 - STRING #51 @ $D9AC3
+
+#W16($DB451)
+//ホコリだらけの つくえがある;  つくえのうえを しらべる;  ひきだしを あける[END]
+It's a dusty desk.;  Search it;  Open the drawer[END]
+
+//
+//POINTER #52 @ $DB453 - STRING #52 @ $D9AF6
+
+#W16($DB453)
+//つくえのうえは なにやら わからない;ゴミと ホコリだらけだ[END]
+All you see is;junk and dust.[END]
+
+//
+//POINTER #53 @ $DB455 - STRING #53 @ $D9B1C
+
+#W16($DB455)
+//しかし よくみてみると;1まいの かみきれが ある;それには こうかかれている[END]
+Wait, you see a;scrap of paper and;read it.[END]
+
+//
+//POINTER #54 @ $DB457 - STRING #54 @ $D9B47
+
+#W16($DB457)
+//        やみ;つき              ほし;       たいよう[END]
+       Dark;Moon          Star;       Sun[END]
+
+//
+//POINTER #55 @ $DB459 - STRING #55 @ $D9B72
+
+#W16($DB459)
+//ひきだしを あけると ;いっさつの ふるぼけた ほんが ;でてきた[END]
+Inside the drawer;is a single worn-;out book.[END]
+
+//
+//POINTER #56 @ $DB45B - STRING #56 @ $D9B9D
+
+#W16($DB45B)
+//ほんの ひょうしには;「けんじゃのしょ」と かかれている[END]
+The cover says;Sage's Book.[END]
+
+//
+//POINTER #57 @ $DB45D - STRING #57 @ $D9BBD
+
+#W16($DB45D)
+//けんじゃのしょを よむか?;  よむ;  よまない[END]
+Read the book?;  Read it;  Don't[END]
+
+//
+//POINTER #58 @ $DB45F - STRING #58 @ $D9BDA
+
+#W16($DB45F)
+//「いつのひか ここに わたしいがいの;にんげんが たどりついた;ときのために きぼうをのこす[END]
+I write this for;any human who one;day comes here.[END]
+
+//
+//POINTER #59 @ $DB461 - STRING #59 @ $D9C14
+
+#W16($DB461)
+//やみのしろの ちょうじょうに;しろき りゅうが おとずれる[END]
+The white dragon;will seek the top;of the castle.[END]
+
+//
+//POINTER #60 @ $DB463 - STRING #60 @ $D9C39
+
+#W16($DB463)
+//いせかいを つなぐ;その りゅうに のれば;にんげんの せかいへ もどれるだろう[END]
+Riding that dragon;will allow you to;cross worlds.[END]
+
+//
+//POINTER #61 @ $DB465 - STRING #61 @ $D9C6D
+
+#W16($DB465)
+//やみのしろへ ゆくには;ひかりのけんを やみくらましのしろの;まわりに 3ぼん たてること[END]
+In order to gain;access to the;castle, you must[END]
+
+//
+//POINTER #62 @ $DB467 - STRING #62 @ $D9C9E
+
+#W16($DB467)
+//さすれば「ひかりのごふうけん」が;かんせいし しろへのみちを はばむ;やみは とりはらわれよう[END]
+perform the Swords;of Revealing Light;ritual.[END]
+
+//
+//POINTER #63 @ $DB469 - STRING #63 @ $D9CD7
+
+#W16($DB469)
+//ただし それぞれの けんと;けんを たてる ばしょに;きをつけねば ならない[END]
+Each sword must be;inserted into the;correct stone.[END]
+
+//
+//POINTER #64 @ $DB46B - STRING #64 @ $D9D07
+
+#W16($DB46B)
+//ただしい ばしょに;ただしい けんを たてなければ;じゅつは しっぱいする[END]
+The spell will;fail otherwise.[END]
+
+//
+//POINTER #65 @ $DB46D - STRING #65 @ $D9D3A
+
+#W16($DB46D)
+//もしものため この どうくつに;ひかりのけんを のこしておく[END]
+I've hidden the;swords inside this;cave for you.[END]
+
+//
+//POINTER #66 @ $DB46F - STRING #66 @ $D9D5C
+
+#W16($DB46F)
+//なんじの けんとうを いのる」[END]
+I wish you luck.[END]
+
+//
+//POINTER #67 @ $DB471 - STRING #67 @ $D9D6F
+
+#W16($DB471)
+//しばらく みないうちに;あのしろは はおうの やみによって;はいることが できなくなったようだ[END]
+Seems the King has;locked himself;inside the castle.[END]
+
+//
+//POINTER #68 @ $DB473 - STRING #68 @ $D9DA8
+
+#W16($DB473)
+//しかし まかいのやみを;てらすほどの ひかりがあれば;みちは ひらかれよう[END]
+But a strong;enough light could;allow us passage.[END]
+
+//
+//POINTER #69 @ $DB475 - STRING #69 @ $D9DD5
+
+#W16($DB475)
+//この にんげんの のこした;「ひかりのごふうけん」が あれば;やみくらましのしろへ いけるかも…![END]
+Those Swords of;Revealing Light;sound promising![END]
+
+//
+//POINTER #70 @ $DB477 - STRING #70 @ $D9E10
+
+#W16($DB477)
+//いっぽんの けんが おいてある;  とる;  とらない[END]
+It's a sword.;  Unsheathe it;  Leave it[END]
+
+//
+//POINTER #71 @ $DB479 - STRING #71 @ $D9E31
+
+#W16($DB479)
+//「ほしのけん」;を てにいれた[END]
+You unsheathed the;Star Sword.[END]
+
+//
+//POINTER #72 @ $DB47B - STRING #72 @ $D9E42
+
+#W16($DB47B)
+//「つきのけん」;を てにいれた[END]
+You unsheathed the;Moon Sword.[END]
+
+//
+//POINTER #73 @ $DB47D - STRING #73 @ $D9E53
+
+#W16($DB47D)
+//「たいようのけん」;を てにいれた[END]
+You unsheathed the;Sun Sword.[END]
+
+//
+//POINTER #74 @ $DB47F - STRING #74 @ $D9E66
+
+#W16($DB47F)
+//「にしのほこら」;に ついた[END]
+You arrive at the;West Shrine.[END]
+
+//
+//POINTER #75 @ $DB481 - STRING #75 @ $D9E76
+
+#W16($DB481)
+//イワに あなが あいている[END]
+There's a hole in;this stone.[END]
+
+//
+//POINTER #76 @ $DB483 - STRING #76 @ $D9E87
+
+#W16($DB483)
+//けんを あなに さしこんでみるか?;  さしこむ;  やめる[END]
+Insert a sword?;  Stab;  Don't stab[END]
+
+//
+//POINTER #77 @ $DB485 - STRING #77 @ $D9EA9
+
+#W16($DB485)
+// 「たいようのけん」を さす[END]
+ Insert Sun Sword[END]
+
+//
+//POINTER #78 @ $DB487 - STRING #78 @ $D9EB9
+
+#W16($DB487)
+// 「ほしのけん」を さす[END]
+ Insert Star Sword[END]
+
+//
+//POINTER #79 @ $DB489 - STRING #79 @ $D9EC7
+
+#W16($DB489)
+// 「つきのけん」を さす[END]
+ Insert Moon Sword[END]
+
+//
+//POINTER #80 @ $DB48B - STRING #80 @ $D9ED5
+
+#W16($DB48B)
+// 「たいようのけん」を さす; 「ほしのけん」を さす[END]
+ Insert Sun Sword; Insert Star Sword[END]
+
+//
+//POINTER #81 @ $DB48D - STRING #81 @ $D9EF2
+
+#W16($DB48D)
+// 「たいようのけん」を さす; 「つきのけん」を さす[END]
+ Insert Sun Sword; Insert Moon Sword[END]
+
+//
+//POINTER #82 @ $DB48F - STRING #82 @ $D9F0F
+
+#W16($DB48F)
+// 「ほしのけん」を さす; 「つきのけん」を さす[END]
+ Insert Star Sword; Insert Moon Sword[END]
+
+//
+//POINTER #83 @ $DB491 - STRING #83 @ $D9F2A
+
+#W16($DB491)
+// 「たいようのけん」を さす; 「ほしのけん」を さす; 「つきのけん」を さす[END]
+ Insert Sun Sword; Insert Star Sword; Insert Moon Sword[END]
+
+//
+//POINTER #84 @ $DB493 - STRING #84 @ $D9F54
+
+#W16($DB493)
+//<$FD>ちのけんを イワに さした[END]
+You inserted the;<$FD><$10> Sword into;the stone.[END]
+
+//
+//POINTER #85 @ $DB495 - STRING #85 @ $D9F64
+
+#W16($DB495)
+//イワに <$FD>ちのけんが;ささっている[END]
+The <$FD><$10> Sword;is in the stone.[END]
+
+//
+//POINTER #86 @ $DB497 - STRING #86 @ $D9F79
+
+#W16($DB497)
+//けんを ぬきとるか?;  とる;  とらない[END]
+Remove it?;  Yes;  No[END]
+
+//
+//POINTER #87 @ $DB499 - STRING #87 @ $D9F91
+
+#W16($DB499)
+//<$FD>ちのけんを ぬきとった[END]
+You pulled the;<$FD><$10> Sword from;the stone.[END]
+
+//
+//POINTER #88 @ $DB49B - STRING #88 @ $D9F9F
+
+#W16($DB49B)
+//「みなみのほこら」;に ついた[END]
+You arrive at the;South Shrine.[END]
+
+//
+//POINTER #89 @ $DB49D - STRING #89 @ $D9FB0
+
+#W16($DB49D)
+//「ひがしのほこら」;に ついた[END]
+You arrive at the;East Shrine.[END]
+
+
+//
+//POINTER #90 @ $DB49F - STRING #90 @ $D9FC3
+
+#W16($DB49F)
+//3ぼんの ひかりのけんが;やみを てらしだす…![END]
+The 3 swords shine;into the darnkess![END]
+
+//
+//POINTER #91 @ $DB4A1 - STRING #91 @ $D9FE3
+
+#W16($DB4A1)
+//「ひかりのごふうけん」が;かんせいした![END]
+You've activated;the Swords of;Revealing Light![END]
+
+//
+//POINTER #92 @ $DB4A3 - STRING #92 @ $D9FFD
+
+#W16($DB4A3)
+//やみくらましのしろを おおっていた;しっこくのやみは とりはらわれ;しろは すがたを あらわした!![END]
+The Castle of Dark;Illusions has been;revealed![END]
+
+//
+//POINTER #93 @ $DB4A5 - STRING #93 @ $DA033
+
+#W16($DB4A5)
+//「やみくらましのしろ」;に ついた[END]
+You enter the;Castle of Dark;Illusions.[END]
+
+//
+//POINTER #94 @ $DB4A7 - STRING #94 @ $DA046
+
+#W16($DB4A7)
+//ここでは 7ほ あるくごとに;45の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 7 steps;will have a 45%;encounter chance.[END]
+
+
+//
+//POINTER #95 @ $DB4A9 - STRING #95 @ $DA07C
+
+#W16($DB4A9)
+//ようこそ にんげんのかた;やみくらましの しろへ…[END]
+Welcome, human, to;the Castle of Dark;Illusions.[END]
+
+//
+//POINTER #96 @ $DB4AB - STRING #96 @ $DA099
+
+#W16($DB4AB)
+//ノ-フェイスか…;おとなしく ここを;とおして もらおう![END]
+Faceless Mage, let;us through.[END]
+
+//
+//POINTER #97 @ $DB4AD - STRING #97 @ $DA0B8
+
+#W16($DB4AD)
+//これは これは;このしろの もと じょうしゅさま…![END]
+Why if it isn't;the former lord of;the castle.[END]
+
+//
+//POINTER #98 @ $DB4AF - STRING #98 @ $DA0D6
+
+#W16($DB4AF)
+//でも いまは はおうさまの;やみくらましのしろ… ここでは;すべてを やみに くらませます[END]
+But the King has;enshrouded the;castle in shadow.[END]
+
+//
+//POINTER #99 @ $DB4B1 - STRING #99 @ $DA10B
+
+#W16($DB4B1)
+//あなたたちが みている ものは;ほんとうに あなたたちの;もとめる ものなのでしょうか?[END]
+Are you sure that;what you see is;even real?[END]
+
+//
+//POINTER #100 @ $DB4B3 - STRING #100 @ $DA13D
+
+#W16($DB4B3)
+//もしかしたら みえている ものは;すべて まぼろしなのかも;しれませんよ…[END]
+Perhaps this is;all an illusion.[END]
+
+//
+//POINTER #101 @ $DB4B5 - STRING #101 @ $DA168
+
+#W16($DB4B5)
+//わたしも まぼろし… そして;あなたじしんの そんざいさえも…;ケラケラケラ… … …[END]
+Perhaps I am too.;…Perhaps even you;are. Khakhakha…[END]
+
+//
+//POINTER #102 @ $DB4B7 - STRING #102 @ $DA19B
+
+#W16($DB4B7)
+//しまった…! ゆ ゆうぎ-![END]
+Curses! Yugi![END]
+
+//
+//POINTER #103 @ $DB4B9 - STRING #103 @ $DA1AD
+
+#W16($DB4B9)
+//ブラックが さらわれた![END]
+Dark was captured![END]
+
+//
+//POINTER #104 @ $DB4BB - STRING #104 @ $DA1BF
+
+#W16($DB4BB)
+//ゆうぎは やみくらましのしろの;「やみゾ-ン」に まよいこんだ![END]
+You find yourself;lost in the Dark;Zone.[END]
+
+//
+//POINTER #105 @ $DB4BD - STRING #105 @ $DA1E7
+
+#W16($DB4BD)
+//ここでは 8ほ あるくごとに;44の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 44%;encounter chance.[END]
+
+//
+//POINTER #106 @ $DB4BF - STRING #106 @ $DA21D
+
+#W16($DB4BF)
+//オレは みた!;みまちがい なんかじゃねえ![END]
+I swear I saw it![END]
+
+//
+//POINTER #107 @ $DB4C1 - STRING #107 @ $DA239
+
+#W16($DB4C1)
+//さっき マジシャンのつえを もった;くろい おとこが ノ-フェイスさまに;つれられて いったんだ[END]
+Faceless Mage was;dragging Dark;Magician around![END]
+
+//
+//POINTER #108 @ $DB4C3 - STRING #108 @ $DA271
+
+#W16($DB4C3)
+//あれは まさしく;もと やみじごくの まじん;「ブラックマジシャン」さまだ…![END]
+He had the;Magician's Rod and;everything![END]
+
+//
+//POINTER #109 @ $DB4C5 - STRING #109 @ $DA2A6
+
+#W16($DB4C5)
+//むかし せんだいの まじん;ブラックマジシャンさまが;はおうさまと たたかったとき[END]
+When Dark Magician;fought with the;current king,[END]
+
+//
+//POINTER #110 @ $DB4C7 - STRING #110 @ $DA2DB
+
+#W16($DB4C7)
+//なにものかに つえを うばわれ;じゅうぶんに たたかえず;まけてしまった らしいな[END]
+he somehow lost;his rod, and then;he lost the fight.[END]
+
+//
+//POINTER #111 @ $DB4C9 - STRING #111 @ $DA30E
+
+#W16($DB4C9)
+//「ふういんされしカラダ」;を てにいれた[END]
+You obtained;Exodia's Body.[END]
+
+//
+//POINTER #112 @ $DB4CB - STRING #112 @ $DA326
+
+#W16($DB4CB)
+//よが やみじごくを おさめる;やみまかいのはおうだ[END]
+I'm the ruler of;the Dark Inferno,;King Yamimakai.[END]
+
+//
+//POINTER #113 @ $DB4CD - STRING #113 @ $DA349
+
+#W16($DB4CD)
+//このまかいの すべては;よの しゅちゅうにある;まかいで よに できぬことはない[END]
+The Abyss revolves;around me. All is;within my reach.[END]
+
+//
+//POINTER #114 @ $DB4CF - STRING #114 @ $DA379
+
+#W16($DB4CF)
+//にんげんの オマエは ここにきて ;なにを のぞむ…?[END]
+What business do;you have with me,;human?[END]
+
+//
+//POINTER #115 @ $DB4D1 - STRING #115 @ $DA39A
+
+#W16($DB4D1)
+//なんと こたえる?;  にんげんかいに かえりたい;  ブラックをさがしている[END]
+Well?;  I wanna go home;  Looking for Dark[END]
+
+//
+//POINTER #116 @ $DB4D3 - STRING #116 @ $DA3C9
+
+#W16($DB4D3)
+//さあな… だれだ?;きいたこともない なまえだな…[END]
+Who might that be?;That name is new;to my ears.[END]
+
+//
+//POINTER #117 @ $DB4D5 - STRING #117 @ $DA3EA
+
+#W16($DB4D5)
+//そんなことを きくために ここまで;きたのでは あるまい?[END]
+Is that all?[END]
+
+//
+//POINTER #118 @ $DB4D7 - STRING #118 @ $DA40D
+
+#W16($DB4D7)
+//このしろの さいじょうかいに;おとずれる いせかいを いききする;しろき りゅう[END]
+Then climb to the;top of this;castle.[END]
+
+//
+//POINTER #119 @ $DB4D9 - STRING #119 @ $DA43B
+
+#W16($DB4D9)
+//「ブル-アイズホワイトドラゴン」;そのせにのって じげんを こえれば;にんげんかいに いける[END]
+There, you can;ride the Blue Eyes;White Dragon home.[END]
+
+//
+//POINTER #120 @ $DB4DB - STRING #120 @ $DA47B
+
+#W16($DB4DB)
+//だが ここは やみくらましのしろ…;オマエは やみのげんじゅつに かかり;まぼろしを みているのかもしれぬ[END]
+Assuming this;castle hasn't yet;muddled your mind.[END]
+
+//
+//POINTER #121 @ $DB4DD - STRING #121 @ $DA4BC
+
+#W16($DB4DD)
+//オマエに きかいを あたえてやろう;このうえの みちを ゆくがよい[END]
+I'll grant you one;chance. Proceed;upwards.[END]
+
+//
+//POINTER #122 @ $DB4DF - STRING #122 @ $DA4E1
+
+#W16($DB4DF)
+//もし オマエの しんじるチカラが;つよければ なんの しょうがいもなく;さいじょうかいに いけるはずだ[END]
+…If you have the;strength of mind;to make it there.[END]
+
+//
+//POINTER #123 @ $DB4E1 - STRING #123 @ $DA524
+
+#W16($DB4E1)
+//また おあいしましたね;にんげんのかた… それにしても;あの やみくうかんを ぬけだすとは…[END]
+We meet again,;human. So you;escaped that void.[END]
+
+//
+//POINTER #124 @ $DB4E3 - STRING #124 @ $DA558
+
+#W16($DB4E3)
+//でも けっきょく あなたは;ほんとうの やみの まやかしから;ぬけきれて いないのです[END]
+But you won't;escape my true;dark deception.[END]
+
+//
+//POINTER #125 @ $DB4E5 - STRING #125 @ $DA589
+
+#W16($DB4E5)
+//あなたの みてきたものは すべて;まぼろし… あなたの おつれのかたも;いつわりの げんそうなのですよ…![END]
+All of this has;been an illusion--;even your friend![END]
+
+//
+//POINTER #126 @ $DB4E7 - STRING #126 @ $DA5C8
+
+#W16($DB4E7)
+//ケラケラケラケラ!![END]
+Khakhakha![END]
+
+//
+//POINTER #127 @ $DB4E9 - STRING #127 @ $DA5D4
+
+#W16($DB4E9)
+//…[END]
+…[END]
+
+//
+//POINTER #128 @ $DB4EB - STRING #128 @ $DA5D7
+
+#W16($DB4EB)
+//……ユ ユウギ…?[END]
+…Y-Yugi?[END]
+
+//
+//POINTER #129 @ $DB4ED - STRING #129 @ $DA5E4
+
+#W16($DB4ED)
+//ユウギ… わたしは…;ワタシは……[END]
+Yugi… I…;I'll…[END]
+
+//
+//POINTER #130 @ $DB4EF - STRING #130 @ $DA5F9
+
+#W16($DB4EF)
+//…オレは オマエを ころす!![END]
+I'll kill you![END]
+
+//
+//POINTER #131 @ $DB4F1 - STRING #131 @ $DA60A
+
+#W16($DB4F1)
+//う… ゆうぎ…? そうか わたしは;ノ-フェイスの げんわくのまなこに;あやつられて いたのか…[END]
+Ugh… Yugi? I see.;Faceless Mage was;controlling me.[END]
+
+//
+//POINTER #132 @ $DB4F3 - STRING #132 @ $DA640
+
+#W16($DB4F3)
+//ヤツは さいしょから…;…わたしたちが じごくのろうごくを;ぬけだしてから[END]
+Seems he had been;observing our;every move.[END]
+
+//
+//POINTER #133 @ $DB4F5 - STRING #133 @ $DA671
+
+#W16($DB4F5)
+//これまでの わたしたちの こうどうを;ずっと かんし していたようだ[END]
+Ever since we;broke out of;prison.[END]
+
+//
+//POINTER #134 @ $DB4F7 - STRING #134 @ $DA69D
+
+#W16($DB4F7)
+//すまんな ゆうぎ;キミを まきこんで しまった[END]
+I'm sorry you got;dragged into this.[END]
+
+//
+//POINTER #135 @ $DB4F9 - STRING #135 @ $DA6BA
+
+#W16($DB4F9)
+//このしろの おくじょうへ いこう!;ブル-アイズホワイトドラゴンが;そこに やってくる[END]
+Now, to the roof!;Blue Eyes awaits![END]
+
+//
+//POINTER #136 @ $DB4FB - STRING #136 @ $DA6F3
+
+#W16($DB4FB)
+//そいつに のれば にんげんかいに;もどれるぞ![END]
+He can take you;back home![END]
+
+//
+//POINTER #137 @ $DB4FD - STRING #137 @ $DA714
+
+#W16($DB4FD)
+//フン… なんだ いきていたのか;なかよく どうしうち してくれると;きたいしたのだが[END]
+So you managed to;survive your fight;amongst friends?[END]
+
+//
+//POINTER #138 @ $DB4FF - STRING #138 @ $DA748
+
+#W16($DB4FF)
+//いかして おいたのが あまかったわ…;ろうごくを ぬけだし いまごろ;のこのこと あらわれおって…![END]
+But did you really;think I'd let you;through so easily?[END]
+
+//
+//POINTER #139 @ $DB501 - STRING #139 @ $DA784
+
+#W16($DB501)
+//よを たおして ふたたび;まじんの ざを とりもどそうとでも;おもったのか?[END]
+And did YOU really;think you could;retake the throne?[END]
+
+//
+//POINTER #140 @ $DB503 - STRING #140 @ $DA7B6
+
+#W16($DB503)
+//やみじごく せんだいの まじん;「ブラックマジシャン」よ![END]
+Well, former king,;Dark Magician!?[END]
+
+//
+//POINTER #141 @ $DB505 - STRING #141 @ $DA7E1
+
+#W16($DB505)
+//…たしかに わたしは むかし;オマエに やぶれた せんだいのまじん;ブラックマジシャンだ[END]
+It's true, you;defeated me once;before.[END]
+
+//
+//POINTER #142 @ $DB507 - STRING #142 @ $DA81B
+
+#W16($DB507)
+//まじんのざを おわれ;わたしは じごくのろうごくに;いれられた[END]
+Then you had me;thrown into the;Abyssal Prison.[END]
+
+//
+//POINTER #143 @ $DB509 - STRING #143 @ $DA846
+
+#W16($DB509)
+//きりょくを うしないかけたとき;じごくのろうごくで;ゆうぎに であった[END]
+Right before I;lost all hope, I;met Yugi.[END]
+
+//
+//POINTER #144 @ $DB50B - STRING #144 @ $DA877
+
+#W16($DB50B)
+//その こんなんへ たちむかうすがたは;わたしに ゆうきを あたえてくれた;…じゆうに いきてみたくなった[END]
+His determination;gave me courage.[END]
+
+//
+//POINTER #145 @ $DB50D - STRING #145 @ $DA8B1
+
+#W16($DB50D)
+//いぜんの まじんだった;ブラックマジシャンは もういない…;わたしは ただのたびびと ブラックだ[END]
+I'm no longer the;old me. Now, I'm;just a traveler.[END]
+
+//
+//POINTER #146 @ $DB50F - STRING #146 @ $DA8F7
+
+#W16($DB50F)
+//だから オレは いまさら;オマエたちに くちだしを;するつもりは ない[END]
+I have no desire;to meddle in your;affairs.[END]
+
+//
+//POINTER #147 @ $DB511 - STRING #147 @ $DA920
+
+#W16($DB511)
+//ただ この ゆうぎには おんがある;ゆうぎを にんげんかいに;かえして やりたいのだ[END]
+However, I intend;to make good on my;debt to Yugi.[END]
+
+//
+//POINTER #148 @ $DB513 - STRING #148 @ $DA958
+
+#W16($DB513)
+//フン へたな いいわけを しおって!;どのみち きさまらは ここで;おわりだ…[END]
+Heh. Regardless of;your excuses, you;die here.[END]
+
+//
+//POINTER #149 @ $DB515 - STRING #149 @ $DA987
+
+#W16($DB515)
+//にんげんなど じごくのそこで;しぬまで ドレイとして;はたらきつづければ よいのだ![END]
+You both should;have stayed as;slaves![END]
+
+//
+//POINTER #150 @ $DB517 - STRING #150 @ $DA9C7
+
+#W16($DB517)
+//ここから いきては かえさん…;えいえんの やみへ;ほうむりさって くれるわ!!![END]
+Instead, I will;bury you in an;endless darkness!!![END]
+
+//
+//POINTER #151 @ $DB519 - STRING #151 @ $DA9F2
+
+#W16($DB519)
+//ま… まさか…!? この はおうが;やぶれた だと…!!?[END]
+I-Impossible…!;But… I'm the King…[END]
+
+//
+//POINTER #152 @ $DB51B - STRING #152 @ $DAA17
+
+#W16($DB51B)
+//…ク ククク… だが あきらめろ…!;にんげんかいへ かえることなど;ふかのうだ…[END]
+…Hehehe… Either;way, you'll never;return home![END]
+
+//
+//POINTER #153 @ $DB51D - STRING #153 @ $DAA4C
+
+#W16($DB51D)
+//だれも あの りゅうを;したがえる ことなど;できないのだからな……!![END]
+No one will ever;tame that dragon![END]
+
+//
+//POINTER #154 @ $DB51F - STRING #154 @ $DAA7C
+
+#W16($DB51F)
+//フハハハハハ…ハ…!!! …ぐふっ[END]
+Fwahaha…ha…!!;Guh…[END]
+
+//
+//POINTER #155 @ $DB521 - STRING #155 @ $DAA91
+
+#W16($DB521)
+//ブル-アイズホワイトドラゴン…;かみとまで しょうちょうされる;ドラゴンぞく さいこうのりゅうだ[END]
+Blues Eyes is;practically a god.[END]
+
+//
+//POINTER #156 @ $DB523 - STRING #156 @ $DAAD5
+
+#W16($DB523)
+//ひとすじなわでは;いかないかも しれん…;きをひきしめて いこう[END]
+Normal strategies;won't work on him.;Prepare yourself.[END]
+
+//
+//POINTER #157 @ $DB525 - STRING #157 @ $DAAFB
+
+#W16($DB525)
+//さあ ゆうぎ;さいじょうかいは すぐそこだ![END]
+Now, let's go!;Our goal is within;reach![END]
+
+//
+//POINTER #158 @ $DB527 - STRING #158 @ $DAB1B
+
+#W16($DB527)
+//ここに いせかいの りゅう;ブル-アイズホワイトドラゴンが;やってくる はずだ[END]
+This is where Blue;Eyes should perch.[END]
+
+//
+//POINTER #159 @ $DB529 - STRING #159 @ $DAB52
+
+#W16($DB529)
+//ブラックは「マジシャンのつえ」を;そらに たかく かかげた![END]
+Dark held the;Magician's Rod;aloft![END]
+
+//
+//POINTER #160 @ $DB52B - STRING #160 @ $DAB78
+
+#W16($DB52B)
+//きたれ!;ブル-アイズホワイトドラゴンよ;この やみのしろへ!![END]
+Come forth, Blue;Eyes White Dragon![END]
+
+//
+//POINTER #161 @ $DB52D - STRING #161 @ $DABA2
+
+#W16($DB52D)
+//われを よぶは おまえたちか…[END]
+Are you the ones;who called me?[END]
+
+//
+//POINTER #162 @ $DB52F - STRING #162 @ $DABB5
+
+#W16($DB52F)
+//われに のぞみ あらば;われに しょうりして えよ![END]
+Defeat me to earn;my favor![END]
+
+//
+//POINTER #163 @ $DB531 - STRING #163 @ $DABD5
+
+#W16($DB531)
+//われは ブル-アイズホワイトドラゴン;せかいで さいこうの つよさを;もつものにのみ したがおうぞ![END]
+I obey only those;with upmost;strength![END]
+
+//
+//POINTER #164 @ $DB533 - STRING #164 @ $DAC17
+
+#W16($DB533)
+//ブル-アイズが;きゅうきょくりゅうに;しんか してゆく…![END]
+Blue Eyes is;evolving![END]
+
+//
+//POINTER #165 @ $DB535 - STRING #165 @ $DAC3C
+
+#W16($DB535)
+//やったな! ゆうぎ!!;これで キミも にんげんかいに;かえることが できるぞ![END]
+We did it! Now you;can return to the;human world![END]
+
+//
+//POINTER #166 @ $DB537 - STRING #166 @ $DAC72
+
+#W16($DB537)
+//グフフフフ… …;にがさんぞ…! きさまらぁ!![END]
+Gufufu…;Not so fast![END]
+
+//
+//POINTER #167 @ $DB539 - STRING #167 @ $DAC92
+
+#W16($DB539)
+//そのとき! まかいのまもりが;はつどうした![END]
+Suddenly, your;Abyss Charm;activated![END]
+
+//
+//POINTER #168 @ $DB53B - STRING #168 @ $DACAE
+
+#W16($DB53B)
+//ギャアアアア!!![END]
+Gaaah!![END]
+
+//
+//POINTER #169 @ $DB53D - STRING #169 @ $DACBB
+
+#W16($DB53D)
+//またもや たすけられたな;おんにきる ゆうぎ![END]
+Thank you. You;saved me yet;again.[END]
+
+//
+//POINTER #170 @ $DB53F - STRING #170 @ $DACD6
+
+#W16($DB53F)
+//それにしても ゆうぎの かえりたい;にんげんかいって どんなところだ?;わたしは きょうみがある[END]
+Say, what's the;human world like,;anyway?[END]
+
+//
+//POINTER #171 @ $DB541 - STRING #171 @ $DAD12
+
+#W16($DB541)
+//たいくつな まかいを ぬけだして;ゆうぎと にんげんかいを;ぼうけんしてみたい…! かまわんか?[END]
+I have half a mind;to join you. What;say you?[END]
+
+//
+//POINTER #172 @ $DB543 - STRING #172 @ $DAD4C
+
+#W16($DB543)
+//どうする?;  いっしょに いく;  いっしょに いかない[END]
+Well?;  Join me;  I'm a lone wolf[END]
+
+//
+//POINTER #173 @ $DB545 - STRING #173 @ $DAD6D
+
+#W16($DB545)
+//そうか… ざんねんだが;わたしは まかいに のこるとするか[END]
+I see… That's too;bad. I'll remain;here then.[END]
+
+//
+//POINTER #174 @ $DB547 - STRING #174 @ $DAD92
+
+#W16($DB547)
+//せんべつだ;これを うけとってくれ![END]
+Take this as a;parting gift.[END]
+
+//
+//POINTER #175 @ $DB549 - STRING #175 @ $DADAA
+
+#W16($DB549)
+//「しんかカプセル」;を もらった[END]
+He gave you an;Evolution Capsule.[END]
+
+//
+//POINTER #176 @ $DB54B - STRING #176 @ $DADBE
+
+#W16($DB54B)
+//じゃあ げんきでな;こんどは まかいに おちないように;きをつけろよっ![END]
+Take care to not;fall into the;Abyss again![END]
+
+//
+//POINTER #177 @ $DB54D - STRING #177 @ $DADEC
+
+#W16($DB54D)
+//そうか これから;よろしくたのむ ゆうぎ![END]
+Great!;Thank you, Yugi.[END]
+
+//
+//POINTER #178 @ $DB54F - STRING #178 @ $DAE05
+
+#W16($DB54F)
+//では ゆこう!;にんげんかいへ のせていってくれ;ブル-アイズホワイトドラゴンよ!![END]
+Well, let's go!;The human world;awaits![END]
+
+//
+//POINTER #179 @ $DB551 - STRING #179 @ $DAE3D
+
+#W16($DB551)
+//あぶない ゆうぎ![END]
+Yugi, look out![END]
+
+//
+//POINTER #180 @ $DB553 - STRING #180 @ $DAE4C
+
+#W16($DB553)
+//ぐああっ!!![END]
+Gaaah!![END]
+
+//
+//POINTER #181 @ $DB555 - STRING #181 @ $DAE57
+
+#W16($DB555)
+//ゆ ゆうぎ… はやく ドラゴンに;のるんだ…! ここは わたしに;まかせて にんげんかいへ いけ![END]
+Yugi, quick! Ride;the dragon… and go;home![END]
+
+//
+//POINTER #182 @ $DB557 - STRING #182 @ $DAE94
+
+#W16($DB557)
+//ククク…;にがさんと いったろうがあぁ-!!![END]
+Hehehe.;There's no;escape![END]
+
+//
+//POINTER #183 @ $DB559 - STRING #183 @ $DAEB1
+
+#W16($DB559)
+//はおうよ ;ゆうぎの ジャマは させん…!![END]
+I won't let you![END]
+
+//
+//POINTER #184 @ $DB55B - STRING #184 @ $DAECD
+
+#W16($DB55B)
+//…しょせん わたしは;まかいのじゅうにん… ここから;いきては でられないらしいな…[END]
+I guess I was;never meant to;leave the Abyss…[END]
+
+//
+//POINTER #185 @ $DB55D - STRING #185 @ $DAEFD
+
+#W16($DB55D)
+//だが ゆうぎ… キミだけは;ぶじに にんげんかいへ もどれよ…![END]
+But, Yugi. You can;still leave![END]
+
+//
+//POINTER #186 @ $DB55F - STRING #186 @ $DAF2F
+
+#W16($DB55F)
+//さらばだ…;   …ゆうぎ…![END]
+Farewell…;  …Yugi…![END]
+
+//
+//POINTER #187 @ $DB561 - STRING #187 @ $DAF46
+
+#W16($DB561)
+//…よく まかいから;この にんげんかいへ;もどることが できましたねぇ…[END]
+Good job escaping;the Abyss.[END]
+
+//
+//POINTER #188 @ $DB563 - STRING #188 @ $DAF74
+
+#W16($DB563)
+//いつでも まかいは アナタを;おまちして おりますよ…[END]
+But the Abyss will;always be there,;waiting for you.[END]
+
+//
+//POINTER #189 @ $DB565 - STRING #189 @ $DAF93
+
+#W16($DB565)
+//そう… いまでも… ね![END]
+Yes… always…[END]
+
+//
+//POINTER #190 @ $DB567 - STRING #190 @ $DAFA3
+
+#W16($DB567)
+//オマエが じごくから ぬけだすのは;ゆるさん![END]
+You weren't;supposed to;escape![END]
+
+//
+//POINTER #191 @ $DB569 - STRING #191 @ $DAFC4
+
+#W16($DB569)
+//オレは まけてなど いない!;ゲ-ムは まだ おわらせんぞ!!;ハ-ッハッハッハッハ!![END]
+No! I can't lose!;The game can't end;yet! Hahaha!![END]
+
+//
+//POINTER #192 @ $DB56B - STRING #192 @ $DAFFA
+
+#W16($DB56B)
+//ベンキが ある;ここは トイレのようだ[END]
+It's a urinal.[END]
+
+//
+//POINTER #193 @ $DB56D - STRING #193 @ $DB015
+
+#W16($DB56D)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #194 @ $DB56F - STRING #194 @ $DB022
+
+#W16($DB56F)
+//なにやら ;えたいの しれないものが;つまっている…[END]
+Look inside at;your peril.[END]
+
+//
+//POINTER #195 @ $DB571 - STRING #195 @ $DB041
+
+#W16($DB571)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #196 @ $DB573 - STRING #196 @ $DB04E
+
+#W16($DB573)
+//なかから「DFカプセル」;を てにいれた![END]
+Inside was a;DF Capsule![END]
+
+//
+//POINTER #197 @ $DB575 - STRING #197 @ $DB067
+
+#W16($DB575)
+//きたない テ-ブルだ;ちらかっている[END]
+Yep, it's a messy;table.[END]
+
+//
+//POINTER #198 @ $DB577 - STRING #198 @ $DB07F
+
+#W16($DB577)
+//きたない テ-ブルだ;ちらかっている[END]
+Is this a clean;table?[END]
+
+//
+//POINTER #199 @ $DB579 - STRING #199 @ $DB097
+
+#W16($DB579)
+//ひきだしの なかから;「DFカプセル」;を てにいれた![END]
+Nope, but you did;clean out a;DF Capsule.[END]
+
+//
+//POINTER #200 @ $DB57B - STRING #200 @ $DB0B9
+
+#W16($DB57B)
+//つぼが おいてある[END]
+It's a jar.[END]
+
+//
+//POINTER #201 @ $DB57D - STRING #201 @ $DB0C8
+
+#W16($DB57D)
+//なにやら ;おぞましい えきたいが はいっている[END]
+It's contents are;jarring.[END]
+
+//
+//POINTER #202 @ $DB57F - STRING #202 @ $DB0E6
+
+#W16($DB57F)
+//つぼが おいてある[END]
+It's a jar.[END]
+
+//
+//POINTER #203 @ $DB581 - STRING #203 @ $DB0F5
+
+#W16($DB581)
+//なかから モンスタ-が;おそいかかってきた![END]
+Inside was a;monster![END]
+
+//
+//POINTER #204 @ $DB583 - STRING #204 @ $DB10F
+
+#W16($DB583)
+//いどが ある[END]
+It's a well.[END]
+
+//
+//POINTER #205 @ $DB585 - STRING #205 @ $DB11B
+
+#W16($DB585)
+//そこの ほうから;ブキミなこえが きこえてくる…[END]
+You hear an odd;voice welling up;from inside it…[END]
+
+//
+//POINTER #206 @ $DB587 - STRING #206 @ $DB139
+
+#W16($DB587)
+//たなが おいてある ;なかは ホコリまみれの ガラクタが;ならんでいる[END]
+It's a dusty;bookshelf.[END]
+
+//
+//POINTER #207 @ $DB589 - STRING #207 @ $DB166
+
+#W16($DB589)
+//よくみると にんげんが つかうような;どうぐばかりだ[END]
+There are some;human-usable items;on the shelf.[END]
+
+//
+//POINTER #208 @ $DB58B - STRING #208 @ $DB18E
+
+#W16($DB58B)
+//とびらを あける スイッチが ;ひとつ ついている[END]
+It's a door-;opening switch.[END]
+
+//
+//POINTER #209 @ $DB58D - STRING #209 @ $DB1AD
+
+#W16($DB58D)
+//ダイスロ-ルで ひらく とびらを;はんていする[END]
+A dice roll will;decide which doors;it opens.[END]
+
+//
+//POINTER #210 @ $DB58F - STRING #210 @ $DB1CC
+
+#W16($DB58F)
+//0~49なら Aのとびら;50~99なら Bのとびら;が ひらく[END]
+0-49 opens A.;50-99 opens B.[END]
+
+//
+//POINTER #211 @ $DB591 - STRING #211 @ $DB1F4
+
+#W16($DB591)
+//ボタンを おしてみるか?;  おす;  おさない[END]
+Push the button?;  Push it;  Don't[END]
+
+//
+//POINTER #212 @ $DB593 - STRING #212 @ $DB210
+
+#W16($DB593)
+//Aのとびらが ひらいた![END]
+The A doors;opened![END]
+
+//
+//POINTER #213 @ $DB595 - STRING #213 @ $DB222
+
+#W16($DB595)
+//Bのとびらが ひらいた![END]
+The B doors;opened![END]
+
+//
+//POINTER #214 @ $DB597 - STRING #214 @ $DB234
+
+#W16($DB597)
+//0~49なら Cのとびら;50~99なら Dのとびら;が ひらく[END]
+0-49 opens C.;50-99 opens D.[END]
+
+//
+//POINTER #215 @ $DB599 - STRING #215 @ $DB25C
+
+#W16($DB599)
+//ボタンを おしてみるか?;  おす;  おさない[END]
+Push the button?;  Push it;  Don't[END]
+
+//
+//POINTER #216 @ $DB59B - STRING #216 @ $DB278
+
+#W16($DB59B)
+//Cのとびらが ひらいた![END]
+The C doors;opened![END]
+
+//
+//POINTER #217 @ $DB59D - STRING #217 @ $DB28A
+
+#W16($DB59D)
+//Dのとびらが ひらいた![END]
+The D doors;opened![END]
+
+//
+//POINTER #218 @ $DB59F - STRING #218 @ $DB29C
+
+#W16($DB59F)
+//0~49なら Eのとびら;50~99なら Fのとびら;が ひらく[END]
+0-49 opens E.;50-99 opens F.[END]
+
+//
+//POINTER #219 @ $DB5A1 - STRING #219 @ $DB2C4
+
+#W16($DB5A1)
+//ボタンを おしてみるか?;  おす;  おさない[END]
+Push the button?;  Push it;  Don't[END]
+
+//
+//POINTER #220 @ $DB5A3 - STRING #220 @ $DB2E0
+
+#W16($DB5A3)
+//Eのとびらが ひらいた![END]
+The E doors;opened![END]
+
+//
+//POINTER #221 @ $DB5A5 - STRING #221 @ $DB2F2
+
+#W16($DB5A5)
+//Fのとびらが ひらいた![END]
+The F doors;opened![END]
+
+//
+//POINTER #222 @ $DB5A7 - STRING #222 @ $DB304
+
+#W16($DB5A7)
+//…しかし もっているMCが;いっぱいなので ;にゅうしゅ できなかった![END]
+Sadly, you have;too many MCs.[END]
+
+//
+//POINTER #223 @ $DB5A9 - STRING #223 @ $DB332
+
+#W16($DB5A9)
+//…え? もう ;MCが いっぱい だから;なかまは ふやせないって…?[END]
+Huh? You have too;many MCs? Then I;can't join you?[END]
+
+//
+//POINTER #224 @ $DB5AB - STRING #224 @ $DB35D
+
+#W16($DB5AB)
+//うしろの にいちゃん ここに;すんでたこと ないかい?;どっかで みたこと あんだよなぁ…?[END]
+Hey, didn't that;guy behind you;once live here?[END]
+
+//
+//POINTER #225 @ $DB5AD - STRING #225 @ $DB395
+
+#W16($DB5AD)
+//…われを こえるということは;せかいの ちょうてんにたつ;ということ[END]
+To defeat me is to;stand above all.[END]
+
+
+//
+//POINTER #226 @ $DB5AF - STRING #226 @ $DB3B9
+
+#W16($DB5AF)
+//すばらしき ちからを もつものよ;われは おまえの のぞむままに;こたえて みせよう…![END]
+I shall obey your;wish.[END]
+
+//

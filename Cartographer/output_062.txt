@@ -1,0 +1,11 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #062 NAME:		Attract 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $602DB - STRING #0 @ $60313
+
+#W16($602DB)
+//ÅcÅcÇ›Ç¬ÇØÇΩÇº
+//[END]
+
+//

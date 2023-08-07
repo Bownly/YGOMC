@@ -1,0 +1,25 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C000) 
+#JMP($83267, $8329B)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #006 NAME:		Message Speed (POINTER_RELATIVE)
+
+//POINTER #0 @ $8329C - STRING #0 @ $83267
+
+#W16($8329C)
+//メッセ-ジの スピ-ドを;えらんで ください[END]
+Select a message;speed.[END]
+
+//
+//POINTER #1 @ $8329E - STRING #1 @ $83289
+
+#W16($8329E)
+//  はやい;  ふつう;  おそい[END]
+  Fast;  Normal;  Slow[END]
+
+//

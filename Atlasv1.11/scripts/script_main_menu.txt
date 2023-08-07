@@ -1,0 +1,95 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_menu_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($7C000)
+#JMP($82BB8)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #000 NAME:		Main Menu (POINTER_RELATIVE)
+
+//POINTER #0 @ $82C55 - STRING #0 @ $82BB8
+
+#W16($82C55)
+//ストーリーモード[END]
+Story[END]
+
+//
+//POINTER #1 @ $82C57 - STRING #1 @ $82BC2
+
+#W16($82C57)
+//たいせんバトル[END]
+Battle[END]
+
+//
+//POINTER #2 @ $82C59 - STRING #2 @ $82BCD
+
+#W16($82C59)
+//MC トレー゛ト[END]
+Trade[END]
+
+//
+//POINTER #3 @ $82C5B - STRING #3 @ $82BD8
+
+#W16($82C5B)
+//ロード[END]
+Load[END]
+
+//
+//POINTER #4 @ $82C5D - STRING #4 @ $82BDD
+
+#W16($82C5D)
+//さいしょから[END]
+New[END]
+
+//
+//POINTER #5 @ $82C5F - STRING #5 @ $82BE5
+
+#W16($82C5F)
+//セーブデータが ありません![END]
+No save data![END]
+
+//
+//POINTER #6 @ $82C61 - STRING #6 @ $82BFB
+
+#W16($82C61)
+//このゲームは[END]
+This game can't[END]
+
+//
+//POINTER #7 @ $82C63 - STRING #7 @ $82C05
+
+#W16($82C63)
+//スーパーゲームボーイでは[END]
+battle on a[END]
+
+//
+//POINTER #8 @ $82C65 - STRING #8 @ $82C1B
+
+#W16($82C65)
+//たいせんできません[END]
+Super Gameboy.
+
+//
+//POINTER #9 @ $82C67 - STRING #9 @ $82C28
+
+#W16($82C67)
+//このゲームは[END]
+This game can't[END]
+
+//
+//POINTER #10 @ $82C69 - STRING #10 @ $82C32
+
+#W16($82C69)
+//スーパーゲームボーイでは[END]
+trade on a[END]
+
+//
+//POINTER #11 @ $82C6B - STRING #11 @ $82C48
+
+#W16($82C6B)
+//こうかんできません[END]
+Super Gameboy.
+
+//

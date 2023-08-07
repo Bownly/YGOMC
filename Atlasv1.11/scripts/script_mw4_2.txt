@@ -1,0 +1,1361 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C8000)
+#JMP($CC000, $CDE14)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #033 NAME:		Monster World 4 part 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $CDE15 - STRING #0 @ $CC000
+
+#W16($CDE15)
+//モンスタ-が しゅつげんした![END]
+Monster attack![END]
+
+//
+//POINTER #1 @ $CDE17 - STRING #1 @ $CC015
+
+#W16($CDE17)
+//「HPカプセル」;を てにいれた[END]
+Obtained an;HP Capsule.[END]
+
+//
+//POINTER #2 @ $CDE19 - STRING #2 @ $CC029
+
+#W16($CDE19)
+//「ATカプセル」;を てにいれた[END]
+Obtained an;AT Capsule.[END]
+
+//
+//POINTER #3 @ $CDE1B - STRING #3 @ $CC03D
+
+#W16($CDE1B)
+//「DFカプセル」;を てにいれた[END]
+Obtained a;DF Capsule.[END]
+
+//
+//POINTER #4 @ $CDE1D - STRING #4 @ $CC051
+
+#W16($CDE1D)
+//「SPカプセル」;を てにいれた[END]
+Obtained an;SP Capsule.[END]
+
+//
+//POINTER #5 @ $CDE1F - STRING #5 @ $CC065
+
+#W16($CDE1F)
+//「わざカプセル」;を てにいれた[END]
+Obtained a;Skill Capsule.[END]
+
+//
+//POINTER #6 @ $CDE21 - STRING #6 @ $CC07B
+
+#W16($CDE21)
+//「しんかカプセル」;を てにいれた[END]
+Obtained an;Evolution Capsule.[END]
+
+//
+//POINTER #7 @ $CDE23 - STRING #7 @ $CC090
+
+#W16($CDE23)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+That was a trap;capsule!;Monster attack![END]
+
+//
+//POINTER #8 @ $CDE25 - STRING #8 @ $CC0BE
+
+#W16($CDE25)
+//やまあいの むら「マヤ」;に ついた[END]
+You enter the;valley town Maya.[END]
+
+//
+//POINTER #9 @ $CDE27 - STRING #9 @ $CC0D2
+
+#W16($CDE27)
+//ここは マヤのむらよ[END]
+This is the town;of Maya.[END]
+
+//
+//POINTER #10 @ $CDE29 - STRING #10 @ $CC0DE
+
+#W16($CDE29)
+//めずらしいわ よその ひとが;こんな やまおくの むらに;やってくる なんて![END]
+We don't often see;foreigners here in;the valley![END]
+
+//
+//POINTER #11 @ $CDE2B - STRING #11 @ $CC10B
+
+#W16($CDE2B)
+//むらの うえのほうにある やまが;「カ-スマウンテン」よ[END]
+The volcano above;town is called;Curse Mountain.[END]
+
+//
+//POINTER #12 @ $CDE2D - STRING #12 @ $CC12B
+
+#W16($CDE2D)
+//もうじき かざんが;ふんか するんですって;はやく にげなきゃ![END]
+It's due to erupt;soon, so we need;to flee.[END]
+
+//
+//POINTER #13 @ $CDE2F - STRING #13 @ $CC157
+
+#W16($CDE2F)
+//この うえのみちを のぼっていくと;カ-スマウンテンが あるけど[END]
+Curse Mountain is;just up ahead. But;the road is[END]
+
+//
+//POINTER #14 @ $CDE31 - STRING #14 @ $CC17F
+
+#W16($CDE31)
+//かざんかつどうが はじまって;きけんなので ここは;つうこうどめに なってるんだ[END]
+closed due to;recent volcanic;activity.[END]
+
+//
+//POINTER #15 @ $CDE33 - STRING #15 @ $CC1B7
+
+#W16($CDE33)
+//ダメだよ;こんなところに はいってきちゃあ!;もどって もどって![END]
+Hey, what are you;doing here!?;Turn back now![END]
+
+//
+//POINTER #16 @ $CDE35 - STRING #16 @ $CC1E2
+
+#W16($CDE35)
+//もうすぐ かざんが ふんかして;ようがんが おしよせてくる;そしたら むらは なくなってしまう[END]
+The volcano will;erupt soon and;wipe out the town.[END]
+
+//
+//POINTER #17 @ $CDE37 - STRING #17 @ $CC21D
+
+#W16($CDE37)
+//もう むらびとの はんぶんが;このむらを みすてて;でていって しまった…[END]
+Half of the;townsfolk have;already evacuated.[END]
+
+//
+//POINTER #18 @ $CDE39 - STRING #18 @ $CC24C
+
+#W16($CDE39)
+//たびのひとよ;あなたも はやく;ここから たちさったほうが いい[END]
+You should get out;while you still;can, too.[END]
+
+//
+//POINTER #19 @ $CDE3B - STRING #19 @ $CC272
+
+#W16($CDE3B)
+//かざんの ふんかまで;あと みっかも ないそうだ…;もう だめだあ![END]
+Only a couple;of days now until;it erupts.[END]
+
+//
+//POINTER #20 @ $CDE3D - STRING #20 @ $CC2A0
+
+#W16($CDE3D)
+//オレは でんせつを しんじる![END]
+I believe in the;legends.[END]
+
+//
+//POINTER #21 @ $CDE3F - STRING #21 @ $CC2B5
+
+#W16($CDE3F)
+//きっと でんせつのドラゴンが;かざんの ふんかを とめて;むらを すくってくれるさ![END]
+The Legendary;Dragon will stop;the eruption.[END]
+
+//
+//POINTER #22 @ $CDE41 - STRING #22 @ $CC2EB
+
+#W16($CDE41)
+//あたしゃ かざんが ふんかしたって;ここを はなれないよ;この むらが スキなんだ[END]
+I love this town;too much to leave.;[END]
+
+//
+//POINTER #23 @ $CDE43 - STRING #23 @ $CC31E
+
+#W16($CDE43)
+//むらと うんめいを ともにするよ…[END]
+No eruption can;change that.[END]
+
+//
+//POINTER #24 @ $CDE45 - STRING #24 @ $CC331
+
+#W16($CDE45)
+//かざんの たけりくるう じだい;にしの そらより;ふるきドラゴン あらわれる[END]
+A dragon came from;the west when the;volcano erupted.[END]
+
+//
+//POINTER #25 @ $CDE47 - STRING #25 @ $CC363
+
+#W16($CDE47)
+//その おおしき はなより ふくかぜは;かざんより せまりくる ようがんを;ふきとばしたという[END]
+He blew away the;lava with a breath;from his nose.[END]
+
+//
+//POINTER #26 @ $CDE49 - STRING #26 @ $CC39B
+
+#W16($CDE49)
+//…このむらに ふるくから つたわる;でんせつよ[END]
+So goes the town;legend, at least.[END]
+
+//
+//POINTER #27 @ $CDE4B - STRING #27 @ $CC3B6
+
+#W16($CDE4B)
+//ねぞうが わるくて うっかり;かべを こわしちまったい![END]
+I always hit my;wall when I toss;and turn at night.[END]
+
+//
+//POINTER #28 @ $CDE4D - STRING #28 @ $CC3DA
+
+#W16($CDE4D)
+//わたしの せんぞは;ヒロという えかき だったが;せんぞの のこした えに[END]
+You look like the;guy and the dragon;in the painting my[END]
+
+//
+//POINTER #29 @ $CDE4F - STRING #29 @ $CC409
+
+#W16($CDE4F)
+//なぜか あなたと そのドラゴンに;そっくりな えが ある…;…ぐうぜん だろうけどね[END]
+ancestor painted.;Must be a;coincidence.[END]
+
+//
+//POINTER #30 @ $CDE51 - STRING #30 @ $CC445
+
+#W16($CDE51)
+//むかし ウチの となりに;「ときのまじゅつし」 という;かわった ヤツが すんでいたよ[END]
+A weirdo named the;Time Wizard used;to live here.[END]
+
+//
+//POINTER #31 @ $CDE53 - STRING #31 @ $CC478
+
+#W16($CDE53)
+//なんでも;じだいを さかのぼることが;できたとか…[END]
+He could allegedly;time travel.[END]
+
+//
+//POINTER #32 @ $CDE55 - STRING #32 @ $CC49F
+
+#W16($CDE55)
+//え? ときのまじゅつしが;どこに いったのかって?;え~と たしか…[END]
+Hm? Where does the;Time Wizard live;now? Hrm…[END]
+
+//
+//POINTER #33 @ $CDE57 - STRING #33 @ $CC4C9
+
+#W16($CDE57)
+//ひとざと はなれた;にしの さんがくちたいの;むこうに すんでる らしいな[END]
+I think somewhere;remote in the;Western Mountains.[END]
+
+//
+//POINTER #34 @ $CDE59 - STRING #34 @ $CC4F6
+
+#W16($CDE59)
+//ここから さきは けわしい;にしの さんがくちたい[END]
+Beyond here are;the precipitous;Western Mountains.[END]
+
+//
+//POINTER #35 @ $CDE5B - STRING #35 @ $CC513
+
+#W16($CDE5B)
+//おそろしい モンスタ-も でるんだ;きけんだから いかないほうが いい[END]
+Steep drops and;bad monsters. You;should stay clear.[END]
+
+//
+//POINTER #36 @ $CDE5D - STRING #36 @ $CC540
+
+#W16($CDE5D)
+//え? でんせつのドラゴンの;のろいを とくために;ときのまじゅつしに あいにゆく?[END]
+Huh? You need to;go meet the Time;Wizard to uncurse[END]
+
+//
+//POINTER #37 @ $CDE5F - STRING #37 @ $CC573
+
+#W16($CDE5F)
+//そういうことであれば;ここを おとおりください;でも じゅうぶん ごちゅういを![END]
+the Legendary;Dragon? Well okay.;But be careful![END]
+
+//
+//POINTER #38 @ $CDE61 - STRING #38 @ $CC5AB
+
+#W16($CDE61)
+//このさきは きけんゆえ;じゅうぶん きをつけてください[END]
+It's dangerous up;ahead. Stay safe.[END]
+
+//
+//POINTER #39 @ $CDE63 - STRING #39 @ $CC5CE
+
+#W16($CDE63)
+//あ ベビ-ドラゴンだ!;かわい-<$93>[END]
+Aww, what a cute;Baby Dragon![END]
+
+//
+//POINTER #40 @ $CDE65 - STRING #40 @ $CC5EB
+
+#W16($CDE65)
+//……[END]
+…[END]
+
+//
+//POINTER #41 @ $CDE67 - STRING #41 @ $CC5EF
+
+#W16($CDE67)
+//むらには でんせつの ドラゴンが;ふうじこめられた という;タマゴが あります[END]
+We once had an egg;with a dragon;sealed in it.[END]
+
+//
+//POINTER #42 @ $CDE69 - STRING #42 @ $CC626
+
+#W16($CDE69)
+//むらを かざんのふんか から ;まもるには でんせつの ドラゴンを;ふっかつ させるしか ありません[END]
+That dragon once;stopped an erup-;tion and saved us.[END]
+
+//
+//POINTER #43 @ $CDE6B - STRING #43 @ $CC662
+
+#W16($CDE6B)
+//ドラゴンの ふういんを とくという;でんせつのばしょへ むらの わかもの;タオが タマゴを もっていきましたが[END]
+A boy named Tao;took the egg to go;revive the dragon.[END]
+
+//
+//POINTER #44 @ $CDE6D - STRING #44 @ $CC6A9
+
+#W16($CDE6D)
+//10かまえに たびだったまま;いまだに もどってこないのです[END]
+He left 10 days;ago, and he still;hasn't returned.[END]
+//
+//POINTER #45 @ $CDE6F - STRING #45 @ $CC6D3
+
+#W16($CDE6F)
+//もしや やまのモンスタ-に;おそわれたのかと おもうと;しんぱいで…[END]
+I hope he's;alright…[END]
+
+//
+//POINTER #46 @ $CDE71 - STRING #46 @ $CC6FB
+
+#W16($CDE71)
+//なんと! タオが あなたに;タマゴを たくして;いきたえたと…!?[END]
+What!? Tao gave;you the egg before;perishing!? Oh no…[END]
+
+//
+//POINTER #47 @ $CDE73 - STRING #47 @ $CC722
+
+#W16($CDE73)
+//おお…!;そのちいさな ドラゴンが;でんせつのドラゴン…!?[END]
+And you say that;there is the;Legendary Dragon!?[END]
+
+//
+//POINTER #48 @ $CDE75 - STRING #48 @ $CC74E
+
+#W16($CDE75)
+//しかし その ちいさなすがたでは;せまりくる ようがんを ふせぐことは;とうてい できない…[END]
+But can such a;small dragon ward;off all that lava?[END]
+
+//
+//POINTER #49 @ $CDE77 - STRING #49 @ $CC788
+
+#W16($CDE77)
+//なんとか このベビ-ドラゴンに;かけられた のろいを といて[END]
+No, there must be;a way to further;undo the curse[END]
+
+//
+//POINTER #50 @ $CDE79 - STRING #50 @ $CC7B0
+
+#W16($CDE79)
+//もとの おおきなドラゴンに もどれば;かざんの ふんかから むらを ;まもることが できるはず…[END]
+and restore him to;his old size.[END]
+
+//
+//POINTER #51 @ $CDE7B - STRING #51 @ $CC7F2
+
+#W16($CDE7B)
+//おねがいです! たびのひとよ;でんせつのドラゴンの のろいを とき;むらを すくってください![END]
+Please, traveler!;Undo the curse and;save us all![END]
+
+//
+//POINTER #52 @ $CDE7D - STRING #52 @ $CC831
+
+#W16($CDE7D)
+//しんでしまった カ-スオブドラゴン;からは もう でんせつのドラゴンに;かけられた のろいは とけないと…?[END]
+What? You say you;can't break the;curse anymore?[END]
+
+//
+//POINTER #53 @ $CDE7F - STRING #53 @ $CC877
+
+#W16($CDE7F)
+//…いえ まだ;ほうほうが まったく;なくなった わけでは ありません[END]
+Well, there is one;other option that;might work.[END]
+
+//
+//POINTER #54 @ $CDE81 - STRING #54 @ $CC8A1
+
+#W16($CDE81)
+//「ときのまじゅつし」を;ごぞんじ ですか?[END]
+Ever heard of the;Time Wizard?[END]
+
+//
+//POINTER #55 @ $CDE83 - STRING #55 @ $CC8C2
+
+#W16($CDE83)
+//かれは びょうきで しんでしまった;むすこを 「ときまじゅつ」を つかい;いきかえらせた といいます[END]
+They say he once;used time magic to;revive his son.[END]
+
+//
+//POINTER #56 @ $CDE85 - STRING #56 @ $CC8FE
+
+#W16($CDE85)
+//「ときまじゅつ」で;じだいを さかのぼり[END]
+The Time Wizard;could send you;back to the past.[END]
+
+//
+//POINTER #57 @ $CDE87 - STRING #57 @ $CC91E
+
+#W16($CDE87)
+//のろいを かけられるまえに;カ-スオブドラゴンを たおせば[END]
+Then you could;defeat Curse of;Dragon yourself.[END]
+
+//
+//POINTER #58 @ $CDE89 - STRING #58 @ $CC945
+
+#W16($CDE89)
+//のろいを かけられた かこが;なかったことになり もとのすがたに;もどれるかも しれません…![END]
+And then you can;return to your;original form![END]
+
+//
+//POINTER #59 @ $CDE8B - STRING #59 @ $CC97C
+
+#W16($CDE8B)
+//しかし ときのまじゅつしは いま;どこにいるのやら…[END]
+…But, I don't know;where to find him.[END]
+
+//
+//POINTER #60 @ $CDE8D - STRING #60 @ $CC99C
+
+#W16($CDE8D)
+//ここだけ カベが;すこし もろくなっている[END]
+This part of the;wall is weak.[END]
+
+//
+//POINTER #61 @ $CDE8F - STRING #61 @ $CC9B9
+
+#W16($CDE8F)
+//たたいてみる?;  たたく;  たたかない[END]
+Hit it?;  Hit it;  Quit it[END]
+
+//
+//POINTER #62 @ $CDE91 - STRING #62 @ $CC9D0
+
+#W16($CDE91)
+//カベに あなが あいた![END]
+You opened up a;hole in the wall![END]
+
+//
+//POINTER #63 @ $CDE93 - STRING #63 @ $CC9E2
+
+#W16($CDE93)
+//ああ…! かざんが……!!;もう だめだ…![END]
+The volcano…!;We're done for![END]
+
+//
+//POINTER #64 @ $CDE95 - STRING #64 @ $CCA02
+
+#W16($CDE95)
+//むらを すてて にげるしか…;…ん? あれは…!?[END]
+We have to make a;run for it![END]
+
+//
+//POINTER #65 @ $CDE97 - STRING #65 @ $CCA1F
+
+#W16($CDE97)
+//ド…;ドラゴン…?[END]
+Wait, is that…!?[END]
+
+//
+//POINTER #66 @ $CDE99 - STRING #66 @ $CCA30
+
+#W16($CDE99)
+//でんせつの… ドラゴンか!?[END]
+The Legendary…;Dragon!?[END]
+
+//
+//POINTER #67 @ $CDE9B - STRING #67 @ $CCA46
+
+#W16($CDE9B)
+//ほんとうだ! でんせつのドラゴンが;きてくれたんだっ!!![END]
+It is! He really;came![END]
+
+//
+//POINTER #68 @ $CDE9D - STRING #68 @ $CCA71
+
+#W16($CDE9D)
+//スゥゥゥゥゥッ…[END]
+Fffhhhmmm…[END]
+
+//
+//POINTER #69 @ $CDE9F - STRING #69 @ $CCA7B
+
+#W16($CDE9F)
+//ブオオオオオォォォオォオォォ----;--------ッッッ!!!!!!![END]
+Phwoooooooo!!!![END]
+
+//
+//POINTER #70 @ $CDEA1 - STRING #70 @ $CCAA4
+
+#W16($CDEA1)
+//…こうして ベビ-と ぼうけんしゃの;かつやくによって かざんのふんかは;くいとめられたわ[END]
+Thus, Baby and the;adventurer stopped;the eruption.[END]
+
+//
+//POINTER #71 @ $CDEA3 - STRING #71 @ $CCADB
+
+#W16($CDEA3)
+//むらは すくわれ むらびとは;かんきの こえをあげて よろこび[END]
+The townsfolk;rejoiced in their;salvation.[END]
+
+//
+//POINTER #72 @ $CDEA5 - STRING #72 @ $CCB02
+
+#W16($CDEA5)
+//むらをすくった えいゆうを;おおいに たたえ;そのなを さけびつづけた[END]
+And they cried;praise for their;saviors.[END]
+
+//
+//POINTER #73 @ $CDEA7 - STRING #73 @ $CCB2B
+
+#W16($CDEA7)
+//でんせつの;「1000ねんドラゴン」よ;ありがとう! …ってね![END]
+Thank you, 1000;Dragon![END]
+
+//
+//POINTER #74 @ $CDEA9 - STRING #74 @ $CCB55
+
+#W16($CDEA9)
+//そして ぼうけんしゃは そっと;むらをあとにし ふたたび あてもない;たびじへと もどっていった…[END]
+…And the adventur-;er snuck away to;journey once more.[END]
+
+//
+//POINTER #75 @ $CDEAB - STRING #75 @ $CCB92
+
+#W16($CDEAB)
+//え? 1000ねんドラゴン …いえ;ベビ-は どうしたかって?[END]
+Huh? What happened;to 1000 Dra--er,;Baby?[END]
+
+//
+//POINTER #76 @ $CDEAD - STRING #76 @ $CCBBD
+
+#W16($CDEAD)
+//…それは…[END]
+Well…[END]
+
+//
+//POINTER #77 @ $CDEAF - STRING #77 @ $CCBC4
+
+#W16($CDEAF)
+//サンキュ-! おんにきるよ ゆうぎ;オマエが いなかったら もとの;すがたに もどれなかったぜ![END]
+Thanks! I owe you;big time, Yugi![END]
+
+//
+//POINTER #78 @ $CDEB1 - STRING #78 @ $CCC00
+
+#W16($CDEB1)
+//でも 1000ねんドラゴンに;なれたのは よかったけど[END]
+I liked being 1000;Dragon, but…[END]
+
+//
+//POINTER #79 @ $CDEB3 - STRING #79 @ $CCC25
+
+#W16($CDEB3)
+//エネルギ-の つかいすぎで;ベビ-の すがたに;もどっちまうとはなぁ…[END]
+I used up too much;energy and;reverted back.[END]
+
+//
+//POINTER #80 @ $CDEB5 - STRING #80 @ $CCC58
+
+#W16($CDEB5)
+//まあ いいや! むらを;たすけることが できたんだからな!;ゆうぎは もう たびだつのか?[END]
+But that's okay! I;was able to save;everyone![END]
+
+//
+//POINTER #81 @ $CDEB7 - STRING #81 @ $CCC93
+
+#W16($CDEB7)
+//オマエとの たびは なかなか;おもしろかったぜ![END]
+And I had a blast;adventuring with;you![END]
+
+//
+//POINTER #82 @ $CDEB9 - STRING #82 @ $CCCB1
+
+#W16($CDEB9)
+//…なあ オレも;ゆうぎの ぼうけんに;つれてって くれないか?[END]
+…Say, could you;take me with you?[END]
+
+//
+//POINTER #83 @ $CDEBB - STRING #83 @ $CCCD6
+
+#W16($CDEBB)
+//どうする?;  つれていく;  つれていかない[END]
+Well?;  Bring him;  Leave him[END]
+
+//
+//POINTER #84 @ $CDEBD - STRING #84 @ $CCCF1
+
+#W16($CDEBD)
+//そうか! オレに このむらに;いてやれと いうんだな;わかったよ[END]
+No, you're right.;I belong here![END]
+
+//
+//POINTER #85 @ $CDEBF - STRING #85 @ $CCD15
+
+#W16($CDEBF)
+//じゃあ オレから ゆうぎに;せんべつだ! これを;もっていってくれ![END]
+Hey, take this as;a farewell gift![END]
+
+//
+//POINTER #86 @ $CDEC1 - STRING #86 @ $CCD41
+
+#W16($CDEC1)
+//「しんかカプセル」;を もらった[END]
+You got an;Evolution Capsule.[END]
+
+//
+//POINTER #87 @ $CDEC3 - STRING #87 @ $CCD55
+
+#W16($CDEC3)
+//それじゃあ きをつけて いけよ;げんきでな![END]
+Well, take care!;[END]
+
+//
+//POINTER #88 @ $CDEC5 - STRING #88 @ $CCD73
+
+#W16($CDEC5)
+//よっしゃあ!;こんどは オレが ゆうぎを;たすけてやる ばんだぜ![END]
+Yes! This time,;I'LL help YOU![END]
+
+//
+//POINTER #89 @ $CDEC7 - STRING #89 @ $CCDA2
+
+#W16($CDEC7)
+//こうして こんどこそ ぼうけんしゃは;つぎなる ぼうけんのちへ;あしを ふみだし[END]
+Thus, the adven-;turer set off once;again.[END]
+
+//
+//POINTER #90 @ $CDEC9 - STRING #90 @ $CCDD6
+
+#W16($CDEC9)
+//ゴルゴ-ンさんみゃくの;けわしい やまを ;あとにしたのだった[END]
+…Leaving the;Gorgon mountain;range behind him.[END]
+
+//
+//POINTER #91 @ $CDECB - STRING #91 @ $CCDFD
+
+#W16($CDECB)
+//ちいさくも たのもしい;あらたな なかまと ともに…[END]
+…But with a new;friend in tow.[END]
+
+//
+//POINTER #92 @ $CDECD - STRING #92 @ $CCE19
+
+#W16($CDECD)
+//「カ-スマウンテン」;に ついた[END]
+You arrive at;Curse Mountain.[END]
+
+//
+//POINTER #93 @ $CDECF - STRING #93 @ $CCE2B
+
+#W16($CDECF)
+//ここでは 8ぽ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #94 @ $CDED1 - STRING #94 @ $CCE63
+
+#W16($CDED1)
+//オレは 1000ねん まえ;おおきなドラゴン だったころ[END]
+Back when I was a;big dragon 1000;years ago,[END]
+
+//
+//POINTER #95 @ $CDED3 - STRING #95 @ $CCE87
+
+#W16($CDED3)
+//むらを のみこもうと していた;かざんの ふんかを とめたんだ[END]
+I saved the town;from an eruption.[END]
+
+//
+//POINTER #96 @ $CDED5 - STRING #96 @ $CCEAC
+
+#W16($CDED5)
+//でも オレがせきとめた ようがんは;あくめいたかい カ-スオブドラゴンの;すみかまで およんだ[END]
+But the diverted;lava reached Curse;of Dragon's home.[END]
+
+//
+//POINTER #97 @ $CDED7 - STRING #97 @ $CCEED
+
+#W16($CDED7)
+//おこった ヤツは ;オレに のろいをかけて ;タマゴのすがたに ふうじこめた…![END]
+In a fit of rage,;he sealed me;inside that egg.[END]
+
+//
+//POINTER #98 @ $CDED9 - STRING #98 @ $CCF1D
+
+#W16($CDED9)
+//そして 1000ねんもの あいだ;タマゴに とじこめられたまま;ときが ながれた… てワケだ[END]
+And that's how I;spent the last;1000 yars.[END]
+
+//
+//POINTER #99 @ $CDEDB - STRING #99 @ $CCF59
+
+#W16($CDEDB)
+//むらを たすけたおかげで ひどいめに;あった… こんかいの ふんか なんて;オレには どうでも いいんだけどさ[END]
+I was punished for;trying to help.;Lesson learned.[END]
+
+//
+//POINTER #100 @ $CDEDD - STRING #100 @ $CCFA0
+
+#W16($CDEDD)
+//なんとか のろいを といて;このちいさくて ふべんなカラダから;もとの すがたに もどりたいんだ![END]
+All I care about;now is undoing;this curse![END]
+
+//
+//POINTER #101 @ $CDEDF - STRING #101 @ $CCFDD
+
+#W16($CDEDF)
+//このやまは のろわれし りゅう;カ-スオブドラゴンが すんでいる;という カ-スマウンテンじゃ[END]
+This is Curse of;Dragon's home,;Curse Mountain.[END]
+
+//
+//POINTER #102 @ $CDEE1 - STRING #102 @ $CD01A
+
+#W16($CDEE1)
+//その ちいさな ドラゴンには;カ-スオブドラゴンの のろいが;かかっておるな[END]
+Small dragon, he;has cursed you,;no?[END]
+
+//
+//POINTER #103 @ $CDEE3 - STRING #103 @ $CD04E
+
+#W16($CDEE3)
+//そのため ほんらいの ちからを;はっき できぬようじゃ[END]
+Sealed away your;powers, has he?[END]
+
+//
+//POINTER #104 @ $CDEE5 - STRING #104 @ $CD06F
+
+#W16($CDEE5)
+//のろいを ときたいか? ならば;この「のろいふうじのクイ」を;もっていくがよい[END]
+Want to break the;curse? Take this;Seal Stake.[END]
+
+//
+//POINTER #105 @ $CDEE7 - STRING #105 @ $CD09E
+
+#W16($CDEE7)
+//「のろいふうじのクイ」;を てにいれた[END]
+You got a;Seal Stake.[END]
+
+//
+//POINTER #106 @ $CDEE9 - STRING #106 @ $CD0B5
+
+#W16($CDEE9)
+//のろいを かけた;カ-スオブドラゴンを たおし;そのクイで とどめを させば[END]
+If you finish off;Curse of Dragon;with that,[END]
+
+//
+//POINTER #107 @ $CDEEB - STRING #107 @ $CD0E9
+
+#W16($CDEEB)
+//その ちいさなドラゴンに かかった;のろいは とけるじゃろうて[END]
+your little dragon;friend will be;curse free.[END]
+
+//
+//POINTER #108 @ $CDEED - STRING #108 @ $CD110
+
+#W16($CDEED)
+//なんと!すでに カ-スオブドラゴンは;しんでいたのか… それでは;のろいを とくことは ムリじゃ[END]
+What? Curse of;Dragon is dead?[END]
+
+//
+//POINTER #109 @ $CDEEF - STRING #109 @ $CD150
+
+#W16($CDEEF)
+//のろいは カ-スオブドラゴンが;いきているうちに ふうじなければ;きえることは ない[END]
+Then you'll never;be able to break;your curse.[END]
+
+//
+//POINTER #110 @ $CDEF1 - STRING #110 @ $CD188
+
+#W16($CDEF1)
+//…しかし そんなことは;じだいを さかのぼりでも しなければ;とうてい ふかのうじゃ…[END]
+You would have to;go back in time;or something.[END]
+
+//
+//POINTER #111 @ $CDEF3 - STRING #111 @ $CD1C1
+
+#W16($CDEF3)
+//わしはみた! おそろしいドラゴンが;このやまの さんちょうを;とんでいるのを…[END]
+I saw a fearsome;dragon fly to this;mountain's peak.[END]
+
+//
+//POINTER #112 @ $CDEF5 - STRING #112 @ $CD1F2
+
+#W16($CDEF5)
+//あれは まぎれもなく;カ-スオブドラゴンじゃ!;ヤツは しんでは いなかった![END]
+Without a doubt,;it was Curse of;Dragon! He lives![END]
+
+//
+//POINTER #113 @ $CDEF7 - STRING #113 @ $CD227
+
+#W16($CDEF7)
+//なんだい オマエらは?[END]
+Whaddyou want?[END]
+
+//
+//POINTER #114 @ $CDEF9 - STRING #114 @ $CD236
+
+#W16($CDEF9)
+//ここは ヨソものの;くるところじゃ ないぜ![END]
+You don't belong;here. Scram![END]
+
+//
+//POINTER #115 @ $CDEFB - STRING #115 @ $CD252
+
+#W16($CDEFB)
+//…あ! もしかして…;オマエは デビ-ル じゃないか…?;やっぱりそうだ! オレだよ オレ!![END]
+Hey, wait. Aren't;you Koumori? Dude,;it's me![END]
+
+//
+//POINTER #116 @ $CDEFD - STRING #116 @ $CD28F
+
+#W16($CDEFD)
+//いや~ ひさしぶりだな-!;げんきか?[END]
+How've you been,;man?[END]
+
+//
+//POINTER #117 @ $CDEFF - STRING #117 @ $CD2AA
+
+#W16($CDEFF)
+//なんだ… この ベビ-ドラゴンは?;なまいきな ガキだな[END]
+And who are you;supposed to be,;little baby?[END]
+
+//
+//POINTER #118 @ $CDF01 - STRING #118 @ $CD2D6
+
+#W16($CDF01)
+//ベ ベビ-って いうなぁ!;…オレは ホントは;ベビ-ドラゴンじゃないんだ![END]
+I-I'm not a baby!;Seriously![END]
+
+//
+//POINTER #119 @ $CDF03 - STRING #119 @ $CD310
+
+#W16($CDF03)
+//なに いってんのか わかんね-が;だいたい ベビ-ちゃんよ;オマエ かんちがい してるぜ?[END]
+'Kay, whatever.;Either way, you;seemed confused.[END]
+
+//
+//POINTER #120 @ $CDF05 - STRING #120 @ $CD34B
+
+#W16($CDF05)
+//デビ-ルは オレの じいさんだ;オマエ じいさんの しりあいか?[END]
+Koumori's my;gramps. You his;pal or something?[END]
+
+//
+//POINTER #121 @ $CDF07 - STRING #121 @ $CD377
+
+#W16($CDF07)
+//じいさんなら とっくの むかしに;びょうきで しんじまったぜ[END]
+Sorry, but he got;ill and kicked the;bucket years ago.[END]
+
+//
+//POINTER #122 @ $CDF09 - STRING #122 @ $CD3A1
+
+#W16($CDF09)
+//な なに!?…[END]
+H-he what!?[END]
+
+//
+//POINTER #123 @ $CDF0B - STRING #123 @ $CD3AA
+
+#W16($CDF0B)
+//…そうか… オレが タマゴに;ふういん されている あいだに;ぼうだいな じかんが ながれている…[END]
+…I missed a lot;while I was in;that egg.[END]
+
+//
+//POINTER #124 @ $CDF0D - STRING #124 @ $CD3ED
+
+#W16($CDF0D)
+//いくら ドラゴンぞくが ながいきでも;オレのじだいに いきてたヤツらは;もう しんでしまったと いうのか…[END]
+Guess not even a;dragon could live;for that long…[END]
+
+//
+//POINTER #125 @ $CDF0F - STRING #125 @ $CD436
+
+#W16($CDF0F)
+//…! まさか アイツは…?;このやまの ヌシだった;カ-スオブドラゴンは どうした!?[END]
+Hey, wait! What;happened to that;Curse of Dragon?[END]
+
+//
+//POINTER #126 @ $CDF11 - STRING #126 @ $CD46D
+
+#W16($CDF11)
+//ああ… カ-スオブドラゴンなら;オレのじいさんの じだいに[END]
+Oh, him? I heard;that he also got;ill back then.[END]
+
+//
+//POINTER #127 @ $CDF13 - STRING #127 @ $CD498
+
+#W16($CDF13)
+//これまた びょうきで とっくに;しんじまったって きいたぜ[END]
+He's long gone;too.[END]
+
+//
+//POINTER #128 @ $CDF15 - STRING #128 @ $CD4BF
+
+#W16($CDF15)
+//…なんてこった! いきているうちに;カ-スオブドラゴンを たおして;のろいふうじを しなければ[END]
+This can't be! How;can I defeat him;then!?[END]
+
+//
+//POINTER #129 @ $CDF17 - STRING #129 @ $CD4FA
+
+#W16($CDF17)
+//オレに かかった;ヤツの のろいは きえない…;もう もとには もどれないのか…!?[END]
+How can I break;this curse then!?[END]
+
+//
+//POINTER #130 @ $CDF19 - STRING #130 @ $CD528
+
+#W16($CDF19)
+//なんの ようだか しらないが;ここには カ-スオブドラゴンは;いないぜ[END]
+Sorry, pal. Cuurse;of Dragon's gone.[END]
+
+//
+//POINTER #131 @ $CDF1B - STRING #131 @ $CD559
+
+#W16($CDF1B)
+//…もしかしたら カ-スオブドラゴンは;まだ このじだいに いきているのかも;しれない… オレの カンだけど![END]
+…I fear that Curse;of Dragon might;still be alive.[END]
+
+//
+//POINTER #132 @ $CDF1D - STRING #132 @ $CD5A1
+
+#W16($CDF1D)
+//なんだ また オマエらかよ;いっただろ? ここには;カ-スオブドラゴンは いないって![END]
+You guys again?;Curse of Dragon's;still not here.[END]
+
+//
+//POINTER #133 @ $CDF1F - STRING #133 @ $CD5D8
+
+#W16($CDF1F)
+//とっとと かえりな…![END]
+Now scram![END]
+
+//
+//POINTER #134 @ $CDF21 - STRING #134 @ $CD5E5
+
+#W16($CDF21)
+//もし それが ホントなら;そこを とおしてもらおうか…;…デビ-ル![END]
+What's the harm in;letting us through;…Koumori?[END]
+
+//
+//POINTER #135 @ $CDF23 - STRING #135 @ $CD60F
+
+#W16($CDF23)
+//だから オレは デビ-ルじゃねえって;まえに いっただろ!? デビ-ルは;オレの じいさんの なまえだって…[END]
+Like I already;told you, Koumori;was my gramps.[END]
+
+//
+//POINTER #136 @ $CDF25 - STRING #136 @ $CD659
+
+#W16($CDF25)
+//まえに きたときは きづかなかったが;1000ねんまえに もどって;いろいろなことを おもいだしたぜ![END]
+I didn't notice it;at first, but now;I remember![END]
+
+//
+//POINTER #137 @ $CDF27 - STRING #137 @ $CD698
+
+#W16($CDF27)
+//オマエの その つばさのきず…;それは むかし オレが デビ-ルと;たたかって できたもの…[END]
+I gave Koumori a;scar just like the;one on your wing.[END]
+
+//
+//POINTER #138 @ $CDF29 - STRING #138 @ $CD6D4
+
+#W16($CDF29)
+//トボけても ムダだぜ!;オマエは デビ-ル だろう!?[END]
+Enough games!;You're Koumori,;aren't you!?[END]
+
+//
+//POINTER #139 @ $CDF2B - STRING #139 @ $CD6FF
+
+#W16($CDF2B)
+//……[END]
+…[END]
+
+//
+//POINTER #140 @ $CDF2D - STRING #140 @ $CD703
+
+#W16($CDF2D)
+//…ちっ そこまで おぼえてるなら;しょうがねぇ… そうとも;オレは デビ-ルだ![END]
+Tch. Yeah, I am!;No point lyin' if;you remember me.[END]
+
+//
+//POINTER #141 @ $CDF2F - STRING #141 @ $CD739
+
+#W16($CDF2F)
+//オレは ある おかたの;チカラをえて きょうまで;いきながらえて きたのさ![END]
+A certain someone;gave me the power;to live this long![END]
+
+//
+//POINTER #142 @ $CDF31 - STRING #142 @ $CD765
+
+#W16($CDF31)
+//ここを まもるように いわれてな…;オマエらを ここから いきては;かえさねぇ![END]
+If you won't back;down, I won't let;you leave alive![END]
+
+//
+//POINTER #143 @ $CDF33 - STRING #143 @ $CD78F
+
+#W16($CDF33)
+//オホホホホホホホ! もう;おアソビは これまでよ![END]
+Ohohoho!;Play time's over![END]
+
+//
+//POINTER #144 @ $CDF35 - STRING #144 @ $CD7AE
+
+#W16($CDF35)
+//こんどこそ オマエたちの;いきのねを とめてやるわ![END]
+This time, I'll;snuff you out for;good![END]
+
+//
+//POINTER #145 @ $CDF37 - STRING #145 @ $CD7CC
+
+#W16($CDF37)
+//!…;オマエたち なかまだったのか…!;いったい…!?[END]
+What the!? You two;know each other!?[END]
+
+//
+//POINTER #146 @ $CDF39 - STRING #146 @ $CD7EB
+
+#W16($CDF39)
+//オレたちは あるおかたの めいれいで;オマエが タマゴから かえり;もとのドラゴンに もどらないように[END]
+We're just follow-;ing orders to not;let you age back.[END]
+
+//
+//POINTER #147 @ $CDF3B - STRING #147 @ $CD82C
+
+#W16($CDF3B)
+//オマエたちを かんし しつづけ;やみに ほうむりさるように;いわれたのさ[END]
+We were told to;watch you and stop;you if needed.[END]
+
+//
+//POINTER #148 @ $CDF3D - STRING #148 @ $CD854
+
+#W16($CDF3D)
+//…すべては あのおかたの;オマエへの ウラミを はらすため…;かくごしろ!![END]
+All to sate his;grudge. …Now;prepare to die![END]
+
+//
+//POINTER #149 @ $CDF3F - STRING #149 @ $CD880
+
+#W16($CDF3F)
+//やはり ここに;きがついた ようだな…;…ひさしぶりだ[END]
+I figured you'd be;here. Long time no;see.[END]
+
+//
+//POINTER #150 @ $CDF41 - STRING #150 @ $CD8A5
+
+#W16($CDF41)
+//ワシが しんだとでも おもったか?;ククク… ワシは ふじみだ;さいしょから しんでいなかったのだ![END]
+You thought I was;dead? Kukuku… I'm;immortal![END]
+
+//
+//POINTER #151 @ $CDF43 - STRING #151 @ $CD8E7
+
+#W16($CDF43)
+//デビ-ルの やつに;チカラを あたえたのも このワシだ!;オマエを かんし させるためにな…![END]
+I gave Koumori his;long life! So he;could watch you![END]
+
+//
+//POINTER #152 @ $CDF45 - STRING #152 @ $CD91E
+
+#W16($CDF45)
+//こんどこそ ジャマは させんぞ;1000ねんまえ…;ワシの たのしみを こわしおって![END]
+You won't get in;my way this time![END]
+
+//
+//POINTER #153 @ $CDF47 - STRING #153 @ $CD951
+
+#W16($CDF47)
+//ジャマ?;…ジャマって かざんのことか…?;ま… まさか[END]
+Get in your way?;Wait, you mean…[END]
+
+//
+//POINTER #154 @ $CDF49 - STRING #154 @ $CD975
+
+#W16($CDF49)
+//あのときの… 1000ねんまえの;かざんの ふんかは;オマエの しわざだったのか…!?[END]
+You caused that;eruption 1000;years ago!?[END]
+
+//
+//POINTER #155 @ $CDF4B - STRING #155 @ $CD9A8
+
+#W16($CDF4B)
+//…そして こんかいも…!?[END]
+And you plan to;cause another!?[END]
+
+//
+//POINTER #156 @ $CDF4D - STRING #156 @ $CD9B7
+
+#W16($CDF4D)
+//クックック…;その とおりだ![END]
+Kukuku…;Precisely![END]
+
+//
+//POINTER #157 @ $CDF4F - STRING #157 @ $CD9CA
+
+#W16($CDF4F)
+//ワシのすみかを こわされたことも;あるが むらを つぶすという;ワシのたのしみも オマエにこわされた[END]
+You ruined my home;and my fun des-;troying the town![END]
+
+//
+//POINTER #158 @ $CDF51 - STRING #158 @ $CDA02
+
+#W16($CDF51)
+//たのしみだって…?;な… なんてことを…![END]
+Your fun? You're;sick![END]
+
+//
+//POINTER #159 @ $CDF53 - STRING #159 @ $CDA1B
+
+#W16($CDF53)
+//フン なにを いきまいている?;オマエも ドラゴンだろう!?[END]
+What's it to you!?;You're a dragon![END]
+
+//
+//POINTER #160 @ $CDF55 - STRING #160 @ $CDA41
+
+#W16($CDF55)
+//そもそも にんげんが どうなろうが;われわれの しったことでは;ないではないか…!?[END]
+Since when did we;care about;humans!?[END]
+
+//
+//POINTER #161 @ $CDF57 - STRING #161 @ $CDA79
+
+#W16($CDF57)
+//お… おまえと;いっしょに すんなっ!![END]
+I'm nothing like;you![END]
+
+//
+//POINTER #162 @ $CDF59 - STRING #162 @ $CDA8F
+
+#W16($CDF59)
+//おまえなんかに むらを…;オレの だいスキな むらを;つぶさせるもんかぁ!![END]
+I love that town!;I won't let you;destroy it![END]
+
+//
+//POINTER #163 @ $CDF5B - STRING #163 @ $CDABB
+
+#W16($CDF5B)
+//バカめ ちまよいおって!;こんどは ジャマさせん!![END]
+You stupid fool!;[END]
+
+//
+//POINTER #164 @ $CDF5D - STRING #164 @ $CDADD
+
+#W16($CDF5D)
+//ここで むらも オマエらも;すべて おしまいだ!!![END]
+I'll put an end to;both you and your;stupid town!![END]
+
+//
+//POINTER #165 @ $CDF5F - STRING #165 @ $CDAFF
+
+#W16($CDF5F)
+//ゆうぎ! のろいふうじのクイで;コイツに とどめを![END]
+Yugi, the Seal;Stake![END]
+
+//
+//POINTER #166 @ $CDF61 - STRING #166 @ $CDB23
+
+#W16($CDF61)
+//にどと わるさ できないように;のろいもろとも コイツを;ふうじこめて しまうんだ![END]
+Make it so he;can't curse anyone;ever again![END]
+
+//
+//POINTER #167 @ $CDF63 - STRING #167 @ $CDB57
+
+#W16($CDF63)
+//ゆうぎは;のろいふうじのクイを つかった![END]
+Yugi used the Seal;Stake![END]
+
+//
+//POINTER #168 @ $CDF65 - STRING #168 @ $CDB72
+
+#W16($CDF65)
+//ギャアアアアアアアアァ!!!!!![END]
+Gyaaah!!![END]
+
+//
+//POINTER #169 @ $CDF67 - STRING #169 @ $CDB87
+
+#W16($CDF67)
+//お おのれ~! くちおしいぞ…!;…だ だが すでに おそいわ!;ク ククク…[END]
+Curse you! But;I'll have the last;laugh! Kukuku…[END]
+
+//
+//POINTER #170 @ $CDF69 - STRING #170 @ $CDBBA
+
+#W16($CDF69)
+//もう かざんの ふんかは;だれにも とめられない…![END]
+You're too late to;stop the eruption![END]
+
+//
+//POINTER #171 @ $CDF6B - STRING #171 @ $CDBDA
+
+#W16($CDF6B)
+//せいぜい にげまどうがいい…!;グハハハ…ハハ…!!  …グフッ[END]
+Just try to escape;it! Kuhahaha…![END]
+
+//
+//POINTER #172 @ $CDF6D - STRING #172 @ $CDC08
+
+#W16($CDF6D)
+//カ-スオブドラゴンを;ふうじこめた! ベビ-に かけられた;のろいが とける…![END]
+Curse of Dragon;was sealed away![END]
+
+//
+//POINTER #173 @ $CDF6F - STRING #173 @ $CDC40
+
+#W16($CDF6F)
+//ベビ-は ついに;もとのすがたに もどった![END]
+And Baby regained;his old form![END]
+
+//
+//POINTER #174 @ $CDF71 - STRING #174 @ $CDC60
+
+#W16($CDF71)
+//…かざんの ふんかが はじまる…![END]
+The eruption is;starting![END]
+
+//
+//POINTER #175 @ $CDF73 - STRING #175 @ $CDC79
+
+#W16($CDF73)
+//ゆうぎ!;オレに つかまれっ![END]
+Yugi! Hold on;tight![END]
+
+//
+//POINTER #176 @ $CDF75 - STRING #176 @ $CDC8C
+
+#W16($CDF75)
+//だれも しなせない…! むらを…;みんなを まもるんだぁ!![END]
+I won't let anyone;die! I'll protect;them all![END]
+
+//
+//POINTER #177 @ $CDF77 - STRING #177 @ $CDCB0
+
+#W16($CDF77)
+//テ-ブルだ;よく キレイに ふいてある[END]
+It's a nice, clean;table.[END]
+
+//
+//POINTER #178 @ $CDF79 - STRING #178 @ $CDCC9
+
+#W16($CDF79)
+//テ-ブルだ;よく キレイに ふいてある[END]
+Hey, this table;isn't clean.[END]
+
+//
+//POINTER #179 @ $CDF7B - STRING #179 @ $CDCE2
+
+#W16($CDF7B)
+//ひきだしの なかから;「DFカプセル」;を てにいれた![END]
+You cleaned the;DF Capsule out;from the drawer![END]
+
+//
+//POINTER #180 @ $CDF7D - STRING #180 @ $CDD04
+
+#W16($CDF7D)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #181 @ $CDF7F - STRING #181 @ $CDD11
+
+#W16($CDF7F)
+//なかには なにもない[END]
+It's empty.[END]
+
+//
+//POINTER #182 @ $CDF81 - STRING #182 @ $CDD1D
+
+#W16($CDF81)
+//タルが おいてある[END]
+It's an empty;barrel.;…Just kidding![END]
+
+//
+//POINTER #183 @ $CDF83 - STRING #183 @ $CDD2A
+
+#W16($CDF83)
+//なかから「HPカプセル」;を てにいれた![END]
+There was an;HP Capsule inside![END]
+
+//
+//POINTER #184 @ $CDF85 - STRING #184 @ $CDD43
+
+#W16($CDF85)
+//たなが おいてある;みたこともない どうぐが;ならべられている[END]
+The shelves are;lined with unknown;items.[END]
+
+//
+//POINTER #185 @ $CDF87 - STRING #185 @ $CDD6E
+
+#W16($CDF87)
+//つぼが おいてある[END]
+It's a pot.[END]
+
+//
+//POINTER #186 @ $CDF89 - STRING #186 @ $CDD7D
+
+#W16($CDF89)
+//なかには なにもない[END]
+It's empty.[END]
+
+//
+//POINTER #187 @ $CDF8B - STRING #187 @ $CDD89
+
+#W16($CDF8B)
+//つぼが おいてある[END]
+You search the;pot, and not for;naught.[END]
+
+//
+//POINTER #188 @ $CDF8D - STRING #188 @ $CDD98
+
+#W16($CDF8D)
+//なかから「SPカプセル」;を てにいれた![END]
+There was an;SP capsule inside![END]
+
+//
+//POINTER #189 @ $CDF8F - STRING #189 @ $CDDB1
+
+#W16($CDF8F)
+//ゆうぎは たてふだを よんだ[END]
+Yugi read the;sign.[END]
+
+//
+//POINTER #190 @ $CDF91 - STRING #190 @ $CDDC7
+
+#W16($CDF91)
+//「ここから さき カ-スマウンテン」[END]
+Curse Mountain;is up ahead.[END]
+
+//
+//POINTER #191 @ $CDF93 - STRING #191 @ $CDDDB
+
+#W16($CDF93)
+//ゆうぎは たてふだを みた[END]
+Yugi looked at the;sign.[END]
+
+//
+//POINTER #192 @ $CDF95 - STRING #192 @ $CDDEE
+
+#W16($CDF95)
+//…でも むかしの もじで;かかれているので よめなかった![END]
+But he couldn't;read the ancient;letters![END]
+
+//

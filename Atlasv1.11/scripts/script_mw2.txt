@@ -1,0 +1,903 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($14000)
+#JMP($1AAF8, $1BCD7)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #012 NAME:		Monster World 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $1BCD8 - STRING #0 @ $1AAF8
+
+#W16($1BCD8)
+//モンスタ-が しゅつげんした![END]
+Monster attack![END]
+
+//
+//POINTER #1 @ $1BCDA - STRING #1 @ $1AB0D
+
+#W16($1BCDA)
+//「HPカプセル」;を てにいれた[END]
+Obtained an;HP Capsule.[END]
+
+//
+//POINTER #2 @ $1BCDC - STRING #2 @ $1AB21
+
+#W16($1BCDC)
+//「ATカプセル」;を てにいれた[END]
+Obtained an;AT Capsule.[END]
+
+//
+//POINTER #3 @ $1BCDE - STRING #3 @ $1AB35
+
+#W16($1BCDE)
+//「DFカプセル」;を てにいれた[END]
+Obtained a;DF Capsule.[END]
+
+//
+//POINTER #4 @ $1BCE0 - STRING #4 @ $1AB49
+
+#W16($1BCE0)
+//「SPカプセル」;を てにいれた[END]
+Obtained an;SP Capsule.[END]
+
+//
+//POINTER #5 @ $1BCE2 - STRING #5 @ $1AB5D
+
+#W16($1BCE2)
+//「わざカプセル」;を てにいれた[END]
+Obtained a;Skill Capsule.[END]
+
+//
+//POINTER #6 @ $1BCE4 - STRING #6 @ $1AB73
+
+#W16($1BCE4)
+//「しんかカプセル」;を てにいれた[END]
+Obtained an;Evolution Capsule.[END]
+
+//
+//POINTER #7 @ $1BCE6 - STRING #7 @ $1AB88
+
+#W16($1BCE6)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+That was a trap;capsule!;Monster attack![END]
+
+//
+//POINTER #8 @ $1BCE8 - STRING #8 @ $1ABB6
+
+#W16($1BCE8)
+//ゆうぎ オマエは;「モンスタ-ワ-ルド」の;ぼうけんしゃだ[END]
+Yugi, you are an;adventurer in this;Monster World.[END]
+
+//
+//POINTER #9 @ $1BCEA - STRING #9 @ $1ABDD
+
+#W16($1BCEA)
+//モンスタ-を ひきつれて;あてもない たびをしている[END]
+You're an aimless,;wandering monster;tamer.[END]
+
+//
+//POINTER #10 @ $1BCEC - STRING #10 @ $1ABFB
+
+#W16($1BCEC)
+//オマエは ふかい しんりんちたいに;やってきた まわりには きぎが;うっそうと しげっている[END]
+You find yourself;in a dense forest.;An ocean of green.[END]
+
+//
+//POINTER #11 @ $1BCEE - STRING #11 @ $1AC31
+
+#W16($1BCEE)
+//ぼうけんしゃは ;もりの おくふかくへと;すすんでいった[END]
+You've adventured;deep into the;forest.[END]
+
+//
+//POINTER #12 @ $1BCF0 - STRING #12 @ $1AC53
+
+#W16($1BCF0)
+//そのとき![END]
+When all of a;sudden…![END]
+
+//
+//POINTER #13 @ $1BCF2 - STRING #13 @ $1AC5A
+
+#W16($1BCF2)
+//フフフ! オマエの モンスタ-;「<$FD>ち」;は いただいた![END]
+Fufufu! Thanks for;the monster! Your;<$FD><$10>![END]
+
+//
+//POINTER #14 @ $1BCF4 - STRING #14 @ $1AC7B
+
+#W16($1BCF4)
+//おっと! ぼうけんしゃは;だいじな モンスタ-を とうぞくに;ぬすまれて しまったようだ[END]
+Oh no! He stole;your precious;monster.[END]
+
+//
+//POINTER #15 @ $1BCF6 - STRING #15 @ $1ACB3
+
+#W16($1BCF6)
+//さあ いっこくも はやく;とうぞくを ついせきし ぬすまれた;モンスタ-を とりもどせ![END]
+Hurry! You've got;to catch him and;save your monster![END]
+
+//
+//POINTER #16 @ $1BCF8 - STRING #16 @ $1ACE5
+
+#W16($1BCF8)
+//それが こんかいの;ぼうけんの もくてきだぁ![END]
+That's your quest;for this Monster;World![END]
+
+//
+//POINTER #17 @ $1BCFA - STRING #17 @ $1AD04
+
+#W16($1BCFA)
+//オイラは ;このもりに すんでる;きこりだ[END]
+I'm a logger who;lives in these;here woods.[END]
+
+//
+//POINTER #18 @ $1BCFC - STRING #18 @ $1AD1F
+
+#W16($1BCFC)
+//このもりは;「とうぞくのもり」って いうだ[END]
+They're called the;Bandit Woods.[END]
+
+//
+//POINTER #19 @ $1BCFE - STRING #19 @ $1AD3A
+
+#W16($1BCFE)
+//なまえの とおり ;ここいらには よく;とうぞくが しゅつぼつ するだ[END]
+And not for;nothing, I'll;have you know.[END]
+
+//
+//POINTER #20 @ $1BD00 - STRING #20 @ $1AD67
+
+#W16($1BD00)
+//ぼうけんしゃを ねらって;おそってくるから きをつけるだよ[END]
+Be careful. The;bandits target;adventurers.[END]
+
+//
+//POINTER #21 @ $1BD02 - STRING #21 @ $1AD8A
+
+#W16($1BD02)
+//もりの しゅうらく「ログ」;に ついた[END]
+You enter the;forest village,;Log.[END]
+
+//
+//POINTER #22 @ $1BD04 - STRING #22 @ $1ADA1
+
+#W16($1BD04)
+//ログの むらに ようこそ![END]
+Welcome to Log![END]
+
+//
+//POINTER #23 @ $1BD06 - STRING #23 @ $1ADB2
+
+#W16($1BD06)
+//おい しってるか!?[END]
+Hey, did you know?[END]
+
+//
+//POINTER #24 @ $1BD08 - STRING #24 @ $1ADBE
+
+#W16($1BD08)
+//やま よりも でっけえ;「ガ」の かいぶつが;どこかの もりに いるらしいぜ![END]
+They say there's a;moth that's bigger;than a mountain.[END]
+
+//
+//POINTER #25 @ $1BD0A - STRING #25 @ $1ADF3
+
+#W16($1BD0A)
+//とうぞくに だいじな;モンスタ-を ぬすまれたって?;さいなん だったねぇ[END]
+A bandit stole one;of your monsters?;How unfortunate.[END]
+
+//
+//POINTER #26 @ $1BD0C - STRING #26 @ $1AE22
+
+#W16($1BD0C)
+//そいつらは「もりのとうぞくだん」;といって このへんのもりを あらす;あくとう なんだよ[END]
+Those cretins call;themselves the;Wood Bandits.[END]
+
+//
+//POINTER #27 @ $1BD0E - STRING #27 @ $1AE56
+
+#W16($1BD0E)
+//「もりのとうぞくだん」は;なにやら よからぬことを;たくらんでいるって ウワサじゃ…[END]
+Rumor is the Wood;Bandits have some;nefarious goals.[END]
+
+//
+//POINTER #28 @ $1BD10 - STRING #28 @ $1AE8A
+
+#W16($1BD10)
+//なんでも よにも おそろしい;バケモノを つくって せかいを;ほろぼそうと しているとか[END]
+Like creating a;giant monster and;ending the world.[END]
+
+//
+//POINTER #29 @ $1BD12 - STRING #29 @ $1AEBE
+
+#W16($1BD12)
+//ああ…;だれか やつらを;とめて くれんかのう…[END]
+Oh, won't somebody;stop them…?[END]
+
+//
+//POINTER #30 @ $1BD14 - STRING #30 @ $1AEDA
+
+#W16($1BD14)
+//さいきん ;このへんの モンスタ-が;すくなく なってるのよ[END]
+There have been;fewer monsters;here recently.[END]
+
+//
+//POINTER #31 @ $1BD16 - STRING #31 @ $1AEFC
+
+#W16($1BD16)
+//どうやら とうぞくだんが;モンスタ-を つかまえて;あつめているみたい[END]
+They must've all;been captured;by bandits.[END]
+
+//
+//POINTER #32 @ $1BD18 - STRING #32 @ $1AF29
+
+#W16($1BD18)
+//…そんなことをして ;いったい どうする;つもり なのかしら?[END]
+What in the world;are they up to?[END]
+
+//
+//POINTER #33 @ $1BD1A - STRING #33 @ $1AF4C
+
+#W16($1BD1A)
+//とうぞくだんの アジトは;「モス'フォレスト」に ある[END]
+The bandits' main;hideout is in the;Moth Forest.[END]
+
+//
+//POINTER #34 @ $1BD1C - STRING #34 @ $1AF6F
+
+#W16($1BD1C)
+//そこへ ゆくには;きたの みずべのそうげんを;とおる ル-トと[END]
+There are two ways;to get there.;Either through…[END]
+
+//
+//POINTER #35 @ $1BD1E - STRING #35 @ $1AF96
+
+#W16($1BD1E)
+//にしのどうくつを ぬけていく;この 2とおりのル-トが あるよ[END]
+the wetlands up;north, or the cave;to the east.[END]
+
+//
+//POINTER #36 @ $1BD20 - STRING #36 @ $1AFBB
+
+#W16($1BD20)
+//あたしの モンスタ-ちゃんも;「もりのとうぞくだん」に;さらわれちゃった…[END]
+The Wood Bandits;stole my cute baby;monster too.[END]
+
+//
+//POINTER #37 @ $1BD22 - STRING #37 @ $1AFE6
+
+#W16($1BD22)
+//え~ん![END]
+Waaaaahhh![END]
+
+//
+//POINTER #38 @ $1BD24 - STRING #38 @ $1AFEC
+
+#W16($1BD24)
+//「みずべのそうげん」;に ついた[END]
+You enter the;Wetlands.[END]
+
+//
+//POINTER #39 @ $1BD26 - STRING #39 @ $1B004
+
+#W16($1BD26)
+//ここでは 8ぽ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #40 @ $1BD28 - STRING #40 @ $1B03C
+
+#W16($1BD28)
+//いけにえ いけにえ…;みつからないなあ[END]
+Sacrifices…;Can't find any;sacrifices.[END]
+
+//
+//POINTER #41 @ $1BD2A - STRING #41 @ $1B051
+
+#W16($1BD2A)
+//グレ-トモスを かんぜんたいに;しんか させるために;いけにえが ひつようなんだ[END]
+Gotta find sacri-;fices to evolve;the Great Moth.[END]
+
+//
+//POINTER #42 @ $1BD2C - STRING #42 @ $1B083
+
+#W16($1BD2C)
+//はやいとこ いけにえを;モスの ところへ もっていかないと;おかしらに どやされるんだけど…[END]
+I'll get chewed;out if I can't;find any.[END]
+
+//
+//POINTER #43 @ $1BD2E - STRING #43 @ $1B0B9
+
+#W16($1BD2E)
+//…ところで;いけにえって なんだろ?[END]
+…Come to think of;it, what even is;a sacrifice?[END]
+
+//
+//POINTER #44 @ $1BD30 - STRING #44 @ $1B0D1
+
+#W16($1BD30)
+//「やみのどうくつ」;に ついた[END]
+You enter the;Dark Cave.[END]
+
+//
+//POINTER #45 @ $1BD32 - STRING #45 @ $1B0E4
+
+#W16($1BD32)
+//ここでは 6ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 6 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #46 @ $1BD34 - STRING #46 @ $1B11A
+
+#W16($1BD34)
+//オレは とうぞくだん だったが;もう ついていけなくて いましがた;にげてきた ところだぜ![END]
+I was a bandit,;but I had to;defect, man.[END]
+
+//
+//POINTER #47 @ $1BD36 - STRING #47 @ $1B15A
+
+#W16($1BD36)
+//ここなら「グレ-トモス」だって;やってこれない だろうからな![END]
+I should be safe;from the Great;Moth in here.[END]
+
+//
+//POINTER #48 @ $1BD38 - STRING #48 @ $1B181
+
+#W16($1BD38)
+//とうぞくだんは;グレ-トモスを あやつって;せかいを したがえるつもり だけどよ[END]
+They want to use;the Great Moth to;rule the world![END]
+
+//
+//POINTER #49 @ $1BD3A - STRING #49 @ $1B1B7
+
+#W16($1BD3A)
+//あんなやつを ふか させちまったら;オレたちだって ぶじじゃあ;すまねえよっ![END]
+If even one of us;gets on its bad;side, we're toast![END]
+
+//
+//POINTER #50 @ $1BD3C - STRING #50 @ $1B1E8
+
+#W16($1BD3C)
+//とびらを あける スイッチが;ひとつ ついている[END]
+This switch will;open any door of;a certain letter.[END]
+
+//
+//POINTER #51 @ $1BD3E - STRING #51 @ $1B206
+
+#W16($1BD3E)
+//ダイスロ-ルで ;ひらく とびらを はんていする [END]
+Roll the dice to;determine which;letter.[END]
+
+//
+//POINTER #52 @ $1BD40 - STRING #52 @ $1B227
+
+#W16($1BD40)
+//0~49なら Aのとびら;50~99なら Bのとびら;が ひらく[END]
+0-49 opens A;doors, 50-99;opens B doors.[END]
+
+//
+//POINTER #53 @ $1BD42 - STRING #53 @ $1B24F
+
+#W16($1BD42)
+//ボタンを おしてみるか?;  おす;  おさない[END]
+Press the button?;  Press it;  Don't press it[END]
+
+//
+//POINTER #54 @ $1BD44 - STRING #54 @ $1B26B
+
+#W16($1BD44)
+//Aのとびらが ひらいた![END]
+All A doors;opened![END]
+
+//
+//POINTER #55 @ $1BD46 - STRING #55 @ $1B27D
+
+#W16($1BD46)
+//Bのとびらが ひらいた![END]
+All B doors;opened![END]
+
+//
+//POINTER #56 @ $1BD48 - STRING #56 @ $1B28F
+
+#W16($1BD48)
+//「モス'フォレスト」;に ついた[END]
+You enter the;Moth Forest.[END]
+
+//
+//POINTER #57 @ $1BD4A - STRING #57 @ $1B2A1
+
+#W16($1BD4A)
+//ここでは 7ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 7 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #58 @ $1BD4C - STRING #58 @ $1B2D7
+
+#W16($1BD4C)
+//まるたが うかんでいる;これを ながせば みちをふさぐ;かわを わたることが できる[END]
+You find a log.;You can use it to;cross the river.[END]
+
+//
+//POINTER #59 @ $1BD4E - STRING #59 @ $1B311
+
+#W16($1BD4E)
+//まるたが どこへ ながれつくかを;ダイスロ-ルで はんていできる[END]
+A dice roll will;decide where it;will float to.[END]
+
+//
+//POINTER #60 @ $1BD50 - STRING #60 @ $1B33F
+
+#W16($1BD50)
+//まるたを ながしてみるか?;  ながす;  ながさない[END]
+Free the log?;  Free it;  Leave it[END]
+
+//
+//POINTER #61 @ $1BD52 - STRING #61 @ $1B362
+
+#W16($1BD52)
+//ム…!?[END]
+Huh?[END]
+
+//
+//POINTER #62 @ $1BD54 - STRING #62 @ $1B368
+
+#W16($1BD54)
+//オマエは たしか…;オレが モンスタ-を;うばってやった ヤツか!?[END]
+Hey, didn't I;steal a monster;from you?[END]
+
+//
+//POINTER #63 @ $1BD56 - STRING #63 @ $1B390
+
+#W16($1BD56)
+//ここまで おいかけて きたのか;ごくろうな ことだな… ククク;だがもう おそい![END]
+And you followed;me here? Well,;you're too late![END]
+
+//
+//POINTER #64 @ $1BD58 - STRING #64 @ $1B3C5
+
+#W16($1BD58)
+//オマエから うばった モンスタ-は;グレ-トモスさまが かんぜんたいに;しんか するために[END]
+Your monster has;already been taken;to the Great Moth.[END]
+
+//
+//POINTER #65 @ $1BD5A - STRING #65 @ $1B3FC
+
+#W16($1BD5A)
+//いけにえ として すでに;けんじょう ずみだ!;ハッハッハ![END]
+Its sacrifice will;fuel the Great;Moth's evolution![END]
+
+//
+//POINTER #66 @ $1BD5C - STRING #66 @ $1B424
+
+#W16($1BD5C)
+//せかいめつぼうへの てはじめに;みかんせい だが じっけんたいの;いりょくを みせてやる![END]
+It's incomplete,;but this power can;destroy the world![END]
+
+//
+//POINTER #67 @ $1BD5E - STRING #67 @ $1B45D
+
+#W16($1BD5E)
+//く くそ…! じっけんたいは;まけたが かんぜんたいの;ちからは こんなモノじゃ ないぞ![END]
+No! Its incomplete;form alone should;be strong enough![END]
+
+//
+//POINTER #68 @ $1BD60 - STRING #68 @ $1B496
+
+#W16($1BD60)
+//あと もうすこしで;きゅうきょく かんぜんたいに;しんかする… せかいは おわりだ!![END]
+After if evolves a;bit more, this;world is done for![END]
+
+//
+//POINTER #69 @ $1BD62 - STRING #69 @ $1B4C9
+
+#W16($1BD62)
+//オマエの モンスタ-も;そろそろ グレ-トモス さまに;ささげられる はずだ[END]
+Your monster will;be sacrificed any;minute now.[END]
+
+//
+//POINTER #70 @ $1BD64 - STRING #70 @ $1B4F9
+
+#W16($1BD64)
+//とめようと しても ムダだぞ;この もりは ふくざつに;いりくんで いる…[END]
+Have fun getting;lost in here. By;the time you…[END]
+
+//
+//POINTER #71 @ $1BD66 - STRING #71 @ $1B52A
+
+#W16($1BD66)
+//オマエが たどりつく ころには;グレ-トモスさまは きゅうきょくの;しんかを とげて いるだろう![END]
+find the exit, the;Great Moth will've;already evolved![END]
+
+//
+//POINTER #72 @ $1BD68 - STRING #72 @ $1B567
+
+#W16($1BD68)
+//ハッハッハッハ!![END]
+Hahahaha!![END]
+
+//
+//POINTER #73 @ $1BD6A - STRING #73 @ $1B572
+
+#W16($1BD6A)
+//このもりは グレ-トモスの ところに;たどりつくまで いくつかの ル-トで;こうせい されている[END]
+There are multiple;routes through;this forest.[END]
+
+//
+//POINTER #74 @ $1BD6C - STRING #74 @ $1B5AC
+
+#W16($1BD6C)
+//さいたんル-トを とおれば;かんぜんたいに なるまえに;たどりつけるかも しれないが[END]
+The shortest path;might get you;there fast enough.[END]
+
+//
+//POINTER #75 @ $1BD6E - STRING #75 @ $1B5E0
+
+#W16($1BD6E)
+//とおったル-トが とおまわりなら;モスは かんぜんたいへと;しんかして いるだろう[END]
+But if you get;lost, the Great;Moth will evolve.[END]
+
+//
+//POINTER #76 @ $1BD70 - STRING #76 @ $1B611
+
+#W16($1BD70)
+//このもりは いちど はいったら;ひきかえせない まよいのもり…[END]
+And once you enter;the forest, you;can't turn back.[END]
+
+//
+//POINTER #77 @ $1BD72 - STRING #77 @ $1B634
+
+#W16($1BD72)
+//さあ いっこくも はやく;モスのところへ たどりつき;なかまモンスタ-を すくいだせ![END]
+Hurry, go beat the;Great Moth and;save your monster![END]
+
+//
+//POINTER #78 @ $1BD74 - STRING #78 @ $1B665
+
+#W16($1BD74)
+//あ ゆうぎくん![END]
+Ah, Yugi![END]
+
+//
+//POINTER #79 @ $1BD76 - STRING #79 @ $1B671
+
+#W16($1BD76)
+//ばくらくん…?;どうして キミが ここに?[END]
+Bakura? What are;you doing here?[END]
+
+//
+//POINTER #80 @ $1BD78 - STRING #80 @ $1B68E
+
+#W16($1BD78)
+//ボクも すこしでも ゆうぎくんの;チカラに なりたいと おもって;ここまで きたんだけど[END]
+I wanted to help;you out somehow.[END]
+
+//
+//POINTER #81 @ $1BD7A - STRING #81 @ $1B6C8
+
+#W16($1BD7A)
+//ここからさきは かわが あって;すすめない みたいなんだ;どうしたら いいんだろう…[END]
+But there's a;river up ahead.;We're stuck here…[END]
+
+//
+//POINTER #82 @ $1BD7C - STRING #82 @ $1B6FC
+
+#W16($1BD7C)
+//すごいよ ゆうぎくん!;これで かわを わたることが;できるように なったね![END]
+Way to go, Yugi!;Now you can cross;the river![END]
+
+//
+//POINTER #83 @ $1BD7E - STRING #83 @ $1B72F
+
+#W16($1BD7E)
+//やっぱり ボクじゃあ あんまり;おやくに たてないみたいだ…;ここで おうえん しているよ[END]
+Guess I'm of no;use. I'll cheer;you on from here.[END]
+
+//
+//POINTER #84 @ $1BD80 - STRING #84 @ $1B768
+
+#W16($1BD80)
+//そうだ! ゆうぎくん;これを あげるね[END]
+Oh wait! I can at;least give you;this.[END]
+
+//
+//POINTER #85 @ $1BD82 - STRING #85 @ $1B783
+
+#W16($1BD82)
+//「わざカプセル」;を もらった[END]
+You got a;Skill Capsule.[END]
+
+//
+//POINTER #86 @ $1BD84 - STRING #86 @ $1B798
+
+#W16($1BD84)
+//この「わざカプセル」を;ゆうぎくんの モンスタ-に ;つかうと[END]
+You can use this;on one of your;monsters.[END]
+
+//
+//POINTER #87 @ $1BD86 - STRING #87 @ $1B7BF
+
+#W16($1BD86)
+//わざが レベルアップして;こうげきりょくと こうげきはんいが;おおきく なるんだ[END]
+It'll level up the;monster's Skill.[END]
+
+//
+//POINTER #88 @ $1BD88 - STRING #88 @ $1B7F9
+
+#W16($1BD88)
+//でも モンスタ-によっては;ちがう けいとうの わざに;かわることも あるから きをつけてね[END]
+But watch out.;Some Skills end up;changing entirely.[END]
+
+//
+//POINTER #89 @ $1BD8A - STRING #89 @ $1B82F
+
+#W16($1BD8A)
+//じゃあ;がんばって! ゆうぎくん![END]
+Well, be safe,;Yugi![END]
+
+//
+//POINTER #90 @ $1BD8C - STRING #90 @ $1B84A
+
+#W16($1BD8C)
+//うん ありがとう![END]
+Thanks. I will.[END]
+
+//
+//POINTER #91 @ $1BD8E - STRING #91 @ $1B857
+
+#W16($1BD8E)
+//グレ-トモスのところへ はやく;いくには できるだけ まっすぐ;うえに すすんでいくと いいよ![END]
+I think that the;fastest route is;straight north![END]
+
+//
+//POINTER #92 @ $1BD90 - STRING #92 @ $1B893
+
+#W16($1BD90)
+//!;なんだ オマエは?[END]
+What!? You again?[END]
+
+//
+//POINTER #93 @ $1BD92 - STRING #93 @ $1B8A2
+
+#W16($1BD92)
+//グレ-トモスさまの しんかは;まだ 2だんかいめ なのだ;かんぜんたい ではない…[END]
+The Great Moth;has reached stage;2 already.[END]
+
+//
+//POINTER #94 @ $1BD94 - STRING #94 @ $1B8D9
+
+#W16($1BD94)
+//ここを とおすわけには いかん![END]
+I won't let you;go any further![END]
+
+//
+//POINTER #95 @ $1BD96 - STRING #95 @ $1B8EB
+
+#W16($1BD96)
+//く くそ-!;グレ-トモスさま-!![END]
+Noo! I'm sorry,;Great Moth![END]
+
+//
+//POINTER #96 @ $1BD98 - STRING #96 @ $1B901
+
+#W16($1BD98)
+//!;なんだ オマエは?[END]
+What!? You again?[END]
+
+//
+//POINTER #97 @ $1BD9A - STRING #97 @ $1B910
+
+#W16($1BD9A)
+//グレ-トモスさまの しんかは;まだ 3だんかいめ なのだ;かんぜんたい ではない…[END]
+The Great Moth has;already reached;its 3rd stage.[END]
+
+//
+//POINTER #98 @ $1BD9C - STRING #98 @ $1B947
+
+#W16($1BD9C)
+//ここを とおすわけには いかん![END]
+Your journey ends;here![END]
+
+//
+//POINTER #99 @ $1BD9E - STRING #99 @ $1B959
+
+#W16($1BD9E)
+//!;なんだ オマエは?[END]
+What!? You again?;Really?[END]
+
+//
+//POINTER #100 @ $1BDA0 - STRING #100 @ $1B968
+
+#W16($1BDA0)
+//グレ-トモスさまの しんかは;まだ 4だんかいめ なのだ;かんぜんたい ではない…[END]
+The Great Moth is;already at stage 4;of its evolution.[END]
+
+//
+//POINTER #101 @ $1BDA2 - STRING #101 @ $1B99F
+
+#W16($1BDA2)
+//ここを とおすわけには いかん![END]
+But I'll stop you;in your tracks![END]
+
+//
+//POINTER #102 @ $1BDA4 - STRING #102 @ $1B9B1
+
+#W16($1BDA4)
+//フフフ…;おそかった ようだな![END]
+Fwahaha…;You're too late![END]
+
+//
+//POINTER #103 @ $1BDA6 - STRING #103 @ $1B9C5
+
+#W16($1BDA6)
+//グレ-トモスさまは;かんぜんたいへ きゅうきょくの;しんかを とげたところだ![END]
+The Great Moth has;fully evolved![END]
+
+//
+//POINTER #104 @ $1BDA8 - STRING #104 @ $1B9F6
+
+#W16($1BDA8)
+//おまえなど グレ-トモスさまが;あいてを するまでもない![END]
+You stand no;chance against;it now![END]
+
+//
+//POINTER #105 @ $1BDAA - STRING #105 @ $1BA1D
+
+#W16($1BDAA)
+//「グレ-トモスのさいだん」;に ついた[END]
+You enter the;Altar of the;Great Moth.[END]
+
+//
+//POINTER #106 @ $1BDAC - STRING #106 @ $1BA36
+
+#W16($1BDAC)
+//うばわれた なかまのモンスタ-が;いま いけにえ として;ささげられようと している![END]
+Your stolen;monster is about;to get sacrificed![END]
+
+//
+//POINTER #107 @ $1BDAE - STRING #107 @ $1BA69
+
+#W16($1BDAE)
+//グレ-トモスの ちからによって;せかいは われわれが しはいする…[END]
+We shall rule the;world with power;of the Great Moth![END]
+
+//
+//POINTER #108 @ $1BDB0 - STRING #108 @ $1BA90
+
+#W16($1BDB0)
+//おろかな にんげんよ…;いだいなる グレ-トモスの;さばきを うけるがいい![END]
+Foolish humans.;Face the Great;Moth's judgement![END]
+
+//
+//POINTER #109 @ $1BDB2 - STRING #109 @ $1BAC2
+
+#W16($1BDB2)
+//なにを…!?;グレ-トモス……!!??[END]
+What the--[END]
+
+//
+//POINTER #110 @ $1BDB4 - STRING #110 @ $1BAD9
+
+#W16($1BDB4)
+//そ そんな バカな…;ぐわ-っ![END]
+Th-this can't be!;Gwaaah![END]
+
+//
+//POINTER #111 @ $1BDB6 - STRING #111 @ $1BAEF
+
+#W16($1BDB6)
+//グレ-トモスが;おそいかかって きた![END]
+The Great Moth;attacked![END]
+
+
+
+
+
+
+
+
+#JMP($1BE70, $1BFFF)
+
+
+//
+//POINTER #112 @ $1BDB8 - STRING #112 @ $1BB08
+
+#W16($1BDB8)
+//とうぞくだんの やぼうは;グレ-トモスの しょうめつと ともに;きえさった[END]
+The bandits' dream;vanished alongside;the Great Moth.[END]
+
+//
+//POINTER #113 @ $1BDBA - STRING #113 @ $1BB37
+
+#W16($1BDBA)
+//とうぞくだんの ざんとう たちも;リ-ダ-を うしない;バラバラになって にげていった[END]
+Without a leader,;the remaining;bandits gave up.[END]
+
+//
+//POINTER #114 @ $1BDBC - STRING #114 @ $1BB72
+
+#W16($1BDBC)
+//とらわれていた モンスタ-も;ぶじに たすけだすことが できた[END]
+Furthermore, you;rescued your;monster.[END]
+
+//
+//POINTER #115 @ $1BDBE - STRING #115 @ $1BB9D
+
+#W16($1BDBE)
+//こうして ぼうけんしゃは;ふたたび あてもない たびじへと;もどるのだった…[END]
+And thus, you;returned to your;aimless wandering.[END]
+
+//
+//POINTER #116 @ $1BDC0 - STRING #116 @ $1BBD1
+
+#W16($1BDC0)
+//テ-ブルだ;よく キレイに ふいてある[END]
+This table is;immaculate.[END]
+
+//
+//POINTER #117 @ $1BDC2 - STRING #117 @ $1BBEA
+
+#W16($1BDC2)
+//つぼが おいてある[END]
+It's a jar.[END]
+
+//
+//POINTER #118 @ $1BDC4 - STRING #118 @ $1BBF9
+
+#W16($1BDC4)
+//なかには なにもない[END]
+It's empty.[END]
+
+//
+//POINTER #119 @ $1BDC6 - STRING #119 @ $1BC05
+
+#W16($1BDC6)
+//つぼが おいてある[END]
+It's a jar.;And its lid is;ajar, too.[END]
+
+//
+//POINTER #120 @ $1BDC8 - STRING #120 @ $1BC14
+
+#W16($1BDC8)
+//なかから「ATカプセル」;を てにいれた![END]
+There was an;AT Capsule inside![END]
+
+//
+//POINTER #121 @ $1BDCA - STRING #121 @ $1BC2D
+
+#W16($1BDCA)
+//「とうぞくのもり」;に ついた[END]
+You enter the;Bandit Woods.[END]
+
+//
+//POINTER #122 @ $1BDCC - STRING #122 @ $1BC40
+
+#W16($1BDCC)
+//ここでは 10ぽ あるくごとに;30の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 10 steps;will have a 30%;encounter chance.[END]
+
+//
+//POINTER #123 @ $1BDCE - STRING #123 @ $1BC79
+
+
+
+
+
+#JMP($1BC66, $1BCD7)
+
+
+#W16($1BDCE)
+//ヒョ-ヒョヒョヒョ!;ゆうぎは てもちの モンスタ-を;すべて うしなった! [END]
+Hyohyohyo! You;lost all of your;monsters![END]
+
+//
+//POINTER #124 @ $1BDD0 - STRING #124 @ $1BCA6
+
+#W16($1BDD0)
+//モンスタ-を もたない オマエは;もう ぼうけんを つづけることは;できないのさ! [END]
+You can't continue;your adventure;without monsters![END]
+
+//

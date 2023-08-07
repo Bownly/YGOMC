@@ -1,0 +1,227 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($14000)
+#JMP($19A69, $19E36)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #011 NAME:		Dark Room 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $19E37 - STRING #0 @ $19A69
+
+#W16($19E37)
+//やあ ゆうぎくん…[END]
+Hello, Yugi.[END]
+
+//
+//POINTER #1 @ $19E39 - STRING #1 @ $19A76
+
+#W16($19E39)
+//はがくん! どうして ここに!?[END]
+Weevil! What are;you doing here?[END]
+
+//
+//POINTER #2 @ $19E3B - STRING #2 @ $19A8C
+
+#W16($19E3B)
+//ボクが この 2フロアを まもる;ダ-クマスタ-なんだ[END]
+I'm the Dark;Master of the;2nd floor.[END]
+
+//
+//POINTER #3 @ $19E3D - STRING #3 @ $19AB1
+
+#W16($19E3D)
+//ずっと まっていたよ!;キミを たおさないかぎり MCの;チャンピオンは なのれないよね[END]
+I've been waiting;here to challenge;and defeat you.[END]
+
+//
+//POINTER #4 @ $19E3F - STRING #4 @ $19AE5
+
+#W16($19E3F)
+//そ そんな!![END]
+Y-you're kidding![END]
+
+//
+//POINTER #5 @ $19E41 - STRING #5 @ $19AEE
+
+#W16($19E41)
+//ゆうぎくん…;ボクは ず-っと キミを たおす;せんりゃくを かんがえていたんだ…[END]
+Yugi… I've long;since looked for a;way to beat you.[END]
+
+//
+//POINTER #6 @ $19E43 - STRING #6 @ $19B23
+
+#W16($19E43)
+//ククク… ようやく みつけたよ…;こうすれば よかったんだ![END]
+Kukuku. And I've;found it at last![END]
+
+//
+//POINTER #7 @ $19E45 - STRING #7 @ $19B47
+
+#W16($19E45)
+//ゆうぎくん!!;ダメだっ ここにきちゃ!![END]
+Yugi! Don't listen;to him![END]
+
+//
+//POINTER #8 @ $19E47 - STRING #8 @ $19B64
+
+#W16($19E47)
+//ばくらくん!![END]
+Bakura![END]
+
+//
+//POINTER #9 @ $19E49 - STRING #9 @ $19B6F
+
+#W16($19E49)
+//ヒョヒョヒョ--!;ひとじちの いのちは;オレしだいって ことさ!![END]
+Hyohyohyo!;Don't forget that;you're my hostage![END]
+
+//
+//POINTER #10 @ $19E4B - STRING #10 @ $19B97
+
+#W16($19E4B)
+//クッ…[END]
+No…[END]
+
+//
+//POINTER #11 @ $19E4D - STRING #11 @ $19B9C
+
+#W16($19E4D)
+//はが…! きたないぜ;おまえの やりかた!![END]
+That's a dirty;trick, Weevil![END]
+
+//
+//POINTER #12 @ $19E4F - STRING #12 @ $19BB8
+
+#W16($19E4F)
+//ズバリ!;デュエルの かけひきは;せいしんめんが ものをいう!![END]
+Perhaps! But it's;an effective;strategy.[END]
+
+//
+//POINTER #13 @ $19E51 - STRING #13 @ $19BE2
+
+#W16($19E51)
+//ひとじちを とられた オマエは;オレには かてない!!;ヒョヒョヒョ![END]
+You can't hope to;win against me;now! Hyohyohyo![END]
+
+//
+//POINTER #14 @ $19E53 - STRING #14 @ $19C09
+
+#W16($19E53)
+//ごたくは それぐらいに しとくんだな;オマエが あいてなら;ちょうどいい ハンデだぜ!![END]
+Spare me. I could;beat you with my;eyes closed.[END]
+
+//
+//POINTER #15 @ $19E55 - STRING #15 @ $19C47
+
+#W16($19E55)
+//フン…! いくぞ;しょうぶだ!![END]
+Hmph. Very well!;Then let's start;the game![END]
+
+//
+//POINTER #16 @ $19E57 - STRING #16 @ $19C5F
+
+#W16($19E57)
+//オ… オレの こんちゅうが…;グレ-ト'モスがぁぁぁ--;や'ら'れ'た…[END]
+M-my insects…;My Great Moth!!;You killed them![END]
+
+//
+//POINTER #17 @ $19E59 - STRING #17 @ $19C8C
+
+#W16($19E59)
+//さてと… ル-ルだ!;ばくらの にんぎょうは ;もらっていくぜ![END]
+Rules are rules.;Now, hand over;Bakura's doll![END]
+
+//
+//POINTER #18 @ $19E5B - STRING #18 @ $19CB6
+
+#W16($19E5B)
+//たすかったよ;ありがとう ゆうぎくん![END]
+Thanks, Yugi! You;saved me![END]
+
+//
+//POINTER #19 @ $19E5D - STRING #19 @ $19CCF
+
+#W16($19E5D)
+//こ このオレが まけるなんて…!;ヒ~ン ウソだぁ~[END]
+No, I couldn't;have lost… I won't;accept it![END]
+
+//
+//POINTER #20 @ $19E5F - STRING #20 @ $19CEF
+
+#W16($19E5F)
+//ハッキリいうぜ! このたいかいで;1ばんよわいんじゃね-か?;オマエ![END]
+You're the weakest;player in this;whole tournament![END]
+
+//
+//POINTER #21 @ $19E61 - STRING #21 @ $19D1C
+
+#W16($19E61)
+//く… くそ-!![END]
+C-curses![END]
+
+//
+//POINTER #22 @ $19E63 - STRING #22 @ $19D26
+
+#W16($19E63)
+//よりによって オマエみたいのが;チャンピオンとはな…;クク…[END]
+As if YOU had any;chance of becoming;the champion. Heh.[END]
+
+//
+//POINTER #23 @ $19E65 - STRING #23 @ $19D4A
+
+#W16($19E65)
+//とっとと へやを でていきやがれ;よわむしヤロウ![END]
+Get lost already,;you coward![END]
+
+//
+//POINTER #24 @ $19E67 - STRING #24 @ $19D69
+
+#W16($19E67)
+//ゆうぎくん!;ボクも… ボクも たたかうよ![END]
+Yugi! I… I'll;fight too![END]
+
+//
+//POINTER #25 @ $19E69 - STRING #25 @ $19D87
+
+#W16($19E69)
+//ばくらの にんぎょうが;つかえるように なりました[END]
+You can now use;Bakura's doll.[END]
+
+//
+//POINTER #26 @ $19E6B - STRING #26 @ $19DA8
+
+#W16($19E6B)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+
+
+
+
+#JMP($1BDD4)
+
+//
+//POINTER #27 @ $19E6D - STRING #27 @ $19DB9
+
+#W16($19E6D)
+//3Fへの とびらは;かたく とざされている…;ダ-クマスタ-を たおすしかない!![END]
+The 3F door is;locked. You have;to beat the DM.[END]
+
+//
+//POINTER #28 @ $19E6F - STRING #28 @ $19DEA
+
+#W16($19E6F)
+//バトルフィ-ルドは;うっそうとしげる もりに ;おおわれた ジオラマのようだ…[END]
+It's a diorama of;a huge lush forest;battlefield.[END]
+
+//
+//POINTER #29 @ $19E71 - STRING #29 @ $19E1D
+
+#W16($19E71)
+//つぎは もりの;フィ-ルドのようだ…[END]
+This MW must have;lots of Forest;field tiles.[END]
+
+//

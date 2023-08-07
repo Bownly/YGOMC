@@ -1,0 +1,82 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #042 NAME:		Dark Room 5 part epilogue (POINTER_RELATIVE)
+
+//POINTER #0 @ $D379B - STRING #0 @ $D361B
+
+#W16($D379B)
+//ク…!;この オレが こんなやつに;あやつられて いたとは…![END]
+
+//
+//POINTER #1 @ $D379D - STRING #1 @ $D363E
+
+#W16($D379D)
+//ゆうぎ![END]
+
+//
+//POINTER #2 @ $D379F - STRING #2 @ $D3646
+
+#W16($D379F)
+//ゆうぎ!!;オレたち もとのカラダに;もどったぜ!![END]
+
+//
+//POINTER #3 @ $D37A1 - STRING #3 @ $D366A
+
+#W16($D37A1)
+//やったね! ゆうぎ![END]
+
+//
+//POINTER #4 @ $D37A3 - STRING #4 @ $D3678
+
+#W16($D37A3)
+//ゆうぎ オレは ;オマエを しんじていたぜ![END]
+
+//
+//POINTER #5 @ $D37A5 - STRING #5 @ $D3696
+
+#W16($D37A5)
+//さすがだよ ゆうぎくん!;ありがとう!![END]
+
+//
+//POINTER #6 @ $D37A7 - STRING #6 @ $D36B4
+
+#W16($D37A7)
+//ウム!;よく たたかったゾ ゆうぎ![END]
+
+//
+//POINTER #7 @ $D37A9 - STRING #7 @ $D36CC
+
+#W16($D37A9)
+//みんな…[END]
+
+//
+//POINTER #8 @ $D37AB - STRING #8 @ $D36D2
+
+#W16($D37AB)
+//みんな ;もとに もどったんだね!!;よかった…[END]
+
+//
+//POINTER #9 @ $D37AD - STRING #9 @ $D36F0
+
+#W16($D37AD)
+//ゆうぎ… オレのこころは ;くらやみから ぬけだせた…;とりあえず れいをいう[END]
+
+//
+//POINTER #10 @ $D37AF - STRING #10 @ $D371F
+
+#W16($D37AF)
+//だが オレは おまえに まけたまま;おめおめと ひきさがりはしない!;いずれ おまえを たおす!![END]
+
+//
+//POINTER #11 @ $D37B1 - STRING #11 @ $D375A
+
+#W16($D37B1)
+//こんどは ジャマが はいらぬところで;せいせいどうどうとな![END]
+
+//
+//POINTER #12 @ $D37B3 - STRING #12 @ $D3786
+
+#W16($D37B3)
+//うん!!;また ゲ-ム しようね![END]
+
+//

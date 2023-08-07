@@ -1,0 +1,12 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #060 NAME:		OP 4 (POINTER_RELATIVE)
+
+//POINTER #0 @ $6125C - STRING #0 @ $612AD
+
+#W16($6125C)
+//1Ç¬Ç§ÇÃ ÇµÇÂÇ§ÇΩÇ¢Ç∂ÇÂÇ§Ç™
+//Ç∆Ç«ÇØÇÁÇÍÇΩÅcÅc
+//[END]
+
+//

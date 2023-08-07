@@ -1,0 +1,46 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #004 NAME:		Shared Capsule Machines (POINTER_RELATIVE)
+
+//POINTER #0 @ $82DE6 - STRING #0 @ $82D24
+
+#W16($82DE6)
+//カプセルマシンだ![END]
+
+//
+//POINTER #1 @ $82DE8 - STRING #1 @ $82D33
+
+#W16($82DE8)
+//スタ-チップを 1まい いれますか?; はい; いいえ[END]
+
+//
+//POINTER #2 @ $82DEA - STRING #2 @ $82D52
+
+#W16($82DEA)
+//これいじょう MCを もてない![END]
+
+//
+//POINTER #3 @ $82DEC - STRING #3 @ $82D66
+
+#W16($82DEC)
+//いらない MCを;せいりしてから こよう![END]
+
+//
+//POINTER #4 @ $82DEE - STRING #4 @ $82D7D
+
+#W16($82DEE)
+//…スタ-チップが 1まいしかない;この1まいを つかうと;バトルが できなくなる!![END]
+
+//
+//POINTER #5 @ $82DF0 - STRING #5 @ $82DB3
+
+#W16($82DF0)
+//「<$FD>ち LV<$FD>つ」の;カプセルを てにいれた!![END]
+
+//
+//POINTER #6 @ $82DF2 - STRING #6 @ $82DCF
+
+#W16($82DF2)
+//「<$FD>ち」の;カプセルを てにいれた!![END]
+
+//

@@ -1,0 +1,58 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #021 NAME:		Battle MC data (POINTER_RELATIVE)
+
+//POINTER #0 @ $3FC79 - STRING #0 @ $3FC3C
+
+#W16($3FC79)
+//LV.[END]
+
+//
+//POINTER #1 @ $3FC7B - STRING #1 @ $3FC41
+
+#W16($3FC7B)
+//HP.[END]
+
+//
+//POINTER #2 @ $3FC7D - STRING #2 @ $3FC46
+
+#W16($3FC7D)
+//AT.[END]
+
+//
+//POINTER #3 @ $3FC7F - STRING #3 @ $3FC4B
+
+#W16($3FC7F)
+//DF.[END]
+
+//
+//POINTER #4 @ $3FC81 - STRING #4 @ $3FC50
+
+#W16($3FC81)
+//SP.[END]
+
+//
+//POINTER #5 @ $3FC83 - STRING #5 @ $3FC55
+
+#W16($3FC83)
+//ÇºÇ≠ÇπÇ¢/[END]
+
+//
+//POINTER #6 @ $3FC85 - STRING #6 @ $3FC5E
+
+#W16($3FC85)
+//ÇÌÇ¥/[END]
+
+//
+//POINTER #7 @ $3FC87 - STRING #7 @ $3FC65
+
+#W16($3FC87)
+//Ç¬ÅJÇ´ÇÃÉåÅJÉwÉãÇ‹Çƒ[END]
+
+//
+//POINTER #8 @ $3FC89 - STRING #8 @ $3FC75
+
+#W16($3FC89)
+//Ç†Ç∆[END]
+
+//

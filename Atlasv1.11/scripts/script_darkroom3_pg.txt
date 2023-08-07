@@ -1,0 +1,74 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($B4000)
+#JMP($B9037, $B9182)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #049 NAME:		Dark Room 3 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $B9183 - STRING #0 @ $B9037
+
+#W16($B9183)
+//バトルしますか?; はい; いいえ[END]
+Battle?; Yes; No[END]
+
+//
+//POINTER #1 @ $B9185 - STRING #1 @ $B904C
+
+#W16($B9185)
+//ゆうぎ!!;まっとったで-![END]
+Been waitin' for;ya, Yugi![END]
+
+//
+//POINTER #2 @ $B9187 - STRING #2 @ $B9060
+
+#W16($B9187)
+//やくそくどおり もういっぺん;ワイと しょうぶや!![END]
+Ready for our;rematch?[END]
+
+//
+//POINTER #3 @ $B9189 - STRING #3 @ $B9082
+
+#W16($B9189)
+//ゆうぎ!!;くやしいけど オマエの じつりょくは;みとめたる…[END]
+I hate to admit;it, but you're;good.[END]
+
+//
+//POINTER #4 @ $B918B - STRING #4 @ $B90A9
+
+#W16($B918B)
+//けど ワイは ダイナソ-りゅうざきや;まけっぱなしで おめおめと;ひきさがれるかい!![END]
+But I won't let;that keep me down![END]
+
+//
+//POINTER #5 @ $B918D - STRING #5 @ $B90E2
+
+#W16($B918D)
+//また ワイの まけやと-!?;なんでや-!? なんで ゆうぎに;かてんのや-!?[END]
+I lost again!?;How does this keep;happening!?[END]
+
+//
+//POINTER #6 @ $B918F - STRING #6 @ $B9112
+
+#W16($B918F)
+//ハハハ- むりむり-!;ワイを たおそうなんて;あきらめたほうが ええで-!![END]
+Hahaha! You should;give up on ever;trying to beat me![END]
+
+//
+//POINTER #7 @ $B9191 - STRING #7 @ $B913F
+
+#W16($B9191)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+//
+//POINTER #8 @ $B9193 - STRING #8 @ $B9150
+
+#W16($B9193)
+//バトルフィ-ルドは;こうりょうとした だいちに;しんでんが はいちされている…[END]
+There's a temple;diorama in a;desolate field.[END]
+
+//

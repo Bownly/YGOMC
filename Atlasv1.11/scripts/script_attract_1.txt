@@ -1,0 +1,18 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_attract1_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($5C000)
+#JMP($60313, $60322)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #062 NAME:		Attract 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $602DB - STRING #0 @ $60313
+
+#W16($602DB)
+//ÅcÅcÇ›Ç¬ÇØÇΩÇº
+Finally;
+
+//

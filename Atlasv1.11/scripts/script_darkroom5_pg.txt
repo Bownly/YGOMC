@@ -1,0 +1,148 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($B8000)
+#JMP($BE574, $BE7B4)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #053 NAME:		Dark Room 5 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $BE7B5 - STRING #0 @ $BE574
+
+#W16($BE7B5)
+//まっていたぞ… ゆうぎ!![END]
+I've been waiting;for you, Yugi![END]
+
+//
+//POINTER #1 @ $BE7B7 - STRING #1 @ $BE587
+
+#W16($BE7B7)
+//ば ばくらくん! ;まさか キミも せんねんリングに!?[END]
+Bakura!? Has the;Millennium Ring;taken you too!?[END]
+
+//
+//POINTER #2 @ $BE7B9 - STRING #2 @ $BE5AB
+
+#W16($BE7B9)
+//ククク… ゆうぎ!![END]
+Hehehe…[END]
+
+//
+//POINTER #3 @ $BE7BB - STRING #3 @ $BE5B9
+
+#W16($BE7BB)
+//こんどこそ オマエの;せんねんパズル…;てにいれてみせるぞ!![END]
+Yugi, I'll take;your Millennium;Puzzle this time![END]
+
+//
+//POINTER #4 @ $BE7BD - STRING #4 @ $BE5E2
+
+#W16($BE7BD)
+//チッ… こりないヤロウだぜ!;ばくらの からだから;すぐに おいだしてやるぜ!![END]
+When will you;learn!? Leave;Bakura's body now![END]
+
+//
+//POINTER #5 @ $BE7BF - STRING #5 @ $BE61A
+
+#W16($BE7BF)
+//……ゆうぎくん?;そうか… ボクは また;キミに たすけられたんだね…[END]
+…Yugi?;You must've saved;me again, huh?[END]
+
+//
+//POINTER #6 @ $BE7C1 - STRING #6 @ $BE645
+
+#W16($BE7C1)
+//ありがとう![END]
+Thank you![END]
+
+//
+//POINTER #7 @ $BE7C3 - STRING #7 @ $BE64F
+
+#W16($BE7C3)
+//ゆ… ゆうぎくん!!;ボ ボクが こいつを;おさえているあいだに… にげて!![END]
+Yugi, run! I'll;hold him at bay![END]
+
+//
+//POINTER #8 @ $BE7C5 - STRING #8 @ $BE684
+
+#W16($BE7C5)
+//きたか ゆうぎ…[END]
+Hello, Yugi.[END]
+
+//
+//POINTER #9 @ $BE7C7 - STRING #9 @ $BE690
+
+#W16($BE7C7)
+//ふたたび しゆうを;けっする ときだ!![END]
+Once again, it's;time to decide;who's the champ![END]
+
+//
+//POINTER #10 @ $BE7C9 - STRING #10 @ $BE6AA
+
+#W16($BE7C9)
+//かいばくん!![END]
+Kaiba![END]
+
+//
+//POINTER #11 @ $BE7CB - STRING #11 @ $BE6B5
+
+#W16($BE7CB)
+//オレたちが たいじするばには;たたかいの かぜが うずまく!;えいえんに![END]
+The flames of our;rivalry will burn;eternal![END]
+
+//
+//POINTER #12 @ $BE7CD - STRING #12 @ $BE6E8
+
+#W16($BE7CD)
+//かいば!!;いま なお オレに;きばを むくのか![END]
+Kaiba, you still;wish to fight?[END]
+
+//
+//POINTER #13 @ $BE7CF - STRING #13 @ $BE707
+
+#W16($BE7CF)
+//きさまは オレが;このてで ほうむる!![END]
+Fine. I'll take;you down myself![END]
+
+//
+//POINTER #14 @ $BE7D1 - STRING #14 @ $BE721
+
+#W16($BE7D1)
+//ゆうぎ!;オレと たたかえ![END]
+Yugi, it's time to;duel![END]
+
+//
+//POINTER #15 @ $BE7D3 - STRING #15 @ $BE733
+
+#W16($BE7D3)
+//オレが… まけた…!?;バカな…!![END]
+I… lost…?;Impossible![END]
+
+//
+//POINTER #16 @ $BE7D5 - STRING #16 @ $BE74B
+
+#W16($BE7D5)
+//わはははは! ゆうぎ!!;くつじょくの おもさで;ちに はいつくばるがいい!![END]
+Wahahaha! Feel the;crushing weight of;defeat![END]
+
+
+
+#JMP($BEF00, $BEFFF)
+
+//
+//POINTER #17 @ $BE7D7 - STRING #17 @ $BE77E
+
+#W16($BE7D7)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+//
+//POINTER #18 @ $BE7D9 - STRING #18 @ $BE78F
+
+#W16($BE7D9)
+//バトルフィ-ルドは;いような ふんいきを;ただよわせている…[END]
+This battlefield;is giving off a;strange aura.[END]
+
+//

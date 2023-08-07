@@ -1,0 +1,88 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($6C000)
+#JMP($70406, $70503)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #055 NAME:		Link (POINTER_RELATIVE)
+
+//POINTER #0 @ $703F0 - STRING #0 @ $70406
+
+#W16($703F0)
+//つうしんの じゅんびが;できていません![END]
+Trying to connect…;[END]
+
+//
+//POINTER #1 @ $703F2 - STRING #1 @ $70424
+
+#W16($703F2)
+//MCを こうかんします;こうかんする MCを;せんたくしてください[END]
+Select the MC you;want to trade.[END]
+
+//
+//POINTER #2 @ $703F4 - STRING #2 @ $70449
+
+#W16($703F4)
+//こうかんを やめますか?; はい; いいえ[END]
+Stop trading?;  Yes;  No[END]
+
+//
+//POINTER #3 @ $703F6 - STRING #3 @ $70460
+
+#W16($703F6)
+//;   つうしんたいきちゅうです[END]
+;Waiting…[END]
+
+//
+//POINTER #4 @ $703F8 - STRING #4 @ $70474
+
+#W16($703F8)
+//<$FD>ちと;<$FD>つを;こうかんします[END]
+<$FD><$10>;for their;<$FD><$11>.[END]
+
+//
+//POINTER #5 @ $703FA - STRING #5 @ $70485
+
+#W16($703FA)
+//よろしいですか?; はい; いいえ[END]
+Is this OK?;  Yes;  No[END]
+
+//
+//POINTER #6 @ $703FC - STRING #6 @ $7049A
+
+#W16($703FC)
+//<$FD>つを;てにいれました[END]
+Received;<$FD><$11>.[END]
+
+//
+//POINTER #7 @ $703FE - STRING #7 @ $704A7
+
+#W16($703FE)
+//;    つうしんエラ-です![END]
+;Connection error![END]
+
+//
+//POINTER #8 @ $70400 - STRING #8 @ $704BA
+
+#W16($70400)
+//こうかんを キャンセル されました[END]
+Trade canceled.[END]
+
+//
+//POINTER #9 @ $70402 - STRING #9 @ $704CD
+
+#W16($70402)
+//たいせんバトルを かいしします[END]
+Link duel start![END]
+
+//
+//POINTER #10 @ $70404 - STRING #10 @ $704E0
+
+#W16($70404)
+//つうしんエラ-です!;たいせんバトルを ちゅうだんします[END]
+Connection error!; Link duel;canceled.[END]
+
+//

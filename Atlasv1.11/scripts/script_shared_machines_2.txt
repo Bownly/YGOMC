@@ -1,0 +1,18 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C000) 
+#JMP($83AC0)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #003 NAME:		Shared Capsule Machines (POINTER_RELATIVE)
+
+//POINTER #6 @ $82DF2 - STRING #6 @ $82DCF
+
+#W16($82DF2)
+//「<$FD>ち」の[LINE]カプセルを てにいれた!![END]
+<$FD><$10>;obtained!![END]
+
+//

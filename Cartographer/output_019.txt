@@ -1,0 +1,16 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #019 NAME:		Battle menu 3 (POINTER_RELATIVE)
+
+//POINTER #0 @ $3F94D - STRING #0 @ $3F940
+
+#W16($3F94D)
+//‚±‚¤‚°‚«[END]
+
+//
+//POINTER #1 @ $3F94F - STRING #1 @ $3F948
+
+#W16($3F94F)
+//‚½‚¢‚«[END]
+
+//

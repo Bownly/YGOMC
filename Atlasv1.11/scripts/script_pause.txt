@@ -1,0 +1,137 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_pause_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($7C000)
+#JMP($82C6D, $82CFF)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #029 NAME:		Pause (POINTER_RELATIVE)
+
+//POINTER #0 @ $82D00 - STRING #0 @ $82C6D
+
+#W16($82D00)
+//>MC[END]
+MCs[END]
+
+//
+//POINTER #1 @ $82D02 - STRING #1 @ $82C72
+
+#W16($82D02)
+//ゆうぎ[END]
+Yugi[END]
+
+//
+//POINTER #2 @ $82D04 - STRING #2 @ $82C79
+
+#W16($82D04)
+//きろく[END]
+Save[END]
+
+//
+//POINTER #3 @ $82D06 - STRING #3 @ $82C7E
+
+#W16($82D06)
+//ぼうけんの　きろくを[END]
+ Save your[END]
+
+//
+//POINTER #4 @ $82D08 - STRING #4 @ $82C8C
+
+#W16($82D08)
+//つけますか?[END]
+ game?[END]
+
+//
+//POINTER #5 @ $82D0A - STRING #5 @ $82C94
+
+#W16($82D0A)
+//はい　　いいえ[END]
+Yes  No[END]
+
+//
+//POINTER #6 @ $82D0C - STRING #6 @ $82C9D
+
+#W16($82D0C)
+//きろくしました[END]
+ Saved[END]
+
+//
+//POINTER #7 @ $82D0E - STRING #7 @ $82CA6
+
+#W16($82D0E)
+//つよさ[END]
+Data[END]
+
+//
+//POINTER #8 @ $82D10 - STRING #8 @ $82CAB
+
+#W16($82D10)
+//カプセル[END]
+Caps[END]
+
+//
+//POINTER #9 @ $82D12 - STRING #9 @ $82CB3
+
+#W16($82D12)
+//じんけい[END]
+Form[END]
+
+//
+//POINTER #10 @ $82D14 - STRING #10 @ $82CBB
+
+#W16($82D14)
+//いれかえ[END]
+Sort[END]
+
+//
+//POINTER #11 @ $82D16 - STRING #11 @ $82CC1
+
+#W16($82D16)
+//すてる[END]
+Toss[END]
+
+//
+//POINTER #12 @ $82D18 - STRING #12 @ $82CC6
+
+#W16($82D18)
+//しんか　　ｘ[END]
+Evo  x[END]
+
+//
+//POINTER #13 @ $82D1A - STRING #13 @ $82CCE
+
+#W16($82D1A)
+//わ゛さ　　　ｘ[END]
+Skillx[END]
+
+//
+//POINTER #14 @ $82D1C - STRING #14 @ $82CD8
+
+#W16($82D1C)
+//JPアップｘ[END]
+HP upx[END]
+
+//
+//POINTER #15 @ $82D1E - STRING #15 @ $82CE2
+
+#W16($82D1E)
+//ATアップｘ[END]
+AT upx[END]
+
+//
+//POINTER #16 @ $82D20 - STRING #16 @ $82CEC
+
+#W16($82D20)
+//DFアップｘ[END]
+DF upx[END]
+
+//
+//POINTER #17 @ $82D22 - STRING #17 @ $82CF6
+
+#W16($82D22)
+//SPアップｘ[END]
+SP upx[END]
+
+//

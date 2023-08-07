@@ -1,0 +1,628 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($B4000)
+#JMP($B8364, $B8E1C)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #048 NAME:		Floor 3 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $B8E1D - STRING #0 @ $B8364
+
+#W16($B8E1D)
+//バトルしますか?; はい; いいえ[END]
+Battle?; Yes; No[END]
+
+//
+//POINTER #1 @ $B8E1F - STRING #1 @ $B8379
+
+#W16($B8E1F)
+//ゲハハハハ!!;たいかいが おわったらしいなぁぁぁ![END]
+Gehahaha! So the;competition ended.[END]
+
+//
+//POINTER #2 @ $B8E21 - STRING #2 @ $B8399
+
+#W16($B8E21)
+//これから ワシのライブを ひらくぜ!;おまえには あさまで とことん;つきあって もらうぞぉぉぉ!![END]
+Then my live show;starts now! We'll;jam 'til daybreak![END]
+
+//
+//POINTER #3 @ $B8E23 - STRING #3 @ $B83D5
+
+#W16($B8E23)
+//なにぃぃ!?;みとめねえぞ ワシは!!;ちくしょぉぉ~~!![END]
+Whaaaat!?;I don't believe;it! Noooo![END]
+
+//
+//POINTER #4 @ $B8E25 - STRING #4 @ $B83F7
+
+#W16($B8E25)
+//ゲハハハハ;おまえには ライブの パ-けんを;さばいてもらうぞ![END]
+Gehahaha!;I'll get your;tickets ready![END]
+
+//
+//POINTER #5 @ $B8E27 - STRING #5 @ $B8423
+
+#W16($B8E27)
+//ゆうぎ!;オレにも MC おしえてくれよ![END]
+Yugi!;Teach me the ways;of the MCs.[END]
+
+//
+//POINTER #6 @ $B8E29 - STRING #6 @ $B843C
+
+#W16($B8E29)
+//せめて じょうのうちよりは;つよくなりたいよな![END]
+At least enough so;I can beat Joey![END]
+
+//
+//POINTER #7 @ $B8E2B - STRING #7 @ $B8458
+
+#W16($B8E2B)
+//ゆうぎ!;しょうぶしようぜ!![END]
+I'm getting the;hang of this game.[END]
+
+//
+//POINTER #8 @ $B8E2D - STRING #8 @ $B846F
+
+#W16($B8E2D)
+//ゲ-ムの コツが わかってきたぜ!;もしかすると ゆうぎに かてるかも…;ウヒヒヒヒ…[END]
+Maybe even enough;to beat you!;Hehehe.[END]
+
+//
+//POINTER #9 @ $B8E2F - STRING #9 @ $B84A4
+
+#W16($B8E2F)
+//くぅ~~っ!;やっぱ ゆうぎには ;かなわねえのか!?[END]
+Gaaah!;'Course you'd win,;Yugi![END]
+
+//
+//POINTER #10 @ $B8E31 - STRING #10 @ $B84C5
+
+#W16($B8E31)
+//うひょ~っ!! しんじられねえぜ!!;サンキュ- ゆうぎ![END]
+Hooowee! I don't;believe it!;Thanks, Yugi![END]
+
+//
+//POINTER #11 @ $B8E33 - STRING #11 @ $B84EA
+
+#W16($B8E33)
+//せんねんパズルを ときしもの…;そのちから… たしかめねば ならん[END]
+I must confirm the;powers of the;Millennium Puzzle.[END]
+
+//
+//POINTER #12 @ $B8E35 - STRING #12 @ $B8513
+
+#W16($B8E35)
+//しょうねんよ…;バトルを もうしこむ!![END]
+Young man, I;insist that we;battle![END]
+
+//
+//POINTER #13 @ $B8E37 - STRING #13 @ $B852B
+
+#W16($B8E37)
+//わたしは キミのもつ;せんねんパズルの ちからを;しりたくて ここを おとずれたのだ[END]
+I came here to;learn about your;Millennium Puzzle.[END]
+
+//
+//POINTER #14 @ $B8E39 - STRING #14 @ $B855F
+
+#W16($B8E39)
+//いまいちど…;たいせんを もうしこむ!![END]
+I implore you,;battle me once;more.[END]
+
+//
+//POINTER #15 @ $B8E3B - STRING #15 @ $B8577
+
+#W16($B8E3B)
+//…このゲ-ム;わたしの まけと いうことか…[END]
+It seems I have;lost this game.[END]
+
+//
+//POINTER #16 @ $B8E3D - STRING #16 @ $B8591
+
+#W16($B8E3D)
+//ゆうぎ…;こころの よわさを みせたものが;ゲ-ムの はいしゃと なるのだ![END]
+Yugi, he whose;heart shows;weakness, loses.[END]
+
+//
+//POINTER #17 @ $B8E3F - STRING #17 @ $B85C1
+
+#W16($B8E3F)
+//ガラの わるいひとが;オレの うたを きけって;しつこいんだよ-![END]
+Some crazy dude;keeps trying to;sing at me.[END]
+
+//
+//POINTER #18 @ $B8E41 - STRING #18 @ $B85EA
+
+#W16($B8E41)
+//がいじんさんが いたわ;とっても しずかで;かげのある ひとだったの[END]
+That foreign guy;needs to cheer up;some.[END]
+
+//
+//POINTER #19 @ $B8E43 - STRING #19 @ $B861C
+
+#W16($B8E43)
+//きいては ならないモノを;きいてしまいました…;あれは うたなんでしょうか?[END]
+I've never heard;sounds like those.;Is that music?[END]
+
+//
+//POINTER #20 @ $B8E45 - STRING #20 @ $B8646
+
+#W16($B8E45)
+//へんな エジプトじんが いたよ!;エジプトでも MCって;はやってるのかな?[END]
+Are MCs popular in;Egypt too? There's;an Egyptian here.[END]
+
+//
+//POINTER #21 @ $B8E47 - STRING #21 @ $B867C
+
+#W16($B8E47)
+//かいばさまが まけるなんて;おもわなかったよ…;しょんぼり…[END]
+I can't believe;Kaiba didn't win…;Sniffle…[END]
+
+//
+//POINTER #22 @ $B8E49 - STRING #22 @ $B86A2
+
+#W16($B8E49)
+//こちらは;「MCそうだんカウンタ-」;です[END]
+This is the;MC Help Desk.[END]
+
+
+//
+//POINTER #23 @ $B8E4B - STRING #23 @ $B86BD
+
+#W16($B8E4B)
+//MCについて わからないこと なんて;もう ないと おもうけど;わすれたことが あったら きいてね![END]
+Here for some MC;talk?[END]
+
+//
+//POINTER #24 @ $B8E4D - STRING #24 @ $B86F5
+
+#W16($B8E4D)
+//なにか ききたいこと ある?;  ききたい;  やめる[END]
+Ask a question?;  Ask;  Don't[END]
+
+//
+//POINTER #25 @ $B8E4F - STRING #25 @ $B8712
+
+#W16($B8E4F)
+//  「フィ-ルドこうかってなに?」;  「しえんこうかってなに?」;  つぎのしつもん[END]
+  Field Bonus?;  Assists?;  Other questions[END]
+
+//
+//POINTER #26 @ $B8E51 - STRING #26 @ $B8743
+
+#W16($B8E51)
+//  「けいけんちについて」;  「とくしゅまほうについて」;  つぎのしつもん[END]
+  Experience?;  Spells?;  Other questions[END]
+
+//
+//POINTER #27 @ $B8E53 - STRING #27 @ $B876E
+
+#W16($B8E53)
+//  「ぞくせいってなに?」;  やめる[END]
+  Types?;  Nevermind[END]
+
+//
+//POINTER #28 @ $B8E55 - STRING #28 @ $B8785
+
+#W16($B8E55)
+//わすれたことが あったら;いつでも きいてね![END]
+Drop on by if you;ever want a;refresher on MCs.[END]
+
+//
+//POINTER #29 @ $B8E57 - STRING #29 @ $B87A2
+
+#W16($B8E57)
+//バトルで そのMCが;とくいなフィ-ルドに たつと;こうげきが パワ-アップします[END]
+Certain tiles give;bonuses to certain;monsters.[END]
+
+//
+//POINTER #30 @ $B8E59 - STRING #30 @ $B87DD
+
+#W16($B8E59)
+//たとえば そうげんの ぞくせいをもつ;MCが そうげんフィ-ルドで;こうげきを すると[END]
+For example, if a;Plains Type MC;sits on a Plains[END]
+
+//
+//POINTER #31 @ $B8E5B - STRING #31 @ $B881A
+
+#W16($B8E5B)
+//フィ-ルドパワ-を えて;めいちゅうりつと こうげきりょくが;いちじてきに アップします[END]
+tile, its damage;and accuracy will;get a boost.[END]
+
+//
+//POINTER #32 @ $B8E5D - STRING #32 @ $B8854
+
+#W16($B8E5D)
+//これを「フィ-ルドこうか」;と いいます[END]
+That's what we;call a Field;Bonus.[END]
+
+//
+//POINTER #33 @ $B8E5F - STRING #33 @ $B886C
+
+#W16($B8E5F)
+//バトルで じぶんの こうげきはんいと;みかたの こうげきはんいが;かさなっている ばあい[END]
+If an ally is in;range to attack a;monster's target[END]
+
+//
+//POINTER #34 @ $B8E61 - STRING #34 @ $B88AA
+
+#W16($B8E61)
+//いちじてきに めいちゅうりつと;こうげきりょくを アップさせて;こうげき することが できます[END]
+that monster's;power and accuracy;will get a boost.[END]
+
+//
+//POINTER #35 @ $B8E63 - STRING #35 @ $B88E7
+
+#W16($B8E63)
+//これを なかまの「しえんこうか」;と いいます[END]
+That's what known;as an Assist.[END]
+
+//
+//POINTER #36 @ $B8E65 - STRING #36 @ $B8900
+
+#W16($B8E65)
+//せんとうで かくとくする;けいけんちは じぶんのレベルが;たかいほど すくなくなります[END]
+The higher your;level, the less;exp you'll earn.[END]
+
+//
+//POINTER #37 @ $B8E67 - STRING #37 @ $B8939
+
+#W16($B8E67)
+//1ばん レベルのたかい MCが;きじゅんに なっているので レベルの;ひくいMCを そだてたいときは[END]
+The calculations;are based on your;highest level MC.[END]
+
+//
+//POINTER #38 @ $B8E69 - STRING #38 @ $B897B
+
+#W16($B8E69)
+//そだてたい MCだけを せんとうに;さんかさせると よいでしょう[END]
+So if you want to;level weaker MCs,;use only them.[END]
+
+//
+//POINTER #39 @ $B8E6B - STRING #39 @ $B89A3
+
+#W16($B8E6B)
+//MCのなかには とくしゅまほうを;つかえる しゅるいも います[END]
+Some MCs can cast;spells.[END]
+
+//
+//POINTER #40 @ $B8E6D - STRING #40 @ $B89C4
+
+#W16($B8E6D)
+//「ヒ-リング」は みかたのMCの;HPを すこし かいふくさせます[END]
+Heal will, well,;heal ally MCs.[END]
+
+//
+//POINTER #41 @ $B8E6F - STRING #41 @ $B89E9
+
+#W16($B8E6F)
+//「ペンタグラムのじゅばく」は;てきの こうげきりょくを さげます[END]
+Pentagram Curse;will lower the;foe's attack.[END]
+
+//
+//POINTER #42 @ $B8E71 - STRING #42 @ $B8A17
+
+#W16($B8E71)
+//「げんわくのまなこ」は;てきを こんらんさせ じめつさせます[END]
+Eye of Illusion;will confuse the;enemy.[END]
+
+//
+//POINTER #43 @ $B8E73 - STRING #43 @ $B8A3B
+
+#W16($B8E73)
+//「ひかりのごふうけん」は;2タ-ンのあいだ てきの こうどうを;ふうじることが できます[END]
+Swords of Reveal-;ing Light prevents;Move for 2 turns.[END]
+
+//
+//POINTER #44 @ $B8E75 - STRING #44 @ $B8A75
+
+#W16($B8E75)
+//これらの とくしゅまほうを;うまく つかえば ;せんとうが ゆうりに なります[END]
+Mastering spells;will give you the;upper hand.[END]
+
+//
+//POINTER #45 @ $B8E77 - STRING #45 @ $B8AA2
+
+#W16($B8E77)
+//MCは それぞれ ことなった;「ぞくせい」を もっています[END]
+Each MC belongs to;a Type, and each;Type has its own[END]
+
+//
+//POINTER #46 @ $B8E79 - STRING #46 @ $B8AC5
+
+#W16($B8E79)
+//MCどうしの ぞくせいの;あいしょうによって ;あたえる ダメ-ジに さがつきます[END]
+matchups. For;example, a Plains;Type MC will[END]
+
+//
+//POINTER #47 @ $B8E7B - STRING #47 @ $B8AFA
+
+#W16($B8E7B)
+//たとえば 「もり」ぞくせいは;「そうげん」ぞくせいに たいして;つよいので バトルでは[END]
+deal more damage;when attacking a;Wasteland Type MC.[END]
+
+//
+//POINTER #48 @ $B8E7D - STRING #48 @ $B8B35
+
+#W16($B8E7D)
+//「もり」ぞくせいの MCは;「そうげん」ぞくせいの MCに;おおく ダメ-ジを あたえられます[END]
+Try to be aware of;Type matchups when;you battle.[END]
+
+//
+//POINTER #49 @ $B8E7F - STRING #49 @ $B8B70
+
+#W16($B8E7F)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #50 @ $B8E81 - STRING #50 @ $B8B77
+
+#W16($B8E81)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #51 @ $B8E83 - STRING #51 @ $B8B7E
+
+#W16($B8E83)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #52 @ $B8E85 - STRING #52 @ $B8B85
+
+#W16($B8E85)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #53 @ $B8E87 - STRING #53 @ $B8B8C
+
+#W16($B8E87)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #54 @ $B8E89 - STRING #54 @ $B8B93
+
+#W16($B8E89)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #55 @ $B8E8B - STRING #55 @ $B8B9A
+
+#W16($B8E8B)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #56 @ $B8E8D - STRING #56 @ $B8BA1
+
+#W16($B8E8D)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #57 @ $B8E8F - STRING #57 @ $B8BA8
+
+#W16($B8E8F)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #58 @ $B8E91 - STRING #58 @ $B8BAF
+
+#W16($B8E91)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #59 @ $B8E93 - STRING #59 @ $B8BB6
+
+#W16($B8E93)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #60 @ $B8E95 - STRING #60 @ $B8BBD
+
+#W16($B8E95)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #61 @ $B8E97 - STRING #61 @ $B8BC4
+
+#W16($B8E97)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #62 @ $B8E99 - STRING #62 @ $B8BCB
+
+#W16($B8E99)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #63 @ $B8E9B - STRING #63 @ $B8BD2
+
+#W16($B8E9B)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #64 @ $B8E9D - STRING #64 @ $B8BD9
+
+#W16($B8E9D)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #65 @ $B8E9F - STRING #65 @ $B8BE0
+
+#W16($B8E9F)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #66 @ $B8EA1 - STRING #66 @ $B8BE7
+
+#W16($B8EA1)
+//ダミ-[END]
+YGO[END]
+
+//
+//POINTER #67 @ $B8EA3 - STRING #67 @ $B8BEE
+
+#W16($B8EA3)
+//カプセルマシンだ![END]
+[END]
+
+//
+//POINTER #68 @ $B8EA5 - STRING #68 @ $B8BFD
+
+#W16($B8EA5)
+//スタ-チップを 1まい いれますか?; はい; いいえ[END]
+[END]
+
+//
+//POINTER #69 @ $B8EA7 - STRING #69 @ $B8C1C
+
+#W16($B8EA7)
+//これいじょう MCを もてない![END]
+[END]
+
+//
+//POINTER #70 @ $B8EA9 - STRING #70 @ $B8C30
+
+#W16($B8EA9)
+//いらない MCを;せいりしてから こよう![END]
+[END]
+
+//
+//POINTER #71 @ $B8EAB - STRING #71 @ $B8C47
+
+#W16($B8EAB)
+//<$FD>ちの;カプセルを てにいれた!![END]
+[END]
+
+//
+//POINTER #72 @ $B8EAD - STRING #72 @ $B8C5C
+
+#W16($B8EAD)
+//…スタ-チップが 1まいしかない;この1まいを つかうと;バトルが できなくなる!![END]
+[END]
+
+//
+//POINTER #73 @ $B8EAF - STRING #73 @ $B8C92
+
+#W16($B8EAF)
+//エレベ-タ-がある[END]
+[END]
+
+//
+//POINTER #74 @ $B8EB1 - STRING #74 @ $B8CA1
+
+#W16($B8EB1)
+//なんかいに いきますか?;   1F   2F   3F;   4F   5F  B1F[END]
+[END]
+
+//
+//POINTER #75 @ $B8EB3 - STRING #75 @ $B8CCF
+
+#W16($B8EB3)
+//もうすこし このフロアに いよう…[END]
+[END]
+
+//
+//POINTER #76 @ $B8EB5 - STRING #76 @ $B8CE2
+
+#W16($B8EB5)
+//ダ-クマスタ-ル-ムへの;とびらがある…[END]
+This door leads to;the Dark Master's;room.[END]
+
+//
+//POINTER #77 @ $B8EB7 - STRING #77 @ $B8CFE
+
+#W16($B8EB7)
+//ダ-クマスタ-ル-ムへ いきますか?; はい; いいえ[END]
+Enter DM's room?;  Yes;  No[END]
+
+//
+//POINTER #78 @ $B8EB9 - STRING #78 @ $B8D1D
+
+#W16($B8EB9)
+//ジュ-スの はんばいきがある[END]
+It's a juice;vending machine.[END]
+
+//
+//POINTER #79 @ $B8EBB - STRING #79 @ $B8D33
+
+#W16($B8EBB)
+//おかねをいれて ジュ-スをかった![END]
+You bought some;juice![END]
+
+//
+//POINTER #80 @ $B8EBD - STRING #80 @ $B8D48
+
+#W16($B8EBD)
+//…ゴク ……ゴク;フゥ… おいしかった![END]
+Glug glug glug…;Juicy![END]
+
+//
+//POINTER #81 @ $B8EBF - STRING #81 @ $B8D62
+
+#W16($B8EBF)
+//ジュ-スは さっき のんだばかりだ![END]
+But you just drank;some juice![END]
+
+//
+//POINTER #82 @ $B8EC1 - STRING #82 @ $B8D7E
+
+#W16($B8EC1)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+//
+//POINTER #83 @ $B8EC3 - STRING #83 @ $B8D8F
+
+#W16($B8EC3)
+//メダルゲ-ムが;おいてある![END]
+It's a row of;medal games![END]
+
+//
+//POINTER #84 @ $B8EC5 - STRING #84 @ $B8DA5
+
+#W16($B8EC5)
+//メダルゲ-ムの なかには;メダルが たくさん;しきつめられている[END]
+The inside is;covered in medals.[END]
+
+//
+//POINTER #85 @ $B8EC7 - STRING #85 @ $B8DCF
+
+#W16($B8EC7)
+//ポ-カ-ゲ-ムが;ならんでいる…[END]
+It's a row of;poker games.[END]
+
+//
+//POINTER #86 @ $B8EC9 - STRING #86 @ $B8DE9
+
+#W16($B8EC9)
+//パチンコが ならんでいる[END]
+It's a row of;pachinko machines.[END]
+
+//
+//POINTER #87 @ $B8ECB - STRING #87 @ $B8DFD
+
+#W16($B8ECB)
+//とびらの セキュリティロックは;みぎのはしらにある…[END]
+The door's lock is;on the right side.[END]
+
+//

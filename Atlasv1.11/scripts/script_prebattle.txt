@@ -1,0 +1,53 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($38000)
+#JMP($3F8D0, $3F919)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #014 NAME:		Prebattle (POINTER_RELATIVE)
+
+//POINTER #0 @ $3F91A - STRING #0 @ $3F8D0
+
+#W16($3F91A)
+//ƒ‚ƒ“ƒXƒ^-‚ð ‚Í‚¢‚¿‚µ‚Ä‚­‚¾‚³‚¢[END]
+Place your MCs.[END]
+
+//
+//POINTER #1 @ $3F91C - STRING #1 @ $3F8E4
+
+#W16($3F91C)
+//‚·‚Å‚É ‚Í‚¢‚¿‚µ‚½‚à‚Ì‚ð‚Â‚©‚¤[END]
+Use preset[END]
+
+//
+//POINTER #2 @ $3F91E - STRING #2 @ $3F8F7
+
+#W16($3F91E)
+//‚¢‚Ü ‚Í‚¢‚¿‚·‚é[END]
+Place manually[END]
+
+//
+//POINTER #3 @ $3F920 - STRING #3 @ $3F901
+
+#W16($3F920)
+//‚±‚ê‚Å‚¢‚¢‚Å‚·‚©?[END]
+Is this okay?[END]
+
+//
+//POINTER #4 @ $3F922 - STRING #4 @ $3F910
+
+#W16($3F922)
+//‚Í‚¢[END]
+Yes[END]
+
+//
+//POINTER #5 @ $3F924 - STRING #5 @ $3F914
+
+#W16($3F924)
+//‚¢‚¢‚¦;[END]
+No[END]
+
+//

@@ -1,0 +1,28 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #020 NAME:		Battle menu 4 (POINTER_RELATIVE)
+
+//POINTER #0 @ $3F96D - STRING #0 @ $3F951
+
+#W16($3F96D)
+//つづける[END]
+
+//
+//POINTER #1 @ $3F96F - STRING #1 @ $3F959
+
+#W16($3F96F)
+//タイマー[END]
+
+//
+//POINTER #2 @ $3F971 - STRING #2 @ $3F95F
+
+#W16($3F971)
+//ターンおわる[END]
+
+//
+//POINTER #3 @ $3F973 - STRING #3 @ $3F967
+
+#W16($3F973)
+//こうさん[END]
+
+//

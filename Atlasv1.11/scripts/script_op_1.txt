@@ -1,0 +1,19 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_op1_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($5C000)
+#JMP($60FF5, $61030)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #030 NAME:		OP 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $60FC8 - STRING #0 @ $60FF5
+
+#W16($60FC8)
+//DEATH-T‚Ì ‚µ‚Æ‚¤‚Å
+//‚©‚¢‚Î‚ð ‚½‚¨‚µ‚½ ‚ä‚¤‚¬‚½‚¿
+//[END]
+After Kaiba lost;at DEATH-T,;
+//

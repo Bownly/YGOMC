@@ -1,0 +1,229 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($7C000)
+#JMP($82DF4, $82F44)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #027 NAME:		Tsuyosa (POINTER_RELATIVE)
+
+//POINTER #0 @ $82F45 - STRING #0 @ $82DF4
+
+#W16($82F45)
+//LV<$94>[END]
+LV.[END]
+
+//
+//POINTER #1 @ $82F47 - STRING #1 @ $82DF9
+
+#W16($82F47)
+//HP<$94>   /[END]
+HP.   /[END]
+
+//
+//POINTER #2 @ $82F49 - STRING #2 @ $82E02
+
+#W16($82F49)
+//AT<$94>[END]
+AT.[END]
+
+//
+//POINTER #3 @ $82F4B - STRING #3 @ $82E07
+
+#W16($82F4B)
+//DF<$94>[END]
+DF.[END]
+
+//
+//POINTER #4 @ $82F4D - STRING #4 @ $82E0C
+
+#W16($82F4D)
+//SP<$94>[END]
+SP.[END]
+
+//
+//POINTER #5 @ $82F4F - STRING #5 @ $82E11
+
+#W16($82F4F)
+//ぞくせい/[END]
+Type/[END]
+
+//
+//POINTER #6 @ $82F51 - STRING #6 @ $82E1A
+
+#W16($82F51)
+//わざ/[END]
+Sk/[END]
+
+//
+//POINTER #7 @ $82F53 - STRING #7 @ $82E21
+
+#W16($82F53)
+//つぎのレベルまで[END]
+Next LV.[END]
+
+//
+//POINTER #8 @ $82F55 - STRING #8 @ $82E31
+
+#W16($82F55)
+// あと[END]
+in[END]
+
+//
+//POINTER #9 @ $82F57 - STRING #9 @ $82E36
+
+#W16($82F57)
+//もり[END]
+Frst[END]
+
+//
+//POINTER #10 @ $82F59 - STRING #10 @ $82E3A
+
+#W16($82F59)
+//そうげん[END]
+Plns[END]
+
+//
+//POINTER #11 @ $82F5B - STRING #11 @ $82E42
+
+#W16($82F5B)
+//みず[END]
+Sea[END]
+
+//
+//POINTER #12 @ $82F5D - STRING #12 @ $82E48
+
+#W16($82F5D)
+//さんがく[END]
+Mtn[END]
+
+//
+//POINTER #13 @ $82F5F - STRING #13 @ $82E50
+
+#W16($82F5F)
+//あれち[END]
+Wast[END]
+
+//
+//POINTER #14 @ $82F61 - STRING #14 @ $82E55
+
+#W16($82F61)
+//やみ[END]
+Dark[END]
+
+//
+//POINTER #15 @ $82F63 - STRING #15 @ $82E59
+
+#W16($82F63)
+//ひかり[END]
+Ligt[END]
+
+//
+//POINTER #16 @ $82F65 - STRING #16 @ $82E5E
+
+#W16($82F65)
+//こうげきはんい[END]
+Range[END]
+
+//
+//POINTER #17 @ $82F67 - STRING #17 @ $82E69
+
+#W16($82F67)
+//わざのレベル/[END]
+Skl LV/[END]
+
+//
+//POINTER #18 @ $82F69 - STRING #18 @ $82E76
+
+#W16($82F69)
+//ほんとうに すてても[END]
+ Toss MC?[END]
+
+//
+//POINTER #19 @ $82F6B - STRING #19 @ $82E82
+
+#W16($82F6B)
+//  いいですか?[END]
+   [END]
+
+//
+//POINTER #20 @ $82F6D - STRING #20 @ $82E8E
+
+#W16($82F6D)
+//  はい  いいえ[END]
+  Yes  No[END]
+
+//
+//POINTER #21 @ $82F6F - STRING #21 @ $82E99
+
+#W16($82F6F)
+//こうかが なかった[END]
+It had no effect.[END]
+
+//
+//POINTER #22 @ $82F71 - STRING #22 @ $82EA6
+
+#W16($82F71)
+//<$FD>ちは;<$FD>つに;しんかした[END]
+<$FD><$10>;evolved into;<$FD><$11>![END]
+
+//
+//POINTER #23 @ $82F73 - STRING #23 @ $82EB5
+
+#W16($82F73)
+//<$FD>ちは;<$FD>つの;わざを おぼえた[END]
+<$FD><$10>;learned;<$FD><$11>![END]
+
+//
+//POINTER #24 @ $82F75 - STRING #24 @ $82ECB
+
+#W16($82F75)
+//HPが <$FD>ちポイント あがった[END]
+HP increased by;<$FD><$10> point(s)![END]
+
+//
+//POINTER #25 @ $82F77 - STRING #25 @ $82EE2
+
+#W16($82F77)
+//ATが <$FD>ちポイント あがった[END]
+AT increased by;<$FD><$10> point(s)![END]
+
+//
+//POINTER #26 @ $82F79 - STRING #26 @ $82EF9
+
+#W16($82F79)
+//DFが <$FD>ちポイント あがった[END]
+DF increased by;<$FD><$10> point(s)![END]
+
+//
+//POINTER #27 @ $82F7B - STRING #27 @ $82F10
+
+#W16($82F7B)
+//SPが <$FD>ちポイント あがった[END]
+SP increased by;<$FD><$10> point(s)![END]
+
+//
+//POINTER #28 @ $82F7D - STRING #28 @ $82F27
+
+#W16($82F7D)
+//レベルが たりません[END]
+Level too low.[END]
+
+
+
+
+
+
+
+#JMP($83B60)
+
+//
+//POINTER #29 @ $82F7F - STRING #29 @ $82F37
+
+#W16($82F7F)
+//ほんとうに わたしても;[END]
+Are you sure?[END]
+
+//

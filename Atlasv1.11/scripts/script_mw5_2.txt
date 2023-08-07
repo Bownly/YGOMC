@@ -1,0 +1,886 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($D4000)
+#JMP($D8000, $D916C)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #039 NAME:		Monster World 5 part 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $D916D - STRING #0 @ $D8000
+
+#W16($D916D)
+//モンスタ-が しゅつげんした![END]
+Monster attack![END]
+
+//
+//POINTER #1 @ $D916F - STRING #1 @ $D8015
+
+#W16($D916F)
+//「HPカプセル」;を てにいれた[END]
+Obtained an;HP Capsule.[END]
+
+//
+//POINTER #2 @ $D9171 - STRING #2 @ $D8029
+
+#W16($D9171)
+//「ATカプセル」;を てにいれた[END]
+Obtained an;AT Capsule.[END]
+
+//
+//POINTER #3 @ $D9173 - STRING #3 @ $D803D
+
+#W16($D9173)
+//「DFカプセル」;を てにいれた[END]
+Obtained a;DF Capsule.[END]
+
+//
+//POINTER #4 @ $D9175 - STRING #4 @ $D8051
+
+#W16($D9175)
+//「SPカプセル」;を てにいれた[END]
+Obtained an;SP Capsule.[END]
+
+//
+//POINTER #5 @ $D9177 - STRING #5 @ $D8065
+
+#W16($D9177)
+//「わざカプセル」;を てにいれた[END]
+Obtained a;Skill Capsule.[END]
+
+//
+//POINTER #6 @ $D9179 - STRING #6 @ $D807B
+
+#W16($D9179)
+//「しんかカプセル」;を てにいれた[END]
+Obtained an;Evolution Capsule.[END]
+
+//
+//POINTER #7 @ $D917B - STRING #7 @ $D8090
+
+#W16($D917B)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+That was a trap;capsule!;Monster attack![END]
+
+//
+//POINTER #8 @ $D917D - STRING #8 @ $D80BE
+
+#W16($D917D)
+//ついた… ;ここが 3つの じごくのうち;まんなかに いちする[END]
+Welcome to the;middle circle of;the Abyss.[END]
+
+//
+//POINTER #9 @ $D917F - STRING #9 @ $D80E5
+
+#W16($D917F)
+//「かみなりじごく」だ[END]
+The Thunder;Inferno.[END]
+
+//
+//POINTER #10 @ $D9181 - STRING #10 @ $D80F7
+
+#W16($D9181)
+//ゆうぎ わたしは ;このじごくの どこかにある;「マジシャンのつえ」を さがしている[END]
+I'm going on ahead;in search of my;Magician's Rod.[END]
+
+//
+//POINTER #11 @ $D9183 - STRING #11 @ $D812F
+
+#W16($D9183)
+//むかし わたしが もっていたものだが;うばわれて このじごくの どこかに;かくされてしまった[END]
+It was stolen from;me and hidden;somewhere here.[END]
+
+//
+//POINTER #12 @ $D9185 - STRING #12 @ $D816D
+
+#W16($D9185)
+//わたしは マジシャンのつえを;さがしにいく! ;ゆうぎ キミも がんばれよ![END]
+Please keep an eye;out for it.[END]
+
+//
+//POINTER #13 @ $D9187 - STRING #13 @ $D819F
+
+#W16($D9187)
+//かみなりじごくのまち「ゴロピカ」;に ついた[END]
+You enter the;Thunder Inferno;town, Goropika.[END]
+
+//
+//POINTER #14 @ $D9189 - STRING #14 @ $D81BF
+
+#W16($D9189)
+//ここは;かみなりじごくのまち ゴロピカ;まじん デ-モンさまが おさめている[END]
+This town is ruled;over by Lord;Skull.[END]
+
+//
+//POINTER #15 @ $D918B - STRING #15 @ $D81F5
+
+#W16($D918B)
+//デ-モンさまの いかずちは;まかいの だいちをも きりさくと;いわれているわ[END]
+It's said that his;lightning can;split the ground.[END]
+
+//
+//POINTER #16 @ $D918D - STRING #16 @ $D8223
+
+#W16($D918D)
+//このまちの となりの;「いかずちはかば」には;きみょうな つえが あるんだぜ[END]
+There's an odd rod;in the Lightning;Graveyard.[END]
+
+//
+//POINTER #17 @ $D918F - STRING #17 @ $D8255
+
+#W16($D918F)
+//ぼひょうに ささっていて;つねに かみなりが おちているんだ;あぶなくて ちかよれねえよ![END]
+It's constantly;getting struck by;lightning.[END]
+
+//
+//POINTER #18 @ $D9191 - STRING #18 @ $D828C
+
+#W16($D9191)
+//まかいの いかずちは;つきる ことはない!;えいえんに なりつづけるのだ![END]
+The lightning here;is endless! It'll;never stop![END]
+
+//
+//POINTER #19 @ $D9193 - STRING #19 @ $D82B9
+
+#W16($D9193)
+//オイ オマエ!;りかの じゅぎょうで ならったか?[END]
+Hey! Did you know;this science fact?[END]
+
+//
+//POINTER #20 @ $D9195 - STRING #20 @ $D82DA
+
+#W16($D9195)
+//かみなりは ひらいしん があれば;よけることが できるんだぜ![END]
+A lightning rod;will attract;lightning![END]
+
+//
+//POINTER #21 @ $D9197 - STRING #21 @ $D8307
+
+#W16($D9197)
+//ひらいしんは;きんぞくでできた ぼうのことだ[END]
+Any metal rod can;do it.[END]
+
+//
+//POINTER #22 @ $D9199 - STRING #22 @ $D8329
+
+#W16($D9199)
+//オイ オマエ!;りかの じゅぎょうで ならったか?[END]
+Hey! Did you know;this science fact?[END]
+
+//
+//POINTER #23 @ $D919B - STRING #23 @ $D834A
+
+#W16($D919B)
+//かみなりは より たかいところに;おちる せいしつが あるってよ;オレ しらなかったぜ![END]
+Lightning prefers;to strike tall;objects.[END]
+
+//
+//POINTER #24 @ $D919D - STRING #24 @ $D837C
+
+#W16($D919D)
+//マジシャンのつえ?;さあ しらないわ[END]
+The Magician's;Rod? Never heard;of it.[END]
+
+//
+//POINTER #25 @ $D919F - STRING #25 @ $D8392
+
+#W16($D919F)
+//デ-モンさまの すむ;じごくのとうだいは いかずちはかばの;むこうがわに ある[END]
+Lord Skull lives;on the other side;of the Graveyard.[END]
+
+//
+//POINTER #26 @ $D91A1 - STRING #26 @ $D83C9
+
+#W16($D91A1)
+//…って なんで オレ;にんげんに こんなこと;おしえてるんだろ?[END]
+…Wait, why did I;tell a human that?[END]
+
+//
+//POINTER #27 @ $D91A3 - STRING #27 @ $D83F1
+
+#W16($D91A3)
+//このまかいは ;3つのじごくを;3にんの まじんが おさめている[END]
+Each circle of the;Abyss is ruled by;its own lord.[END]
+
+//
+//POINTER #28 @ $D91A5 - STRING #28 @ $D841B
+
+#W16($D91A5)
+//かえんじごくの レッドアイズ;かみなりじごくの デ-モン;やみじごくの やみまかいのはおう[END]
+Flame by Red Eyes,;Thunder by Skull,;Dark by the King.[END]
+
+//
+//POINTER #29 @ $D91A7 - STRING #29 @ $D845C
+
+#W16($D91A7)
+//まじんたちは たがいに;かんしょうせず それぞれが;きんこうを たもっているが[END]
+Together, they;maintain order in;the Abyss.[END]
+
+//
+//POINTER #30 @ $D91A9 - STRING #30 @ $D8491
+
+#W16($D91A9)
+//なかでも やみまかいのはおうは;その きょうだいな チカラによって;おそれられているのだ[END]
+But of the 3, the;King is the most;powerful.[END]
+
+//
+//POINTER #31 @ $D91AB - STRING #31 @ $D84C5
+
+#W16($D91AB)
+//このさきの しかばねのもりを;ぬけると いかずちはかばの;うらがわへ つづいている[END]
+The Corpse Copse;has an exit to the;Graveyard.[END]
+
+//
+//POINTER #32 @ $D91AD - STRING #32 @ $D84FA
+
+#W16($D91AD)
+//もう ふるくて;つかわれていない とりでが;しかばねのもりの なかにある[END]
+There's an old;abandoned fort in;the Corpse Copse.[END]
+
+//
+//POINTER #33 @ $D91AF - STRING #33 @ $D8526
+
+#W16($D91AF)
+//あそこには こわれた ぶきとか;ガラクタが おきざりに なってるから;ちらかすなよ![END]
+It's full of left;behind broken;weapons and such.[END]
+
+//
+//POINTER #34 @ $D91B1 - STRING #34 @ $D855A
+
+#W16($D91B1)
+//ひだりから かぞえて ;7ばんめの おはかを しらべてごらん[END]
+Go check the 7th;grave from the;left.[END]
+
+//
+//POINTER #35 @ $D91B3 - STRING #35 @ $D8584
+
+#W16($D91B3)
+//きっと いいモノが みつかるぜ![END]
+Thank me later.[END]
+
+//
+//POINTER #36 @ $D91B5 - STRING #36 @ $D859A
+
+#W16($D91B5)
+//「いかずちはかば」;に ついた[END]
+You enter the;Lightning;Graveyard.[END]
+
+//
+//POINTER #37 @ $D91B7 - STRING #37 @ $D85AF
+
+#W16($D91B7)
+//ここでは 6ほ あるくごとに;45の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 6 steps;will have a 45%;encounter chance.[END]
+
+//
+//POINTER #38 @ $D91B9 - STRING #38 @ $D85E5
+
+#W16($D91B9)
+//イワに くぼみが ある[END]
+There's a rock;with a hole in it.[END]
+
+//
+//POINTER #39 @ $D91BB - STRING #39 @ $D85F6
+
+#W16($D91BB)
+//どうする?;  てつのぼうを イワに さしこむ;  なにもしない[END]
+Your move?;  Insert the rod;  Pass[END]
+
+//
+//POINTER #40 @ $D91BD - STRING #40 @ $D861C
+
+#W16($D91BD)
+//てつのぼうを イワにさしこんだ![END]
+You inserted the;rod into rock.[END]
+
+//
+//POINTER #41 @ $D91BF - STRING #41 @ $D8632
+
+#W16($D91BF)
+//てつのぼうが ひらいしんの;やくめを はたし かみなりが;てつのぼうに おちるようになった![END]
+The Iron Rod;became a lightning;rod![END]
+
+//
+//POINTER #42 @ $D91C1 - STRING #42 @ $D866A
+
+#W16($D91C1)
+//いかずちに てらされた ぼひょうに;いっぽんの つえが ささっている[END]
+Lightning strikes;the rod stuck in;the gravestone.[END]
+
+//
+//POINTER #43 @ $D91C3 - STRING #43 @ $D8696
+
+#W16($D91C3)
+//あぶなくて ちかよれない![END]
+It's too dangerous;to get closer.[END]
+
+//
+//POINTER #44 @ $D91C5 - STRING #44 @ $D86A7
+
+#W16($D91C5)
+//ぼひょうに いっぽんの つえが;ささっている[END]
+There's a rod;stuck in the;gravestone.[END]
+
+//
+//POINTER #45 @ $D91C7 - STRING #45 @ $D86C5
+
+#W16($D91C7)
+//とるか?;  とる;  とらない[END]
+Take it?;  Obviously;  Nope[END]
+
+//
+//POINTER #46 @ $D91C9 - STRING #46 @ $D86D7
+
+#W16($D91C9)
+//「マジシャンのつえ」;を てにいれた[END]
+You unsheathed the;Magician's Rod.[END]
+
+//
+//POINTER #47 @ $D91CB - STRING #47 @ $D86ED
+
+#W16($D91CB)
+//グギョギョギョギョ!;オレさまは ゴ-ストおう;パンプキング!![END]
+Gugyogyo!;I'm Pumpking, the;King of Ghosts![END]
+
+//
+//POINTER #48 @ $D91CD - STRING #48 @ $D8721
+
+#W16($D91CD)
+//ししゃの せいいきを いきた;にんげんに かってに ウロつかれては;こまるなぁ… そうだろう?[END]
+This is a sacred;place. Humans;don't belong here.[END]
+
+//
+//POINTER #49 @ $D91CF - STRING #49 @ $D8756
+
+#W16($D91CF)
+//だから オマエも ;ゾンビたちの なかまに なれぃ!![END]
+So I'll turn you;into a zombie![END]
+
+//
+//POINTER #50 @ $D91D1 - STRING #50 @ $D8779
+
+#W16($D91D1)
+//カプセルを みつけた![END]
+You found a;capsule![END]
+
+//
+//POINTER #51 @ $D91D3 - STRING #51 @ $D8788
+
+#W16($D91D3)
+//カプセルを みつけた![END]
+You found a;capsule![END]
+
+//
+//POINTER #52 @ $D91D5 - STRING #52 @ $D8797
+
+#W16($D91D5)
+//「しかばねのもり」;に ついた[END]
+You enter the;Corpse Copse.[END]
+
+//
+//POINTER #53 @ $D91D7 - STRING #53 @ $D87AA
+
+#W16($D91D7)
+//ここでは 8ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #54 @ $D91D9 - STRING #54 @ $D87E0
+
+#W16($D91D9)
+//しんせいな まかいのうみに;どそくで ふみこむ ;ふとどきな にんげんよ[END]
+Human, you dare;defile the sacred;Abyssal Lake?[END]
+
+//
+//POINTER #55 @ $D91DB - STRING #55 @ $D880E
+
+#W16($D91DB)
+//そのつみを ;この かいりゅうしん;リバイアサンが さばいてくれよう![END]
+I, Leviathan,;shall judge your;crimes![END]
+
+//
+//POINTER #56 @ $D91DD - STRING #56 @ $D8839
+
+#W16($D91DD)
+//まかいのまもりが;ゆうぎを まもった![END]
+The Abyss Charm;protected you![END]
+
+//
+//POINTER #57 @ $D91DF - STRING #57 @ $D8852
+
+#W16($D91DF)
+//おのれ… こしゃくな;にんげんめが…![END]
+Impudent human![END]
+
+//
+//POINTER #58 @ $D91E1 - STRING #58 @ $D886B
+
+#W16($D91E1)
+//ここは むかしの デ-モンのとりで;いまはもう さびれて;つかわれていない[END]
+This abandoned;fort used to be;Lord Skull's.[END]
+
+//
+//POINTER #59 @ $D91E3 - STRING #59 @ $D8898
+
+#W16($D91E3)
+//こわれた てつのやりが ある;やじりの ぶぶんは おれて;ぼうだけに なっている[END]
+You find a metal;spear without a;tip.[END]
+
+//
+//POINTER #60 @ $D91E5 - STRING #60 @ $D88CE
+
+#W16($D91E5)
+//ぼうを もっていくか?;  もっていく;  もっていかない[END]
+Take it?;  Take it;  Forsake it[END]
+
+//
+//POINTER #61 @ $D91E7 - STRING #61 @ $D88EF
+
+#W16($D91E7)
+//「てつのぼう」;を てにいれた[END]
+You took the Iron;Rod.[END]
+
+//
+//POINTER #62 @ $D91E9 - STRING #62 @ $D8902
+
+#W16($D91E9)
+//もう なにもない[END]
+There's nothing;there.[END]
+
+//
+//POINTER #63 @ $D91EB - STRING #63 @ $D890C
+
+#W16($D91EB)
+//「かみなりじごくのとうだい」;に ついた[END]
+You enter the;Lightning Infernal;Lighthouse.[END]
+
+//
+//POINTER #64 @ $D91ED - STRING #64 @ $D8928
+
+#W16($D91ED)
+//ここでは 7ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 7 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #65 @ $D91EF - STRING #65 @ $D895E
+
+#W16($D91EF)
+//う~ん… やられた…[END]
+I'm done for…[END]
+
+//
+//POINTER #66 @ $D91F1 - STRING #66 @ $D896A
+
+#W16($D91F1)
+//ヤツは いったい;なにもの…?[END]
+Who… was that?[END]
+
+//
+//POINTER #67 @ $D91F3 - STRING #67 @ $D897B
+
+#W16($D91F3)
+//とつぜん くろいやつが あらわれて;デ-モンさまの へやに ムリヤリ;はいって いきやがった… くそ…![END]
+Some guy in black;showed up and ran;through us.[END]
+
+//
+//POINTER #68 @ $D91F5 - STRING #68 @ $D89B9
+
+#W16($D91F5)
+//…なにものだ きさま!;こんなことをして いきて かえれると;おもうのか!!?[END]
+You think you'll;make it out of;here alive!?[END]
+
+//
+//POINTER #69 @ $D91F7 - STRING #69 @ $D89E4
+
+#W16($D91F7)
+//なかなか いれてくれないので;すこし てあらに なってしまった[END]
+Sorry I had to get;rough, but they;forced my hand.[END]
+
+//
+//POINTER #70 @ $D91F9 - STRING #70 @ $D8A07
+
+#W16($D91F9)
+//ここには わたしのつえを;かえして もらいにきたのだ…;デ-モンよ[END]
+I only came here;to get my rod;back, Skull.[END]
+
+//
+//POINTER #71 @ $D91FB - STRING #71 @ $D8A2E
+
+#W16($D91FB)
+//わたしの… だと?;……[END]
+YOUR rod?;…[END]
+
+//
+//POINTER #72 @ $D91FD - STRING #72 @ $D8A3E
+
+#W16($D91FD)
+//まさか… きさまは…!?[END]
+Then you're… No![END]
+
+//
+//POINTER #73 @ $D91FF - STRING #73 @ $D8A4C
+
+#W16($D91FF)
+//ヤツが わたしからうばった つえ…;この じごくのどこかに;かくしているのは わかっている[END]
+I know my rod is;somewhere in;this Inferno.[END]
+
+//
+//POINTER #74 @ $D9201 - STRING #74 @ $D8A85
+
+#W16($D9201)
+//わたしの マジシャンのつえは;どこにある?[END]
+Where is my;Magician's Rod?[END]
+
+//
+//POINTER #75 @ $D9203 - STRING #75 @ $D8AA0
+
+#W16($D9203)
+//そうか やはり きさまか…!;わざわざ ここまで じごくのそこから;はいあがってきたと いうわけだな![END]
+It IS you! So you;crawled yourself;all the way here![END]
+
+//
+//POINTER #76 @ $D9205 - STRING #76 @ $D8AE3
+
+#W16($D9205)
+//たしかに オレが はおうから;つえを あずかっている…が そもそも;きさまは ここにいるべきではない![END]
+The King gave me;the rod, so it's;mine now![END]
+
+//
+//POINTER #77 @ $D9207 - STRING #77 @ $D8B22
+
+#W16($D9207)
+//きさまは やぶれたのだ… まさか;ふたたび もとの ちいを;とりもどそうとでも いうのか!?[END]
+Don't tell me, you;want to reclaim;your former title?[END]
+
+//
+//POINTER #78 @ $D9209 - STRING #78 @ $D8B5C
+
+#W16($D9209)
+//そんなことは もう どうでもいい;あのつえは わたしの おきにいり;なのでね かえしてほしいだけだ[END]
+All I want is to;get my rod back.[END]
+
+//
+//POINTER #79 @ $D920B - STRING #79 @ $D8B99
+
+#W16($D920B)
+//まかいは オマエたちで;スキに やればいい;わたしは かかわる つもりはない[END]
+You lot can run;the Abyss however;you please.[END]
+
+//
+//POINTER #80 @ $D920D - STRING #80 @ $D8BC5
+
+#W16($D920D)
+//こっちは こっちで ;じゆうにやるさ[END]
+And I'll do as I;please.[END]
+
+//
+//POINTER #81 @ $D920F - STRING #81 @ $D8BDD
+
+#W16($D920F)
+//いずれにせよ あのつえは;きさまに わたすわけにはいかん!![END]
+I'll never give;your rod back.[END]
+
+//
+//POINTER #82 @ $D9211 - STRING #82 @ $D8BFF
+
+#W16($D9211)
+//オレが はおうから あずかっている;せきにんがある…! しにたくなくば;いますぐ たちされ!![END]
+And if you value;your life, you'll;leave now![END]
+
+//
+//POINTER #83 @ $D9213 - STRING #83 @ $D8C3A
+
+#W16($D9213)
+//こんなところに にんげんが;なんの ようだ…;…ムッ!!?[END]
+Why is a human;here!?[END]
+
+//
+//POINTER #84 @ $D9215 - STRING #84 @ $D8C5F
+
+#W16($D9215)
+//…!;ゆうぎ じゃないか?[END]
+…! Yugi![END]
+
+//
+//POINTER #85 @ $D9217 - STRING #85 @ $D8C72
+
+#W16($D9217)
+//あっ…!;そ… その つえは…!?[END]
+Wait, is that…![END]
+
+//
+//POINTER #86 @ $D9219 - STRING #86 @ $D8C85
+
+#W16($D9219)
+//そのてに もっている つえ…;それは オレが ふういんしたはずの;マジシャンのつえ…!?[END]
+Is that my;Magician's Rod!?[END]
+
+//
+//POINTER #87 @ $D921B - STRING #87 @ $D8CB9
+
+#W16($D921B)
+//おのれ…! にんげんが オレの;いかずちの けっかいを しりぞけたと;いうのか…!!?[END]
+You mean a human;undid my lightning;barrier!?[END]
+
+//
+//POINTER #88 @ $D921D - STRING #88 @ $D8CEE
+
+#W16($D921D)
+//ゆるさぬ!;ゆるさぬぞ!![END]
+How dare you!?[END]
+
+//
+//POINTER #89 @ $D921F - STRING #89 @ $D8CFF
+
+#W16($D921F)
+//くっ… にんげんが ここまで;やるとは…!![END]
+You lowly human…![END]
+
+//
+//POINTER #90 @ $D9221 - STRING #90 @ $D8D1D
+
+#W16($D9221)
+//かえさぬ…! いきては;かえさぬぞ…!![END]
+You're dead! Dead![END]
+
+//
+//POINTER #91 @ $D9223 - STRING #91 @ $D8D35
+
+#W16($D9223)
+//ゆうぎ!;マジシャンのつえを わたしてくれ![END]
+Yugi! Toss me my;rod![END]
+
+//
+//POINTER #92 @ $D9225 - STRING #92 @ $D8D51
+
+#W16($D9225)
+//デ-モンよ マジシャンのつえが;わたしのてに もどった…;わたしはもう ここをさる[END]
+Skull, I got what;I came here for.;I'm leaving now.[END]
+
+//
+//POINTER #93 @ $D9227 - STRING #93 @ $D8D84
+
+#W16($D9227)
+//オマエも きずついて たたかえまい;ここは わたしにめんじて おさめて;くれないか?[END]
+You're too wounded;to protest, right?[END]
+
+//
+//POINTER #94 @ $D9229 - STRING #94 @ $D8DB4
+
+#W16($D9229)
+//ぬぅ……[END]
+Grr…[END]
+
+//
+//POINTER #95 @ $D922B - STRING #95 @ $D8DBA
+
+#W16($D922B)
+//…いいだろう かってにするがいい;だが ことがしれたら はおうは;だまって いないだろう[END]
+…Fine, go. But the;King won't take;kindly to this.[END]
+
+//
+//POINTER #96 @ $D922D - STRING #96 @ $D8DF6
+
+#W16($D922D)
+//せいぜい きをつける ことだな![END]
+Watch your back![END]
+
+//
+//POINTER #97 @ $D922F - STRING #97 @ $D8E0C
+
+#W16($D922F)
+//ゆうぎのおかげで マジシャンのつえを;みつけることが できた;おんにきる ゆうぎ![END]
+I'm in your debt,;Yugi.[END]
+
+//
+//POINTER #98 @ $D9231 - STRING #98 @ $D8E45
+
+#W16($D9231)
+//このさきは ;まかいの さいじょうかい;「やみじごく」へ つづいている[END]
+Beyond here is the;final circle, the;Dark Inferno.[END]
+
+//
+//POINTER #99 @ $D9233 - STRING #99 @ $D8E72
+
+#W16($D9233)
+//やみじごくは これまでの じごくでも;もっとも きけんなところだ;すんでいる モンスタ-も つよい[END]
+And it's the most;dangerous of the;three.[END]
+
+//
+//POINTER #100 @ $D9235 - STRING #100 @ $D8EB5
+
+#W16($D9235)
+//だが にんげんかいに;かえりたいのなら ここを;とおらずには たどりつけない[END]
+But it's the only;way to get to the;human world.[END]
+
+//
+//POINTER #101 @ $D9237 - STRING #101 @ $D8EE7
+
+#W16($D9237)
+//おそらく わたしたちの だつごくは;やみじごくを とりしきる;やみまかいのはおうに しれていよう[END]
+I'm sure the King;will have heard of;our plans by now.[END]
+
+//
+//POINTER #102 @ $D9239 - STRING #102 @ $D8F21
+
+#W16($D9239)
+//バラバラに にげるより;ともに こうどうしたほうが;よさそうだな[END]
+We should stick;together moving;forward.[END]
+
+//
+//POINTER #103 @ $D923B - STRING #103 @ $D8F4F
+
+#W16($D923B)
+//つえの れいもあるし;わたしも ゆうぎが にんげんかいへ;いくのを てつだわせてくれ![END]
+To repay my debt,;I'll help you get;back home![END]
+
+//
+//POINTER #104 @ $D923D - STRING #104 @ $D8F84
+
+#W16($D923D)
+//ベンキが ある;ここは トイレのようだ[END]
+It's a urinal.[END]
+
+//
+//POINTER #105 @ $D923F - STRING #105 @ $D8F9F
+
+#W16($D923F)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #106 @ $D9241 - STRING #106 @ $D8FAC
+
+#W16($D9241)
+//なにやら ;えたいの しれないものが;つまっている…[END]
+Look inside at;your peril.[END]
+
+//
+//POINTER #107 @ $D9243 - STRING #107 @ $D8FCA
+
+#W16($D9243)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #108 @ $D9245 - STRING #108 @ $D8FD7
+
+#W16($D9245)
+//なかから「DFカプセル」;を てにいれた![END]
+Inside was a;DF Capsule![END]
+
+//
+//POINTER #109 @ $D9247 - STRING #109 @ $D8FF0
+
+#W16($D9247)
+//きたない テ-ブルだ;ちらかっている[END]
+That's one messy;table.[END]
+
+//
+//POINTER #110 @ $D9249 - STRING #110 @ $D9008
+
+#W16($D9249)
+//きたない テ-ブルだ;ちらかっている[END]
+That's one messy;table.[END]
+
+//
+//POINTER #111 @ $D924B - STRING #111 @ $D9020
+
+#W16($D924B)
+//ひきだしの なかから;「DFカプセル」;を てにいれた![END]
+Inside was a;DF Capsule![END]
+
+//
+//POINTER #112 @ $D924D - STRING #112 @ $D9042
+
+#W16($D924D)
+//つぼが おいてある[END]
+It's a jar.[END]
+
+//
+//POINTER #113 @ $D924F - STRING #113 @ $D9051
+
+#W16($D924F)
+//なにやら ;おぞましい えきたいが はいっている[END]
+Its contents are;jarring.[END]
+
+//
+//POINTER #114 @ $D9251 - STRING #114 @ $D906F
+
+#W16($D9251)
+//つぼが おいてある[END]
+It's a jar…[END]
+
+//
+//POINTER #115 @ $D9253 - STRING #115 @ $D907E
+
+#W16($D9253)
+//なかから モンスタ-が;おそいかかってきた![END]
+…With a monster;inside![END]
+
+//
+//POINTER #116 @ $D9255 - STRING #116 @ $D9098
+
+#W16($D9255)
+//いどが ある[END]
+It's a well.[END]
+
+//
+//POINTER #117 @ $D9257 - STRING #117 @ $D90A4
+
+#W16($D9257)
+//そこの ほうから;ブキミなこえが きこえてくる…[END]
+You hear an odd;voice welling up;from inside it…[END]
+
+//
+//POINTER #118 @ $D9259 - STRING #118 @ $D90C2
+
+#W16($D9259)
+//1[END]
+1[END]
+
+//
+//POINTER #119 @ $D925B - STRING #119 @ $D90C5
+
+#W16($D925B)
+//1[END]
+1[END]
+
+//
+//POINTER #120 @ $D925D - STRING #120 @ $D90C8
+
+#W16($D925D)
+//まるたが うかんでいる;これを ながせば みちをふさぐ;かわを わたることが できる[END]
+You find a log.;You can use it to;cross the river.[END]
+
+//
+//POINTER #121 @ $D925F - STRING #121 @ $D9103
+
+#W16($D925F)
+//まるたが どこへ ながれつくかを;ダイスロ-ルで はんていできる[END]
+A dice roll will;decide where it;will float to.[END]
+
+//
+//POINTER #122 @ $D9261 - STRING #122 @ $D9131
+
+#W16($D9261)
+//まるたを ながしてみるか?;  ながす;  ながさない[END]
+Push it?;  Yeah;  Nah[END]
+
+//
+//POINTER #123 @ $D9263 - STRING #123 @ $D9154
+
+#W16($D9263)
+//きゅう~…[END]
+Weeew…[END]
+
+//
+//POINTER #124 @ $D9265 - STRING #124 @ $D915B
+
+#W16($D9265)
+//じ じごくを みた…[END]
+I saw the Inferno…[END]
+
+//

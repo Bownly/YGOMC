@@ -1,0 +1,116 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($34000) 
+#JMP($39F6B)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #002 NAME:		Skill Names (POINTER_RELATIVE)
+
+//POINTER #216 @ $39392 - STRING #216 @ $39104
+
+#W16($39392)
+//てだまパンチ[END]
+Weak Punch[END]
+
+//
+//POINTER #217 @ $39394 - STRING #217 @ $39110
+
+#W16($39394)
+//ジェットストリ-ムパンチ[END]
+JetStreamPunch[END]
+
+//
+//POINTER #218 @ $39396 - STRING #218 @ $39122
+
+#W16($39396)
+//アリゲ-タ-サンダ-[END]
+Gator Thunder[END]
+
+//
+//POINTER #219 @ $39398 - STRING #219 @ $39132
+
+#W16($39398)
+//パロットフレイム[END]
+Parrot Flame[END]
+
+//
+//POINTER #220 @ $3939A - STRING #220 @ $3913E
+
+#W16($3939A)
+//トゥ-ンジェットコ-スタ-[END]
+ToonRolrCoastr[END]
+
+//
+//POINTER #221 @ $3939C - STRING #221 @ $3914F
+
+#W16($3939C)
+//カイザ-スト-ム[END]
+Kaiser Stream[END]
+
+//
+//POINTER #222 @ $3939E - STRING #222 @ $3915B
+
+#W16($3939E)
+//きあいぎり[END]
+Spirit Slice[END]
+
+//
+//POINTER #223 @ $393A0 - STRING #223 @ $39164
+
+#W16($393A0)
+//サンダ-グレネ-ド[END]
+ThunderGrenade[END]
+
+//
+//POINTER #224 @ $393A2 - STRING #224 @ $39175
+
+#W16($393A2)
+//スゴロクキック[END]
+Solomon Kick[END]
+
+//
+//POINTER #225 @ $393A4 - STRING #225 @ $39180
+
+#W16($393A4)
+//ダ-クミレニアム[END]
+DarkMillennium[END]
+
+//
+//POINTER #226 @ $393A6 - STRING #226 @ $3918C
+
+#W16($393A6)
+//アリゲ-タ-ミラクル[END]
+GatorMiracle[END]
+
+//
+//POINTER #227 @ $393A8 - STRING #227 @ $3919A
+
+#W16($393A8)
+//パロットドラゴンバ-スト[END]
+ParrotDrgnBurst[END]
+
+//
+//POINTER #228 @ $393AA - STRING #228 @ $391B0
+
+#W16($393AA)
+//トゥ-ンメリ-ゴ-ランド[END]
+ToonMerryGoRnd[END]
+
+//
+//POINTER #229 @ $393AC - STRING #229 @ $391C2
+
+#W16($393AC)
+//ばくれつきあいぎり[END]
+ExploSpirtSlce[END]
+
+//
+//POINTER #230 @ $393AE - STRING #230 @ $391D1
+
+#W16($393AE)
+//ファイナルビックバン[END]
+Final Big Bang;[END]
+
+//

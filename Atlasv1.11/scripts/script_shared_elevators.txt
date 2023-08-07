@@ -1,0 +1,74 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C000) 
+#JMP($83172, $83256)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #005 NAME:		Shared Elevator (POINTER_RELATIVE)
+
+//POINTER #0 @ $83257 - STRING #0 @ $83172
+
+#W16($83257)
+//エレベ-タ-がある[END]
+It's an elevator.[END]
+
+//
+//POINTER #1 @ $83259 - STRING #1 @ $83181
+
+#W16($83259)
+//いまは つかえないようだ[END]
+Seems you can't;use it now.[END]
+
+//
+//POINTER #2 @ $8325B - STRING #2 @ $83191
+
+#W16($8325B)
+//なんかいに いきますか?;   1F   2F[END]
+Go to which floor?;   1F   2F[END]
+
+//
+//POINTER #3 @ $8325D - STRING #3 @ $831AA
+
+#W16($8325D)
+//なんかいに いきますか?;   1F   2F   3F[END]
+Go to which floor?;   1F   2F   3F[END]
+
+//
+//POINTER #4 @ $8325F - STRING #4 @ $831C8
+
+#W16($8325F)
+//なんかいに いきますか?;   1F   2F   3F;   4F[END]
+Go to which floor?;   1F   2F   3F;   4F[END]
+
+//
+//POINTER #5 @ $83261 - STRING #5 @ $831EC
+
+#W16($83261)
+//なんかいに いきますか?;   1F   2F   3F;   4F   5F[END]
+Go to which floor?;   1F   2F   3F;   4F   5F[END]
+
+//
+
+
+
+
+#JMP($83B90)
+
+
+//POINTER #6 @ $83263 - STRING #6 @ $83215
+
+#W16($83263)
+//なんかいに いきますか?;   1F   2F   3F;   4F   5F   B1[END]
+Go to which floor?;   1F   2F   3F;   4F   5F   B1[END]
+
+//
+//POINTER #7 @ $83265 - STRING #7 @ $83243
+
+#W16($83265)
+//もうすこし このフロアに いよう…;[END]
+You stayed on this;floor.[END]
+
+//

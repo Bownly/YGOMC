@@ -1,0 +1,46 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #026 NAME:		Type Names (POINTER_RELATIVE)
+
+//POINTER #0 @ $3C1D8 - STRING #0 @ $3C1B0
+
+#W16($3C1D8)
+//‚à‚è[END]
+
+//
+//POINTER #1 @ $3C1DA - STRING #1 @ $3C1B4
+
+#W16($3C1DA)
+//‚»‚¤‚°‚ñ[END]
+
+//
+//POINTER #2 @ $3C1DC - STRING #2 @ $3C1BC
+
+#W16($3C1DC)
+//‚Ý‚¸[END]
+
+//
+//POINTER #3 @ $3C1DE - STRING #3 @ $3C1C2
+
+#W16($3C1DE)
+//‚³‚ñ‚ª‚­[END]
+
+//
+//POINTER #4 @ $3C1E0 - STRING #4 @ $3C1CA
+
+#W16($3C1E0)
+//‚ ‚ê‚¿[END]
+
+//
+//POINTER #5 @ $3C1E2 - STRING #5 @ $3C1CF
+
+#W16($3C1E2)
+//‚â‚Ý[END]
+
+//
+//POINTER #6 @ $3C1E4 - STRING #6 @ $3C1D3
+
+#W16($3C1E4)
+//‚Ð‚©‚è[END]
+
+//

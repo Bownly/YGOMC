@@ -1,0 +1,160 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #024 NAME:		Monster World 3 part 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $C2ABC - STRING #0 @ $C2721
+
+#W16($C2ABC)
+//モンスタ-が しゅつげんした![END]
+
+//
+//POINTER #1 @ $C2ABE - STRING #1 @ $C2736
+
+#W16($C2ABE)
+//「HPカプセル」;を てにいれた[END]
+
+//
+//POINTER #2 @ $C2AC0 - STRING #2 @ $C274A
+
+#W16($C2AC0)
+//「ATカプセル」;を てにいれた[END]
+
+//
+//POINTER #3 @ $C2AC2 - STRING #3 @ $C275E
+
+#W16($C2AC2)
+//「DFカプセル」;を てにいれた[END]
+
+//
+//POINTER #4 @ $C2AC4 - STRING #4 @ $C2772
+
+#W16($C2AC4)
+//「SPカプセル」;を てにいれた[END]
+
+//
+//POINTER #5 @ $C2AC6 - STRING #5 @ $C2786
+
+#W16($C2AC6)
+//「わざカプセル」;を てにいれた[END]
+
+//
+//POINTER #6 @ $C2AC8 - STRING #6 @ $C279C
+
+#W16($C2AC8)
+//「しんかカプセル」;を てにいれた[END]
+
+//
+//POINTER #7 @ $C2ACA - STRING #7 @ $C27B1
+
+#W16($C2ACA)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+
+//
+//POINTER #8 @ $C2ACC - STRING #8 @ $C27DF
+
+#W16($C2ACC)
+//「レックスのいせき」;に ついた[END]
+
+//
+//POINTER #9 @ $C2ACE - STRING #9 @ $C27F1
+
+#W16($C2ACE)
+//ここでは 6ぽ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+
+//
+//POINTER #10 @ $C2AD0 - STRING #10 @ $C2829
+
+#W16($C2AD0)
+//かべを つきぬける ようにして;きょだいな いきものの ひくい;「ねいき」が ひびいてくる…[END]
+
+//
+//POINTER #11 @ $C2AD2 - STRING #11 @ $C2861
+
+#W16($C2AD2)
+//そこには「にとうをもつKレックス」が;きょだいな からだを かたむけて;ねむっておった![END]
+
+//
+//POINTER #12 @ $C2AD4 - STRING #12 @ $C2895
+
+#W16($C2AD4)
+//へたに レックスを めざめさせれば;ぼうけんしゃは たちまち ;レックスの えじきになるで![END]
+
+//
+//POINTER #13 @ $C2AD6 - STRING #13 @ $C28CF
+
+#W16($C2AD6)
+//どないする?;  こっそり すすむ;  このまま ひきかえす[END]
+
+//
+//POINTER #14 @ $C2AD8 - STRING #14 @ $C28F1
+
+#W16($C2AD8)
+//ぼうけんしゃは なんとか;レックスに きづかれずに;みちを わたらなくては ならん[END]
+
+//
+//POINTER #15 @ $C2ADA - STRING #15 @ $C2922
+
+#W16($C2ADA)
+//しかし あるいている とちゅうに;ものおとを たてて レックスを;めざめさせて しまうかもしれん…[END]
+
+//
+//POINTER #16 @ $C2ADC - STRING #16 @ $C2957
+
+#W16($C2ADC)
+//そこで ;あやまって レックスを;おこしてしまう かのうせいを[END]
+
+//
+//POINTER #17 @ $C2ADE - STRING #17 @ $C297A
+
+#W16($C2ADE)
+//5ほ あるくごとに;ダイスロ-ルで はんていする;かくりつは 40や![END]
+
+//
+//POINTER #18 @ $C2AE0 - STRING #18 @ $C29A6
+
+#W16($C2AE0)
+//ふこうにも ぼうけんしゃは;ものおとを たてて しまった!;こだい きょうりゅうが めざめる![END]
+
+//
+//POINTER #19 @ $C2AE2 - STRING #19 @ $C29DF
+
+#W16($C2AE2)
+//「にとうをもつKレックス」;が おそいかかって きた![END]
+
+//
+//POINTER #20 @ $C2AE4 - STRING #20 @ $C29FE
+
+#W16($C2AE4)
+//レックスは しんだように;ふたたび ふかいねむりについた[END]
+
+//
+//POINTER #21 @ $C2AE6 - STRING #21 @ $C2A20
+
+#W16($C2AE6)
+//ここが 3だいすいもんの さいご;「ノ-スゲ-ト」や[END]
+
+//
+//POINTER #22 @ $C2AE8 - STRING #22 @ $C2A44
+
+#W16($C2AE8)
+//すいもんを あけるか?;  あける;  あけない[END]
+
+//
+//POINTER #23 @ $C2AEA - STRING #23 @ $C2A5E
+
+#W16($C2AEA)
+//すいもんを ひらいた おとで;レックスは めざめてしまった!;こちらへ むかってくる!![END]
+
+//
+//POINTER #24 @ $C2AEC - STRING #24 @ $C2A90
+
+#W16($C2AEC)
+//にげるか?;  にげる;  にげない[END]
+
+//
+//POINTER #25 @ $C2AEE - STRING #25 @ $C2AAA
+
+#W16($C2AEE)
+//レックスが おいかけてきた![END]
+
+//

@@ -1,0 +1,1524 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($34000) 
+#JMP($386A1, $391E1)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #002 NAME:		Skill Names (POINTER_RELATIVE)
+
+//POINTER #0 @ $391E2 - STRING #0 @ $386A1
+
+#W16($391E2)
+//イカスミ[END]
+Squid Ink[END]
+
+//
+//POINTER #1 @ $391E4 - STRING #1 @ $386A7
+
+#W16($391E4)
+//グレ-トフォング[END]
+Great Fang[END]
+
+//
+//POINTER #2 @ $391E6 - STRING #2 @ $386B5
+
+#W16($391E6)
+//でんげき[END]
+Zap[END]
+
+//
+//POINTER #3 @ $391E8 - STRING #3 @ $386BF
+
+#W16($391E8)
+//ゲソサブミッション[END]
+Tentasqueeze[END]
+
+//
+//POINTER #4 @ $391EA - STRING #4 @ $386CE
+
+#W16($391EA)
+//ウオ-タ-ショット[END]
+Water Shot[END]
+
+//
+//POINTER #5 @ $391EC - STRING #5 @ $386D9
+
+#W16($391EC)
+//つなみ[END]
+Tsunami[END]
+
+//
+//POINTER #6 @ $391EE - STRING #6 @ $386DE
+
+#W16($391EE)
+//しっぷうざん[END]
+Gale Slash[END]
+
+//
+//POINTER #7 @ $391F0 - STRING #7 @ $386EA
+
+#W16($391F0)
+//トマホ-クアタック[END]
+Tomahawk[END]
+
+//
+//POINTER #8 @ $391F2 - STRING #8 @ $386F5
+
+#W16($391F2)
+//サイガ-サンダ-[END]
+Horn Thunder[END]
+
+//
+//POINTER #9 @ $391F4 - STRING #9 @ $38703
+
+#W16($391F4)
+//クロスソ-ド[END]
+Cross Sword[END]
+
+//
+//POINTER #10 @ $391F6 - STRING #10 @ $3870D
+
+#W16($391F6)
+//シャインエッジ[END]
+Shine Edge[END]
+
+//
+//POINTER #11 @ $391F8 - STRING #11 @ $38718
+
+#W16($391F8)
+//スクリュ-ナックル[END]
+Screw Knuckle[END]
+
+//
+//POINTER #12 @ $391FA - STRING #12 @ $38723
+
+#W16($391FA)
+//タイガ-クラッシュ[END]
+Tiger Crush[END]
+
+//
+//POINTER #13 @ $391FC - STRING #13 @ $38730
+
+#W16($391FC)
+//スピアマンティス[END]
+Spear Mantis[END]
+
+//
+//POINTER #14 @ $391FE - STRING #14 @ $3873C
+
+#W16($391FE)
+//かいてんぎり[END]
+Spin Slice[END]
+
+//
+//POINTER #15 @ $39200 - STRING #15 @ $38746
+
+#W16($39200)
+//じごくづき[END]
+Throat Chop[END]
+
+//
+//POINTER #16 @ $39202 - STRING #16 @ $38753
+
+#W16($39202)
+//しゅんさつぎり[END]
+Instant Slice[END]
+
+//
+//POINTER #17 @ $39204 - STRING #17 @ $3875E
+
+#W16($39204)
+//えんざんけん[END]
+Crescent Slash[END]
+
+//
+//POINTER #18 @ $39206 - STRING #18 @ $38768
+
+#W16($39206)
+//ごうわんアックス[END]
+Strong Axe[END]
+
+//
+//POINTER #19 @ $39208 - STRING #19 @ $38774
+
+#W16($39208)
+//スパイラルシェイバ-[END]
+Spiral Shaver[END]
+
+//
+//POINTER #20 @ $3920A - STRING #20 @ $38784
+
+#W16($3920A)
+//とびつき[END]
+Pounce[END]
+
+//
+//POINTER #21 @ $3920C - STRING #21 @ $3878C
+
+#W16($3920C)
+//えいしざん[END]
+Noble Slash[END]
+
+//
+//POINTER #22 @ $3920E - STRING #22 @ $38795
+
+#W16($3920E)
+//ロッククラッシュ[END]
+Rock Crush[END]
+
+//
+//POINTER #23 @ $39210 - STRING #23 @ $3879F
+
+#W16($39210)
+//ファイアボ-ル[END]
+Fireball[END]
+
+//
+//POINTER #24 @ $39212 - STRING #24 @ $387AA
+
+#W16($39212)
+//スクラッチクラッシュ[END]
+Scratch Crush[END]
+
+//
+//POINTER #25 @ $39214 - STRING #25 @ $387B6
+
+#W16($39214)
+//かきゅうのつぶて[END]
+Fire Shard[END]
+
+//
+//POINTER #26 @ $39216 - STRING #26 @ $387C2
+
+#W16($39216)
+//かえんのブレス[END]
+Flamebreath[END]
+
+//
+//POINTER #27 @ $39218 - STRING #27 @ $387CD
+
+#W16($39218)
+//パワ-ドビ-ム[END]
+Powered Beam[END]
+
+//
+//POINTER #28 @ $3921A - STRING #28 @ $387DC
+
+#W16($3921A)
+//クエイク[END]
+Quake[END]
+
+//
+//POINTER #29 @ $3921C - STRING #29 @ $387E2
+
+#W16($3921C)
+//デビルファイア[END]
+Fiend Fire[END]
+
+//
+//POINTER #30 @ $3921E - STRING #30 @ $387EF
+
+#W16($3921E)
+//ヘルフレイム[END]
+Hellflame[END]
+
+//
+//POINTER #31 @ $39220 - STRING #31 @ $387F7
+
+#W16($39220)
+//ベビ-キック[END]
+Baby Kick[END]
+
+//
+//POINTER #32 @ $39222 - STRING #32 @ $38803
+
+#W16($39222)
+//ブレス[END]
+Breath[END]
+
+//
+//POINTER #33 @ $39224 - STRING #33 @ $3880A
+
+#W16($39224)
+//ウイングサンダ-[END]
+Wing Thunder[END]
+
+//
+//POINTER #34 @ $39226 - STRING #34 @ $38818
+
+#W16($39226)
+//かえん[END]
+Flame[END]
+
+//
+//POINTER #35 @ $39228 - STRING #35 @ $3881D
+
+#W16($39228)
+//リザ-ドサンダ-[END]
+Lizard Thunder[END]
+
+//
+//POINTER #36 @ $3922A - STRING #36 @ $3882D
+
+#W16($3922A)
+//ウイップテイル[END]
+Whip Tail[END]
+
+//
+//POINTER #37 @ $3922C - STRING #37 @ $38838
+
+#W16($3922C)
+//りゅうびけん[END]
+Dino Tail[END]
+
+//
+//POINTER #38 @ $3922E - STRING #38 @ $38842
+
+#W16($3922E)
+//とっしんこうげき[END]
+Body Slam[END]
+
+//
+//POINTER #39 @ $39230 - STRING #39 @ $3884E
+
+#W16($39230)
+//ダイナソ-キック[END]
+Dinosaur Kick[END]
+
+//
+//POINTER #40 @ $39232 - STRING #40 @ $3885A
+
+#W16($39232)
+//しのといき[END]
+Death Sigh[END]
+
+//
+//POINTER #41 @ $39234 - STRING #41 @ $38861
+
+#W16($39234)
+//ワイトパンチ[END]
+Wight Punch[END]
+
+//
+//POINTER #42 @ $39236 - STRING #42 @ $3886B
+
+#W16($39236)
+//メデュ-サブレス[END]
+Medusa Breath[END]
+
+//
+//POINTER #43 @ $39238 - STRING #43 @ $38879
+
+#W16($39238)
+//えいがとっしん[END]
+Majestic Rush[END]
+
+//
+//POINTER #44 @ $3923A - STRING #44 @ $38884
+
+#W16($3923A)
+//ゾンビダンス[END]
+Zombie Dance[END]
+
+//
+//POINTER #45 @ $3923C - STRING #45 @ $38892
+
+#W16($3923C)
+//のろいぎり[END]
+Cursed Slice[END]
+
+//
+//POINTER #46 @ $3923E - STRING #46 @ $3889B
+
+#W16($3923E)
+//ブレス[END]
+Breath[END]
+
+//
+//POINTER #47 @ $39240 - STRING #47 @ $388A2
+
+#W16($39240)
+//れいこんプラズマ[END]
+Spirit Plasma[END]
+
+//
+//POINTER #48 @ $39242 - STRING #48 @ $388B0
+
+#W16($39242)
+//ビ-トンビ-ム[END]
+Beeton Beam[END]
+
+//
+//POINTER #49 @ $39244 - STRING #49 @ $388BD
+
+#W16($39244)
+//つのアタック[END]
+Horn Attack[END]
+
+//
+//POINTER #50 @ $39246 - STRING #50 @ $388C5
+
+#W16($39246)
+//モグリンパンチ[END]
+Mogley Punch[END]
+
+//
+//POINTER #51 @ $39248 - STRING #51 @ $388D2
+
+#W16($39248)
+//ポイズンスピット[END]
+Poison Spirit[END]
+
+//
+//POINTER #52 @ $3924A - STRING #52 @ $388E2
+
+#W16($3924A)
+//ファイア-フラワ-[END]
+Fire Flower[END]
+
+//
+//POINTER #53 @ $3924C - STRING #53 @ $388ED
+
+#W16($3924C)
+//アイビ-ム[END]
+Eye Beam[END]
+
+//
+//POINTER #54 @ $3924E - STRING #54 @ $388F6
+
+#W16($3924E)
+//マッスルパンチ[END]
+Muscle Punch[END]
+
+//
+//POINTER #55 @ $39250 - STRING #55 @ $38901
+
+#W16($39250)
+//クリボ-アタック[END]
+Kuriboh Attack[END]
+
+//
+//POINTER #56 @ $39252 - STRING #56 @ $3890D
+
+#W16($39252)
+//きけんなほうし[END]
+Deadly Spores[END]
+
+//
+//POINTER #57 @ $39254 - STRING #57 @ $38916
+
+#W16($39254)
+//アリパンチ[END]
+Ant Punch[END]
+
+//
+//POINTER #58 @ $39256 - STRING #58 @ $3891F
+
+#W16($39256)
+//ファイアライフル[END]
+Fire Rifle[END]
+
+//
+//POINTER #59 @ $39258 - STRING #59 @ $38929
+
+#W16($39258)
+//どくしんさつ[END]
+Poison Sting[END]
+
+//
+//POINTER #60 @ $3925A - STRING #60 @ $38933
+
+#W16($3925A)
+//ゴキアタック[END]
+Roach Attack[END]
+
+//
+//POINTER #61 @ $3925C - STRING #61 @ $3893D
+
+#W16($3925C)
+//ウルフフォング[END]
+Wolf Fang[END]
+
+//
+//POINTER #62 @ $3925E - STRING #62 @ $38948
+
+#W16($3925E)
+//ポイズンゾ-ル[END]
+Poison Soul[END]
+
+//
+//POINTER #63 @ $39260 - STRING #63 @ $38957
+
+#W16($39260)
+//シャインカオス[END]
+Shine Chaos[END]
+
+//
+//POINTER #64 @ $39262 - STRING #64 @ $38960
+
+#W16($39262)
+//ダ-クグライド[END]
+Dark Glide[END]
+
+//
+//POINTER #65 @ $39264 - STRING #65 @ $3896F
+
+#W16($39264)
+//インプパンチ[END]
+Imp Punch[END]
+
+//
+//POINTER #66 @ $39266 - STRING #66 @ $3897B
+
+#W16($39266)
+//サンダ-ホ-ン[END]
+Thunder Horn[END]
+
+//
+//POINTER #67 @ $39268 - STRING #67 @ $38986
+
+#W16($39268)
+//しっぷうぎり[END]
+Gale Slice[END]
+
+//
+//POINTER #68 @ $3926A - STRING #68 @ $38992
+
+#W16($3926A)
+//マジックランプ[END]
+Magic Lamp[END]
+
+//
+//POINTER #69 @ $3926C - STRING #69 @ $3899F
+
+#W16($3926C)
+//マ-ダ-ダンス[END]
+Crass Dance[END]
+
+//
+//POINTER #70 @ $3926E - STRING #70 @ $389AC
+
+#W16($3926E)
+//アシッドスプラッシュ[END]
+Acid Splash[END]
+
+//
+//POINTER #71 @ $39270 - STRING #71 @ $389BC
+
+#W16($39270)
+//かまいたち[END]
+Vacuum Slice[END]
+
+//
+//POINTER #72 @ $39272 - STRING #72 @ $389C3
+
+#W16($39272)
+//グラッジソ-ド[END]
+Grudge Sword[END]
+
+//
+//POINTER #73 @ $39274 - STRING #73 @ $389D2
+
+#W16($39274)
+//ダ-クボ-ル[END]
+Dark Ball[END]
+
+//
+//POINTER #74 @ $39276 - STRING #74 @ $389DE
+
+#W16($39276)
+//ダ-クサンダ-[END]
+Dark Thunder[END]
+
+//
+//POINTER #75 @ $39278 - STRING #75 @ $389EB
+
+#W16($39278)
+//やみのしんぱん[END]
+Dark Judgement[END]
+
+//
+//POINTER #76 @ $3927A - STRING #76 @ $389F6
+
+#W16($3927A)
+//ライトニングショット[END]
+Lightning Shot[END]
+
+//
+//POINTER #77 @ $3927C - STRING #77 @ $38A04
+
+#W16($3927C)
+//マジックイリュ-ジョン[END]
+Magic Illusion[END]
+
+//
+//POINTER #78 @ $3927E - STRING #78 @ $38A15
+
+#W16($3927E)
+//こくえんだん[END]
+BlackSmokeBomb[END]
+
+//
+//POINTER #79 @ $39280 - STRING #79 @ $38A1F
+
+#W16($39280)
+//ブラックマジック[END]
+Dark Magic[END]
+
+//
+//POINTER #80 @ $39282 - STRING #80 @ $38A2D
+
+#W16($39282)
+//まこうらい[END]
+FiendLightning[END]
+
+//
+//POINTER #81 @ $39284 - STRING #81 @ $38A34
+
+#W16($39284)
+//ダ-クウェイブ[END]
+Dark Wave[END]
+
+//
+//POINTER #82 @ $39286 - STRING #82 @ $38A41
+
+#W16($39286)
+//メテオ[END]
+Meteor[END]
+
+//
+//POINTER #83 @ $39288 - STRING #83 @ $38A46
+
+#W16($39288)
+//エレキ[END]
+Electricity[END]
+
+//
+//POINTER #84 @ $3928A - STRING #84 @ $38A4B
+
+#W16($3928A)
+//たおれかかる[END]
+Topple[END]
+
+//
+//POINTER #85 @ $3928C - STRING #85 @ $38A53
+
+#W16($3928C)
+//つぼパンチ[END]
+Jar Punch[END]
+
+//
+//POINTER #86 @ $3928E - STRING #86 @ $38A5E
+
+#W16($3928E)
+//バ-スト[END]
+Burst[END]
+
+//
+//POINTER #87 @ $39290 - STRING #87 @ $38A66
+
+#W16($39290)
+//パンチ[END]
+Punch[END]
+
+//
+//POINTER #88 @ $39292 - STRING #88 @ $38A6D
+
+#W16($39292)
+//パンチ[END]
+Punch[END]
+
+//
+//POINTER #89 @ $39294 - STRING #89 @ $38A74
+
+#W16($39294)
+//キック[END]
+Kick[END]
+
+//
+//POINTER #90 @ $39296 - STRING #90 @ $38A79
+
+#W16($39296)
+//たいあたり[END]
+Tackle[END]
+
+//
+//POINTER #91 @ $39298 - STRING #91 @ $38A80
+
+#W16($39298)
+//エクゾ-ドフレイム[END]
+Exodia Flame[END]
+
+//
+//POINTER #92 @ $3929A - STRING #92 @ $38A8F
+
+#W16($3929A)
+//ニンジャボム[END]
+Ninja Bomb[END]
+
+//
+//POINTER #93 @ $3929C - STRING #93 @ $38A9B
+
+#W16($3929C)
+//フカヒレカッタ-[END]
+SharkFinCutter[END]
+
+//
+//POINTER #94 @ $3929E - STRING #94 @ $38AA5
+
+#W16($3929E)
+//しびれでんげき[END]
+Paralyzing Zap[END]
+
+//
+//POINTER #95 @ $392A0 - STRING #95 @ $38AB4
+
+#W16($392A0)
+//ゲソスプラッシュ[END]
+TentacleSplash[END]
+
+//
+//POINTER #96 @ $392A2 - STRING #96 @ $38AC2
+
+#W16($392A2)
+//ボムクラッシャ-[END]
+Bomb Crusher[END]
+
+//
+//POINTER #97 @ $392A4 - STRING #97 @ $38ACE
+
+#W16($392A4)
+//グレ-トソ-ド[END]
+Greatsword[END]
+
+//
+//POINTER #98 @ $392A6 - STRING #98 @ $38ADB
+
+#W16($392A6)
+//トマホ-ククラッシュ[END]
+Tomahawk Crush[END]
+
+//
+//POINTER #99 @ $392A8 - STRING #99 @ $38AE7
+
+#W16($392A8)
+//サイガ-サンダ-ギガ[END]
+GigaHornThundr[END]
+
+//
+//POINTER #100 @ $392AA - STRING #100 @ $38AFB
+
+#W16($392AA)
+//ルイ-ズスペシャル[END]
+Beaver Special[END]
+
+//
+//POINTER #101 @ $392AC - STRING #101 @ $38B0A
+
+#W16($392AC)
+//アルティメットナックル[END]
+UltimateTackle[END]
+
+//
+//POINTER #102 @ $392AE - STRING #102 @ $38B17
+
+#W16($392AE)
+//タイガ-スプリット[END]
+Tiger Spirit[END]
+
+//
+//POINTER #103 @ $392B0 - STRING #103 @ $38B26
+
+#W16($392B0)
+//しっぷうぎり[END]
+Gale Slice[END]
+
+//
+//POINTER #104 @ $392B2 - STRING #104 @ $38B32
+
+#W16($392B2)
+//まじんのいかずち[END]
+SteerLightning[END]
+
+//
+//POINTER #105 @ $392B4 - STRING #105 @ $38B40
+
+#W16($392B4)
+//しゅんさつ5れんぞくぎり[END]
+Instant5-Slice[END]
+
+//
+//POINTER #106 @ $392B6 - STRING #106 @ $38B52
+
+#W16($392B6)
+//とうきえんざんけん[END]
+SpiritFlamSlsh[END]
+
+//
+//POINTER #107 @ $392B8 - STRING #107 @ $38B5F
+
+#W16($392B8)
+//ア-スディバイドアックス[END]
+Earthrend Axe[END]
+
+//
+//POINTER #108 @ $392BA - STRING #108 @ $38B73
+
+#W16($392BA)
+//グレ-トメガスマッシャ-[END]
+GreatMegaSmash[END]
+
+//
+//POINTER #109 @ $392BC - STRING #109 @ $38B85
+
+#W16($392BC)
+//しっぷうえいしざん[END]
+NobleGaleSlash[END]
+
+//
+//POINTER #110 @ $392BE - STRING #110 @ $38B94
+
+#W16($392BE)
+//オ-ガクラッシュ[END]
+Ogre Crush[END]
+
+//
+//POINTER #111 @ $392C0 - STRING #111 @ $38BA0
+
+#W16($392C0)
+//ファイアバ-スト[END]
+Fire Burst[END]
+
+//
+//POINTER #112 @ $392C2 - STRING #112 @ $38BAC
+
+#W16($392C2)
+//ウイップパニッシュ[END]
+Whip Punish[END]
+
+//
+//POINTER #113 @ $392C4 - STRING #113 @ $38BBB
+
+#W16($392C4)
+//ほのおのりゅうせい[END]
+Flame Meteor[END]
+
+//
+//POINTER #114 @ $392C6 - STRING #114 @ $38BC6
+
+#W16($392C6)
+//ほのおのブレス[END]
+Flamebreath[END]
+
+//
+//POINTER #115 @ $392C8 - STRING #115 @ $38BD1
+
+#W16($392C8)
+//パワ-ドレ-ザ-[END]
+Powered Laser[END]
+
+//
+//POINTER #116 @ $392CA - STRING #116 @ $38BE1
+
+#W16($392CA)
+//ア-スクエイク[END]
+Earthquake[END]
+
+//
+//POINTER #117 @ $392CC - STRING #117 @ $38BEA
+
+#W16($392CC)
+//ヘルファイア[END]
+Hellfire[END]
+
+//
+//POINTER #118 @ $392CE - STRING #118 @ $38BF2
+
+#W16($392CE)
+//カ-スフレイム[END]
+Curse Flame[END]
+
+//
+//POINTER #119 @ $392D0 - STRING #119 @ $38BFB
+
+#W16($392D0)
+//ベビ-フレイム[END]
+Baby Flame[END]
+
+//
+//POINTER #120 @ $392D2 - STRING #120 @ $38C08
+
+#W16($392D2)
+//サウザンドノ-ズブレス[END]
+1000NoseBreath[END]
+
+//
+//POINTER #121 @ $392D4 - STRING #121 @ $38C1D
+
+#W16($392D4)
+//サンダ-ストリ-ム[END]
+Thunder Stream[END]
+
+//
+//POINTER #122 @ $392D6 - STRING #122 @ $38C2A
+
+#W16($392D6)
+//アルマアタック[END]
+Armor Attack[END]
+
+//
+//POINTER #123 @ $392D8 - STRING #123 @ $38C33
+
+#W16($392D8)
+//ギガサンダ-[END]
+Giga Thunder[END]
+
+//
+//POINTER #124 @ $392DA - STRING #124 @ $38C41
+
+#W16($392DA)
+//ワイルドブレス[END]
+Wild Breath[END]
+
+//
+//POINTER #125 @ $392DC - STRING #125 @ $38C4E
+
+#W16($392DC)
+//ざんてつりゅうびけん[END]
+IronDinoTail[END]
+
+//
+//POINTER #126 @ $392DE - STRING #126 @ $38C5E
+
+#W16($392DE)
+//メガスタンプ[END]
+Mega Stomp[END]
+
+//
+//POINTER #127 @ $392E0 - STRING #127 @ $38C6A
+
+#W16($392E0)
+//ダイナソ-フットスタンプ[END]
+DinoFootStomp[END]
+
+//
+//POINTER #128 @ $392E2 - STRING #128 @ $38C7C
+
+#W16($392E2)
+//デスブレス[END]
+Death Breath[END]
+
+//
+//POINTER #129 @ $392E4 - STRING #129 @ $38C87
+
+#W16($392E4)
+//ワイトキック[END]
+Wight Kick[END]
+
+//
+//POINTER #130 @ $392E6 - STRING #130 @ $38C8F
+
+#W16($392E6)
+//マンモスブレス[END]
+Mammoth Breath[END]
+
+//
+//POINTER #131 @ $392E8 - STRING #131 @ $38C9A
+
+#W16($392E8)
+//じごくおくりのきょくげい[END]
+HellAcrobatics[END]
+
+//
+//POINTER #132 @ $392EA - STRING #132 @ $38CAE
+
+#W16($392EA)
+//デッドリ-'ブレス[END]
+Deadly Breath[END]
+
+//
+//POINTER #133 @ $392EC - STRING #133 @ $38CBF
+
+#W16($392EC)
+//キングインフェルノ[END]
+King Inferno[END]
+
+//
+//POINTER #134 @ $392EE - STRING #134 @ $38CCC
+
+#W16($392EE)
+//つのクラッシャ-[END]
+Horn Crusher[END]
+
+//
+//POINTER #135 @ $392F0 - STRING #135 @ $38CD6
+
+#W16($392F0)
+//フレイムフラワ-[END]
+Flame Flower[END]
+
+//
+//POINTER #136 @ $392F2 - STRING #136 @ $38CE0
+
+#W16($392F2)
+//マウスキッス[END]
+Mouth Kiss[END]
+
+//
+//POINTER #137 @ $392F4 - STRING #137 @ $38CE8
+
+#W16($392F4)
+//ベアハッグ[END]
+Bearhug[END]
+
+//
+//POINTER #138 @ $392F6 - STRING #138 @ $38CF3
+
+#W16($392F6)
+//クリボ-ボム[END]
+Kuriboh Bomb[END]
+
+//
+//POINTER #139 @ $392F8 - STRING #139 @ $38CFF
+
+#W16($392F8)
+//きのこマジック[END]
+Mushroom Magic[END]
+
+//
+//POINTER #140 @ $392FA - STRING #140 @ $38D0A
+
+#W16($392FA)
+//コブラツイスト[END]
+Cobra Twist[END]
+
+//
+//POINTER #141 @ $392FC - STRING #141 @ $38D15
+
+#W16($392FC)
+//メサイアのありじごく[END]
+Antlion Pit[END]
+
+//
+//POINTER #142 @ $392FE - STRING #142 @ $38D25
+
+#W16($392FE)
+//レ-ザ-キャノン[END]
+Laser Cannon[END]
+
+//
+//POINTER #143 @ $39300 - STRING #143 @ $38D31
+
+#W16($39300)
+//キラ-ビ-ム[END]
+Killer Beam[END]
+
+//
+//POINTER #144 @ $39302 - STRING #144 @ $38D3B
+
+#W16($39302)
+//ゴキフライングアタック[END]
+FlyingRoachAtk[END]
+
+//
+//POINTER #145 @ $39304 - STRING #145 @ $38D4C
+
+#W16($39304)
+//シルバ-スピリット[END]
+Silver Spirit[END]
+
+//
+//POINTER #146 @ $39306 - STRING #146 @ $38D5B
+
+#W16($39306)
+//ビ-ストテイル[END]
+Beast Tail[END]
+
+//
+//POINTER #147 @ $39308 - STRING #147 @ $38D66
+
+#W16($39308)
+//モスバ-ニングデストルネ-ド[END]
+Death Tornado[END]
+
+//
+//POINTER #148 @ $3930A - STRING #148 @ $38D7E
+
+#W16($3930A)
+//インプキック[END]
+Imp Kick[END]
+
+//
+//POINTER #149 @ $3930C - STRING #149 @ $38D88
+
+#W16($3930C)
+//ませいかえんそう[END]
+MystcFlamParad[END]
+
+//
+//POINTER #150 @ $3930E - STRING #150 @ $38D92
+
+#W16($3930E)
+//マ-ダ-ボム[END]
+Crass Bomb[END]
+
+//
+//POINTER #151 @ $39310 - STRING #151 @ $38D9E
+
+#W16($39310)
+//ワ-ムウイップ[END]
+Worm Whip[END]
+
+//
+//POINTER #152 @ $39312 - STRING #152 @ $38DA9
+
+#W16($39312)
+//シャドウマンティス[END]
+Shadow Mantis[END]
+
+//
+//POINTER #153 @ $39314 - STRING #153 @ $38DB6
+
+#W16($39314)
+//おんねんぎり[END]
+Grudge Slice[END]
+
+//
+//POINTER #154 @ $39316 - STRING #154 @ $38DC0
+
+#W16($39316)
+//ダ-クアブソリュ-ト[END]
+DarkAbsolution[END]
+
+
+//
+//POINTER #155 @ $39318 - STRING #155 @ $38DD0
+
+#W16($39318)
+//じごくのしんぱん[END]
+Hell Judgement[END]
+
+//
+//POINTER #156 @ $3931A - STRING #156 @ $38DE0
+
+#W16($3931A)
+//メタルボンバ-[END]
+Metal Bomber[END]
+
+//
+//POINTER #157 @ $3931C - STRING #157 @ $38DED
+
+#W16($3931C)
+//ばくれつこくえんだん[END]
+ExploSmokeBomb[END]
+
+//
+//POINTER #158 @ $3931E - STRING #158 @ $38DFD
+
+#W16($3931E)
+//しんまこうらい[END]
+True Lightning[END]
+
+//
+//POINTER #159 @ $39320 - STRING #159 @ $38E06
+
+#W16($39320)
+//まどうは[END]
+Magic Pulse[END]
+
+//
+//POINTER #160 @ $39322 - STRING #160 @ $38E0E
+
+#W16($39322)
+//メテオフレア[END]
+Meteor Flare[END]
+
+//
+//POINTER #161 @ $39324 - STRING #161 @ $38E16
+
+#W16($39324)
+//キッズライトニング[END]
+Kid Lightning[END]
+
+//
+//POINTER #162 @ $39326 - STRING #162 @ $38E25
+
+#W16($39326)
+//アルティメットバ-スト[END]
+Ultimate Burst[END]
+
+//
+//POINTER #163 @ $39328 - STRING #163 @ $38E34
+
+#W16($39328)
+//キャッスルクラッシャ-[END]
+Castle Crusher[END]
+
+//
+//POINTER #164 @ $3932A - STRING #164 @ $38E41
+
+#W16($3932A)
+//パ-スペシャル[END]
+Pa Special[END]
+
+//
+//POINTER #165 @ $3932C - STRING #165 @ $38E4E
+
+#W16($3932C)
+//ライトニングエッジ[END]
+Lightning Edge[END]
+
+//
+//POINTER #166 @ $3932E - STRING #166 @ $38E5D
+
+#W16($3932E)
+//Aスクリュ-ナックル[END]
+UltScrwKnuckle[END]
+
+//
+//POINTER #167 @ $39330 - STRING #167 @ $38E69
+
+#W16($39330)
+//サラマンドラ[END]
+Salamander[END]
+
+//
+//POINTER #168 @ $39332 - STRING #168 @ $38E73
+
+#W16($39332)
+//サイバ-ライトニングウイップ[END]
+CybrLightnWhip[END]
+
+//
+//POINTER #169 @ $39334 - STRING #169 @ $38E89
+
+#W16($39334)
+//もえさかるだいち[END]
+Scorched Earth[END]
+
+//
+//POINTER #170 @ $39336 - STRING #170 @ $38E95
+
+#W16($39336)
+//ライトニングウイング[END]
+Lightning Whip[END]
+
+//
+//POINTER #171 @ $39338 - STRING #171 @ $38EA5
+
+#W16($39338)
+//アルマフレイム[END]
+Armor Flame[END]
+
+//
+//POINTER #172 @ $3933A - STRING #172 @ $38EAE
+
+#W16($3933A)
+//しんくうりゅうびけん[END]
+VacuumDTail[END]
+
+//
+//POINTER #173 @ $3933C - STRING #173 @ $38EBC
+
+#W16($3933C)
+//ツインバ-スト[END]
+Twin Burst[END]
+
+//
+//POINTER #174 @ $3933E - STRING #174 @ $38EC7
+
+#W16($3933E)
+//いっとうりょうだん[END]
+Gordian Slash[END]
+
+//
+//POINTER #175 @ $39340 - STRING #175 @ $38ED4
+
+#W16($39340)
+//ジャイアントスイング[END]
+Giant Swing[END]
+
+//
+//POINTER #176 @ $39342 - STRING #176 @ $38EE4
+
+#W16($39342)
+//ライトニングショット[END]
+Lightning Shot[END]
+
+//
+//POINTER #177 @ $39344 - STRING #177 @ $38EF2
+
+#W16($39344)
+//ライトニング'ビ-[END]
+Lightning Bee[END]
+
+//
+//POINTER #178 @ $39346 - STRING #178 @ $38F01
+
+#W16($39346)
+//ゴキスピリット[END]
+Roach Spirit[END]
+
+//
+//POINTER #179 @ $39348 - STRING #179 @ $38F0E
+
+#W16($39348)
+//フルム-ンスピリット[END]
+FullmoonSpirit[END]
+
+//
+//POINTER #180 @ $3934A - STRING #180 @ $38F1C
+
+#W16($3934A)
+//まかいのしんぱん[END]
+MagicJudgement[END]
+
+//
+//POINTER #181 @ $3934C - STRING #181 @ $38F28
+
+#W16($3934C)
+//メタルエクスプロ-ジョン[END]
+MetalExplosion[END]
+
+//
+//POINTER #182 @ $3934E - STRING #182 @ $38F3A
+
+#W16($3934E)
+//レッドバ-ニングS[END]
+Red Burning S[END]
+
+//
+//POINTER #183 @ $39350 - STRING #183 @ $38F4B
+
+#W16($39350)
+//まかいごうまどうは[END]
+MagicPulseWave[END]
+
+//
+//POINTER #184 @ $39352 - STRING #184 @ $38F5A
+
+#W16($39352)
+//エクゾ-ドナックル[END]
+Exodia Knuckle[END]
+
+//
+//POINTER #185 @ $39354 - STRING #185 @ $38F69
+
+#W16($39354)
+//エクゾ-ドナックル[END]
+Exodia Knuckle[END]
+
+//
+//POINTER #186 @ $39356 - STRING #186 @ $38F78
+
+#W16($39356)
+//エクゾ-ドキック[END]
+Exodia Kick[END]
+
+//
+//POINTER #187 @ $39358 - STRING #187 @ $38F86
+
+#W16($39358)
+//エクゾ-ドプレス[END]
+Exodia Press[END]
+
+//
+//POINTER #188 @ $3935A - STRING #188 @ $38F96
+
+#W16($3935A)
+//つうこんげき[END]
+Bitter Smash[END]
+
+//
+//POINTER #189 @ $3935C - STRING #189 @ $38FA0
+
+#W16($3935C)
+//めっさつつうこんげき[END]
+AnnihilatSmash[END]
+
+//
+//POINTER #190 @ $3935E - STRING #190 @ $38FAE
+
+#W16($3935E)
+//オ-シャントルネ-ド[END]
+Waterspout[END]
+
+//
+//POINTER #191 @ $39360 - STRING #191 @ $38FBC
+
+#W16($39360)
+//アックスクラッシャ-[END]
+Axe Crusher[END]
+
+//
+//POINTER #192 @ $39362 - STRING #192 @ $38FC8
+
+#W16($39362)
+//スパイラルスプリット[END]
+Spiral Spirit[END]
+
+//
+//POINTER #193 @ $39364 - STRING #193 @ $38FD8
+
+#W16($39364)
+//ザンキ[END]
+Zanki[END]
+
+//
+//POINTER #194 @ $39366 - STRING #194 @ $38FDF
+
+#W16($39366)
+//かみつき[END]
+Bite[END]
+
+//
+//POINTER #195 @ $39368 - STRING #195 @ $38FE5
+
+#W16($39368)
+//ビ-ストフォング[END]
+Beast Fang[END]
+
+//
+//POINTER #196 @ $3936A - STRING #196 @ $38FF3
+
+#W16($3936A)
+//モスハリケ-ン[END]
+Moth Hurricane[END]
+
+//
+//POINTER #197 @ $3936C - STRING #197 @ $38FFC
+
+#W16($3936C)
+//モストルネ-ド[END]
+Moth Tornado[END]
+
+//
+//POINTER #198 @ $3936E - STRING #198 @ $39007
+
+#W16($3936E)
+//ギガサンダ-[END]
+Giga Thunder[END]
+
+//
+//POINTER #199 @ $39370 - STRING #199 @ $39015
+
+#W16($39370)
+//ほろびのバ-ストストリ-ム[END]
+Burst Stream[END]
+
+//
+//POINTER #200 @ $39372 - STRING #200 @ $39028
+
+#W16($39372)
+//ヒ-リング[END]
+Heal[END]
+
+//
+//POINTER #201 @ $39374 - STRING #201 @ $39031
+
+#W16($39374)
+//ペンタグラムのじゅばく[END]
+PentagramCurse[END]
+
+//
+//POINTER #202 @ $39376 - STRING #202 @ $39046
+
+#W16($39376)
+//げんわくのまなこ[END]
+EyeOfIllusion[END]
+
+//
+//POINTER #203 @ $39378 - STRING #203 @ $39052
+
+#W16($39378)
+//ひかりのごふうけん[END]
+SwrdRevealnLit[END]
+
+//
+//POINTER #204 @ $3937A - STRING #204 @ $3905F
+
+#W16($3937A)
+//ペンタグラムのじゅばくS[END]
+PentagramCurse[END]
+
+//
+//POINTER #205 @ $3937C - STRING #205 @ $39075
+
+#W16($3937C)
+//げんわくのまなこS[END]
+EyeOfIllusion[END]
+
+//
+//POINTER #206 @ $3937E - STRING #206 @ $39082
+
+#W16($3937E)
+//ひかりのごふうけんS[END]
+SwrdRevealnLit[END]
+
+//
+//POINTER #207 @ $39380 - STRING #207 @ $39090
+
+#W16($39380)
+//アリゲ-タ-トマホ-ク[END]
+Gator Tomahawk[END]
+
+//
+//POINTER #208 @ $39382 - STRING #208 @ $3909F
+
+#W16($39382)
+//パロットファイア[END]
+Parrot Fire[END]
+
+//
+//POINTER #209 @ $39384 - STRING #209 @ $390AB
+
+#W16($39384)
+//トゥ-ンアタック[END]
+Toon Attack[END]
+
+//
+//POINTER #210 @ $39386 - STRING #210 @ $390B5
+
+#W16($39386)
+//カイザ-エッジ[END]
+Kaizer Edge[END]
+
+//
+//POINTER #211 @ $39388 - STRING #211 @ $390C2
+
+#W16($39388)
+//ショ-トソ-ド[END]
+Short Sword[END]
+
+//
+//POINTER #212 @ $3938A - STRING #212 @ $390CD
+
+#W16($3938A)
+//シャイニングマジック[END]
+Shining Magic[END]
+
+//
+//POINTER #213 @ $3938C - STRING #213 @ $390DD
+
+#W16($3938C)
+//マジックガン[END]
+Magic Gun[END]
+
+//
+//POINTER #214 @ $3938E - STRING #214 @ $390E9
+
+#W16($3938E)
+//デスブレイズ[END]
+Death Breath[END]
+
+//
+//POINTER #215 @ $39390 - STRING #215 @ $390F7
+
+#W16($39390)
+//スゴロクパンチ[END]
+Solomon Punch[END]
+
+//

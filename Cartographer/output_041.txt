@@ -1,0 +1,22 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #041 NAME:		Monster World 5 Gaiden: sword names (POINTER_RELATIVE)
+
+//POINTER #0 @ $DC00E - STRING #0 @ $DC000
+
+#W16($DC00E)
+//‚Ù‚µ[END]
+
+//
+//POINTER #1 @ $DC010 - STRING #1 @ $DC004
+
+#W16($DC010)
+//‚Â‚«[END]
+
+//
+//POINTER #2 @ $DC012 - STRING #2 @ $DC008
+
+#W16($DC012)
+//‚½‚¢‚æ‚¤[END]
+
+//

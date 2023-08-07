@@ -1,0 +1,244 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #054 NAME:		Floor BF1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $BEEA7 - STRING #0 @ $BE9B3
+
+#W16($BEEA7)
+//おぉ!;ゆうぎか![END]
+
+//
+//POINTER #1 @ $BEEA9 - STRING #1 @ $BE9C0
+
+#W16($BEEA9)
+//あまっとった フロアを;ちょっと つかわせて;もらっとるんじゃよ…[END]
+
+//
+//POINTER #2 @ $BEEAB - STRING #2 @ $BE9E5
+
+#W16($BEEAB)
+//ホホホ…;かいばくんには ないしょだぞ![END]
+
+//
+//POINTER #3 @ $BEEAD - STRING #3 @ $BEA01
+
+#W16($BEEAD)
+//おぉ ゆうぎ!;みんなと なかよく やっとるか?[END]
+
+//
+//POINTER #4 @ $BEEAF - STRING #4 @ $BEA1D
+
+#W16($BEEAF)
+//せっかくきたんじゃ;ワシとくせいの カプセルマシンでも;ためして いかんか?[END]
+
+//
+//POINTER #5 @ $BEEB1 - STRING #5 @ $BEA4B
+
+#W16($BEEB1)
+//よお! ゆうぎ!!;どうしたんだ? シケた かおして…[END]
+
+//
+//POINTER #6 @ $BEEB3 - STRING #6 @ $BEA6E
+
+#W16($BEEB3)
+//じょうのうちくん… こんかいは;めいわくをかけて ごめんよ[END]
+
+//
+//POINTER #7 @ $BEEB5 - STRING #7 @ $BEA91
+
+#W16($BEEB5)
+//ゆうぎ!!;…それいじょうは いいっこなしだぜ![END]
+
+//
+//POINTER #8 @ $BEEB7 - STRING #8 @ $BEAB3
+
+#W16($BEEB7)
+//オレはよ…;ゆうぎが オレたちのために;いのちはって たたかってるあいだ[END]
+
+//
+//POINTER #9 @ $BEEB9 - STRING #9 @ $BEADF
+
+#W16($BEEB9)
+//みてることしか できなかったんだ…;かんしゃしてるぜ! ゆうぎ!![END]
+
+//
+//POINTER #10 @ $BEEBB - STRING #10 @ $BEB0A
+
+#W16($BEEBB)
+//こんど なんかあったときは;いのちはって ゆうぎを;サポ-トするぜ![END]
+
+//
+//POINTER #11 @ $BEEBD - STRING #11 @ $BEB36
+
+#W16($BEEBD)
+//ありがとう… じょうのうちくん[END]
+
+//
+//POINTER #12 @ $BEEBF - STRING #12 @ $BEB4B
+
+#W16($BEEBF)
+//ゆうぎくん!;…きょうは めいわくを かけたね[END]
+
+//
+//POINTER #13 @ $BEEC1 - STRING #13 @ $BEB66
+
+#W16($BEEC1)
+//どうして ばくらくんが;あやまるの!?[END]
+
+//
+//POINTER #14 @ $BEEC3 - STRING #14 @ $BEB81
+
+#W16($BEEC3)
+//せんねんリングが かいばくんを;あやつるなんて…[END]
+
+//
+//POINTER #15 @ $BEEC5 - STRING #15 @ $BEBA1
+
+#W16($BEEC5)
+//それは ばくらくんの;せきにんじゃないよ!![END]
+
+//
+//POINTER #16 @ $BEEC7 - STRING #16 @ $BEBBD
+
+#W16($BEEC7)
+//わるいのは ぜんぶ;せんねんリングさ!;きにしちゃ ダメだよ!! ね![END]
+
+//
+//POINTER #17 @ $BEEC9 - STRING #17 @ $BEBEC
+
+#W16($BEEC9)
+//…うん ありがとう ゆうぎくん;ボクたち これからも;ずっと ともだちだよ![END]
+
+//
+//POINTER #18 @ $BEECB - STRING #18 @ $BEC20
+
+#W16($BEECB)
+//おい! ゆうぎ!!;オマエの じいさんの カプセルマシン;すげえぜ!![END]
+
+//
+//POINTER #19 @ $BEECD - STRING #19 @ $BEC4F
+
+#W16($BEECD)
+//レアな モンスタ-が;わんさか でるんだ!![END]
+
+//
+//POINTER #20 @ $BEECF - STRING #20 @ $BEC6D
+
+#W16($BEECF)
+//ええ!! ほんとうなの!?[END]
+
+//
+//POINTER #21 @ $BEED1 - STRING #21 @ $BEC7C
+
+#W16($BEED1)
+//ああ! ほんとうだぜ!!;これで ゆうぎには かなわないまでも;じょうのうちなんて かるいもんだぜ![END]
+
+//
+//POINTER #22 @ $BEED3 - STRING #22 @ $BECC0
+
+#W16($BEED3)
+//ゆうぎも あとで バトルしようぜ!!;うえで まってるからよ!![END]
+
+//
+//POINTER #23 @ $BEED5 - STRING #23 @ $BECEC
+
+#W16($BEED5)
+//うん!![END]
+
+//
+//POINTER #24 @ $BEED7 - STRING #24 @ $BECF2
+
+#W16($BEED7)
+//あら ゆうぎ![END]
+
+//
+//POINTER #25 @ $BEED9 - STRING #25 @ $BECFD
+
+#W16($BEED9)
+//あんず ゴメンよ…;ボクのせいで こんなきけんなめに;あわせちゃって…[END]
+
+//
+//POINTER #26 @ $BEEDB - STRING #26 @ $BED2A
+
+#W16($BEEDB)
+//ゆうぎ…;フフフ わたしは ぜ-んぜん;こわくなかったわよ![END]
+
+//
+//POINTER #27 @ $BEEDD - STRING #27 @ $BED50
+
+#W16($BEEDD)
+//ゆうぎが たすけてくれるって;しんじてたもの![END]
+
+//
+//POINTER #28 @ $BEEDF - STRING #28 @ $BED6F
+
+#W16($BEEDF)
+//あんず…[END]
+
+//
+//POINTER #29 @ $BEEE1 - STRING #29 @ $BED77
+
+#W16($BEEE1)
+//ホラホラ そんなかお してないで…;みんな うえで まってるわよ!;ね!![END]
+
+//
+//POINTER #30 @ $BEEE3 - STRING #30 @ $BEDA2
+
+#W16($BEEE3)
+//カプセルマシンだ![END]
+
+//
+//POINTER #31 @ $BEEE5 - STRING #31 @ $BEDB1
+
+#W16($BEEE5)
+//スタ-チップを 1まい いれますか?; はい; いいえ[END]
+
+//
+//POINTER #32 @ $BEEE7 - STRING #32 @ $BEDD0
+
+#W16($BEEE7)
+//これいじょう MCを もてない![END]
+
+//
+//POINTER #33 @ $BEEE9 - STRING #33 @ $BEDE4
+
+#W16($BEEE9)
+//いらない MCを;せいりしてから こよう![END]
+
+//
+//POINTER #34 @ $BEEEB - STRING #34 @ $BEDFB
+
+#W16($BEEEB)
+//<$FD>ちの;カプセルを てにいれた!![END]
+
+//
+//POINTER #35 @ $BEEED - STRING #35 @ $BEE10
+
+#W16($BEEED)
+//…スタ-チップが 1まいしかない;この1まいを つかうと;バトルが できなくなる!![END]
+
+//
+//POINTER #36 @ $BEEEF - STRING #36 @ $BEE46
+
+#W16($BEEEF)
+//エレベ-タ-がある[END]
+
+//
+//POINTER #37 @ $BEEF1 - STRING #37 @ $BEE55
+
+#W16($BEEF1)
+//なんかいに いきますか?;   1F   2F   3F;   4F   5F  B1F[END]
+
+//
+//POINTER #38 @ $BEEF3 - STRING #38 @ $BEE83
+
+#W16($BEEF3)
+//もうすこし このフロアに いよう…[END]
+
+//
+//POINTER #39 @ $BEEF5 - STRING #39 @ $BEE96
+
+#W16($BEEF5)
+//かんようしょくぶつだ![END]
+
+//

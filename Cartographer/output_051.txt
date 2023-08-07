@@ -1,0 +1,70 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #051 NAME:		Dark Room 4 postgame (POINTER_RELATIVE)
+
+//POINTER #0 @ $BA41D - STRING #0 @ $BA288
+
+#W16($BA41D)
+//バトルしますか?; はい; いいえ[END]
+
+//
+//POINTER #1 @ $BA41F - STRING #1 @ $BA29D
+
+#W16($BA41F)
+//フフ… ゆうぎ!;ゆうしょう おめでとう! [END]
+
+//
+//POINTER #2 @ $BA421 - STRING #2 @ $BA2B9
+
+#W16($BA421)
+//あたしが かつまで;あんたに まけてもらっては;こまるもの…[END]
+
+//
+//POINTER #3 @ $BA423 - STRING #3 @ $BA2DD
+
+#W16($BA423)
+//さあ バトルを はじめるわよ!![END]
+
+//
+//POINTER #4 @ $BA425 - STRING #4 @ $BA2F3
+
+#W16($BA425)
+//あら ゆうぎ!;どう? あんずちゃんとは;うまく やってるの?[END]
+
+//
+//POINTER #5 @ $BA427 - STRING #5 @ $BA31A
+
+#W16($BA427)
+//アハハハ… はんぶん からかった;つもりなのに かお まっかに;しちゃって![END]
+
+//
+//POINTER #6 @ $BA429 - STRING #6 @ $BA344
+
+#W16($BA429)
+//さすがね ゆうぎ!;でも つぎは かならず;あんたを たおして みせるわ!![END]
+
+//
+//POINTER #7 @ $BA42B - STRING #7 @ $BA376
+
+#W16($BA42B)
+//…ハイ わたしの かち!;スタ-チップ おいて;とっとと でてってね<$93>[END]
+
+//
+//POINTER #8 @ $BA42D - STRING #8 @ $BA39F
+
+#W16($BA42D)
+//かんようしょくぶつだ![END]
+
+//
+//POINTER #9 @ $BA42F - STRING #9 @ $BA3B0
+
+#W16($BA42F)
+//バトルフィ-ルドは;けわしい さんみゃくちたいに;けむりをふきあげる やまが みえる…[END]
+
+//
+//POINTER #10 @ $BA431 - STRING #10 @ $BA3E5
+
+#W16($BA431)
+//…キミ しってる? ドラゴンぞくを;いちどに ふういんしてしまう;MCが いるらしいよ…[END]
+
+//

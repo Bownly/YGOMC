@@ -1,0 +1,275 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($34000)
+#JMP($3954F, $398FF)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #017 NAME:		Battle text (POINTER_RELATIVE)
+
+//POINTER #0 @ $39900 - STRING #0 @ $3954F
+
+#W16($39900)
+//<$FD>ちの;こうげき!;「<$FD>つ」[END]
+<$FD><$10>;attacks with;<$FD><$11>![END]
+//
+//POINTER #1 @ $39902 - STRING #1 @ $39561
+
+#W16($39902)
+//<$FD>ちへの;めいちゅうりつ<$FD>つ[END]
+Chance to hit;<$FD><$10> is;<$FD><$11>%.[END]
+
+//
+//POINTER #2 @ $39904 - STRING #2 @ $39572
+
+#W16($39904)
+//<$FD>ちに;<$FD>つポイントのダメ-ジ![END]
+<$FD><$10> took;<$FD><$11> damage.[END]
+
+//
+//POINTER #3 @ $39906 - STRING #3 @ $3958A
+
+#W16($39906)
+//<$FD>ちに;ダメ-ジをあたえられなかった![END]
+<$FD><$10> took;no damage.[END]
+
+//
+//POINTER #4 @ $39908 - STRING #4 @ $395A3
+
+#W16($39908)
+//<$FD>ちに;<$FD>つポイントのダメ-ジ!;<$FD>ちは たおれた![END]
+<$FD><$10> took;<$FD><$11> damage and;was defeated![END]
+
+//
+//POINTER #5 @ $3990A - STRING #5 @ $395C5
+
+#W16($3990A)
+//<$FD>ちは;フィ-ルドパワ-をえた![END]
+<$FD><$10> got;a Field Bonus.[END]
+
+//
+//POINTER #6 @ $3990C - STRING #6 @ $395DB
+
+#W16($3990C)
+//<$FD>ちは;なかまの しえんこうかをえた![END]
+<$FD><$10> was;assisted![END]
+
+//
+//POINTER #7 @ $3990E - STRING #7 @ $395F0
+
+#W16($3990E)
+//めいちゅうりつアップ!;こうげきりょくアップ![END]
+Accuracy up!;Damage up![END]
+
+//
+//POINTER #8 @ $39910 - STRING #8 @ $3960F
+
+#W16($39910)
+//クリティカルヒット!![END]
+Critical hit![END]
+
+//
+//POINTER #9 @ $39912 - STRING #9 @ $3961C
+
+#W16($39912)
+//さいあく!;ファンブルが でてしまった![END]
+Oh no!;That's a fumble![END]
+/
+//
+//POINTER #10 @ $39914 - STRING #10 @ $39638
+
+#W16($39914)
+//ダメ-ジが;じぶんに ふりかかる![END]
+It hurt itself![END]
+
+//
+//POINTER #11 @ $39916 - STRING #11 @ $39655
+
+#W16($39916)
+//<$FD>ちの まほう;「<$FD>つ」![END]
+<$FD><$10> casts;<$FD><$11>![END]
+
+//
+//POINTER #12 @ $39918 - STRING #12 @ $39664
+
+#W16($39918)
+//<$FD>ちの HPが;<$FD>つかいふくした![END]
+<$FD><$10> was;healed for;<$FD><$11> HP.[END]
+
+//
+//POINTER #13 @ $3991A - STRING #13 @ $3967B
+
+#W16($3991A)
+//<$FD>ちの;こうげきりょくを <$FD>つさげた![END]
+<$FD><$10>'s;Attack was reduced;by <$FD><$11>.[END]
+
+//
+//POINTER #14 @ $3991C - STRING #14 @ $39695
+
+#W16($3991C)
+//<$FD>ちは;こんらん して;じぶんを こうげきした![END]
+<$FD><$10>;hurt itself in;confusion.[END]
+
+//
+//POINTER #15 @ $3991E - STRING #15 @ $396B5
+
+#W16($3991E)
+//<$FD>ちのこうどうを;<$FD>つタ-ン ふうじこめた![END]
+<$FD><$10> can't;act for <$FD><$11> turns![END]
+
+//
+//POINTER #16 @ $39920 - STRING #16 @ $396D1
+
+#W16($39920)
+//しっぱい!;まほうは きかなかった![END]
+The spell failed![END]
+
+//
+//POINTER #17 @ $39922 - STRING #17 @ $396E7
+
+#W16($39922)
+//てきモンスタ-を やっつけた!;それぞれ;けいけんち <$FD>ちポイントを えた[END]
+You win! Each;monster gained;<$FD><$11> exp.[END]
+
+//
+//POINTER #18 @ $39924 - STRING #18 @ $39712
+
+#W16($39924)
+//<$FD>ちの MCは ぜんめつした!;<$FD>つの かち![END]
+<$FD><$10> MCs;were wiped out!;<$FD><$11> win![END]
+
+//
+//POINTER #19 @ $39926 - STRING #19 @ $3972D
+
+#W16($39926)
+//スタ-チップを 1まい;かくとくした[END]
+You got a;star chip.[END]
+
+//
+//POINTER #20 @ $39928 - STRING #20 @ $39743
+
+#W16($39928)
+//<$FD>ちは;レベルがあがった![END]
+<$FD><$10>;leveled up![END]
+
+//
+//POINTER #21 @ $3992A - STRING #21 @ $39758
+
+#W16($3992A)
+//LV<$94><$FD>て;HPが <$FD>ちあがった;ATが <$FD>つあがった[END]
+LV<$94><$FD><$12>;+<$FD><$10> HP;+<$FD><$11> AT [END]
+
+//
+//POINTER #22 @ $3992C - STRING #22 @ $3977D
+
+#W16($3992C)
+//DFが <$FD>ちあがった;SPが <$FD>つあがった[END]
++<$FD><$10> DF;+<$FD><$11> SP[END]
+
+//
+//POINTER #23 @ $3992E - STRING #23 @ $3979C
+
+#W16($3992E)
+//LV<$94><$FD>ち[END]
+Level <$FD><$10>[END]
+
+//
+//POINTER #24 @ $39930 - STRING #24 @ $397A3
+
+#W16($39930)
+//HPが <$FD>ちあがった[END]
+Gained <$FD><$10> HP.[END]
+
+//
+//POINTER #25 @ $39932 - STRING #25 @ $397B3
+
+#W16($39932)
+//ATが <$FD>ちあがった[END]
+Gained <$FD><$10> AT.[END]
+
+//
+//POINTER #26 @ $39934 - STRING #26 @ $397C3
+
+#W16($39934)
+//DFが <$FD>ちあがった[END]
+Gained <$FD><$10> DF.[END]
+
+//
+//POINTER #27 @ $39936 - STRING #27 @ $397D3
+
+#W16($39936)
+//SPが <$FD>ちあがった[END]
+Gained <$FD><$10> SP.[END]
+
+//
+//POINTER #28 @ $39938 - STRING #28 @ $397E3
+
+#W16($39938)
+//<$FD>ちの MCは ぜんめつした![END]
+<$FD><$10> MCs;were wiped out![END]
+
+//
+//POINTER #29 @ $3993A - STRING #29 @ $397F6
+
+#W16($3993A)
+//スタ-チップを 1まい;うしなった![END]
+You lost a;star chip.[END]
+
+//
+//POINTER #30 @ $3993C - STRING #30 @ $3980C
+
+#W16($3993C)
+//ふういんされし;エクゾディアの しょうかん;「エクゾ-トフレイム」!![END]
+Summoned Exodia.;Exodia,;Obliterate![END]
+
+//
+//POINTER #31 @ $3993E - STRING #31 @ $39837
+
+#W16($3993E)
+//「ドラゴンふういんのつぼ」は;ドラゴンぞくの モンスタ-を;ふうじこめた![END]
+Dragon Capture Jar;sealed all dragon;monsters![END]
+
+//
+//POINTER #32 @ $39940 - STRING #32 @ $3986C
+
+#W16($39940)
+//しかし つぼまじんの ちからによって;ふういんは うちけされた!![END]
+But, Dragon Piper;unsealed all;dragon monsters!![END]
+
+//
+//POINTER #33 @ $39942 - STRING #33 @ $39893
+
+#W16($39942)
+//せんねんパズルを;うしなった![END]
+You lost your;Millennium Puzzle![END]
+
+//
+//POINTER #34 @ $39944 - STRING #34 @ $398A8
+
+#W16($39944)
+//スタ-チップを 3まい;かくとくした[END]
+You got 3;star chips![END]
+
+//
+//POINTER #35 @ $39946 - STRING #35 @ $398BE
+
+#W16($39946)
+//エクゾディアの;パ-ツの 1つが;しょうめつしてしまった!![END]
+One Exodia part;was destroyed![END]
+
+//
+//POINTER #36 @ $39948 - STRING #36 @ $398E6
+
+#W16($39948)
+//スタ-チップを すべて;うしなった![END]
+You lost all of;your star chips![END]
+
+//
+//POINTER #37 @ $3994A - STRING #37 @ $398FE
+
+#W16($3994A)
+//[END]
+z[END]
+//

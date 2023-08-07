@@ -1,0 +1,479 @@
+
+
+================ Main Menu ================
+strings = 82BB8 - 82BE4
+ptrs = 82C55 - 82C6C
+offset = 7C000
+
+https://www.textfixer.com/tools/alphabetical-order.php
+
+============== Monster names ==============
+00038000 = start of monster names?
+0003859D = start of final monster name
+000385A4 = end of final monster name
+D342 = ptr of start
+9D45 = ptr of end
+ptr tables = 000385A7 - 000386A0
+00039F20 = start of empty rom space
+
+=============== Skill names ===============
+000386A1 = start of skill names
+0003 = start of final skill name
+000391E1 = end of final skill name
+A146 = ptr of start
+D151 = ptr of end
+ptr tables = 000391E2 - 000393AF
+00039F6B = start of empty rom space (after monster names)
+
+================= Opening =================
+00011206 = start of text
+
+================= Floor 1 =================
+00011C0E
+bank 4
+base addr 10000
+5C0E = ptr?
+0E5C search hex
+
+00011BEB
+bank 4
+base addr 10000
+5BEB = ptr?
+EB5B search hex
+
+00012A42 = First dialog ptr
+00012B2E = Last dialog ptr
+
+LR 5823 = 00011820? = start of floor 1 strings
+00012B30 = LR 6A0C = after final ptr
+
+Floor 1 text range = 00011823 - 00012A41
+Floor 1 ptr range = 00012A42 - 00012B30
+
+
+00013CD0 = start of empty rom space
+
+============= Capsule Shared ==============
+strings = 00082D24 - 00082DE5
+ptrs = 00082DE6 - 00082DF3
+$7C000 = base ptr
+00083AC0 = start of FFs
+
+============== Doors Shared ===============
+Strings start at 00083017, end at 0008329B
+Ptrs = 8315E - 83171
+7C000 = base ptr
+00083ACF = start of FFs after shared capsule machine strings
+
+============= Elevator Shared =============
+Strings start at 00083172, end at 00083256
+Ptrs = 83257 - 83266
+7C000 = base ptr
+00083B90 = start of FFs after shared doors strings
+
+============== Message Speed ==============
+Strings start at 00083267, end at 0008329B
+Ptrs = 8329C - 8329F
+7C000 = base ptr
+
+00083C20 = start of FFs after shared elevator strings
+
+=============== Dark Room 1 ===============
+Strings = 000145E4 - 00014B97
+Ptrs = 00014B98 - 00014BE9
+Base ptr = 10000
+start of FFs = 00016B39
+
+============= Monster World 1 =============
+Strings = 15E65 - 16A81
+Ptrs = 16A82 - 16B37
+Base ptr = 10000
+start of FFs = 016C27 after Dark Room 1
+
+================= Floor 2 =================
+Strings = 184F9 - 1967C
+Ptr = 1967D - 19778
+Base ptr = 18000
+Start of FFs = 1BDD4
+
+=============== Dark Room 2 ===============
+Strings = 19A69 - 19E36
+Ptrs = 19E37 - 19E7C
+Base ptr = 18000
+start of FFs = 0001BDD4
+
+============= Monster World 1 =============
+Strings = 1AAF8 - 1BCD7
+Ptrs = 1BCD8 - 1BDD1
+Base ptr = 18000
+start of FFs = 1BE80 after Dark Room 2
+
+================= Floor 3 =================
+Strings = 1E02F - 1EF9F
+Ptr = 1EFA0 - 1F07B
+Base ptr = 18000
+Start of FFs = 1FA65
+
+================ Prebattle =================
+Strings = 3F8D0 - 3F919
+Ptr = 3F91A - 3F925
+Base ptr = 38000
+Start of FFs = 3FEFD
+
+=============== Battle menu ================
+Strings = 3FB75 - 3FC2F
+Ptr = 3FC30 - 3FC3B
+Base ptr = 38000
+Start of FFs = 3FEFD
+
+============== Battle quotes ===============
+Strings = 399FA - 39A75
+Ptr = 39A76 - 39A9F
+Base ptr = 34000
+Start of FFs = 39F22
+
+=============== Battle text ================
+Strings = 3954F - 398FF
+Ptr = 39900 - 3994B
+Base ptr = 34000
+Start of FFs = 39F22
+
+============== Battle menu 2 ===============
+Strings = 3F926 - 3F939
+Ptr = 3F93A - 3F93F
+Base ptr = 38000
+Start of FFs = N/A
+
+============== Battle menu 3 ===============
+Strings = 3F940 - 3F94C
+Ptr = 3F94D - 3F950
+Base ptr = 38000
+Start of FFs = N/A
+
+============== Battle menu 4 ===============
+Strings = 3F951 - 3F96C
+Ptr = 3F96D - 3F974
+Base ptr = 38000
+Start of FFs = N/A
+
+============== Battle MC Data ==============
+Strings = 3FC3C - 3FC78
+Ptr = 3FC79 - 3FC8A
+Base ptr = 38000
+Start of FFs = N/A
+
+=============== Dark Room 3 ===============
+Strings = 1F4A8 - 1F7F5
+Ptrs = 1F7F6- 1F829
+Base ptr = 18000
+Start of FFs = 1FA70
+
+============= Monster World 3 =============
+Part 1
+Strings = C0000 - C2520
+Ptrs = C2521 - C2720
+Base ptr = BC000
+Start of FFs = C3D40 (Note: after part 2)
+
+Part 2
+Strings = C2721 - C2ABB
+Ptrs = C2ABC - C2AF0
+Base ptr = BC000
+Start of FFs = C3CCA
+
+================= Floor 4 =================
+Strings = C6075 - C7303
+Ptr = C7304 - C7419
+Base ptr = C0000
+Start of FFs = C7BDC
+
+=============== Type Names ================
+Strings = 3C1B0 - 3C1D7
+Ptr = 3C1D8 - 3C1E5
+Base ptr = 38000
+Start of FFs = 3FF00
+
+================= Tsuyosa =================
+Strings = 82DF4 - 82F44
+Ptr = 82F45 - 82F80
+Base ptr = 7C000
+Start of FFs = 83B60 (between Dark Room and Elevator FFs)
+
+Hex value for cursor position fix: 93A5 - 58->60
+
+================= Opening =================
+Strings = 11206 - 117CA
+Ptr = 117CB - 11822
+Base ptr = C000
+Start of FFs = 00000
+
+=============== Pause Menu ================
+Strings = 82C6D - 82CFF
+Ptr = 82D00 - 82D23
+Base ptr = 7C000
+Start of FFs = 00000
+
+================= Submenu =================
+Strings = 82F81 - 82FFC
+Ptr = 82FFD - 83016
+Base ptr = 7C000
+Start of FFs = 83BE0
+
+=============== Dark Room 4 ===============
+Strings = C7721 - C7B97
+Ptr = C7B98 - C7BD9
+Base ptr = C0000
+Start of FFs = C7C40
+
+============= Monster World 4 =============
+Part 1
+Strings = C9FC9 - CBE30
+Ptrs = CBE31 - CBFFA
+Base ptr = C4000
+Start of FFs = No FFs available :(
+
+Part 2
+Strings = CC000 - CDE14
+Ptrs = CDE15 - CDF96
+Base ptr = C8000
+Start of FFs = No FFs needed (...or available)
+
+Part 3
+Strings = BC000 - BCEFB
+Ptrs = BCEFC - BCFC5
+Base ptr = B8000
+Start of FFs = BEEF9
+
+================= Floor 5 =================
+Strings = D40C0 - D5652
+Ptr = D5653 - D5785
+Base ptr = XXXXX
+Start of FFs = XXXXX
+
+=============== Dark Room 5 ===============
+Strings = D30E7 - D35CE
+Ptr = D35CF - D361A
+Base ptr = CC000
+Start of FFs = D3D31
+
+============= Monster World 5 =============
+Part 1
+Strings = D5785 - D767F
+Ptrs = D7680 - D7821
+Base ptr = D0000
+Start of FFs = D7DC0 - D7FFF
+
+Part 2
+Strings = D8000 - D916C
+Ptrs = D916D - D9266
+Base ptr = D4000
+Start of FFs = DBF9A (or DF6CA?)
+
+Part 3
+Strings = D9267 - DB3EA
+Ptrs = DB3EB - DB5B0
+Base ptr = D4000
+Start of FFs = DBF9A (or DF6CA?)
+
+=== Monster World 5 Gaiden: Sword Names ===
+Strings = DC000 - DC00D
+Ptr = DC00E - DC013
+Base ptr = D8000
+Start of FFs = DF6CA
+
+=========== Dark Room 5 part 2 ============
+Strings = D361B - D379A
+Ptr = D379B - D37B4
+Base ptr = CC000
+Start of FFs = D3DF4
+
+=============== NG+ dialog ================
+Strings = D37B5 - D38B9
+Ptr = D38BA - D38CB
+Base ptr = CC000
+Start of FFs = D3E30
+
+============ Floor 1 Postgame =============
+Strings = B43F6 - B4F0C
+Ptr = B4F0D - B4FCF
+Base ptr = B0000
+Start of FFs = B6590
+
+=========== Dark Room 1 part 2 ============
+Strings = B5191 - B544B
+Ptr = B544C - B5476
+Base ptr = B0000
+Start of FFs = B6590
+
+============ Floor 2 Postgame =============
+Strings = B57DF - B630E
+Ptr = B630F - B63C4
+Base ptr = B0000
+Start of FFs = B6590 ish
+
+========== Dark Room 2 Postgame ===========
+Strings = B6500 - B6584
+Ptr = B6585 - B658C
+Base ptr = B0000
+Start of FFs = B6590 ish
+
+============ Floor 3 Postgame =============
+Strings = B8364 - B8E1C
+Ptr = B8E1D - B8ECD
+Base ptr = B4000
+Start of FFs = XXXXX
+
+========== Dark Room 3 Postgame ===========
+Strings = B9037 - B9182
+Ptr = B9183 - B9194
+Base ptr = B4000
+Start of FFs = XXXXX
+
+============ Floor 4 Postgame =============
+Strings = B9583 - BA048
+Ptr = BA049 - BA0FC
+Base ptr = B4000
+Start of FFs = BA435
+
+========== Dark Room 4 Postgame ===========
+Strings = BA288 - BA41C
+Ptr = BA41D - BA433
+Base ptr = B4000
+Start of FFs = BA435
+
+============ Floor 5 Postgame =============
+Strings = BD669 - BE206
+Ptr = BE207 - BE2C6
+Base ptr = B8000
+Start of FFs = BEF00
+
+========== Dark Room 5 Postgame ===========
+Strings = BE574 - BE7B4
+Ptr = BE7B5 - BE7DA
+Base ptr = B8000
+Start of FFs = BEF00
+
+================ Floor BF1 ================
+Strings = BE9B3 - BEEA6
+Ptr = BEEA7 - BEEF6
+Base ptr = B8000
+Start of FFs = BEF50
+
+================== Link ===================
+Strings = 70406 - 70503
+Ptr = 703F0 - 70405
+Base ptr = 6C000
+Start of FFs = 71090
+
+================ Link Duel ================
+Strings = 3994C - 399B6
+Ptr = 399B7 - 399BE
+Base ptr = 38000
+Start of FFs = XXXXX
+
+================== ED 2 ===================
+Strings = 60E41 - 60F30
+Ptr = 60D4D - XXXXX
+Base ptr = 5C000
+Start of FFs = 00000
+
+p60D4C -> 414E
+p60D67 -> 594E -> 5F
+p60D82 -> 794E -> 7D
+p60D9D -> 9D4E -> A1
+p60DB8 -> BD4E -> C3
+p60DD3 -> D34E -> DD
+p60DEE -> F34E -> F7
+p60E09 -> 174F -> 19
+
+================== OP 1 ===================
+Strings = 60FF5 - 61030
+Ptr = 60FC8 - 60FCA
+Base ptr = 5C000
+Start of FFs = 00000
+
+p60FC8 -> F54F
+p60FDD -> 1150 -> 17
+
+================== OP 2 ===================
+Strings = 610F7 - 6112A
+Ptr = 6107D - 6107E
+Base ptr = 5C000
+Start of FFs = XXXXX
+
+p610CD -> 0D51 -> 11
+
+================== OP 3 ===================
+Strings = 611E7 - 611FC
+Ptr = 6116B -> E751
+Base ptr = 5C000
+Start of FFs = XXXXX
+
+================== OP 4 ===================
+Strings = 612AD - 612DC
+Ptr = 6125C - 6125F
+Base ptr = 5C000
+Start of FFs = XXXXX
+
+p61272 CB52 -> C5
+
+================= Credits =================
+Strings = 70684 - 708CF
+Ptr = 70591 - 70591
+Base ptr = 6C000
+Start of FFs = 71090
+
+================ Attract 1 ================
+Strings = 60313 - 60322
+Ptr = 602DB - 602DC
+Base ptr = 5C000
+Start of FFs = 00000
+
+================ Attract 2 ================
+Strings = 60400 - 60431
+Ptr = 60397 - 60399
+Base ptr = 5C000
+Start of FFs = 00000
+
+p603BD -> 1A44 -> 18
+
+================ Attract 3 ================
+Strings = 60584 - 605C9
+Ptr = - 60512
+Base ptr = 5C000
+Start of FFs = 00000
+
+p60532 -> 9045 -> 94
+p60547 -> B445 -> B8
+
+===========================================
+
+
+//23456789ABCDEF01
+ygo[END]
+//23456789ABCDEF01;0123456789ABCDEF01;0123456789ABCDEF01[END]
+
+
+
+
+
+984C = old top left menu tile
+8742 = horz length of pause menu 06->07
+8740 = left x coord of pause menu 0E->0D
+874B, 874E, 8851 = x pos of pause menu strings 0F->0E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

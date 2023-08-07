@@ -1,0 +1,1513 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($D0000)
+#JMP($D5785, $D767F)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #038 NAME:		Monster World 5 part 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $D7680 - STRING #0 @ $D5785
+
+#W16($D7680)
+//モンスタ-が しゅつげんした![END]
+Monster attack![END]
+
+//
+//POINTER #1 @ $D7682 - STRING #1 @ $D579A
+
+#W16($D7682)
+//「HPカプセル」;を てにいれた[END]
+Obtained an;HP Capsule.[END]
+
+//
+//POINTER #2 @ $D7684 - STRING #2 @ $D57AE
+
+#W16($D7684)
+//「ATカプセル」;を てにいれた[END]
+Obtained an;AT Capsule.[END]
+
+//
+//POINTER #3 @ $D7686 - STRING #3 @ $D57C2
+
+#W16($D7686)
+//「DFカプセル」;を てにいれた[END]
+Obtained a;DF Capsule.[END]
+
+//
+//POINTER #4 @ $D7688 - STRING #4 @ $D57D6
+
+#W16($D7688)
+//「SPカプセル」;を てにいれた[END]
+Obtained an;SP Capsule.[END]
+
+//
+//POINTER #5 @ $D768A - STRING #5 @ $D57EA
+
+#W16($D768A)
+//「わざカプセル」;を てにいれた[END]
+Obtained a;Skill Capsule.[END]
+
+//
+//POINTER #6 @ $D768C - STRING #6 @ $D5800
+
+#W16($D768C)
+//「しんかカプセル」;を てにいれた[END]
+Obtained an;Evolution Capsule.[END]
+
+//
+//POINTER #7 @ $D768E - STRING #7 @ $D5815
+
+#W16($D768E)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+That was a trap;capsule!;Monster attack![END]
+
+//
+//POINTER #8 @ $D7690 - STRING #8 @ $D5843
+
+#W16($D7690)
+//ゆうぎ アナタは;「モンスタ-ワ-ルド」の;ぼうけんしゃよ[END]
+Yugi, you are an;adventurer in this;Monster World.[END]
+
+//
+//POINTER #9 @ $D7692 - STRING #9 @ $D586A
+
+#W16($D7692)
+//モンスタ-を ひきつれて;あてもない たびをしている[END]
+You're an aimless,;wandering monster;tamer.[END]
+
+//
+//POINTER #10 @ $D7694 - STRING #10 @ $D5888
+
+#W16($D7694)
+//しかし そのぼうけんも ついに;さいごのときを むかえた… ククク[END]
+But you've come to;the end of your;travels.[END]
+
+//
+//POINTER #11 @ $D7696 - STRING #11 @ $D58AF
+
+#W16($D7696)
+//ここは このよの はて;「ワ-ルドエンド」[END]
+You've made it to;the World's End.[END]
+
+//
+//POINTER #12 @ $D7698 - STRING #12 @ $D58CA
+
+#W16($D7698)
+//このよと じごくの さかいめ;と いわれている[END]
+The so-called edge;between this world;and the next.[END]
+
+//
+//POINTER #13 @ $D769A - STRING #13 @ $D58E7
+
+#W16($D769A)
+//いなかみちの かたすみで;ひとりの うすぎたない おとこが;あきないを している[END]
+At the far edge of;town, you see a;filthy merchant.[END]
+
+//
+//POINTER #14 @ $D769C - STRING #14 @ $D5917
+
+#W16($D769C)
+//へい いらっしゃい…[END]
+Welcome, customer.[END]
+
+//
+//POINTER #15 @ $D769E - STRING #15 @ $D5923
+
+#W16($D769E)
+//おきゃくさん きょうは いいひだね…;アンタは うんが いいよ!;…これを みてみな[END]
+You're lucky to;have come here;today.[END]
+
+//
+//POINTER #16 @ $D76A0 - STRING #16 @ $D5953
+
+#W16($D76A0)
+//この おまもりは たいへん;ごりやくの あるものでね[END]
+I just got this;warding charm in;stock recently.[END]
+
+//
+//POINTER #17 @ $D76A2 - STRING #17 @ $D5973
+
+#W16($D76A2)
+//これがあれば やみまかいに おちても;わざわいから まもってくれる;ありがたいシロモノだ…[END]
+This thing would;keep you safe in;the Abyss.[END]
+
+//
+//POINTER #18 @ $D76A4 - STRING #18 @ $D59AC
+
+#W16($D76A4)
+//どうだい…? この ほりだしもんの;「まかいのまもり」を とくべつ;アンタに ゆずろうじゃないか…![END]
+So whaddya think?;You wanna buy it,;no?[END]
+
+//
+//POINTER #19 @ $D76A6 - STRING #19 @ $D59EC
+
+#W16($D76A6)
+//どうする?;  まかいのまもりを かう;  そんな アヤシイのは いらない[END]
+Well?;  Buy the charm;  Nah, too shady[END]
+
+//
+//POINTER #20 @ $D76A8 - STRING #20 @ $D5A15
+
+#W16($D76A8)
+//…きっと こうかいする…;もういっかい きくよ;ホントに いらないのかい…!?[END]
+You sure? Wouldn't;want you to make;the wrong choice.[END]
+
+//
+//POINTER #21 @ $D76AA - STRING #21 @ $D5A3E
+
+#W16($D76AA)
+//  やっぱり かう;  いらないってば[END]
+  Alright, sure;  No means no[END]
+
+//
+//POINTER #22 @ $D76AC - STRING #22 @ $D5A57
+
+#W16($D76AC)
+//まいどあり… たしかに;おわたし しましたよ…[END]
+Pleasure doin';business with you.[END]
+
+//
+//POINTER #23 @ $D76AE - STRING #23 @ $D5A72
+
+#W16($D76AE)
+//「まかいのまもり」;を てにいれた[END]
+Obtained the;Abyss Charm.[END]
+
+//
+//POINTER #24 @ $D76B0 - STRING #24 @ $D5A85
+
+#W16($D76B0)
+//…きをつけて おいきなさい…;きょうは まかいびより…;まかいのくちが ひらきやすいとき[END]
+Watch yer step out;there. The Abyss;is hungry today.[END]
+
+//
+//POINTER #25 @ $D76B2 - STRING #25 @ $D5AB7
+
+#W16($D76B2)
+//はらをすかせて えものが;まよいこむのを まちぶせてるからね…;ひっひっひ[END]
+And its favorite;food is lost;travelers. Hehehe.[END]
+
+//
+//POINTER #26 @ $D76B4 - STRING #26 @ $D5AE2
+
+#W16($D76B4)
+//おおきな じわれがある;さきに すすめない[END]
+There's a huge;chasm blocking;your progress.[END]
+
+//
+//POINTER #27 @ $D76B6 - STRING #27 @ $D5AFD
+
+#W16($D76B6)
+//どうする?;  とびこえる;  ひきかえす[END]
+What will you do?;  Jump in;  Pull back[END]
+
+//
+//POINTER #28 @ $D76B8 - STRING #28 @ $D5B18
+
+#W16($D76B8)
+//ククク…! ここは せかいのはて;ワ-ルドエンドの;「まかいのおおぐち」![END]
+Hehehe! That's the;Maw of the Abyss,;at World's End![END]
+
+//
+//POINTER #29 @ $D76BA - STRING #29 @ $D5B45
+
+#W16($D76BA)
+//ぼうけんしゃは ふうんなことに;まかいへ すいこまれてしまった![END]
+You were sucked;into the Abyss![END]
+
+//
+//POINTER #30 @ $D76BC - STRING #30 @ $D5B69
+
+#W16($D76BC)
+//ふかい ふかい じごくのそこに;おちてゆく… ひとたび おちて;もどってこられたものは いない[END]
+You fell into the;Inferno from which;no one can escape.[END]
+
+//
+//POINTER #31 @ $D76BE - STRING #31 @ $D5BA2
+
+#W16($D76BE)
+//まかいを だっしゅつし;ふたたび ひのあたる せかいに;もどってこい![END]
+Return from the;Abyss to the;surface world![END]
+
+//
+//POINTER #32 @ $D76C0 - STRING #32 @ $D5BCD
+
+#W16($D76C0)
+//それが この;さいごの ぼうけんの;もくてきだ![END]
+That's the goal;for your final;adventure![END]
+
+//
+//POINTER #33 @ $D76C2 - STRING #33 @ $D5BEF
+
+#W16($D76C2)
+//…ふう;たいくつだぜ…[END]
+…I'm bored.[END]
+
+//
+//POINTER #34 @ $D76C4 - STRING #34 @ $D5C00
+
+#W16($D76C4)
+//なにか おもしれえこと;ないかなぁ…[END]
+Nothing ever;happens around;here.[END]
+
+//
+//POINTER #35 @ $D76C6 - STRING #35 @ $D5C14
+
+#W16($D76C6)
+//あ[END]
+Ah.[END]
+
+//
+//POINTER #36 @ $D76C8 - STRING #36 @ $D5C17
+
+#W16($D76C8)
+//また にんげんが ふってきたよ;しょうがねえなあ…[END]
+Another human just;fell down. What a;drag.[END]
+
+//
+//POINTER #37 @ $D76CA - STRING #37 @ $D5C38
+
+#W16($D76CA)
+//おお-い ロウ![END]
+Heeey, Prih![END]
+
+//
+//POINTER #38 @ $D76CC - STRING #38 @ $D5C42
+
+#W16($D76CC)
+//なんだよ ゴク?;…なんだ また にんげんが;うえの せかいから ふってきたのか[END]
+What is it?;Oh, just another;human?[END]
+
+//
+//POINTER #39 @ $D76CE - STRING #39 @ $D5C76
+
+#W16($D76CE)
+//まったく めんどくせえ シゴトだぜ;おちてきた にんげんを はこんで;ドレイに するなんてよ…[END]
+Alright, fine.;Let's get him to;the slave pins.[END]
+
+//
+//POINTER #40 @ $D76D0 - STRING #40 @ $D5CB5
+
+#W16($D76D0)
+//それにしても コイツも ;うんの わるいヤツだなあ[END]
+Still, I almost;feel bad for the;poor sap.[END]
+
+//
+//POINTER #41 @ $D76D2 - STRING #41 @ $D5CD2
+
+#W16($D76D2)
+//まぁ ここの せかいに;おちてくる なんざあ よっぽどの;マヌケ だろうがな… ゲッヘッヘ[END]
+Yeah, you've gotta;be a real idiot to;fall down here.[END]
+
+//
+//POINTER #42 @ $D76D4 - STRING #42 @ $D5D0D
+
+#W16($D76D4)
+//おい さっさと コイツを;はこんじまおうぜ!;こんど サボってんの みつかったら[END]
+Hey, let's hurry!;If we get caught;slackin' again…[END]
+
+//
+//POINTER #43 @ $D76D6 - STRING #43 @ $D5D3F
+
+#W16($D76D6)
+//レッドアイズさまに;おしおき くらうぞ![END]
+Lord Red Eyes;himself will;punish us![END]
+
+//
+//POINTER #44 @ $D76D8 - STRING #44 @ $D5D5B
+
+#W16($D76D8)
+//ビクッ!! …あ あれは いやだ;ケツから くしざしにされて;じごくの ほのおに やかれるんだ[END]
+No thanks! I don't;want to be;shish kebabbed![END]
+
+//
+//POINTER #45 @ $D76DA - STRING #45 @ $D5D98
+
+#W16($D76DA)
+//じごくの ごうもん メニュ-;「レッドバ-ニングスペシャル」…;…おお こわ[END]
+Or worse, face his;terrifying Red;Burning Special…[END]
+
+//
+//POINTER #46 @ $D76DC - STRING #46 @ $D5DCE
+
+#W16($D76DC)
+//それに こんかいは ぜったいに;にがすなと いわれてる;おそろしいやつも いるんだった…![END]
+Speaking of terri-;fying, that top;security prisoner-[END]
+
+//
+//POINTER #47 @ $D76DE - STRING #47 @ $D5E03
+
+#W16($D76DE)
+//こんなとこで あぶらうってる;ヒマは ねえ! さっさと;おわらしちまおう![END]
+Let's cut the chat;and get this over;with![END]
+
+//
+//POINTER #48 @ $D76E0 - STRING #48 @ $D5E2E
+
+#W16($D76E0)
+//おい ゴク;もう ここらへんの へやは;いっぱいだぜ![END]
+Yo, Zon, the cells;here are all full![END]
+
+//
+//POINTER #49 @ $D76E2 - STRING #49 @ $D5E53
+
+#W16($D76E2)
+//…しょうがねえ;ここしか ねえな[END]
+We'll have to toss;him in here then.[END]
+
+//
+//POINTER #50 @ $D76E4 - STRING #50 @ $D5E67
+
+#W16($D76E4)
+//…きがついたか? ここは;「じごくのろうごく」さ[END]
+Are you awake?;Welcome to the;Infernal Prison.[END]
+
+//
+//POINTER #51 @ $D76E6 - STRING #51 @ $D5E89
+
+#W16($D76E6)
+//この まかいの いちばんした;かえんじごくでは ドレイたちが;ここで しぬまで はたらかされてる[END]
+This is the bottom;layer of the Abyss;where slaves toil.[END]
+
+//
+//POINTER #52 @ $D76E8 - STRING #52 @ $D5ECB
+
+#W16($D76E8)
+//キミも うんがわるい;ここに おちてきた にんげんは;みな ろうごくに つれてこられるのだ[END]
+All unlucky humans;who fall into the;Abyss end up here.[END]
+
+//
+//POINTER #53 @ $D76EA - STRING #53 @ $D5F02
+
+#W16($D76EA)
+//にんげん だけじゃない;この まかいの じゅうにんである;まかいじん でも[END]
+But some Abyss;dwellers end up;here too.[END]
+
+//
+//POINTER #54 @ $D76EC - STRING #54 @ $D5F37
+
+#W16($D76EC)
+//ざいにんは ここで ;しぬまで はたらかされる ;…わたしが そうだ[END]
+Criminals… like me;get sent here to;work until we die.[END]
+
+//
+//POINTER #55 @ $D76EE - STRING #55 @ $D5F65
+
+#W16($D76EE)
+//なに? にんげんかいへ もどりたい?;それは ムリだ… いままで ここから;いきて でられたものは いない[END]
+Huh? You want to;go home? No one;has ever escaped.[END]
+
+//
+//POINTER #56 @ $D76F0 - STRING #56 @ $D5FA6
+
+#W16($D76F0)
+//…でも ここに いたまま;なにも しなければ ;なにも かわらないのは たしかだな…[END]
+…But, it's true;that doing nothing;changes nothing.[END]
+
+//
+//POINTER #57 @ $D76F2 - STRING #57 @ $D5FD8
+
+#W16($D76F2)
+//オイ しごとの じかんだ;でろ![END]
+Time for work!;Come on out![END]
+
+//
+//POINTER #58 @ $D76F4 - STRING #58 @ $D5FF2
+
+#W16($D76F4)
+//オマエは こっちだ![END]
+You! This way![END]
+
+//
+//POINTER #59 @ $D76F6 - STRING #59 @ $D6000
+
+#W16($D76F6)
+//さあ ここが オマエの しごとばだ;ほかの ヤツをみならって;マジメに はたらけよ![END]
+You'll work here.;Go learn the ropes;from the others.[END]
+
+//
+//POINTER #60 @ $D76F8 - STRING #60 @ $D6036
+
+#W16($D76F8)
+//オレたちゃ ドレイよ… きょうも;あしたも あさっても…[END]
+Everyday is the;same for us;slaves…[END]
+
+//
+//POINTER #61 @ $D76FA - STRING #61 @ $D6056
+
+#W16($D76FA)
+//しぬまで はたらかされるのさ[END]
+We'll be forced to;work until we die.[END]
+
+//
+//POINTER #62 @ $D76FC - STRING #62 @ $D6068
+
+#W16($D76FC)
+//ああ… ;キミは にんげんなのかい?;うん ボクも そうだよ[END]
+Oh.;You're a human?;As am I.[END]
+
+//
+//POINTER #63 @ $D76FE - STRING #63 @ $D608E
+
+#W16($D76FE)
+//ここでは うえの せかいから;おちてきた にんげんを とじこめて;ドレイとして はたらかせてるんだ[END]
+Any human who;falls down here;gets made a slave.[END]
+
+//
+//POINTER #64 @ $D7700 - STRING #64 @ $D60CB
+
+#W16($D7700)
+//ボクも うっかり まかいのおおぐちに;おちてしまったのが うんのつき…;もとの せかいに かえりたいよ[END]
+I fell into the;Maw on accident.;…I wanna go home.[END]
+
+//
+//POINTER #65 @ $D7702 - STRING #65 @ $D6106
+
+#W16($D7702)
+//オラは まかいの じゅうにんだが;あんまり ハラが へってたんで[END]
+I'm an Abyss;dweller who's;always hungry.[END]
+
+//
+//POINTER #66 @ $D7704 - STRING #66 @ $D6132
+
+#W16($D7704)
+//きそくよりも おおくの にんげんを;くっちまって つかまったんだ[END]
+I got jailed for;eating more humans;than is allowed.[END]
+
+//
+//POINTER #67 @ $D7706 - STRING #67 @ $D6158
+
+#W16($D7706)
+//あう~ ハラへった…[END]
+Ughhh, so hungry.[END]
+
+//
+//POINTER #68 @ $D7708 - STRING #68 @ $D6164
+
+#W16($D7708)
+//うしろのヤツ オレをみて;したつづみを するんだ…;なんでだと おもう?[END]
+The guy behind me;keeps smacking his;lips. Wonder why?[END]
+
+//
+//POINTER #69 @ $D770A - STRING #69 @ $D6192
+
+#W16($D770A)
+//えっほ えっほ…;ぜいぜい…[END]
+One, two.;One, two…;Huff huff.[END]
+
+//
+//POINTER #70 @ $D770C - STRING #70 @ $D61A6
+
+#W16($D770C)
+//…つれ~よお![END]
+Ow… muscle cramp![END]
+
+//
+//POINTER #71 @ $D770E - STRING #71 @ $D61AF
+
+#W16($D770E)
+//しんいりか? オメエも さっさと;てつだえ![END]
+Hey, newbie, a;little help here!?[END]
+
+//
+//POINTER #72 @ $D7710 - STRING #72 @ $D61C9
+
+#W16($D7710)
+//いそがせるんだもん;カベが うまく ぬれないよ[END]
+I can't rush this;plastering.[END]
+
+//
+//POINTER #73 @ $D7712 - STRING #73 @ $D61EA
+
+#W16($D7712)
+//8ごうしつの カベは;テキト-に ぬっちゃったから;すぐに くずれちゃうかもなぁ…[END]
+I was too sloppy;plastering the;walls in cell 8…[END]
+
+//
+//POINTER #74 @ $D7714 - STRING #74 @ $D621D
+
+#W16($D7714)
+//わたしは むかし さかんやでした;カベをぬる しごとです[END]
+I used to be a;plasterer.[END]
+
+//
+//POINTER #75 @ $D7716 - STRING #75 @ $D6243
+
+#W16($D7716)
+//にんげんの せかいに いたころの;とくぎが こんなところで;やくにたつなんて… ひにくなモノです[END]
+How ironic that my;skills would be of;use here.[END]
+
+//
+//POINTER #76 @ $D7718 - STRING #76 @ $D627F
+
+#W16($D7718)
+//ここから だしてくれぇ![END]
+Let me outta here![END]
+
+//
+//POINTER #77 @ $D771A - STRING #77 @ $D628F
+
+#W16($D771A)
+//まえに;ここを だつごく しようとした;しゅうじんが いたんだけどよ[END]
+There was once a;prisoner who tried;to escape.[END]
+
+//
+//POINTER #78 @ $D771C - STRING #78 @ $D62BF
+
+#W16($D771C)
+//さいごの さいごで;ロウと ゴクのやつらに;みつかっちまった[END]
+But he was caught;in the end by Prih;and Zon.[END]
+
+//
+//POINTER #79 @ $D771E - STRING #79 @ $D62E7
+
+#W16($D771E)
+//そいつは ばつとして それはもう;よにも おそろしい ごうもんを;されたらしいぜ…! ぶるるっ[END]
+As punishment, he;was brutally;tortured.[END]
+
+//
+//POINTER #80 @ $D7720 - STRING #80 @ $D6320
+
+#W16($D7720)
+//あんたも へんなきは;おこさないほうが いい[END]
+You'd do best to;not get any crazy;ideas like that.[END]
+
+//
+//POINTER #81 @ $D7722 - STRING #81 @ $D633A
+
+#W16($D7722)
+//このへや みてくれよ;ふるくて ボロボロだ[END]
+Look how old and;shoddy this cell;is.[END]
+
+//
+//POINTER #82 @ $D7724 - STRING #82 @ $D6357
+
+#W16($D7724)
+//あたらしく できるっていう;へやに うつりてぇなあ…[END]
+I wish I could get;transferred to one;of those new ones.[END]
+
+//
+//POINTER #83 @ $D7726 - STRING #83 @ $D6375
+
+#W16($D7726)
+//あ? 8ごうしつ?;この うえの つきあたりを;みぎにまがって いちばんおくだけど[END]
+Hm? Cell 8? It's;down the hall and;to the right.[END]
+
+//
+//POINTER #84 @ $D7728 - STRING #84 @ $D63AC
+
+#W16($D7728)
+//ふ~ スッキリした;ぶるん ぶるん![END]
+Ahhh. Feels good;man.[END]
+
+//
+//POINTER #85 @ $D772A - STRING #85 @ $D63C4
+
+#W16($D772A)
+//こらっ!;サボってないで はたらけ!![END]
+Hey! get back to;work![END]
+
+//
+//POINTER #86 @ $D772C - STRING #86 @ $D63DD
+
+#W16($D772C)
+//ここから にげだそうとしても ムダだ;ヘタな かんがえは;おこさない ことだな![END]
+Don't even think;about escaping,;prisoner![END]
+
+//
+//POINTER #87 @ $D772E - STRING #87 @ $D6413
+
+#W16($D772E)
+//また あたらしい ドレイが;ふえたからな このろうごくも;はやいとこ ぞうちく せねばならん[END]
+We have to quickly;build a new wing;for new prisoners.[END]
+
+//
+//POINTER #88 @ $D7730 - STRING #88 @ $D644D
+
+#W16($D7730)
+//あたらしい へやを つくるんだ!;カベをぬれ! ゆかをはれ![END]
+Hurry up!;Plaster the walls!;Lay the flooring![END]
+
+//
+//POINTER #89 @ $D7732 - STRING #89 @ $D6471
+
+#W16($D7732)
+//ここから にげだそうとしても ムダだ;ヘタな かんがえは;おこさない ことだな![END]
+Don't even think;about escaping,;prisoner.[END]
+
+//
+//POINTER #90 @ $D7734 - STRING #90 @ $D64A7
+
+#W16($D7734)
+//なに;トイレに いきたいだと?[END]
+Huh? You have to;use the toilet?[END]
+
+//
+//POINTER #91 @ $D7736 - STRING #91 @ $D64BA
+
+#W16($D7736)
+//  はい;  いいえ[END]
+  Yes;  No[END]
+
+//
+//POINTER #92 @ $D7738 - STRING #92 @ $D64C6
+
+#W16($D7738)
+//しかたないな;トイレは ここをでて みぎのへやだ[END]
+Fine, whatever.;It's the room to;the right.[END]
+
+//
+//POINTER #93 @ $D773A - STRING #93 @ $D64E6
+
+#W16($D773A)
+//はやく すませて こいよ![END]
+Make it quick![END]
+
+//
+//POINTER #94 @ $D773C - STRING #94 @ $D64F5
+
+#W16($D773C)
+//きき まちがいか… それなら;さっさと シゴトに もどれ![END]
+Must've misheard;you then. Get back;to work![END]
+
+//
+//POINTER #95 @ $D773E - STRING #95 @ $D651A
+
+#W16($D773E)
+//おい オマエ どこへいく!?;もちばに もどれ![END]
+Where do you think;you're going? Get;back to work![END]
+
+//
+//POINTER #96 @ $D7740 - STRING #96 @ $D653A
+
+#W16($D7740)
+//まわせ まわせ!;じごくの はぐるまを![END]
+Keep that wheel;turning![END]
+
+//
+//POINTER #97 @ $D7742 - STRING #97 @ $D6556
+
+#W16($D7742)
+//じ… じいちゃん![END]
+Grandpa![END]
+
+//
+//POINTER #98 @ $D7744 - STRING #98 @ $D6565
+
+#W16($D7744)
+//ゆうぎ![END]
+Yugi![END]
+
+//
+//POINTER #99 @ $D7746 - STRING #99 @ $D656D
+
+#W16($D7746)
+//ワシャ おまえの てだすけをしようと;ここにきたら つかまって;とじこめられちまったワイ![END]
+I came here to;help you, but I;got captured.[END]
+
+//
+//POINTER #100 @ $D7748 - STRING #100 @ $D65A0
+
+#W16($D7748)
+//じゃが ワシのことは きにせんでええ;こ-して げんきで;ピンピン しとるワイ! それより…[END]
+But don't worry;about me. I'm as;fine as ever![END]
+
+//
+//POINTER #101 @ $D774A - STRING #101 @ $D65DE
+
+#W16($D774A)
+//ゆうぎ!;こころするんじゃ たたかいとは;まけることを おそれぬこと…[END]
+Yugi! Fight with;your head and;never lose hope.[END]
+
+//
+//POINTER #102 @ $D774C - STRING #102 @ $D6607
+
+#W16($D774C)
+//それにこそ しんの つよさが;うまれるのじゃぞ…;よいな ゆうぎや[END]
+Only then can you;use your full;strength.[END]
+
+//
+//POINTER #103 @ $D774E - STRING #103 @ $D6632
+
+#W16($D774E)
+//「わざカプセル」;を もらった[END]
+He handed you a;Skill Capsule.[END]
+
+//
+//POINTER #104 @ $D7750 - STRING #104 @ $D6647
+
+#W16($D7750)
+//まってて じいちゃん…;かならず たすけるからね![END]
+Hang tight,;Grandpa. I'll save;you for sure![END]
+
+//
+//POINTER #105 @ $D7752 - STRING #105 @ $D6666
+
+#W16($D7752)
+//ここだけ カベが;すこし もろくなっている[END]
+This wall looks;breakable.[END]
+
+//
+//POINTER #106 @ $D7754 - STRING #106 @ $D6683
+
+#W16($D7754)
+//たたいて みるか?;  たたく;  たたかない[END]
+Hit it?;  Hit it;  Quit it[END]
+
+//
+//POINTER #107 @ $D7756 - STRING #107 @ $D669C
+
+#W16($D7756)
+//カベに あなが あいた![END]
+You opened up a;hole in the wall![END]
+
+//
+//POINTER #108 @ $D7758 - STRING #108 @ $D66AE
+
+#W16($D7758)
+//…!;なんだ キミか;おどろかすなよ[END]
+!! …Oh, it's just;you. You startled;me.[END]
+
+//
+//POINTER #109 @ $D775A - STRING #109 @ $D66C6
+
+#W16($D775A)
+//おってが おいかけて きたのかと;おもったぞ[END]
+I thought I had;been followed for;a second there.[END]
+
+//
+//POINTER #110 @ $D775C - STRING #110 @ $D66E2
+
+#W16($D775C)
+//どうやら キミも わたしも ;ここから にげるのが;もくてきの ようだな[END]
+I see you also;want to escape.[END]
+
+//
+//POINTER #111 @ $D775E - STRING #111 @ $D6710
+
+#W16($D775E)
+//キミを みていたら わたしも;じゆうに なりたくなったんだ[END]
+Meeting you made;me want to be a;free man again.[END]
+
+//
+//POINTER #112 @ $D7760 - STRING #112 @ $D6733
+
+#W16($D7760)
+//おっと;ぐずぐずしている ヒマはない;はやいとこ ここを ずらかるとしよう[END]
+…Well, we're short;on time. Let's;hurry on now.[END]
+
+//
+//POINTER #113 @ $D7762 - STRING #113 @ $D6764
+
+#W16($D7762)
+//コラコラ~;オマエたち きょうは がいしゅつ;きんしだぞ~![END]
+What do we have;here? Who let you;two out?[END]
+
+//
+//POINTER #114 @ $D7764 - STRING #114 @ $D678A
+
+#W16($D7764)
+//イヤイヤ~;ちがうぜ ロウよ! ドレイは;えいえんに がいしゅつ きんしだ[END]
+Prih, they're;slaves. No one can;let them out![END]
+
+//
+//POINTER #115 @ $D7766 - STRING #115 @ $D67BB
+
+#W16($D7766)
+//そうだったな ゴク! コイツらは;いっしょう ここから でられない…;きそくをやぶった つみは おもいな![END]
+Oh yeah. Slaves;have a life;sentence.[END]
+
+//
+//POINTER #116 @ $D7768 - STRING #116 @ $D67FA
+
+#W16($D7768)
+//ああ そうとも;コイツらは おしおきだ!;おしおきの ひつようがあるっ![END]
+That's right. Now;they'll have to;be punished![END]
+
+//
+//POINTER #117 @ $D776A - STRING #117 @ $D6824
+
+#W16($D776A)
+//ほう… キミは なかなか;すばらしい チカラを もっているな…;たいした ものだ[END]
+Impressive.;You're rather;powerful.[END]
+
+//
+//POINTER #118 @ $D776C - STRING #118 @ $D6852
+
+#W16($D776C)
+//なまえを きいておこう …ゆうぎ?;そうか ゆうぎと いうのか;おぼえて おく[END]
+What's your name?;…Yugi, is it? I;won't forget it.[END]
+
+//
+//POINTER #119 @ $D776E - STRING #119 @ $D6881
+
+#W16($D776E)
+//わたしのなは ブラックだ;さあ あらてが こないうちに;ここを はなれたほうがいい[END]
+My name is Dark.;Let's flee before;more guards come.[END]
+
+//
+//POINTER #120 @ $D7770 - STRING #120 @ $D68B4
+
+#W16($D7770)
+//ここからでて そうげんを ぬければ;まちがある そこまで にげれば;ひとまず だいじょうぶだろう[END]
+There's a town;just past the;plains ahead.[END]
+
+//
+//POINTER #121 @ $D7772 - STRING #121 @ $D68FE
+
+#W16($D7772)
+//じゃあな けんとうを いのる![END]
+You should be safe;there.;Godspeed to you![END]
+
+//
+//POINTER #122 @ $D7774 - STRING #122 @ $D6911
+
+#W16($D7774)
+//おってがくる!;もどっている ヒマはない![END]
+There's no time to;turn back now![END]
+
+//
+//POINTER #123 @ $D7776 - STRING #123 @ $D692C
+
+#W16($D7776)
+//「じごくのそうげん」;に ついた[END]
+You enter the;Infernal Plains.[END]
+
+//
+//POINTER #124 @ $D7778 - STRING #124 @ $D6944
+
+#W16($D7778)
+//ここでは 8ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #125 @ $D777A - STRING #125 @ $D697A
+
+#W16($D777A)
+//われは この ;じごくのそうげんを とりしきる;あんこくきしガイア![END]
+I, Gaia the Fierce;Knight, control;these plains![END]
+
+//
+//POINTER #126 @ $D777C - STRING #126 @ $D69A6
+
+#W16($D777C)
+//ここは われの りょういきである;にんげんごときが たちいることは;ゆるさん!![END]
+No human is;allowed to set;foot in my domain![END]
+
+//
+//POINTER #127 @ $D777E - STRING #127 @ $D69D8
+
+#W16($D777E)
+//かえんじごくのまち「マダラ」;に ついた[END]
+You enter the;Flame Inferno town;of Madara.[END]
+
+//
+//POINTER #128 @ $D7780 - STRING #128 @ $D69F4
+
+#W16($D7780)
+//ここは かえんじごくの;マダラのまち[END]
+This is Madara, a;town in the Flame;Inferno.[END]
+
+//
+//POINTER #129 @ $D7782 - STRING #129 @ $D6A0E
+
+#W16($D7782)
+//まかいじんが すむまちだ;にんげんの くるところじゃないぜ![END]
+As a human, you;shouldn't be here.[END]
+
+//
+//POINTER #130 @ $D7784 - STRING #130 @ $D6A3A
+
+#W16($D7784)
+//わたし にんげんが だいすきなの![END]
+I love humans![END]
+
+//
+//POINTER #131 @ $D7786 - STRING #131 @ $D6A53
+
+#W16($D7786)
+//あぁん もう たまんないわ…!;あんまり おいしそうだから;よだれが でちゃう…<$93>[END]
+I could just eat;you up! Oh, I'm;already drooling…<$93>[END]
+
+//
+//POINTER #132 @ $D7788 - STRING #132 @ $D6A86
+
+#W16($D7788)
+//にんげんだ! うまそう!![END]
+Oh, a tasty;looking human![END]
+
+//
+//POINTER #133 @ $D778A - STRING #133 @ $D6A99
+
+#W16($D778A)
+//けっ にんげん なんかが;この まかいを えらそうに;ウロつくんじゃねえよっ![END]
+Who gave you the;right to wander;around here? Tch![END]
+
+//
+//POINTER #134 @ $D778C - STRING #134 @ $D6AC8
+
+#W16($D778C)
+//いま いる このじごくは;「かえんじごく」といい[END]
+This circle is;known as the Flame;Inferno.[END]
+
+//
+//POINTER #135 @ $D778E - STRING #135 @ $D6AEA
+
+#W16($D778E)
+//まじん レッドアイズさまが;おさめられて いるんだ[END]
+It's ruled over by;Lord Red Eyes.[END]
+
+//
+//POINTER #136 @ $D7790 - STRING #136 @ $D6B0F
+
+#W16($D7790)
+//レッドアイズさまは;おそろしい おかた[END]
+He's not one to;upset.[END]
+
+//
+//POINTER #137 @ $D7792 - STRING #137 @ $D6B28
+
+#W16($D7792)
+//すこしでも おこらせたものは;じごくの ごうもんが まっている…;…くわばら くわばら[END]
+He'll torture;anyone with mini-;mal provocation.[END]
+
+//
+//POINTER #138 @ $D7794 - STRING #138 @ $D6B63
+
+#W16($D7794)
+//まかいは;3つの かいそう からなる;じごくで こうせいされている[END]
+The Abyss is made;up of 3 circles.[END]
+
+//
+//POINTER #139 @ $D7796 - STRING #139 @ $D6B8C
+
+#W16($D7796)
+//この「かえんじごく」のうえには;「かみなりじごく」さらに そのうえに;「やみじごく」が ある[END]
+Namely, the Flame,;Thunder, and Dark;Infernos.[END]
+
+//
+//POINTER #140 @ $D7798 - STRING #140 @ $D6BCA
+
+#W16($D7798)
+//うえの じごくに いくほど;つよいモンスタ-が すんでいるのだ[END]
+The monsters get;stronger the;higher the circle.[END]
+
+//
+//POINTER #141 @ $D779A - STRING #141 @ $D6BF7
+
+#W16($D779A)
+//まかいにそびえたつ じごくのとうだい;ちょうじょうから うえの じごくへ;つうじている らしいけど[END]
+The Infernos are;linked by Infernal;Lighthouses.[END]
+
+//
+//POINTER #142 @ $D779C - STRING #142 @ $D6C3C
+
+#W16($D779C)
+//そこは このじごくを おさめる;レッドアイズさまが まもっている…;だれも あそこへは ちかよれないわよ[END]
+That's where this;circle's lord, Red;Eyes, lives.[END]
+
+//
+//POINTER #143 @ $D779E - STRING #143 @ $D6C7E
+
+#W16($D779E)
+//なに?;うえの じごくに いきたいだって!?;ゲッゲッゲ![END]
+What? You want to;get to the upper;Infernos? Ha![END]
+
+//
+//POINTER #144 @ $D77A0 - STRING #144 @ $D6CA9
+
+#W16($D77A0)
+//オレたち まかいじん さえ;つうこうを ゆるされないのに;にんげんが とおれるわけねえよ![END]
+We can't even make;that trip. A human;stands no chance![END]
+
+//
+//POINTER #145 @ $D77A2 - STRING #145 @ $D6CDE
+
+#W16($D77A2)
+//お! あなたは にんげんですね?;わたしもです[END]
+You're a human!?;Dude, me too![END]
+
+//
+//POINTER #146 @ $D77A4 - STRING #146 @ $D6CFD
+
+#W16($D77A4)
+//わたしは うんよく;じごくのろうごくに おちなかったので;ここで ひっそり くらしてます[END]
+I luckily avoided;the prison and;settled here.[END]
+
+//
+//POINTER #147 @ $D77A6 - STRING #147 @ $D6D35
+
+#W16($D77A6)
+//え? もとの にんげんの せかいに;もどる ほうほうは ないかって?;ムリですね そんなこと できませんよ[END]
+Sorry to tell you,;but there's no way;to go back home.[END]
+
+//
+//POINTER #148 @ $D77A8 - STRING #148 @ $D6D74
+
+#W16($D77A8)
+//まあ ここの くらしも;わるくないですよ…;うきよの いやなことも わすれて…[END]
+It's not so bad;here once you;get used to it.[END]
+
+//
+//POINTER #149 @ $D77AA - STRING #149 @ $D6D9F
+
+#W16($D77AA)
+//あなたも やみに;みを ゆだねて みませんか…?;ふっふっふ…[END]
+Just surrender to;the darkness.;Fufufu…[END]
+
+//
+//POINTER #150 @ $D77AC - STRING #150 @ $D6DC2
+
+#W16($D77AC)
+//オマエは にんげんか…?;おお ひさしぶりに;おなじ なかまに であったわい[END]
+A human? I haven't;met a kinsman in;a long while.[END]
+
+//
+//POINTER #151 @ $D77AE - STRING #151 @ $D6DF2
+
+#W16($D77AE)
+//もとのせかいに もどりたいか?;ワシは おいぼれて そんなげんきは;うせてしまったが…[END]
+Return to the;human world? I'm;too old for that.[END]
+
+//
+//POINTER #152 @ $D77B0 - STRING #152 @ $D6E27
+
+#W16($D77B0)
+//オマエさんは まだ わかい!;きぼうに みちた;その かがやく まなざしは[END]
+But you! You're;full of youthful;optimism![END]
+
+//
+//POINTER #153 @ $D77B2 - STRING #153 @ $D6E56
+
+#W16($D77B2)
+//まかいの くらやみに なれた;この じじいには こたえるわい…;オマエさんは ここにいるべきではない[END]
+Take it from this;old man, you ought;to leave here.[END]
+
+//
+//POINTER #154 @ $D77B4 - STRING #154 @ $D6E92
+
+#W16($D77B4)
+//まかいは 3つの じごくのかいそうに;わかれており その ちょうじょうの;さらに うえに にんげんかいがある[END]
+The human world;sits atop the 3;circles.[END]
+
+//
+//POINTER #155 @ $D77B6 - STRING #155 @ $D6ED4
+
+#W16($D77B6)
+//にんげんかいに もどりたければ;まず うえのじごくを めざすことじゃ[END]
+If you want to go;home, ascend the;Infernos.[END]
+
+//
+//POINTER #156 @ $D77B8 - STRING #156 @ $D6F08
+
+#W16($D77B8)
+//ここから さきは;しゃくねつの マグマが たぎる;じごくのかざんが ある[END]
+The Infernal;Volcano lies in;this direction.[END]
+
+//
+//POINTER #157 @ $D77BA - STRING #157 @ $D6F3C
+
+#W16($D77BA)
+//そこを こえると;レッドアイズさまの すむ;じごくのとうだいへと つづいている[END]
+Beyond that is the;Infernal;Lighthouse.[END]
+
+//
+//POINTER #158 @ $D77BC - STRING #158 @ $D6F71
+
+#W16($D77BC)
+//にんげん ごときが;くるところではない!;ひきかえすんだな[END]
+It's not a place;for humans. Turn;back![END]
+
+//
+//POINTER #159 @ $D77BE - STRING #159 @ $D6F9A
+
+#W16($D77BE)
+//「じごくのかざん」;に ついた[END]
+You arrive at the;Infernal Volcano.[END]
+
+//
+//POINTER #160 @ $D77C0 - STRING #160 @ $D6FB1
+
+#W16($D77C0)
+//ここでは 8ほ あるくごとに;30の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will have a 30%;encounter chance.[END]
+
+//
+//POINTER #161 @ $D77C2 - STRING #161 @ $D6FE7
+
+#W16($D77C2)
+//おおきな イワがある どうする?;  おしてみる;  なにもしない[END]
+It's a boulder.;  Push it;  Leave it[END]
+
+//
+//POINTER #162 @ $D77C4 - STRING #162 @ $D700E
+
+#W16($D77C4)
+//かざんが ふんか しそうだ…!;キケンで ちかづけない![END]
+The volcano is;about to erupt!;Stand back![END]
+
+//
+//POINTER #163 @ $D77C6 - STRING #163 @ $D7036
+
+#W16($D77C6)
+//そのとき! まかいのまもりが;はつどうした![END]
+Suddenly, your;Abyss Charm;activated![END]
+
+//
+//POINTER #164 @ $D77C8 - STRING #164 @ $D7052
+
+#W16($D77C8)
+//まかいのまもり によって;かざんかつどうが いちじてきに;とまった![END]
+It temporarily;halted the;eruption![END]
+
+//
+//POINTER #165 @ $D77CA - STRING #165 @ $D707E
+
+#W16($D77CA)
+//「かえんじごくのとうだい」;に ついた[END]
+You enter the;Flame Inferno;Lighthouse.[END]
+
+//
+//POINTER #166 @ $D77CC - STRING #166 @ $D7099
+
+#W16($D77CC)
+//ここでは 7ほ あるくごとに;40の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 7 steps;will have a 40%;encounter chance.[END]
+
+//
+//POINTER #167 @ $D77CE - STRING #167 @ $D70CF
+
+#W16($D77CE)
+//レッドアイズさまに ようじか!?;  ようじがある;  とくにない[END]
+What do you want?;  Lord Red Eyes;  Nothing really[END]
+
+//
+//POINTER #168 @ $D77D0 - STRING #168 @ $D70FC
+
+#W16($D77D0)
+//ならば;ここをとおる どおりはない;たちされい![END]
+Then leave![END]
+
+//
+//POINTER #169 @ $D77D2 - STRING #169 @ $D711A
+
+#W16($D77D2)
+//にんげんふぜいが レッドアイズさまに;なんのようだと いうのだ?;たちされい![END]
+Tough luck, human.;Get lost![END]
+
+//
+//POINTER #170 @ $D77D4 - STRING #170 @ $D7151
+
+#W16($D77D4)
+//まあまあ この にんげんは;わたしの しりあいなんだ[END]
+That human is a;friend of mine.[END]
+
+//
+//POINTER #171 @ $D77D6 - STRING #171 @ $D7171
+
+#W16($D77D6)
+//わたしも ここを とおりたい;とおしてやって くれないか?[END]
+I am also seeking;passage through;here.[END]
+
+//
+//POINTER #172 @ $D77D8 - STRING #172 @ $D7190
+
+#W16($D77D8)
+//…オマエは まかいじんだな?;しかも そのいでたち…[END]
+Wait, I recognize;that outfit.[END]
+
+//
+//POINTER #173 @ $D77DA - STRING #173 @ $D71B2
+
+#W16($D77DA)
+//じょうりゅう かいきゅうの;まかいじんと おみうけする;…しかたない とおられよ![END]
+I can't refuse a;high level;monster. …Go on![END]
+
+//
+//POINTER #174 @ $D77DC - STRING #174 @ $D71E1
+
+#W16($D77DC)
+//このさきは レッドアイズさまの;おへやだ[END]
+Lord Red Eyes';room is beyond;this door.[END]
+
+//
+//POINTER #175 @ $D77DE - STRING #175 @ $D71FD
+
+#W16($D77DE)
+//わたしが てにいれた ふくで;まんまと だませたようだ[END]
+My deception;worked well.[END]
+
+//
+//POINTER #176 @ $D77E0 - STRING #176 @ $D7222
+
+#W16($D77E0)
+//また あったな ゆうぎ!;わたしを おぼえているか?[END]
+We meet again,;Yugi. Do you;remember me?[END]
+
+//
+//POINTER #177 @ $D77E2 - STRING #177 @ $D7242
+
+#W16($D77E2)
+//ともに ろうごくを ぬけだした;ブラックだ …それにしても;こんなところで なにを してるんだ?[END]
+It's me, Dark.;So, what business;do you have here?[END]
+
+//
+//POINTER #178 @ $D77E4 - STRING #178 @ $D7280
+
+#W16($D77E4)
+//なるほど ;にんげんかいに かえるため;うえの じごくに いきたいのか[END]
+Ah, so you're;trying to return;home, are you?[END]
+
+//
+//POINTER #179 @ $D77E6 - STRING #179 @ $D72AD
+
+#W16($D77E6)
+//じつは わたしも このさきを;とおろうと おもっていた;…よし いっしょに いくとしよう[END]
+I'm heading that;way too. Let's;travel together.[END]
+
+//
+//POINTER #180 @ $D77E8 - STRING #180 @ $D72DD
+
+#W16($D77E8)
+//ウロウロ するなよ![END]
+Get going![END]
+
+//
+//POINTER #181 @ $D77EA - STRING #181 @ $D72E9
+
+#W16($D77EA)
+//ワシが レッドアイズだ;にんげんふぜいが いったい;なんの ようだ…!?[END]
+What business does;a human have with;me, Red Eyes?[END]
+
+//
+//POINTER #182 @ $D77EC - STRING #182 @ $D731F
+
+#W16($D77EC)
+//なに?;にんげんかいへ かえるために;うえのじごくへ いきたいとな…?[END]
+Oh? You want to;return to the;human world?[END]
+
+//
+//POINTER #183 @ $D77EE - STRING #183 @ $D734A
+
+#W16($D77EE)
+//フフ… いいだろう![END]
+Hmph… Right.[END]
+
+//
+//POINTER #184 @ $D77F0 - STRING #184 @ $D7358
+
+#W16($D77F0)
+//これまでも ここにきて;にんげんかいに いきたいと ぬかした;やつらは くさるほど おった[END]
+Many humans have;come here seeking;the same thing.[END]
+
+//
+//POINTER #185 @ $D77F2 - STRING #185 @ $D738D
+
+#W16($D77F2)
+//だが ワシがだした じょうけんを;クリアして ここを とおったものは;いまだかつて いない…![END]
+But not one has;been worthy.[END]
+
+//
+//POINTER #186 @ $D77F4 - STRING #186 @ $D73CA
+
+#W16($D77F4)
+//たたかって ワシを たおせたら;とおしてやるという ;じょうけんをな!![END]
+Prove your worth;through battle![END]
+
+//
+//POINTER #187 @ $D77F6 - STRING #187 @ $D73F2
+
+#W16($D77F6)
+//お おのれ…! ;にんげんふぜいが こざかしいわ…!![END]
+You… insolent;human![END]
+
+//
+//POINTER #188 @ $D77F8 - STRING #188 @ $D7417
+
+#W16($D77F8)
+//このさきは とおさん!;じごくのごうもんを くらわせてやる![END]
+I won't let you;through! Face my;torture instead![END]
+
+//
+//POINTER #189 @ $D77FA - STRING #189 @ $D743D
+
+#W16($D77FA)
+//まて レッドアイズよ;この ゆうぎは アンタとの かけに;かったんだ[END]
+Wait, Red Eyes.;You and Yugi had;an agreement.[END]
+
+//
+//POINTER #190 @ $D77FC - STRING #190 @ $D7469
+
+#W16($D77FC)
+//やくそくは まもって もらうぞ…![END]
+Uphold your;promise![END]
+
+//
+//POINTER #191 @ $D77FE - STRING #191 @ $D747E
+
+#W16($D77FE)
+//なんだと? なにものだ…!!?;……[END]
+And just who are;you?;…[END]
+
+//
+//POINTER #192 @ $D7800 - STRING #192 @ $D7496
+
+#W16($D7800)
+//…は! き きさまは!??;………[END]
+…No! You can't be![END]
+
+//
+//POINTER #193 @ $D7802 - STRING #193 @ $D74A9
+
+#W16($D7802)
+//わかった…;このうえを まっすぐ いくがいい![END]
+I see. Go on then;and leave this;place![END]
+
+//
+//POINTER #194 @ $D7804 - STRING #194 @ $D74C6
+
+#W16($D7804)
+//だが つぎのじごくは;なまやさしい ところではない…[END]
+But the next;Inferno won't be;so forgiving.[END]
+
+//
+//POINTER #195 @ $D7806 - STRING #195 @ $D74EE
+
+#W16($D7806)
+//ここより さきは かみなりじごく;まかいの いかずちに うたれて;クロコゲに なるがよいわ![END]
+Enjoy the;lightning-charred;Thunder Inferno![END]
+
+
+
+
+
+
+
+
+
+#JMP($D7DC1, $D7FFF)
+
+
+//
+//POINTER #196 @ $D7808 - STRING #196 @ $D7528
+
+#W16($D7808)
+//ベンキが ある;ここは トイレのようだ[END]
+It's a urinal.;This must be the;bathroom.[END]
+
+//
+//POINTER #197 @ $D780A - STRING #197 @ $D7543
+
+#W16($D780A)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #198 @ $D780C - STRING #198 @ $D7550
+
+#W16($D780C)
+//なにやら ;えたいの しれないものが ;つまっている…[END]
+It's filled with;unidentifiable;things.[END]
+
+//
+//POINTER #199 @ $D780E - STRING #199 @ $D756F
+
+#W16($D780E)
+//タルが おいてある[END]
+Hey, this one is;identifiable![END]
+
+//
+//POINTER #200 @ $D7810 - STRING #200 @ $D757C
+
+#W16($D7810)
+//なかから「DFカプセル」;を てにいれた![END]
+It's a DF Capsule![END]
+
+//
+//POINTER #201 @ $D7812 - STRING #201 @ $D7595
+
+#W16($D7812)
+//きたない テ-ブルだ;ちらかっている[END]
+It's a table.;A dirty table.[END]
+
+//
+//POINTER #202 @ $D7814 - STRING #202 @ $D75AD
+
+#W16($D7814)
+//きたない テ-ブルだ;ちらかっている[END]
+It's a table.;A dirty table.[END]
+
+//
+//POINTER #203 @ $D7816 - STRING #203 @ $D75C5
+
+#W16($D7816)
+//ひきだしの なかから;「DFカプセル」;を てにいれた![END]
+There was a;DF Capsule in the;drawer![END]
+
+//
+//POINTER #204 @ $D7818 - STRING #204 @ $D75E7
+
+#W16($D7818)
+//つぼが おいてある[END]
+It's a jar.[END]
+
+//
+//POINTER #205 @ $D781A - STRING #205 @ $D75F6
+
+#W16($D781A)
+//なにやら ;おぞましい えきたいが はいっている[END]
+And it's filled;with some nasty;fluid.[END]
+
+//
+//POINTER #206 @ $D781C - STRING #206 @ $D7614
+
+#W16($D781C)
+//つぼが おいてある[END]
+It's a jar…[END]
+
+//
+//POINTER #207 @ $D781E - STRING #207 @ $D7623
+
+#W16($D781E)
+//なかから モンスタ-が;おそいかかってきた![END]
+A monster in a;jar![END]
+
+//
+//POINTER #208 @ $D7820 - STRING #208 @ $D763D
+
+#W16($D7820)
+//いどが ある[END]
+Well, it's a well.[END]
+
+//
+//POINTER #209 @ $D7822 - STRING #209 @ $D7649
+
+#W16($D7822)
+//そこの ほうから;ブキミなこえが きこえてくる…[END]
+You hear an odd;voice welling up;from inside it…[END]
+
+//
+//POINTER #210 @ $D7824 - STRING #210 @ $D7667
+
+#W16($D7824)
+//1[END]
+1[END]
+
+//
+//POINTER #211 @ $D7826 - STRING #211 @ $D766A
+
+#W16($D7826)
+//1[END]
+1[END]
+
+//
+//POINTER #212 @ $D7828 - STRING #212 @ $D766D
+
+#W16($D7828)
+//ここは かえんじごくのもん[END]
+This is the Flame;Inferno gate.[END]
+
+//

@@ -1,0 +1,39 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($34000)
+#JMP($3994C, $399B6)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #056 NAME:		Link Duel (POINTER_RELATIVE)
+
+//POINTER #0 @ $399B7 - STRING #0 @ $3994C
+
+#W16($399B7)
+//せんこう こうこうを きめる;ダイスロ-ル!;すうちが ひくいほうが せんこうだ[END]
+A dice roll will;determine who goes;first.[END]
+
+//
+//POINTER #1 @ $399B9 - STRING #1 @ $3997E
+
+#W16($399B9)
+//ダイスの めが おなじだ!;もういちど ダイスロ-ルだ!![END]
+It's a draw!;Rolling again.[END]
+
+//
+//POINTER #2 @ $399BB - STRING #2 @ $399AB
+
+#W16($399BB)
+//<$FD>ちの せんこう[END]
+Starting with;<$FD><$10> turn.[END]
+
+//
+//POINTER #3 @ $399BD - STRING #3 @ $399B5
+
+#W16($399BD)
+//[END]
+[END]
+
+//

@@ -1,0 +1,653 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($15E65, $16A81)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #008 NAME:		Monster World 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $16A82 - STRING #0 @ $15E65
+
+#W16($16A82)
+//モンスタ-が しゅつげんした![END]
+Monster attack![END]
+
+//
+//POINTER #1 @ $16A84 - STRING #1 @ $15E7A
+
+#W16($16A84)
+//「HPカプセル」;を てにいれた[END]
+Obtained an;HP Capsule.[END]
+
+//
+//POINTER #2 @ $16A86 - STRING #2 @ $15E8E
+
+#W16($16A86)
+//「ATカプセル」;を てにいれた[END]
+Obtained an;AT Capsule.[END]
+
+//
+//POINTER #3 @ $16A88 - STRING #3 @ $15EA2
+
+#W16($16A88)
+//「DFカプセル」;を てにいれた[END]
+Obtained a;DF Capsule.[END]
+
+//
+//POINTER #4 @ $16A8A - STRING #4 @ $15EB6
+
+#W16($16A8A)
+//「SPカプセル」;を てにいれた[END]
+Obtained an;SP Capsule.[END]
+
+//
+//POINTER #5 @ $16A8C - STRING #5 @ $15ECA
+
+#W16($16A8C)
+//「わざカプセル」;を てにいれた[END]
+Obtained a;Skill Capsule.[END]
+
+//
+//POINTER #6 @ $16A8E - STRING #6 @ $15EE0
+
+#W16($16A8E)
+//「しんかカプセル」;を てにいれた[END]
+Obtained an;Evolution Capsule.[END]
+
+//
+//POINTER #7 @ $16A90 - STRING #7 @ $15EF5
+
+#W16($16A90)
+//この カプセル は;トラップだった!;モンスタ-が しゅつげんした![END]
+That was a trap;capsule!;Monster attack![END]
+
+//
+//POINTER #8 @ $16A92 - STRING #8 @ $15F23
+
+#W16($16A92)
+//ゆうぎ オマエは ;「モンスタ-ワ-ルド」の;ぼうけんしゃだ[END]
+Yugi, you are an;adventurer in this;Monster World.[END]
+
+//
+//POINTER #9 @ $16A94 - STRING #9 @ $15F4B
+
+#W16($16A94)
+//モンスタ-を ひきつれて;あてもない たびをしている[END]
+You're an aimless,;wandering monster;tamer.[END]
+
+//
+//POINTER #10 @ $16A96 - STRING #10 @ $15F69
+
+#W16($16A96)
+//オマエは こうだいな;そうげんちたいに いちする;いなかの むらまで やってきた[END]
+You arrive at a;town in the middle of;a vast plain.[END]
+
+//
+//POINTER #11 @ $16A98 - STRING #11 @ $15F99
+
+#W16($16A98)
+//むらは ;なんの へいがいも なく;ひっそりと へいわに くらしていた[END]
+It's a quiet and;peaceful village;devoid of evils.[END]
+
+//
+//POINTER #12 @ $16A9A - STRING #12 @ $15FC0
+
+#W16($16A9A)
+//しかし さいきんになって;ある もんだいが もちあがったのだ[END]
+However, recent;problems threaten;to change that.[END]
+
+//
+//POINTER #13 @ $16A9C - STRING #13 @ $15FE8
+
+#W16($16A9C)
+//ぼうけんしゃは;その むらの ひとびとの;かかえている もんだいを[END]
+Your job as an;adventurer is to;gather intel…[END]
+
+//
+//POINTER #14 @ $16A9E - STRING #14 @ $16011
+
+#W16($16A9E)
+//かいけつして;やらなければ ならない…![END]
+And resolve the;villagers';problems.[END]
+
+//
+//POINTER #15 @ $16AA0 - STRING #15 @ $16029
+
+#W16($16AA0)
+//さあ じょうほうを;あつめて こまっている;むらの ひとびとを すくえ![END]
+So, get info, and;save the troubled;villagers![END]
+
+//
+//POINTER #16 @ $16AA2 - STRING #16 @ $16053
+
+#W16($16AA2)
+//それが こんかいの ;ぼうけんの もくてきだぜい![END]
+That's your quest![END]
+
+//
+//POINTER #17 @ $16AA4 - STRING #17 @ $16076
+
+#W16($16AA4)
+//そうげんのむら「メジハ」;に ついた[END]
+You enter the;plains village,;Mejiha.[END]
+
+//
+//POINTER #18 @ $16AA6 - STRING #18 @ $1608E
+
+#W16($16AA6)
+//ぼうけんしゃの かたかい? こんな;いなかのむらまで よくきなさったのう;ゆっくりして いきなされ[END]
+Are you an adven-;turer? Please make;yourself at home.[END]
+
+//
+//POINTER #19 @ $16AA8 - STRING #19 @ $160C5
+
+#W16($16AA8)
+//ああ ;こまったことに なったなぁ;どうしよう どうしよう…[END]
+Oh man. This is;not good.;What can we do?[END]
+
+//
+//POINTER #20 @ $16AAA - STRING #20 @ $160E9
+
+#W16($16AAA)
+//そんちょうの うちは いま;たいへんなことに なっているんだ[END]
+The mayor is a;total wreck after;what happened.[END]
+
+//
+//POINTER #21 @ $16AAC - STRING #21 @ $1610B
+
+#W16($16AAC)
+//おお なんてことだ… うちのむすめが;「やみのどうくつ」の モンスタ-に;さらわれて しまったのだ[END]
+Monsters from the;Dark Cave kidnap-;ped my daughter.[END]
+
+//
+//POINTER #22 @ $16AAE - STRING #22 @ $16146
+
+#W16($16AAE)
+//ヤツは むすめと ひきかえに;むらの 「ひほう」を さしだせと;いってきている…[END]
+They said they'll;trade her for our;village treasure…[END]
+
+//
+//POINTER #23 @ $16AB0 - STRING #23 @ $16172
+
+#W16($16AB0)
+//しかし 「ひほう」を さしだせば;むらの まもりがみが おいかりに…;こまった こまった…[END]
+But that would;anger our guardian;diety. What to do…[END]
+
+//
+//POINTER #24 @ $16AB2 - STRING #24 @ $161A9
+
+#W16($16AB2)
+//「やみのどうくつ」は;むらから ひがしの そうげんちたいを;こえたところに ある[END]
+The Dark Cave is;beyond the;Eastern Plains.[END]
+
+//
+//POINTER #25 @ $16AB4 - STRING #25 @ $161D9
+
+#W16($16AB4)
+//おむかいの おじいさん;さいきん ちょっと;ボケて きちゃったのよね[END]
+The old man next;door is losing his;marbles.[END]
+
+//
+//POINTER #26 @ $16AB6 - STRING #26 @ $16201
+
+#W16($16AB6)
+//なんだか;わけの わからないことを ;いうのよ[END]
+All he does is say;cryptic stuff that;makes no sense.[END]
+
+//
+//POINTER #27 @ $16AB8 - STRING #27 @ $1621C
+
+#W16($16AB8)
+//もんすた-と せんとうに なるまえに;あらかじめ めにゅ-から 「MC」;をえらび 「じんけい」で[END]
+Before battle, you;can select Form;from the menu to…[END]
+
+//
+//POINTER #28 @ $16ABA - STRING #28 @ $16257
+
+#W16($16ABA)
+//もんすた-の はいれつを;きめておくのじゃ![END]
+Preset a formation;for your MCs![END]
+
+//
+//POINTER #29 @ $16ABC - STRING #29 @ $16271
+
+#W16($16ABC)
+//「フィ-ルドこうか」って;しってる?[END]
+Do you know about;Field Bonuses?[END]
+
+//
+//POINTER #30 @ $16ABE - STRING #30 @ $16287
+
+#W16($16ABE)
+//モンスタ-には それぞれ;フィ-ルドの ぞくせいがあって;せんとうでは[END]
+Each monster has a;field type. If it;is on a tile that…[END]
+
+//
+//POINTER #31 @ $16AC0 - STRING #31 @ $162B6
+
+#W16($16AC0)
+//じぶんの とくいなちけいに たつと;すこし つよく なるんだって!;しってた?[END]
+…matches its type,;its attacks will;get a small boost.[END]
+
+//
+//POINTER #32 @ $16AC2 - STRING #32 @ $162E5
+
+#W16($16AC2)
+//「ひがしのそうげん」;に ついた[END]
+You enter the;Eastern Plains.[END]
+
+//
+//POINTER #33 @ $16AC4 - STRING #33 @ $162FB
+
+#W16($16AC4)
+//ここでは 10ぽ あるくごとに;30の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 10 steps;will be a 30%;encounter chance.[END]
+
+//
+//POINTER #34 @ $16AC6 - STRING #34 @ $16334
+
+#W16($16AC6)
+//すなわち 30いかの めが;でれば モンスタ-と そうぐう;することに なるんだぜい![END]
+So if you rolll;under a 30, you'll;get attacked![END]
+
+//
+//POINTER #35 @ $16AC8 - STRING #35 @ $1636D
+
+#W16($16AC8)
+//モンスタ- しゅつげんりつ30;いかの めが でた!;よって モンスタ-が あらわれる[END]
+You rolled under;a 30, which means;it's time for a…[END]
+
+//
+//POINTER #36 @ $16ACA - STRING #36 @ $163A3
+
+#W16($16ACA)
+//このさきの どうくつには;ちかづかない ほうがいい…;おそろしい モンスタ-が いるんだ![END]
+Dark Cave up ahead;is teeming with;scary monsters.[END]
+
+//
+//POINTER #37 @ $16ACC - STRING #37 @ $163DC
+
+#W16($16ACC)
+//ヤツは「やみ」ぞくせい だから;やみのどうくつ では とくに;パワ-アップ しちまう…![END]
+Dark type monsters;are extra strong;in there, y'know.[END]
+
+//
+//POINTER #38 @ $16ACE - STRING #38 @ $16416
+
+#W16($16ACE)
+//さっき ひとりで どうくつへ;はしっていった ムチャなやつが;いたけど だいじょうぶかなぁ…?[END]
+I saw some guy run;towards the cave.;Hope he's alright.[END]
+
+//
+//POINTER #39 @ $16AD0 - STRING #39 @ $16455
+
+#W16($16AD0)
+//「やみのどうくつ」;に ついた[END]
+You enter the;Dark Cave.[END]
+
+//
+//POINTER #40 @ $16AD2 - STRING #40 @ $16468
+
+#W16($16AD2)
+//ここでは 8ぽ あるくごとに;30の モンスタ-の;しゅつげんはんていの ダイスをふる[END]
+Every 8 steps;will be a 30%;encounter chance.[END]
+
+//
+//POINTER #41 @ $16AD4 - STRING #41 @ $164A0
+
+#W16($16AD4)
+//く くそ-…![END]
+Aw! This sucks big;time![END]
+
+//
+//POINTER #42 @ $16AD6 - STRING #42 @ $164A9
+
+#W16($16AD6)
+//じょうのうちくん!?[END]
+Joey!?[END]
+
+//
+//POINTER #43 @ $16AD8 - STRING #43 @ $164B7
+
+#W16($16AD8)
+//だいじょうぶ!?;…でも どうして ここに…?[END]
+Are you okay?;…Wait, why are you;here?[END]
+
+//
+//POINTER #44 @ $16ADA - STRING #44 @ $164DA
+
+#W16($16ADA)
+//あっ ゆうぎ!![END]
+Ah, Yugi!![END]
+
+//
+//POINTER #45 @ $16ADC - STRING #45 @ $164E6
+
+#W16($16ADC)
+//オレひとりで なんとか;この ゲ-ムを おわらせようと;ここまで きたんだけどよ[END]
+Figured I could;end this game all;by myself.[END]
+
+//
+//POINTER #46 @ $16ADE - STRING #46 @ $1651A
+
+#W16($16ADE)
+//この どうくつの モンスタ-に;やられちまったんだ…! [END]
+But the monsters;in this cave;busted me up hard.[END]
+
+//
+//POINTER #47 @ $16AE0 - STRING #47 @ $1653C
+
+#W16($16AE0)
+//そうだ さっき ここで;カプセルを ひろったんだ;ゆうぎに やるよ[END]
+…Hey, I picked up;a capsule earlier.;Take it, Yuge.[END]
+
+//
+//POINTER #48 @ $16AE2 - STRING #48 @ $16569
+
+#W16($16AE2)
+//「ATカプセル」;を もらった[END]
+You got an;AT Capsule.[END]
+
+//
+//POINTER #49 @ $16AE4 - STRING #49 @ $1657C
+
+#W16($16AE4)
+//このカプセルを ゆうぎのモンスタ-に;つかうと こうげきりょくが;パワ-アップ するらしいぜ!…[END]
+Use this on one a';your monsters ta;power it up![END]
+
+//
+//POINTER #50 @ $16AE6 - STRING #50 @ $165BC
+
+#W16($16AE6)
+//…オレは もう ここまでだ…;すまん ゆうぎ;あとは たのむぜ…![END]
+This is it for me…;The rest is up ta;you, buddy![END]
+
+//
+//POINTER #51 @ $16AE8 - STRING #51 @ $165E7
+
+#W16($16AE8)
+//イワに スイッチが;ひとつ ついている[END]
+There's a switch;on this rock.[END]
+
+//
+//POINTER #52 @ $16AEA - STRING #52 @ $165FE
+
+#W16($16AEA)
+//どうやら このさきの;3つの とびらの うち;ひとつを あけるための ものらしい[END]
+It's connected to;those lettered;doors in some way.[END]
+
+//
+//POINTER #53 @ $16AEC - STRING #53 @ $1662C
+
+#W16($16AEC)
+//しかし ;どの とびらが ひらくかは;わからない[END]
+But you don't know;which letter it's;connected to.[END]
+
+//
+//POINTER #54 @ $16AEE - STRING #54 @ $1664C
+
+#W16($16AEE)
+//ここで「ダイスロ-ル」で;どの とびらが ひらくかを;はんてい できる[END]
+We'll decide with;a dice roll.[END]
+
+//
+//POINTER #55 @ $16AF0 - STRING #55 @ $1667F
+
+#W16($16AF0)
+// 0~39なら A;40~79なら B;80~99なら C のとびらが あく[END]
+0-39 opens A.;40-79 opens B.;80-99 opens C.[END]
+
+//
+//POINTER #56 @ $16AF2 - STRING #56 @ $166AB
+
+#W16($16AF2)
+//ボタンを おしてみるか?;  おす;  おさない[END]
+Press the button?;  Press it;  Don't press it[END]
+
+//
+//POINTER #57 @ $16AF4 - STRING #57 @ $166C7
+
+#W16($16AF4)
+//Aのとびらが ひらいた![END]
+The A doors;opened![END]
+
+//
+//POINTER #58 @ $16AF6 - STRING #58 @ $166D9
+
+#W16($16AF6)
+//Bのとびらが ひらいた![END]
+Door B opened![END]
+
+//
+//POINTER #59 @ $16AF8 - STRING #59 @ $166EB
+
+#W16($16AF8)
+//Cのとびらが ひらいた![END]
+The C doors;opened![END]
+
+//
+//POINTER #60 @ $16AFA - STRING #60 @ $166FD
+
+#W16($16AFA)
+//あ~あ;みはりなんて たいくつだなぁ…[END]
+Maaan. Guard duty;is such a bore.[END]
+
+//
+//POINTER #61 @ $16AFC - STRING #61 @ $16714
+
+#W16($16AFC)
+//さけでも のんで;ぐっすり やすみてぇよ[END]
+I just want to;drink sake and;take a nap.[END]
+
+//
+//POINTER #62 @ $16AFE - STRING #62 @ $16730
+
+#W16($16AFE)
+//…!;おっ オマエ;いいモノ もってるじゃねえか![END]
+…!;Hey, what's that;you've got there?[END]
+
+//
+//POINTER #63 @ $16B00 - STRING #63 @ $1674D
+
+#W16($16B00)
+//その ;うまそうな さけを;オレに よこせっ![END]
+Gimmie that tasty-;looking sake![END]
+
+//
+//POINTER #64 @ $16B02 - STRING #64 @ $16766
+
+#W16($16B02)
+//んぐっ んぐっ んぐっ…;…っか- うめえ![END]
+Glug glug glug.;Oh yeah! That's;the stuff![END]
+
+//
+//POINTER #65 @ $16B04 - STRING #65 @ $16784
+
+#W16($16B04)
+//ヒック!;う~ん よっぱらっちまったぃ…;…へろへろ~[END]
+Hicc!;Yeeep. I'm;drunk as a skunk…[END]
+
+//
+//POINTER #66 @ $16B06 - STRING #66 @ $167A3
+
+#W16($16B06)
+//オイ あいぼう!;みはりの さいちゅうに;さけ だけは のむなよ[END]
+Hey! You're not;supposed to drink;on the job![END]
+
+//
+//POINTER #67 @ $16B08 - STRING #67 @ $167C9
+
+#W16($16B08)
+//オマエは すぐ へろへろに;よっぱらっちまうんだからな![END]
+Did you forget;that you're a;lightweight!?[END]
+
+//
+//POINTER #68 @ $16B0A - STRING #68 @ $167ED
+
+#W16($16B0A)
+//しょうがねぇなあ…;1ぱい だけだぞ… ぐうぐう[END]
+I only drank… one;glass…  but…;   ZzZzZzzz[END]
+
+//
+//POINTER #69 @ $16B0C - STRING #69 @ $16815
+
+#W16($16B0C)
+//つぼの なかに;さけが はいっている[END]
+You find a jar;filled with sake.[END]
+
+//
+//POINTER #70 @ $16B0E - STRING #70 @ $1682D
+
+#W16($16B0E)
+//つぼを もっていくか?;  もっていく;  もっていかない[END]
+Take the jar?;  Take it;  Leave it[END]
+
+//
+//POINTER #71 @ $16B10 - STRING #71 @ $1684E
+
+#W16($16B10)
+//「へろへろざけ」;を てにいれた[END]
+You took the jar;of Blackout Sake.[END]
+
+//
+//POINTER #72 @ $16B12 - STRING #72 @ $16862
+
+#W16($16B12)
+//きゃ-っ たすけて-![END]
+Kyaaaa! Save meee![END]
+
+//
+//POINTER #73 @ $16B14 - STRING #73 @ $1686F
+
+#W16($16B14)
+//ム なんだオマエ;ジャマするきか!?[END]
+Who're you? Here;to get in my way!?[END]
+
+//
+//POINTER #74 @ $16B16 - STRING #74 @ $16887
+
+#W16($16B16)
+//いたいめに あわせてやる!![END]
+You'll soon reget;that decision!![END]
+
+//
+//POINTER #75 @ $16B18 - STRING #75 @ $16897
+
+#W16($16B18)
+//たすかりました ほんとうに;ありがとうございます![END]
+You saved me!;Thank you, truly![END]
+
+//
+//POINTER #76 @ $16B1A - STRING #76 @ $168B8
+
+
+
+
+
+
+#JMP($16C27)
+#W16($16B1A)
+//おお;ぼうけんしゃのかたよ ありがとう;よくぞ むすめを すくってくれた![END]
+Thank you, adven-;turer. You saved;my daughter![END]
+
+//
+//POINTER #77 @ $16B1C - STRING #77 @ $168E5
+
+#W16($16B1C)
+//おれい といっては なんですが;この Pカプセルを;あなたに さしあげよう[END]
+Please, take this;P Capsule as;thanks.[END]
+
+//
+//POINTER #78 @ $16B1E - STRING #78 @ $16914
+
+#W16($16B1E)
+//「しんかカプセル」;を もらった[END]
+You got an;Evolution Capsule.[END]
+
+//
+//POINTER #79 @ $16B20 - STRING #79 @ $16928
+
+#W16($16B20)
+//この「しんかカプセル」は とくていの;モンスタ-を しんかさせる;Pカプセル なのです[END]
+You can use that;to evolve certain;monsters.[END]
+
+//
+//POINTER #80 @ $16B22 - STRING #80 @ $1695B
+
+#W16($16B22)
+//こうして ぼうけんしゃは;まちの ひとびとに てあつく;みおくられ[END]
+And thusly, the;villagers gave you;a kind send-off.[END]
+
+//
+//POINTER #81 @ $16B24 - STRING #81 @ $16982
+
+#W16($16B24)
+//ふたたび どこへ ともなく;たびだって いった…[END]
+And you once again;set out to parts;unknown…[END]
+
+//
+//POINTER #82 @ $16B26 - STRING #82 @ $169A4
+
+#W16($16B26)
+//テ-ブルだ;よく キレイに ふいてある[END]
+It's a clean and;well-wiped table.[END]
+
+//
+//POINTER #83 @ $16B28 - STRING #83 @ $169BD
+
+#W16($16B28)
+//テ-ブルだ;よく キレイに ふいてある[END]
+Let's table the;flavor text for;now. Look at this…[END]
+
+//
+//POINTER #84 @ $16B2A - STRING #84 @ $169D6
+
+#W16($16B2A)
+//ひきだしの なかから;「HPカプセル」;を てにいれた![END]
+There was an;HP Capsule inside;the drawer![END]
+
+//
+//POINTER #85 @ $16B2C - STRING #85 @ $169F8
+
+#W16($16B2C)
+//タルが おいてある[END]
+It's a barrel.[END]
+
+//
+//POINTER #86 @ $16B2E - STRING #86 @ $16A05
+
+#W16($16B2E)
+//なかには なにもない[END]
+There's nothing;inside.[END]
+
+//
+//POINTER #87 @ $16B30 - STRING #87 @ $16A11
+
+#W16($16B30)
+//タルが おいてある[END]
+Don't mistake this;for any ordinary;barrel. After all…[END]
+
+//
+//POINTER #88 @ $16B32 - STRING #88 @ $16A1E
+
+#W16($16B32)
+//なかから「DFカプセル」;を てにいれた![END]
+There was a;DF Capsule inside![END]
+
+//
+//POINTER #89 @ $16B34 - STRING #89 @ $16A37
+
+#W16($16B34)
+//たなが おいてある;いろいろなものが ;せいとん されている[END]
+It's a shelf.;A rather organized;shelf.[END]
+
+//
+//POINTER #90 @ $16B36 - STRING #90 @ $16A5B
+
+#W16($16B36)
+//いどが ある;ここから ちかすいを;くみあげて いるようだ[END]
+Well well well.;It's a well. Used;for drawing water.[END]
+
+//

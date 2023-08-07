@@ -1,0 +1,79 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($CC000) 
+#JMP($D37B5, $D38B9)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #043 NAME:		NG+ dialog (POINTER_RELATIVE)
+
+//POINTER #0 @ $D38BA - STRING #0 @ $D37B5
+
+#W16($D38BA)
+//おい ゆうぎ![END]
+Yo, Yuge![END]
+
+//
+//POINTER #1 @ $D38BC - STRING #1 @ $D37C0
+
+#W16($D38BC)
+//もう かえっちまうのか?;オレは にんぎょうだったから;すげ- たいくつだったぜ![END]
+Leaving already? I;missed out on all;the fun.[END]
+
+//
+//POINTER #2 @ $D38BE - STRING #2 @ $D37F5
+
+#W16($D38BE)
+//オレも バトルするぞ~![END]
+I wanna battle;too![END]
+
+//
+//POINTER #3 @ $D38C0 - STRING #3 @ $D3807
+
+#W16($D38C0)
+//ああ! オレも オレも!![END]
+Yeah! Same here![END]
+
+//
+//POINTER #4 @ $D38C2 - STRING #4 @ $D3816
+
+#W16($D38C2)
+//フム そうじゃな;もうすこし あそんできたら;どうじゃ?[END]
+Playing a bit more;wouldn't hurt.[END]
+
+//
+//POINTER #5 @ $D38C4 - STRING #5 @ $D383C
+
+#W16($D38C4)
+//そうよね!;せっかく きたんだから;あそんで いきましょうよ! ね?[END]
+Might as well;since we're here,;right?[END]
+
+//
+//POINTER #6 @ $D38C6 - STRING #6 @ $D3864
+
+#W16($D38C6)
+//さあ;いこうよ! ゆうぎくん!![END]
+Yeah! Let's go,;Yugi![END]
+
+//
+//POINTER #7 @ $D38C8 - STRING #7 @ $D3878
+
+#W16($D38C8)
+//「うらステ-ジ」を あそびたいひとは;デ-タを セ-ブしてください[END]
+Save your game if;you wish to visit;the bonus floor.[END]
+
+
+
+
+#JMP($D3E30, $D3EEE)
+
+//
+//POINTER #8 @ $D38CA - STRING #8 @ $D38A5
+
+#W16($D38CA)
+//セ-ブしますか?; はい; いいえ[END]
+Save your game?;  Yes;  No[END]
+
+//

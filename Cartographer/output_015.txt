@@ -1,0 +1,40 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #015 NAME:		Battle menu (POINTER_RELATIVE)
+
+//POINTER #0 @ $3FC30 - STRING #0 @ $3FB75
+
+#W16($3FC30)
+//メッセ-ジの スピ-ドを;えらんで ください[END]
+
+//
+//POINTER #1 @ $3FC32 - STRING #1 @ $3FB97
+
+#W16($3FC32)
+//  はやい;  ふつう;  おそい[END]
+
+//
+//POINTER #2 @ $3FC34 - STRING #2 @ $3FBAA
+
+#W16($3FC34)
+//こうさんすると;スタ-チップを うしないます[END]
+
+//
+//POINTER #3 @ $3FC36 - STRING #3 @ $3FBC4
+
+#W16($3FC36)
+//こうさんすると;ワ-ルドの はじめから;やりなおしに なります[END]
+
+//
+//POINTER #4 @ $3FC38 - STRING #4 @ $3FBE9
+
+#W16($3FC38)
+//こうさんすると;せんねんパズルを うしない;GAME OVERに なります[END]
+
+//
+//POINTER #5 @ $3FC3A - STRING #5 @ $3FC14
+
+#W16($3FC3A)
+//ほんとうに こうさんしますか?;  はい;  いいえ[END]
+
+//

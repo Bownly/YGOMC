@@ -1,0 +1,201 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($18000)
+#JMP($1F4A8, $1F7F5)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #022 NAME:		Dark Room 3 (POINTER_RELATIVE)
+
+//POINTER #0 @ $1F7F6 - STRING #0 @ $1F4A8
+
+#W16($1F7F6)
+//おおっ;ゆうぎ-ぃ!;きてくれると おもったぜ!![END]
+Yugi! I knew;you'd come![END]
+
+//
+//POINTER #1 @ $1F7F8 - STRING #1 @ $1F4C7
+
+#W16($1F7F8)
+//この きょうりゅうヤロウを;ぶったおしてくれ!![END]
+You've gotta make;this dino dweeb;go extinct![END]
+
+//
+//POINTER #2 @ $1F7FA - STRING #2 @ $1F4E3
+
+#W16($1F7FA)
+//やかましいワ!!;タコやきにして くってまうぞ!![END]
+Another word and;I'll mash you up;into dino chow![END]
+
+//
+//POINTER #3 @ $1F7FC - STRING #3 @ $1F500
+
+#W16($1F7FC)
+//ダイナソ-りゅうざき![END]
+Rex Raptor![END]
+
+//
+//POINTER #4 @ $1F7FE - STRING #4 @ $1F511
+
+#W16($1F7FE)
+//へへ… まっとったで-;ゆうぎ!![END]
+Heheh… I've been;waiting for you,;Yugi.[END]
+
+//
+//POINTER #5 @ $1F800 - STRING #5 @ $1F528
+
+#W16($1F800)
+//ほんだくんを かえしてもらうぜ![END]
+Hand Tristan over;to me![END]
+
+//
+//POINTER #6 @ $1F802 - STRING #6 @ $1F53E
+
+#W16($1F802)
+//ま ワイにとっちゃ こんな;ひとじちまがいの にんぎょうなんて;かんけい あらへんわ![END]
+I don't even care;about the whole;hostage gimmick.[END]
+
+//
+//POINTER #7 @ $1F804 - STRING #7 @ $1F571
+
+#W16($1F804)
+//ただし… ル-ルは ル-ルや!;ワイに かてたら かえしたるわ!![END]
+But, rules are;rules. You'll have;to beat me first![END]
+
+//
+//POINTER #8 @ $1F806 - STRING #8 @ $1F596
+
+#W16($1F806)
+//ゆうぎ;オレの いのちは あずけたぜ…![END]
+Yugi, my life is;in your hands![END]
+
+//
+//POINTER #9 @ $1F808 - STRING #9 @ $1F5B2
+
+#W16($1F808)
+//あんしん してくれ!;りゅうざきは オレが;ぶったおして みせるぜ!![END]
+Worry not! I'll;send Rex back to;the Cretaceous![END]
+
+//
+//POINTER #10 @ $1F80A - STRING #10 @ $1F5DF
+
+#W16($1F80A)
+//へ…;ずいぶんと いせいの いいこっちゃ![END]
+Heh. That's the;spirit![END]
+
+//
+//POINTER #11 @ $1F80C - STRING #11 @ $1F5FA
+
+#W16($1F80C)
+//ほな はよう はじめるで!;ゲ-ムスタ-トや![END]
+Now let's get this;party started![END]
+
+//
+//POINTER #12 @ $1F80E - STRING #12 @ $1F619
+
+#W16($1F80E)
+//ワイが まけたやと-!;ウソや- なっとくできん!![END]
+I lost!?;There's no way![END]
+
+//
+//POINTER #13 @ $1F810 - STRING #13 @ $1F639
+
+#W16($1F810)
+//ゆうぎ やったな!;オレは しんじてたぜ!![END]
+Nice going, Yugi!;I knew you'd stomp;him![END]
+
+//
+//POINTER #14 @ $1F812 - STRING #14 @ $1F657
+
+#W16($1F812)
+//ほんだくんの にんぎょうは ;もらっていくぜ![END]
+Now, hand over;Tristan's doll![END]
+
+//
+//POINTER #15 @ $1F814 - STRING #15 @ $1F676
+
+#W16($1F814)
+//そんなモン くれたるワ!!;それよか もういちど…;もういちど ワイと バトルや!![END]
+Who cares about;that!? Battle me;again![END]
+
+//
+//POINTER #16 @ $1F816 - STRING #16 @ $1F6A8
+
+#W16($1F816)
+//あいにくだが;オレは オレを まっている;なかまのために たたかっている…[END]
+Sorry, but I have;more friends to;go rescue.[END]
+
+//
+//POINTER #17 @ $1F818 - STRING #17 @ $1F6D3
+
+#W16($1F818)
+//オマエに つきあっている;ヒマは ねえぜ![END]
+I can't afford to;waste any more;time with you![END]
+
+//
+//POINTER #18 @ $1F81A - STRING #18 @ $1F6EC
+
+#W16($1F81A)
+//クッ… クソ-!;ワイは あきらめへん…!;あきらめへんで!![END]
+Tch! I won't give;up that easily![END]
+
+//
+//POINTER #19 @ $1F81C - STRING #19 @ $1F70F
+
+#W16($1F81C)
+//ゆうぎ!;オレも おまえに ちからをかすぜ![END]
+Yugi! Let me help;you fight![END]
+
+//
+//POINTER #20 @ $1F81E - STRING #20 @ $1F72B
+
+#W16($1F81E)
+//ほんだの にんぎょうが;つかえるように なりました[END]
+You can now use;Tristan's doll.[END]
+
+//
+//POINTER #21 @ $1F820 - STRING #21 @ $1F74C
+
+#W16($1F820)
+//ワイは あきらめへん…!;あきらめへんで!![END]
+I won't give up!;I won't give up!![END]
+
+//
+//POINTER #22 @ $1F822 - STRING #22 @ $1F766
+
+#W16($1F822)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+
+
+
+
+
+#JMP($1FA70)
+
+
+//
+//POINTER #23 @ $1F824 - STRING #23 @ $1F777
+
+#W16($1F824)
+//4Fへの とびらは;かたく とざされている…;ダ-クマスタ-を たおすしかない!![END]
+The 4F door is;locked. You have;to beat the DM.[END]
+
+//
+//POINTER #24 @ $1F826 - STRING #24 @ $1F7A8
+
+#W16($1F826)
+//バトルフィ-ルドは;こうりょうとした だいちに;しんでんが はいちされている…[END]
+There's a temple;diorama in a;desolate field.[END]
+
+//
+//POINTER #25 @ $1F828 - STRING #25 @ $1F7DB
+
+#W16($1F828)
+//つぎは こうやの;フィ-ルドのようだ…[END]
+This MW must have;lots of Wasteland;field tiles.[END]
+
+//

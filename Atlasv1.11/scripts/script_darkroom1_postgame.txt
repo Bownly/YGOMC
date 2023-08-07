@@ -1,0 +1,163 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($B0000)
+#JMP($B5191, $B544B)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #045 NAME:		Dark Room part 2 (POINTER_RELATIVE)
+
+//POINTER #0 @ $B544C - STRING #0 @ $B5191
+
+#W16($B544C)
+//バトルしますか?; はい; いいえ[END]
+Battle?; Yes; No[END]
+
+//
+//POINTER #1 @ $B544E - STRING #1 @ $B51A6
+
+#W16($B544E)
+//ゆうぎさま!;おまちして おりました…[END]
+Yugi, I've been;waiting for you.[END]
+
+//
+//POINTER #2 @ $B5450 - STRING #2 @ $B51BD
+
+#W16($B5450)
+//「モンスタ-ワ-ルドたいかい」;ゆうしょう おめでとうございます[END]
+Congratulations on;your victory.[END]
+
+//
+//POINTER #3 @ $B5452 - STRING #3 @ $B51E7
+
+#W16($B5452)
+//まさか かいばさまが なにものかに;あやつられていようとは…[END]
+I can't believe;Kaiba was being;manipulated.[END]
+
+//
+//POINTER #4 @ $B5454 - STRING #4 @ $B520B
+
+#W16($B5454)
+//なにぶん かいばさまは;あのような ごしょうぶんの;かたでして…[END]
+Though perhaps his;personality was;suited for that…[END]
+
+//
+//POINTER #5 @ $B5456 - STRING #5 @ $B5237
+
+#W16($B5456)
+//かいばさまに なりかわり;わたくしめが おれいを;もうしあげます ホホホ…[END]
+I would like to;apologize on;behalf of Kaiba.[END]
+
+//
+//POINTER #6 @ $B5458 - STRING #6 @ $B5264
+
+#W16($B5458)
+//なお このデュエルタワ-は;たいかいが おわっても;ひきつづき ごりよういただけます[END]
+Now, please;continue to enjoy;your time here.[END]
+
+//
+//POINTER #7 @ $B545A - STRING #7 @ $B529A
+
+#W16($B545A)
+//ごぞんぶんに さらなる ウデを;みがかれると よろしいでしょう[END]
+Hone your skills;to you heart's;content.[END]
+
+//
+//POINTER #8 @ $B545C - STRING #8 @ $B52C7
+
+#W16($B545C)
+//まだみぬ ちょうせんしゃたちも;ゆうぎさまを おまちになってますよ…[END]
+There are new;challengers who;wish to play you.[END]
+
+//
+//POINTER #9 @ $B545E - STRING #9 @ $B52EF
+
+#W16($B545E)
+//それでは…;ごゆっくり おたのしみくださいませ…[END]
+Well, then.;I'll leave you to;it. Hohoho…[END]
+
+//
+//POINTER #10 @ $B5460 - STRING #10 @ $B530F
+
+#W16($B5460)
+//ゆうぎ…;まっていたぜい!![END]
+Yugi. Finally, we;meet again![END]
+
+//
+//POINTER #11 @ $B5462 - STRING #11 @ $B5323
+
+#W16($B5462)
+//にいさまのけんは れいをいっておく;…だが それと しょうぶは;べつものだぜい!![END]
+Thanks for saving;Seto. But I still;want to battle.[END]
+
+//
+//POINTER #12 @ $B5464 - STRING #12 @ $B535A
+
+#W16($B5464)
+//オレと しょうぶだ!![END]
+Battle me![END]
+
+//
+//POINTER #13 @ $B5466 - STRING #13 @ $B536B
+
+#W16($B5466)
+//よくきたな ゆうぎ!![END]
+Back again, Yugi?[END]
+
+//
+//POINTER #14 @ $B5468 - STRING #14 @ $B537A
+
+#W16($B5468)
+//いまここで オマエの;いきのねを とめてやるぜい!![END]
+I'll absolutely;crush you![END]
+
+//
+//POINTER #15 @ $B546A - STRING #15 @ $B539A
+
+#W16($B546A)
+//しょうぶ!![END]
+Let's battle![END]
+
+//
+//POINTER #16 @ $B546C - STRING #16 @ $B53A4
+
+#W16($B546C)
+//ちくしょ-っ!!;どうして かてないんだ!?[END]
+Darn it! Why can't;I win!?[END]
+
+//
+//POINTER #17 @ $B546E - STRING #17 @ $B53C0
+
+#W16($B546E)
+//ギャハハ! やったっ!!;これで にいさまに;みとめてもらえる!![END]
+Kyahaha! I did it!;Wait 'til I tell;Seto![END]
+
+//
+//POINTER #18 @ $B5470 - STRING #18 @ $B53E7
+
+#W16($B5470)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+
+
+
+#JMP($B6590, $B6790)
+
+//
+//POINTER #19 @ $B5472 - STRING #19 @ $B53F8
+
+#W16($B5472)
+//テ-ブルは つくりこまれた;ジオラマのように まちや;どうくつが はいちされている[END]
+There are town and;cave dioramas on;the table.[END]
+
+//
+//POINTER #20 @ $B5474 - STRING #20 @ $B542B
+
+#W16($B5474)
+//そうげんの まわりに;まちや どうくつが みえる[END]
+There are fields;surrounded by;a town and a cave.[END]
+
+//

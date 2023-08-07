@@ -1,0 +1,60 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C000) 
+#JMP($82D24, $82DE5)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #003 NAME:		Shared Capsule Machines (POINTER_RELATIVE)
+
+//POINTER #0 @ $82DE6 - STRING #0 @ $82D24
+
+#W16($82DE6)
+//カプセルマシンだ![END]
+It's a capsule;machine![END]
+
+//
+//POINTER #1 @ $82DE8 - STRING #1 @ $82D33
+
+#W16($82DE8)
+//スタ-チップを 1まい いれますか?[LINE] はい[LINE] いいえ[END]
+Insert star chip?;  Yes;  No[END]
+
+//
+//POINTER #2 @ $82DEA - STRING #2 @ $82D52
+
+#W16($82DEA)
+//これいじょう MCを もてない![END]
+You can't hold any;more MCs![END]
+
+//
+//POINTER #3 @ $82DEC - STRING #3 @ $82D66
+
+#W16($82DEC)
+//いらない MCを[LINE]せいりしてから こよう![END]
+Go get rid of some;first![END]
+
+//
+//POINTER #4 @ $82DEE - STRING #4 @ $82D7D
+
+#W16($82DEE)
+//…スタ-チップが 1まいしかない[LINE]この1まいを つかうと[LINE]バトルが できなくなる!![END]
+No can do. You're;down to your last;star chip![END]
+
+//
+//POINTER #5 @ $82DF0 - STRING #5 @ $82DB3
+
+#W16($82DF0)
+//「<$FD>ち LV<$FD>つ」の[LINE]カプセルを てにいれた!![END]
+<$FD><$10> LV<$FD><$11>;capsule obtained!![END]
+
+//
+//POINTER #6 @ $82DF2 - STRING #6 @ $82DCF
+
+#W16($82DF2)
+//「<$FD>ち」の[LINE]カプセルを てにいれた!![END]
+<$FD><$10>;obtained!![END]
+
+//

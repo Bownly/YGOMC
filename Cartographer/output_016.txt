@@ -1,0 +1,130 @@
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #016 NAME:		Battle quotes (POINTER_RELATIVE)
+
+//POINTER #0 @ $39A76 - STRING #0 @ $399FA
+
+#W16($39A76)
+//<$FD>ちタ-ンめ;<$FD>つの タ-ン[END]
+
+//
+//POINTER #1 @ $39A78 - STRING #1 @ $39A0A
+
+#W16($39A78)
+//ゆうぎ[END]
+
+//
+//POINTER #2 @ $39A7A - STRING #2 @ $39A11
+
+#W16($39A7A)
+//オレ[END]
+
+//
+//POINTER #3 @ $39A7C - STRING #3 @ $39A15
+
+#W16($39A7C)
+//ボク[END]
+
+//
+//POINTER #4 @ $39A7E - STRING #4 @ $39A1B
+
+#W16($39A7E)
+//わたし[END]
+
+//
+//POINTER #5 @ $39A80 - STRING #5 @ $39A20
+
+#W16($39A80)
+//オレさま[END]
+
+//
+//POINTER #6 @ $39A82 - STRING #6 @ $39A26
+
+#W16($39A82)
+//わたくし[END]
+
+//
+//POINTER #7 @ $39A84 - STRING #7 @ $39A2C
+
+#W16($39A84)
+//ワイ[END]
+
+//
+//POINTER #8 @ $39A86 - STRING #8 @ $39A30
+
+#W16($39A86)
+//あたし[END]
+
+//
+//POINTER #9 @ $39A88 - STRING #9 @ $39A35
+
+#W16($39A88)
+//ワシ[END]
+
+//
+//POINTER #10 @ $39A8A - STRING #10 @ $39A39
+
+#W16($39A8A)
+//ボクさま[END]
+
+//
+//POINTER #11 @ $39A8C - STRING #11 @ $39A41
+
+#W16($39A8C)
+//キミ[END]
+
+//
+//POINTER #12 @ $39A8E - STRING #12 @ $39A45
+
+#W16($39A8E)
+//あいて[END]
+
+//
+//POINTER #13 @ $39A90 - STRING #13 @ $39A4A
+
+#W16($39A90)
+//てめえ[END]
+
+//
+//POINTER #14 @ $39A92 - STRING #14 @ $39A4F
+
+#W16($39A92)
+//ユ-[END]
+
+//
+//POINTER #15 @ $39A94 - STRING #15 @ $39A53
+
+#W16($39A94)
+//おまえ[END]
+
+//
+//POINTER #16 @ $39A96 - STRING #16 @ $39A58
+
+#W16($39A96)
+//あなた[END]
+
+//
+//POINTER #17 @ $39A98 - STRING #17 @ $39A5D
+
+#W16($39A98)
+//ゆうぎさま[END]
+
+//
+//POINTER #18 @ $39A9A - STRING #18 @ $39A66
+
+#W16($39A9A)
+//きさま[END]
+
+//
+//POINTER #19 @ $39A9C - STRING #19 @ $39A6B
+
+#W16($39A9C)
+//ゆうぎくん[END]
+
+//
+//POINTER #20 @ $39A9E - STRING #20 @ $39A74
+
+#W16($39A9E)
+//[END]
+
+//

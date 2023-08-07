@@ -1,0 +1,306 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#JMP($145E4, $14B97)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #007 NAME:		Dark Room 1 (POINTER_RELATIVE)
+
+//POINTER #0 @ $14B98 - STRING #0 @ $145E4
+
+#W16($14B98)
+//おやおや…;ようやく スタ-チップを;10まい あつめたようですねぇ[END]
+Well well… So;you've collected;10 star chips.[END]
+
+//
+//POINTER #1 @ $14B9A - STRING #1 @ $1460C
+
+#W16($14B9A)
+//しかし あなたが ほんとうに;ダ-クマスタ-と たたかう;しかくがあるか…[END]
+But do you truly;have what it takes;to take on a DM?[END]
+
+//
+//POINTER #2 @ $14B9C - STRING #2 @ $14639
+
+#W16($14B9C)
+//わたくしめが;ためして さしあげましょう;ヒヒヒ……[END]
+Allow me to test;your mettle.;Heeheehee…[END]
+
+//
+//POINTER #3 @ $14B9E - STRING #3 @ $14659
+
+#W16($14B9E)
+//クッ! さすがに おつよい…;いいでしょう とおしてさしあげます [END]
+Guh! You're strong;indeed. Very well,;you may pass.[END]
+
+//
+//POINTER #4 @ $14BA0 - STRING #4 @ $14682
+
+#W16($14BA0)
+//うんが よければ;また おあいしましょう;それでは…[END]
+Until next time…;If your fortune;wills it…[END]
+
+//
+//POINTER #5 @ $14BA2 - STRING #5 @ $146A4
+
+#W16($14BA2)
+//ようこそ ゆうぎ!!;オレが フロア1の;ダ-クマスタ-なんだぜい!![END]
+Welcome, Yugi!;I'm the floor 1;Dark Master!![END]
+
+//
+//POINTER #6 @ $14BA4 - STRING #6 @ $146D3
+
+#W16($14BA4)
+//モ モクバ!![END]
+M-Mokuba![END]
+
+//
+//POINTER #7 @ $14BA6 - STRING #7 @ $146DE
+
+#W16($14BA6)
+//これから オレと;「モンスタ-ワ-ルド」で;たたかって もらうぜい!![END]
+You and I will do;battle in my;Monster World![END]
+
+//
+//POINTER #8 @ $14BA8 - STRING #8 @ $14709
+
+#W16($14BA8)
+//お おてやわらかに たのむよ…[END]
+S-so long as we;play fair and;square.[END]
+
+//
+//POINTER #9 @ $14BAA - STRING #9 @ $1471A
+
+#W16($14BAA)
+//ゆうぎ-っ!!;オレ にんぎょうに なっちまった!!;どうすりゃいいんだ!?[END]
+Yugi!! They turned;me into a doll!;Help![END]
+
+//
+//POINTER #10 @ $14BAC - STRING #10 @ $1474A
+
+#W16($14BAC)
+//じょうのうちくん!![END]
+Joey!?[END]
+
+//
+//POINTER #11 @ $14BAE - STRING #11 @ $14758
+
+#W16($14BAE)
+//うるさい にんぎょうだぜい!;おとなしく しないなら;たたきこわしてやるぞ!![END]
+Shut up! Dolls;can't talk! I can;break you apart![END]
+
+//
+//POINTER #12 @ $14BB0 - STRING #12 @ $14789
+
+#W16($14BB0)
+//うわ~! ;く くそ-っ!![END]
+Woah!;Yuge, ya gotta do;somethin'![END]
+
+//
+//POINTER #13 @ $14BB2 - STRING #13 @ $14799
+
+#W16($14BB2)
+//その きたねえ てで;にんぎょうに さわるんじゃねえ!![END]
+Get your filthy;hands off of him![END]
+
+//
+//POINTER #14 @ $14BB4 - STRING #14 @ $147BD
+
+#W16($14BB4)
+//フフ… そっちの ゆうぎか…;こうつごうだぜい!;ル-ルを せつめい してやる!![END]
+The other Yugi,;huh? Good. Onto;the rules, then.[END]
+
+//
+//POINTER #15 @ $14BB6 - STRING #15 @ $147F0
+
+#W16($14BB6)
+//オマエには これから;オレの モンスタ-ワ-ルドで;ぼうけんを してもらう[END]
+You'll have to;adventure through;my Monster World.[END]
+
+//
+//POINTER #16 @ $14BB8 - STRING #16 @ $1481D
+
+#W16($14BB8)
+//マスタ-である オレが;せっていした もくてきを;クリアできれば オマエの かちだ![END]
+All you have do to;win is clear my;campaign.[END]
+
+//
+//POINTER #17 @ $14BBA - STRING #17 @ $14853
+
+#W16($14BBA)
+//だが せんとうで;オマエの MCが ぜんめつしたら;オレの かちだ!![END]
+But if I can wipe;out your MCs;first, I win!![END]
+
+//
+//POINTER #18 @ $14BBC - STRING #18 @ $14884
+
+#W16($14BBC)
+//そうなれば GAME OVER!!;2かいへの とびらは;えいえんに ひらかないぜい!![END]
+Then you'll GAME;OVER, and you'll;never reach 2F![END]
+
+//
+//POINTER #19 @ $14BBE - STRING #19 @ $148B8
+
+#W16($14BBE)
+//モクバ… オマエを ぶったおせば;その とびらは ひらかれるってわけか[END]
+So then, that door;will open when I;crush you?[END]
+
+//
+//POINTER #20 @ $14BC0 - STRING #20 @ $148E5
+
+#W16($14BC0)
+//だが それは むりだぜい!;ゆうぎ! オマエは このステ-ジで;しぬことに なるんだぜい!![END]
+As if! Yugi, this;stage will be your;grave![END]
+
+//
+//POINTER #21 @ $14BC2 - STRING #21 @ $14927
+
+#W16($14BC2)
+//おともだちと いっしょにな!![END]
+And that goes for;your friends, too![END]
+
+//
+//POINTER #22 @ $14BC4 - STRING #22 @ $1493A
+
+#W16($14BC4)
+//さあ!;ゲ-ムを はじめるぜい!![END]
+Now then, let the;game begin![END]
+
+//
+//POINTER #23 @ $14BC6 - STRING #23 @ $14953
+
+#W16($14BC6)
+//ゲ-ムは オレの かちだぜ;モクバ…[END]
+I won, Mokuba.[END]
+
+//
+//POINTER #24 @ $14BC8 - STRING #24 @ $1496F
+
+#W16($14BC8)
+//バ… バカな……;オレが まけた……!?[END]
+I-impossible…;I… lost?[END]
+
+//
+//POINTER #25 @ $14BCA - STRING #25 @ $1498B
+
+#W16($14BCA)
+//やったぜ ゆうぎ!;やっぱ さすがだぜ-!![END]
+Way ta go, Yuge!;I knew ya'd win![END]
+
+//
+//POINTER #26 @ $14BCC - STRING #26 @ $149AF
+
+#W16($14BCC)
+//じょうのうちくんの にんぎょうは;かえして もらった…;オレは いくぜ![END]
+Now that you're;safe, Joey, let's;get out of here.[END]
+
+//
+//POINTER #27 @ $14BCE - STRING #27 @ $149DB
+
+#W16($14BCE)
+//まて! ゆうぎ…!![END]
+Yugi, wait![END]
+
+//
+//POINTER #28 @ $14BD0 - STRING #28 @ $149E9
+
+#W16($14BD0)
+//オレは…;オレは… しんじないぞ-!;オレが まけるワケ ないんだ-![END]
+I… I just don't;believe it! How;did I lose?[END]
+
+//
+//POINTER #29 @ $14BD2 - STRING #29 @ $14A16
+
+#W16($14BD2)
+//オレが オマエに まけるようそは;なにひとつ なかったハズだ-!![END]
+I'm supposed to be;better in every;way![END]
+
+//
+//POINTER #30 @ $14BD4 - STRING #30 @ $14A3F
+
+#W16($14BD4)
+//………[END]
+……[END]
+
+//
+//POINTER #31 @ $14BD6 - STRING #31 @ $14A44
+
+#W16($14BD6)
+//くそ--っ!![END]
+It's not fair![END]
+
+//
+//POINTER #32 @ $14BD8 - STRING #32 @ $14A4D
+
+#W16($14BD8)
+//ゆうぎ!!;つぎからは オレも サポ-トするぜ![END]
+Yugi, I've got;your back from;here on out.[END]
+
+//
+//POINTER #33 @ $14BDA - STRING #33 @ $14A6F
+
+#W16($14BDA)
+//じょうのうちの にんぎょうが;つかえるように なりました[END]
+You can now use;Joey's doll.[END]
+
+//
+//POINTER #34 @ $14BDC - STRING #34 @ $14A93
+
+#W16($14BDC)
+//かんようしょくぶつだ![END]
+An indoor plant![END]
+
+//
+//POINTER #35 @ $14BDE - STRING #35 @ $14AA4
+
+#W16($14BDE)
+//2Fへの とびらは;かたく とざされている…;ダ-クマスタ-を たおすしかない!![END]
+The 2F door is;locked. You have;to beat the DM.[END]
+
+//
+//POINTER #36 @ $14BE0 - STRING #36 @ $14AD5
+
+
+
+
+
+
+
+
+#JMP($16B39)
+#W16($14BE0)
+//テ-ブルは つくりこまれた;ジオラマのように まちや;どうくつが はいちされている[END]
+There are town and;cave dioramas on;the table.[END]
+
+//
+//POINTER #37 @ $14BE2 - STRING #37 @ $14B08
+
+
+#W16($14BE2)
+//どうやら テ-ブルそのものが;ゲ-ムばんらしい…[END]
+It looks like the;table itself is;the game.[END]
+
+//
+//POINTER #38 @ $14BE4 - STRING #38 @ $14B2C
+
+#W16($14BE4)
+//そうげんの まわりに;まちや どうくつが みえる[END]
+There are fields;surrounded by;a town and a cave.[END]
+
+//
+//POINTER #39 @ $14BE6 - STRING #39 @ $14B4C
+
+#W16($14BE6)
+//ヒヒヒ…;わたくしめの かちのようですねぇ[END]
+Heeheehee… Looks;like I win this;round.[END]
+
+//
+//POINTER #40 @ $14BE8 - STRING #40 @ $14B65
+
+#W16($14BE8)
+//これでは ここのトビラを;とおすわけには まいりません;でなおして くださいませ…[END]
+You'll have to do;better if you want;to get past me.[END]
+
+//

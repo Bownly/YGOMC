@@ -1,0 +1,84 @@
+#VAR(Table, TABLE)
+#ADDTBL("ygo_table.tbl", Table)
+#ACTIVETBL(Table)
+#HDR($C000) 
+#JMP($83017, $8315D)
+
+
+//GAME NAME:		YGO CM (GBC)
+
+//BLOCK #004 NAME:		Shared Dark Doors (POINTER_RELATIVE)
+
+//POINTER #0 @ $8315E - STRING #0 @ $83017
+
+#W16($8315E)
+//ダ-クマスタ-ル-ムへの[LINE]とびらがある…[END]
+This door leads to;the Dark Master's;room.[END]
+
+//
+//POINTER #1 @ $83160 - STRING #1 @ $83033
+
+#W16($83160)
+//ダ-クマスタ-ル-ムへ いきますか?[LINE] はい[LINE] いいえ[END]
+Enter DM's room?;  Yes;  No[END]
+
+//
+//POINTER #2 @ $83162 - STRING #2 @ $83052
+
+#W16($83162)
+//ダ-クマスタ-ル-ムへの[LINE]とびらがある…[END]
+This door leads to;the Dark Master's;room.[END]
+
+//
+//POINTER #3 @ $83164 - STRING #3 @ $8306E
+
+#W16($83164)
+//スタ-チップを はめこみますか?[LINE] はい[LINE] いいえ[END]
+Insert star chip?;  Yes;  No[END]
+
+//
+//POINTER #4 @ $83166 - STRING #4 @ $8308B
+
+#W16($83166)
+//スタ-チップを はめこんだ![END]
+Inserted star;chip![END]
+
+//
+//POINTER #5 @ $83168 - STRING #5 @ $8309F
+
+#W16($83168)
+//とびらをひらくには スタ-チップが[LINE]あと <$FD>ちまい ひつようだ…[END]
+You need to;insert <$FD><$10> more;star chip(s).[END]
+
+//
+//POINTER #6 @ $8316A - STRING #6 @ $830C9
+
+#W16($8316A)
+//スタ-チップを はめこみますか?[LINE] はい[LINE] いいえ[END]
+Insert star chip?;  Yes;  No[END]
+
+
+
+#JMP($83ACF)
+
+//
+//POINTER #7 @ $8316C - STRING #7 @ $830E6
+
+#W16($8316C)
+//…スタ-チップが 1まいしかない[LINE]この1まいを つかうと[LINE]バトルが できなくなる!![END]
+No can do. You're;down to your last;star chip![END]
+
+//
+//POINTER #8 @ $8316E - STRING #8 @ $8311C
+
+#W16($8316E)
+//とびらをひらくには スタ-チップが[LINE]あと <$FD>ちまい ひつようだ…[END]
+You need to;insert <$FD><$10> more;star chip(s).[END]
+
+//
+//POINTER #9 @ $83170 - STRING #9 @ $83146
+
+#W16($83170)
+//セキュリティ-が[LINE]かいじょされました[END]
+The door has been;unlocked.[END]
+//
