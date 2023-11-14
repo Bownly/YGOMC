@@ -635,7 +635,7 @@ Judge Man[END]
 
 #W16($38659)
 //メタルガ―ディアン[END]
-MetlGuardian
+MetlGuardian[END]
 //
 //POINTER #90 @ $3865B - STRING #90 @ $3841F
 

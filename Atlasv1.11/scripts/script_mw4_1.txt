@@ -895,7 +895,7 @@ Now leave me be.[END]
 
 #W16($CBF2D)
 //ちょ ちょっと まて! このまま;カ-スマウンテンが ふんかしたら;むらは どうなる?[END]
-Hold on! But;what;about the impen-;ding eruption?[END]
+Hold on! But what;about the impen-;ding eruption?[END]
 
 //
 //POINTER #127 @ $CBF2F - STRING #127 @ $CB1B8

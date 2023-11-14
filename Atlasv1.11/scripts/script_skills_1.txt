@@ -370,7 +370,7 @@ Mogley Punch[END]
 
 #W16($39248)
 //ポイズンスピット[END]
-Poison Spirit[END]
+Poison Spit[END]
 
 //
 //POINTER #52 @ $3924A - STRING #52 @ $388E2
@@ -909,7 +909,7 @@ DinoFootStomp[END]
 
 #W16($392E2)
 //デスブレス[END]
-Death Breath[END]
+Death Blaze[END]
 
 //
 //POINTER #129 @ $392E4 - STRING #129 @ $38C87

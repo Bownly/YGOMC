@@ -886,7 +886,7 @@ Every 10 steps;will have a 30%;encounter chance.[END]
 
 
 
-#JMP($1BC66, $1BCD7)
+#JMP($1BC6B, $1BCD7)
 
 
 #W16($1BDCE)

@@ -102,7 +102,7 @@ Ptrs = 19E37 - 19E7C
 Base ptr = 18000
 start of FFs = 0001BDD4
 
-============= Monster World 1 =============
+============= Monster World 2 =============
 Strings = 1AAF8 - 1BCD7
 Ptrs = 1BCD8 - 1BDD1
 Base ptr = 18000

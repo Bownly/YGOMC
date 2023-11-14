@@ -126,7 +126,7 @@ Wow, you're Yugi,;right? Congrats on;the big win![END]
 
 #W16($B4F2D)
 //ヒソ ヒソ ヒソ…;あっ! ゆうしょうした ゆうぎくんだ;カッコいい-っ!![END]
-Psst. …Oh! You're; the champion,;Yugi! So cool!![END]
+Psst. …Oh! You're;the champion,;Yugi! So cool!![END]
 
 //
 //POINTER #17 @ $B4F2F - STRING #17 @ $B4654
